@@ -26,49 +26,49 @@
 
       <!-- changes -->
         <div class="alert alert-info" role="alert" style="margin-left:50px;">
-          <div class="row" style= "padding: 10px;">
+          <div class="row" style= "padding: 10px;display: inline">
 
             <!-- if anonymous -->
             <% if @ticket.anonymous : %>
-              <span class="label label-default" style="margin: 10px">Anonymous</span>
+              <span style="margin: 10px; padding: 5px; background-color:#292b2c; border-radius: 15px;">anonymous</span>
             <% end %>
 
-            <span class="label label-primary" style="margin: 10px">Category: Harassment </span></span>
+            <!-- if ongoing -->
+            <% if @ticket.ongoing : %>
+              <span style="margin: 10px; padding: 5px; background-color:#f0ad4e; border-radius: 15px;">ongoing</span>
+            <% end %>
 
-            <!-- Are you the victim -->
-            <span class="label label-danger" style="margin: 10px">You are the victim</span>
-            <!-- else -->
+            <% if @ticket.category : %>
+              <span style="margin: 10px; padding: 5px; background-color:#0275d8; border-radius: 15px;"><%- @ticket.category%></span>
+            <% end %>
+          </div>
+          <div style="display:block">
 
+            <!-- Victim -->
+            <% if @ticket.are_you_victim : %>
+              <p class="label label-danger" style="margin: 10px; font-color: #d9534f; display: block">Victim     : you</p>
+            <% else if @ticket.victim : %>
+              <p class="label label-danger" style="margin: 10px; font-color: #d9534f; display: block">Victim     : <%- @ticket.victim %></p>
+            <% end %>
 
+            <!-- others -->
+            <% if @ticket.others: %>
+              <p class="label label-danger" style="margin: 10px; font-color: #d9534f; display: block">Involving  : <%- @ticket.others %></p>
+            <% end %>
 
+            <!-- where -->
+            <% if @ticket.where: %>
+              <p class="label label-danger" style="margin: 10px; font-color: #d9534f; display: block">Where      : <%- @ticket.where %></p>
+            <% end %>
 
-            <!-- ongoing -->
-            <span class="label label-warning" style="margin: 10px">Ongoing</span>
-            <!-- else -->
-            <span class="label label-info" style="margin: 10px"><span class="glyphicon glyphicon-time"> </span>10/18/2019</span>
-
-            <span class="label label-primary" style="margin: 10px">Where: Graham Building</span>
-
-            <span class="label label-danger" style="margin: 10px">Involving: Rakesh Sharma</span>
-
-
-
-
-
+            <!-- when -->
+            <% if @ticket.when_it_happened: %>
+              <p class="label label-danger" style="margin: 10px; font-color: #d9534f; display: block">Where      : <%- @ticket.when_it_happened %></p>
+            <% end %>
 
           </div>
 
         </div>
-
-      Number: <%- @ticket.number %> <br>
-      Category: <%- @ticket.category%> <br>
-      Are you Victim: <%- @ticket.are_you_victim%> <br>
-      Victim: <%- @ticket.victim%> <br>
-      Others: <%- @ticket.others%> <br>
-      Ongoing: <%- @ticket.ongoing%> <br>
-      When: <%- @ticket.when_it_happened%> <br>
-      Where: <%- @ticket.where%> <br>
-      Anonymous: <%- @ticket.anonymous%> <br>
 
 
 

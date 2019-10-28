@@ -28,7 +28,7 @@
                   <option value="Harassment">Harassment</option>
                   <option value="Physical fight">Physical fight</option>
                 </select>
-                
+
 
                 <span class="help-inline"></span>
                 <span class="help-block"></span>
@@ -38,9 +38,10 @@
 
             <!-- are you the victim -->
             <div data-attribute-name="are_you_victim" class="input form-group">
-              <span class="formGroup-label">
+              <span class="formGroup-label check_victim">
                 <label style="display:inline; margin-right: 10px;" for="Ticket_961707_are_you_victim">Are you the victim <span>*</span></label>
-                <input type="checkbox" class="custom-control-input" id="customSwitch1" name="are_you_victim">
+                <input type="radio" class="custom-control-input" id="customSwitch1" name="are_you_victim" value="true" required><span style="padding: 10px">Yes</span>
+                <input type="radio" class="custom-control-input" id="customSwitch1" name="are_you_victim" value="false" required><span style="padding: 10px">No</span>
               </span>
 
 
@@ -48,21 +49,27 @@
                 <span class="help-block"></span>
 
             </div>
+
+
             <!-- are_you_the_victim ends -->
 
             <!-- if not, who is involved -->
-            <div data-attribute-name="victim" class="input form-group">
+            <div data-attribute-name="victim" class="input form-group if_not_involved">
               <div class="formGroup-label">
-                <label for="Ticket_961707_victim">If not, who is the victim?</label>
+                <label for="Ticket_961707_victim">If not, who is the victim? <span>*</span></label>
               </div>
 
               <div class="controls ">
                 <input id="Ticket_961707_victim" type="text" name="victim" class="form-control" autofocus autocomplete="off">
+
                 <span class="help-inline"></span>
                 <span class="help-block"></span>
               </div>
             </div>
             <!-- who ends-->
+
+
+
 
             <!-- others involved -->
             <div data-attribute-name="others" class="input form-group">
@@ -82,7 +89,8 @@
             <div data-attribute-name="ongoing" class="input form-group">
               <span class="formGroup-label">
                 <label style="display:inline; margin-right: 10px;" for="Ticket_961707_ongoing">Is it ongoing? <span>*</span></label>
-                <input type="checkbox" class="custom-control-input" id="customSwitch2" name="ongoing" autofocus autocomplete="off">
+                <input type="radio" class="custom-control-input" id="customSwitch2" name="ongoing" autofocus autocomplete="off" required value="true"><span style="padding: 10px">Yes</span>
+                <input type="radio" class="custom-control-input" id="customSwitch2" name="ongoing" autofocus autocomplete="off" required value="false"><span style="padding: 10px">No</span>
               </span>
 
 
@@ -93,7 +101,7 @@
             <!-- ongoing ends-->
 
             <!-- when -->
-            <div data-attribute-name="when_it_happened" class="input form-group">
+            <div data-attribute-name="when_it_happened" class="input form-group if_not_ongoing">
               <div class="formGroup-label">
                 <label for="Ticket_961707_when_it_happened">When did the incident happen? <span>*</span></label>
               </div>
@@ -105,6 +113,34 @@
               </div>
             </div>
             <!-- when ends-->
+
+            <script>
+              $('.if_not_involved').hide()
+              $('input[name="are_you_victim"]').on('change', function() {
+              // this, in the anonymous function, refers to the changed-<input>:
+              // select the element(s) you want to show/hide:
+              var status = $(this).val();
+              if (status=="false"){
+                $('.if_not_involved').show()
+              }
+              else{
+                $('.if_not_involved').hide()
+              }
+              });
+
+              $('.if_not_ongoing').hide()
+              $('input[name="ongoing"]').on('change', function() {
+              // this, in the anonymous function, refers to the changed-<input>:
+              // select the element(s) you want to show/hide:
+              var status = $(this).val();
+              if (status=="false"){
+                $('.if_not_ongoing').show()
+              }
+              else{
+                $('.if_not_ongoing').hide()
+              }
+              });
+            </script>
 
             <!-- where -->
             <div data-attribute-name="where" class="input form-group">
@@ -124,7 +160,8 @@
             <div data-attribute-name="anonymous" class="input form-group">
               <span class="formGroup-label">
                 <label style="display:inline; margin-right: 10px;" for="Ticket_961707_anonymous">Stay Anonymous <span>*</span></label>
-                <input type="checkbox" class="custom-control-input" id="customSwitch3" name="anonymous" autofocus autocomplete="off">
+                <input type="radio" class="custom-control-input" id="customSwitch3" name="anonymous" autofocus autocomplete="off" value="true"><span style="padding: 10px">Yes</span>
+                <input type="radio" class="custom-control-input" id="customSwitch3" name="anonymous" autofocus autocomplete="off" value="false"><span style="padding: 10px">No</span>
               </span>
 
 
