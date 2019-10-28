@@ -1,0 +1,87 @@
+<div class="tabsSidebar-holder">
+  <div class="scrollPageHeader tabsSidebar-sidebarSpacer" style="<%- if @dir is 'rtl' then 'left' else 'right' %>: <%- @scrollbarWidth %>px">
+    <small><%- @C('ticket_hook') %> <span class="ticket-number"><%- @ticket.number %></span></small>
+    <div class="js-ticketTitleContainer ticket-title"></div>
+    <div class="js-highlighterContainer highlighter"></div>
+    <div class="js-overviewNavigatorContainer overview-navigator"></div>
+  </div>
+  <div class="main no-padding flex tabsSidebar-sidebarSpacer tabsSidebar-tabsSpacer">
+    <div class="ticketZoom">
+      <div class="ticketZoom-controls">
+        <div class="js-settingContainer"></div>
+        <div class="spacer"></div>
+        <div class="js-highlighterContainer highlighter"></div>
+        <div class="js-overviewNavigatorContainer overview-navigator"></div>
+      </div>
+
+      <!-- | are_you_victim | victim | others | happening_now | when_it_happend | where | anonymous -->
+      <div class="ticketZoom-header">
+        <div class="flex vertical center">
+          <div class="js-avatar"></div>
+          <div class="js-ticketTitleContainer ticket-title"></div>
+          <div class="js-ticketMetaContainer"></div>
+        </div>
+      </div>
+      <%- @ticket %>
+
+      <!-- changes -->
+        <div class="alert alert-info" role="alert" style="margin-left:50px;">
+          <div class="row" style= "padding: 10px;">
+
+            <!-- if anonymous -->
+            <% if @ticket.anonymous : %>
+              <span class="label label-default" style="margin: 10px">Anonymous</span>
+            <% end %>
+
+            <span class="label label-primary" style="margin: 10px">Category: Harassment </span></span>
+
+            <!-- Are you the victim -->
+            <span class="label label-danger" style="margin: 10px">You are the victim</span>
+            <!-- else -->
+
+
+
+
+            <!-- ongoing -->
+            <span class="label label-warning" style="margin: 10px">Ongoing</span>
+            <!-- else -->
+            <span class="label label-info" style="margin: 10px"><span class="glyphicon glyphicon-time"> </span>10/18/2019</span>
+
+            <span class="label label-primary" style="margin: 10px">Where: Graham Building</span>
+
+            <span class="label label-danger" style="margin: 10px">Involving: Rakesh Sharma</span>
+
+
+
+
+
+
+          </div>
+
+        </div>
+
+      Number: <%- @ticket.number %> <br>
+      Category: <%- @ticket.category%> <br>
+      Are you Victim: <%- @ticket.are_you_victim%> <br>
+      Victim: <%- @ticket.victim%> <br>
+      Others: <%- @ticket.others%> <br>
+      Ongoing: <%- @ticket.ongoing%> <br>
+      When: <%- @ticket.when_it_happened%> <br>
+      Where: <%- @ticket.where%> <br>
+      Anonymous: <%- @ticket.anonymous%> <br>
+
+
+
+
+      <div class="ticket-article"></div>
+      <div class="article-new"></div>
+
+
+
+    </div>
+  </div>
+
+  <div class="tabsSidebar tabsSidebar--attributeBarSpacer vertical"></div>
+
+  <div class="attributeBar js-attributeBar"></div>
+</div>

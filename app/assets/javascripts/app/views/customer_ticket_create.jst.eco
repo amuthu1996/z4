@@ -1,0 +1,156 @@
+<div class="horizontal flex">
+  <div class="main no-padding flex">
+    <div class="newTicket">
+      <div class="box box--newTicket">
+        <div class="page-header">
+          <h1><%- @T('New Ticket') %></h1>
+        </div>
+
+        <div class="page-content">
+          <form role="form" class="ticket-create" autocomplete="off">
+            <input type="hidden" name="form_id" value="<%= @form_id %>"/>
+
+            <div class="ticket-form-top"></div>
+            <div class="article-form-top"></div>
+
+            <!-- Category -->
+            <div data-attribute-name="category" class="input form-group">
+              <div class="formGroup-label">
+                <label for="Ticket_961707_category">Category <span>*</span></label>
+              </div>
+
+              <div class="controls ">
+                <!-- <input id="Ticket_961707_category" type="text" name="category" class="form-control" selectBoxOptions="Verbal Spite;Harassment;Physical fight" required autofocus autocomplete="off"> -->
+
+                <select id="Ticket_961707_category"  name="category" class="form-control " required="" autofocus="" autocomplete="off">
+                  <option disabled selected>select a category</option>
+                  <option value="Verbal Spite">Verbal Spite</option>
+                  <option value="Harassment">Harassment</option>
+                  <option value="Physical fight">Physical fight</option>
+                </select>
+                
+
+                <span class="help-inline"></span>
+                <span class="help-block"></span>
+              </div>
+            </div>
+            <!-- Category ends -->
+
+            <!-- are you the victim -->
+            <div data-attribute-name="are_you_victim" class="input form-group">
+              <span class="formGroup-label">
+                <label style="display:inline; margin-right: 10px;" for="Ticket_961707_are_you_victim">Are you the victim <span>*</span></label>
+                <input type="checkbox" class="custom-control-input" id="customSwitch1" name="are_you_victim">
+              </span>
+
+
+                <span class="help-inline"></span>
+                <span class="help-block"></span>
+
+            </div>
+            <!-- are_you_the_victim ends -->
+
+            <!-- if not, who is involved -->
+            <div data-attribute-name="victim" class="input form-group">
+              <div class="formGroup-label">
+                <label for="Ticket_961707_victim">If not, who is the victim?</label>
+              </div>
+
+              <div class="controls ">
+                <input id="Ticket_961707_victim" type="text" name="victim" class="form-control" autofocus autocomplete="off">
+                <span class="help-inline"></span>
+                <span class="help-block"></span>
+              </div>
+            </div>
+            <!-- who ends-->
+
+            <!-- others involved -->
+            <div data-attribute-name="others" class="input form-group">
+              <div class="formGroup-label">
+                <label for="Ticket_961707_others">Who are the others involved? <span>*</span></label>
+              </div>
+
+              <div class="controls ">
+                <input id="Ticket_961707_others" type="text" name="others" class="form-control" required autofocus autocomplete="off">
+                <span class="help-inline"></span>
+                <span class="help-block"></span>
+              </div>
+            </div>
+            <!-- others ends-->
+
+            <!-- ongoing now -->
+            <div data-attribute-name="ongoing" class="input form-group">
+              <span class="formGroup-label">
+                <label style="display:inline; margin-right: 10px;" for="Ticket_961707_ongoing">Is it ongoing? <span>*</span></label>
+                <input type="checkbox" class="custom-control-input" id="customSwitch2" name="ongoing" autofocus autocomplete="off">
+              </span>
+
+
+                <span class="help-inline"></span>
+                <span class="help-block"></span>
+
+            </div>
+            <!-- ongoing ends-->
+
+            <!-- when -->
+            <div data-attribute-name="when_it_happened" class="input form-group">
+              <div class="formGroup-label">
+                <label for="Ticket_961707_when_it_happened">When did the incident happen? <span>*</span></label>
+              </div>
+
+              <div class="controls ">
+                <input id="Ticket_961707Ticket_961707_when_it_happened" type="text" name="when_it_happened" class="form-control" required autofocus autocomplete="off">
+                <span class="help-inline"></span>
+                <span class="help-block"></span>
+              </div>
+            </div>
+            <!-- when ends-->
+
+            <!-- where -->
+            <div data-attribute-name="where" class="input form-group">
+              <div class="formGroup-label">
+                <label for="Ticket_961707_where">Where did the incident happen? <span>*</span></label>
+              </div>
+
+              <div class="controls ">
+                <input id="Ticket_961707_where" type="text" name="where" class="form-control" required autofocus autocomplete="off">
+                <span class="help-inline"></span>
+                <span class="help-block"></span>
+              </div>
+            </div>
+            <!-- where ends-->
+
+            <!-- anonymous -->
+            <div data-attribute-name="anonymous" class="input form-group">
+              <span class="formGroup-label">
+                <label style="display:inline; margin-right: 10px;" for="Ticket_961707_anonymous">Stay Anonymous <span>*</span></label>
+                <input type="checkbox" class="custom-control-input" id="customSwitch3" name="anonymous" autofocus autocomplete="off">
+              </span>
+
+
+                <span class="help-inline"></span>
+                <span class="help-block"></span>
+
+            </div>
+            <!-- anonymous ends-->
+
+            <div class="formset-inset">
+              <div class="ticket-form-middle horizontal two-columns"></div>
+              <div class="ticket-form-bottom"></div>
+            </div>
+
+
+
+            <div class="form-controls">
+              <a class="btn btn--text btn--subtle js-cancel" href="#/"><%- @T('Cancel & Go Back') %></a>
+              <button type="submit" class="btn btn--success js-submit align-right"><%- @T('Create') %></button>
+            </div>
+
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="sidebar"></div>

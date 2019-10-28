@@ -1,0 +1,7607 @@
+---
+- locale: fi
+  format: time
+  source: date
+  target: dd.mm.yyyy
+  target_initial: dd.mm.yyyy
+- locale: fi
+  format: time
+  source: timestamp
+  target: dd.mm.yyyy HH:MM
+  target_initial: dd.mm.yyyy HH:MM
+- locale: fi
+  format: string
+  source: Action
+  target: Tapahtumat
+  target_initial: Tapahtumat
+- locale: fi
+  format: string
+  source: Actions
+  target: Toimenpiteet
+  target_initial: Toimenpiteet
+- locale: fi
+  format: string
+  source: Active
+  target: Aktivoi
+  target_initial: Aktivoi
+- locale: fi
+  format: string
+  source: Add
+  target: Lisää
+  target_initial: Lisää
+- locale: fi
+  format: string
+  source: Age
+  target: Ikä
+  target_initial: Ikä
+- locale: fi
+  format: string
+  source: Apply
+  target: Ota käyttöön
+  target_initial: Ota käyttöön
+- locale: fi
+  format: string
+  source: Apr
+  target: Huh
+  target_initial: Huh
+- locale: fi
+  format: string
+  source: Attachment
+  target: Liitetiedosto
+  target_initial: Liitetiedosto
+- locale: fi
+  format: string
+  source: Aug
+  target: Elo
+  target_initial: Elo
+- locale: fi
+  format: string
+  source: Cancel
+  target: Peruuta
+  target_initial: Peruuta
+- locale: fi
+  format: string
+  source: City
+  target: Kaupunki
+  target_initial: Kaupunki
+- locale: fi
+  format: string
+  source: Closed
+  target: Suljettu
+  target_initial: Suljettu
+- locale: fi
+  format: string
+  source: Country
+  target: Maa
+  target_initial: Maa
+- locale: fi
+  format: string
+  source: Create
+  target: Luo
+  target_initial: Luo
+- locale: fi
+  format: string
+  source: Created
+  target: Luotu
+  target_initial: Luotu
+- locale: fi
+  format: string
+  source: Dec
+  target: Jou
+  target_initial: Jou
+- locale: fi
+  format: string
+  source: Delete
+  target: Poista
+  target_initial: Poista
+- locale: fi
+  format: string
+  source: Direction
+  target: Suunta
+  target_initial: Suunta
+- locale: fi
+  format: string
+  source: Edit
+  target: Muokkaa
+  target_initial: Muokkaa
+- locale: fi
+  format: string
+  source: Email
+  target: Sähköposti
+  target_initial: Sähköposti
+- locale: fi
+  format: string
+  source: Feb
+  target: Hel
+  target_initial: Hel
+- locale: fi
+  format: string
+  source: Filter
+  target: Suodatin
+  target_initial: Suodatin
+- locale: fi
+  format: string
+  source: Firstname
+  target: Etunimi
+  target_initial: Etunimi
+- locale: fi
+  format: string
+  source: From
+  target: Lähettäjä
+  target_initial: Lähettäjä
+- locale: fi
+  format: string
+  source: Group
+  target: Ryhmä
+  target_initial: Ryhmä
+- locale: fi
+  format: string
+  source: Groups
+  target: Ryhmät
+  target_initial: Ryhmät
+- locale: fi
+  format: string
+  source: History
+  target: Historia
+  target_initial: Historia
+- locale: fi
+  format: string
+  source: Hours
+  target: tuntia
+  target_initial: tuntia
+- locale: fi
+  format: string
+  source: Jan
+  target: Tam
+  target_initial: Tam
+- locale: fi
+  format: string
+  source: Jul
+  target: Hei
+  target_initial: Hei
+- locale: fi
+  format: string
+  source: Jun
+  target: Kesä
+  target_initial: Kesä
+- locale: fi
+  format: string
+  source: Language
+  target: Kieli
+  target_initial: Kieli
+- locale: fi
+  format: string
+  source: Lastname
+  target: Sukunimi
+  target_initial: Sukunimi
+- locale: fi
+  format: string
+  source: Loading...
+  target: Ladataan...
+  target_initial: Ladataan...
+- locale: fi
+  format: string
+  source: Mar
+  target: Maa
+  target_initial: Maa
+- locale: fi
+  format: string
+  source: May
+  target: Tou
+  target_initial: Tou
+- locale: fi
+  format: string
+  source: Merge
+  target: Liitä
+  target_initial: Liitä
+- locale: fi
+  format: string
+  source: My Tickets
+  target: Omat tiketit
+  target_initial: Omat tiketit
+- locale: fi
+  format: string
+  source: New
+  target: Uusi
+  target_initial: Uusi
+- locale: fi
+  format: string
+  source: New Ticket
+  target: Uusi tiketti
+  target_initial: Uusi tiketti
+- locale: fi
+  format: string
+  source: Next...
+  target: Seuraava...
+  target_initial: Seuraava...
+- locale: fi
+  format: string
+  source: Note
+  target: Huomautus
+  target_initial: Huomautus
+- locale: fi
+  format: string
+  source: Nov
+  target: Mar
+  target_initial: Mar
+- locale: fi
+  format: string
+  source: Number
+  target: Numero
+  target_initial: Numero
+- locale: fi
+  format: string
+  source: Oct
+  target: Loka
+  target_initial: Loka
+- locale: fi
+  format: string
+  source: Organization
+  target: Organisaatio
+  target_initial: Organisaatio
+- locale: fi
+  format: string
+  source: Owner
+  target: Omistaja
+  target_initial: Omistaja
+- locale: fi
+  format: string
+  source: Password
+  target: Salasana
+  target_initial: Salasana
+- locale: fi
+  format: string
+  source: Pending till
+  target: Odottaa
+  target_initial: Odottaa
+- locale: fi
+  format: string
+  source: Phone
+  target: Puhelin
+  target_initial: Puhelin
+- locale: fi
+  format: string
+  source: Priority
+  target: Prioriteetti
+  target_initial: Prioriteetti
+- locale: fi
+  format: string
+  source: Profile
+  target: Profiili
+  target_initial: Profiili
+- locale: fi
+  format: string
+  source: Remove
+  target: Poista
+  target_initial: Poista
+- locale: fi
+  format: string
+  source: Reset
+  target: Tyhjennä
+  target_initial: Tyhjennä
+- locale: fi
+  format: string
+  source: Roles
+  target: Roolit
+  target_initial: Roolit
+- locale: fi
+  format: string
+  source: Save
+  target: Tallenna
+  target_initial: Tallenna
+- locale: fi
+  format: string
+  source: Search
+  target: Etsi
+  target_initial: Etsi
+- locale: fi
+  format: string
+  source: Sep
+  target: Syys
+  target_initial: Syys
+- locale: fi
+  format: string
+  source: Settings
+  target: Asetukset
+  target_initial: Asetukset
+- locale: fi
+  format: string
+  source: Signature
+  target: Allekirjoitus
+  target_initial: Allekirjoitus
+- locale: fi
+  format: string
+  source: Solution Time
+  target: Ratkaisuaika
+  target_initial: Ratkaisuaika
+- locale: fi
+  format: string
+  source: State
+  target: Tila
+  target_initial: Tila
+- locale: fi
+  format: string
+  source: Street
+  target: Katuosoite
+  target_initial: Katuosoite
+- locale: fi
+  format: string
+  source: Subject
+  target: Otsikko
+  target_initial: Otsikko
+- locale: fi
+  format: string
+  source: Submit
+  target: Lähetä
+  target_initial: Lähetä
+- locale: fi
+  format: string
+  source: Title
+  target: Otsikko
+  target_initial: Otsikko
+- locale: fi
+  format: string
+  source: To
+  target: Vastaanottaja
+  target_initial: Vastaanottaja
+- locale: fi
+  format: string
+  source: Type
+  target: Tyyppi
+  target_initial: Tyyppi
+- locale: fi
+  format: string
+  source: Update
+  target: Päivitä
+  target_initial: Päivitä
+- locale: fi
+  format: string
+  source: Update Time
+  target: Päivitysaika
+  target_initial: Päivitysaika
+- locale: fi
+  format: string
+  source: User
+  target: Käyttäjä
+  target_initial: Käyttäjä
+- locale: fi
+  format: string
+  source: Vendor
+  target: Valmistaja
+  target_initial: Valmistaja
+- locale: fi
+  format: string
+  source: Welcome!
+  target: Tervetuloa!
+  target_initial: Tervetuloa!
+- locale: fi
+  format: string
+  source: Zip
+  target: Postinumero
+  target_initial: Postinumero
+- locale: fi
+  format: string
+  source: day
+  target: päivä
+  target_initial: päivä
+- locale: fi
+  format: string
+  source: days
+  target: päivää
+  target_initial: päivää
+- locale: fi
+  format: string
+  source: hour
+  target: tunti
+  target_initial: tunti
+- locale: fi
+  format: string
+  source: merged
+  target: Liitetty
+  target_initial: Liitetty
+- locale: fi
+  format: string
+  source: minute
+  target: minuutti
+  target_initial: minuutti
+- locale: fi
+  format: string
+  source: none
+  target: tyhjä
+  target_initial: tyhjä
+- locale: fi
+  format: string
+  source: of
+  target: "/"
+  target_initial: "/"
+- locale: fi
+  format: string
+  source: or
+  target: tai
+  target_initial: tai
+- locale: fi
+  format: string
+  source: removed
+  target: Poistettu
+  target_initial: Poistettu
+- locale: fi
+  format: string
+  source: sms
+  target: tekstiviesti
+  target_initial: tekstiviesti
+- locale: fi
+  format: string
+  source: uninstalled
+  target: poistettu
+  target_initial: poistettu
+- locale: fi
+  format: string
+  source: Admin
+  target: Ylläpito
+  target_initial: Ylläpito
+- locale: fi
+  format: string
+  source: Agent
+  target: Agentti
+  target_initial: Agentti
+- locale: fi
+  format: string
+  source: All
+  target: Kaikki
+  target_initial: Kaikki
+- locale: fi
+  format: string
+  source: Cc
+  target: Kopio
+  target_initial: Kopio
+- locale: fi
+  format: string
+  source: Comment
+  target: Kommentti
+  target_initial: Kommentti
+- locale: fi
+  format: string
+  source: Go Back
+  target: Takaisin
+  target_initial: Takaisin
+- locale: fi
+  format: string
+  source: Import
+  target: Tuo
+  target_initial: Tuo
+- locale: fi
+  format: string
+  source: Message
+  target: Viesti
+  target_initial: Viesti
+- locale: fi
+  format: string
+  source: Name
+  target: Nimi
+  target_initial: Nimi
+- locale: fi
+  format: string
+  source: Options
+  target: Asetukset
+  target_initial: Asetukset
+- locale: fi
+  format: string
+  source: System
+  target: Järjestelmä
+  target_initial: Järjestelmä
+- locale: fi
+  format: string
+  source: Ticket
+  target: Tiketti
+  target_initial: Tiketti
+- locale: fi
+  format: string
+  source: Tickets
+  target: Tiketit
+  target_initial: Tiketit
+- locale: fi
+  format: string
+  source: Version
+  target: Versio
+  target_initial: Versio
+- locale: fi
+  format: string
+  source: pending reminder
+  target: Muistutus
+  target_initial: Muistutus
+- locale: fi
+  format: string
+  source: Host
+  target: Palvelin
+  target_initial: Palvelin
+- locale: fi
+  format: string
+  source: SLA
+  target: SLA
+  target_initial: SLA
+- locale: fi
+  format: string
+  source: SystemID
+  target: JärjestelmäID
+  target_initial: JärjestelmäID
+- locale: fi
+  format: string
+  source: Upload
+  target: Tuo
+  target_initial: Tuo
+- locale: fi
+  format: string
+  source: Create Template
+  target: Luo pohja
+  target_initial: Luo pohja
+- locale: fi
+  format: string
+  source: Text
+  target: Teksti
+  target_initial: Teksti
+- locale: fi
+  format: string
+  source: Install Package
+  target: Asenna paketti
+  target_initial: Asenna paketti
+- locale: fi
+  format: string
+  source: Location
+  target: Sijainti
+  target_initial: Sijainti
+- locale: fi
+  format: string
+  source: Login
+  target: Kirjaudu
+  target_initial: Kirjaudu
+- locale: fi
+  format: string
+  source: Mobile
+  target: GSM
+  target_initial: GSM
+- locale: fi
+  format: string
+  source: Next
+  target: Seuraava
+  target_initial: Seuraava
+- locale: fi
+  format: string
+  source: Status
+  target: Tila
+  target_initial: Tila
+- locale: fi
+  format: string
+  source: Calendar
+  target: Kalenteri
+  target_initial: Kalenteri
+- locale: fi
+  format: string
+  source: Intro
+  target: Intro
+  target_initial: Intro
+- locale: fi
+  format: string
+  source: Session
+  target: Istunto
+  target_initial: Istunto
+- locale: fi
+  format: string
+  source: Created by
+  target: Luonut
+  target_initial: Luonut
+- locale: fi
+  format: string
+  source: Description
+  target: Kuvaus
+  target_initial: Kuvaus
+- locale: fi
+  format: string
+  source: Friday
+  target: Perjantai
+  target_initial: Perjantai
+- locale: fi
+  format: string
+  source: Monday
+  target: Maanantai
+  target_initial: Maanantai
+- locale: fi
+  format: string
+  source: Preview
+  target: Esikatselu
+  target_initial: Esikatselu
+- locale: fi
+  format: string
+  source: Saturday
+  target: Lauantai
+  target_initial: Lauantai
+- locale: fi
+  format: string
+  source: Sunday
+  target: Sunnuntai
+  target_initial: Sunnuntai
+- locale: fi
+  format: string
+  source: Thursday
+  target: Torstai
+  target_initial: Torstai
+- locale: fi
+  format: string
+  source: Time
+  target: Aika
+  target_initial: Aika
+- locale: fi
+  format: string
+  source: Tuesday
+  target: Tiistai
+  target_initial: Tiistai
+- locale: fi
+  format: string
+  source: Wednesday
+  target: Keskiviikko
+  target_initial: Keskiviikko
+- locale: fi
+  format: string
+  source: April
+  target: Huhtikuu
+  target_initial: Huhtikuu
+- locale: fi
+  format: string
+  source: August
+  target: Elokuu
+  target_initial: Elokuu
+- locale: fi
+  format: string
+  source: Close
+  target: Sulje
+  target_initial: Sulje
+- locale: fi
+  format: string
+  source: Continue
+  target: Jatka
+  target_initial: Jatka
+- locale: fi
+  format: string
+  source: December
+  target: Joulukuu
+  target_initial: Joulukuu
+- locale: fi
+  format: string
+  source: February
+  target: Helmikuu
+  target_initial: Helmikuu
+- locale: fi
+  format: string
+  source: Fri
+  target: Pe
+  target_initial: Pe
+- locale: fi
+  format: string
+  source: January
+  target: Tammikuu
+  target_initial: Tammikuu
+- locale: fi
+  format: string
+  source: July
+  target: Heinäkuu
+  target_initial: Heinäkuu
+- locale: fi
+  format: string
+  source: June
+  target: Kesäkuu
+  target_initial: Kesäkuu
+- locale: fi
+  format: string
+  source: March
+  target: Maaliskuu
+  target_initial: Maaliskuu
+- locale: fi
+  format: string
+  source: Mon
+  target: Ma
+  target_initial: Ma
+- locale: fi
+  format: string
+  source: November
+  target: Marraskuu
+  target_initial: Marraskuu
+- locale: fi
+  format: string
+  source: October
+  target: Lokakuu
+  target_initial: Lokakuu
+- locale: fi
+  format: string
+  source: Open
+  target: Avoin
+  target_initial: Avoin
+- locale: fi
+  format: string
+  source: Sat
+  target: La
+  target_initial: La
+- locale: fi
+  format: string
+  source: Send
+  target: Lähetä
+  target_initial: Lähetä
+- locale: fi
+  format: string
+  source: September
+  target: Syyskuu
+  target_initial: Syyskuu
+- locale: fi
+  format: string
+  source: Sun
+  target: Su
+  target_initial: Su
+- locale: fi
+  format: string
+  source: Thu
+  target: To
+  target_initial: To
+- locale: fi
+  format: string
+  source: Tue
+  target: Ti
+  target_initial: Ti
+- locale: fi
+  format: string
+  source: Wed
+  target: Ke
+  target_initial: Ke
+- locale: fi
+  format: string
+  source: closed
+  target: Suljettu
+  target_initial: Suljettu
+- locale: fi
+  format: string
+  source: hours
+  target: tuntia
+  target_initial: tuntia
+- locale: fi
+  format: string
+  source: minutes
+  target: minuuttia
+  target_initial: minuuttia
+- locale: fi
+  format: string
+  source: 'no'
+  target: ei
+  target_initial: ei
+- locale: fi
+  format: string
+  source: open
+  target: Avoin
+  target_initial: Avoin
+- locale: fi
+  format: string
+  source: to
+  target: "-"
+  target_initial: "-"
+- locale: fi
+  format: string
+  source: 'yes'
+  target: kyllä
+  target_initial: kyllä
+- locale: fi
+  format: string
+  source: Child
+  target: Alempi
+  target_initial: Alempi
+- locale: fi
+  format: string
+  source: Content
+  target: Sisältö
+  target_initial: Sisältö
+- locale: fi
+  format: string
+  source: Customer
+  target: Asiakas
+  target_initial: Asiakas
+- locale: fi
+  format: string
+  source: Down
+  target: Alas
+  target_initial: Alas
+- locale: fi
+  format: string
+  source: Escalation
+  target: Eskaloituu
+  target_initial: Eskaloituu
+- locale: fi
+  format: string
+  source: Fax
+  target: Faksi
+  target_initial: Faksi
+- locale: fi
+  format: string
+  source: Finish
+  target: Loppu
+  target_initial: Loppu
+- locale: fi
+  format: string
+  source: Last run
+  target: Edellinen ajo
+  target_initial: Edellinen ajo
+- locale: fi
+  format: string
+  source: Logout
+  target: Kirjaudu ulos
+  target_initial: Kirjaudu ulos
+- locale: fi
+  format: string
+  source: New password
+  target: Uusi salasana
+  target_initial: Uusi salasana
+- locale: fi
+  format: string
+  source: 'No'
+  target: Ei
+  target_initial: Ei
+- locale: fi
+  format: string
+  source: Normal
+  target: Normaali
+  target_initial: Normaali
+- locale: fi
+  format: string
+  source: Parent
+  target: Ylempi
+  target_initial: Ylempi
+- locale: fi
+  format: string
+  source: Pending
+  target: Odottaa
+  target_initial: Odottaa
+- locale: fi
+  format: string
+  source: Previous
+  target: Edellinen
+  target_initial: Edellinen
+- locale: fi
+  format: string
+  source: Reply
+  target: Vastaus
+  target_initial: Vastaus
+- locale: fi
+  format: string
+  source: and
+  target: ja
+  target_initial: ja
+- locale: fi
+  format: string
+  source: new
+  target: Uusi
+  target_initial: Uusi
+- locale: fi
+  format: string
+  source: week
+  target: viikko
+  target_initial: viikko
+- locale: fi
+  format: string
+  source: Agents
+  target: Agentit
+  target_initial: Agentit
+- locale: fi
+  format: string
+  source: Example
+  target: Esimerkki
+  target_initial: Esimerkki
+- locale: fi
+  format: string
+  source: Expires
+  target: Vanhenee
+  target_initial: Vanhenee
+- locale: fi
+  format: string
+  source: Select
+  target: Valitse
+  target_initial: Valitse
+- locale: fi
+  format: string
+  source: Date
+  target: Päiväys
+  target_initial: Päiväys
+- locale: fi
+  format: string
+  source: Organizations
+  target: Organisaatiot
+  target_initial: Organisaatiot
+- locale: fi
+  format: string
+  source: My assigned Tickets
+  target: " Minulle liitetyt tiketit"
+  target_initial: " Minulle liitetyt tiketit"
+- locale: fi
+  format: string
+  source: Unassigned & Open
+  target: Liittämättömät & avatut
+  target_initial: Liittämättömät & avatut
+- locale: fi
+  format: string
+  source: Article Count
+  target: Artikkelien määrä
+  target_initial: Artikkelien määrä
+- locale: fi
+  format: string
+  source: Bank Name
+  target: Pankin Nimi
+  target_initial: Pankin Nimi
+- locale: fi
+  format: string
+  source: "%s URL"
+  target: "%s URL"
+  target_initial: "%s URL"
+- locale: fi
+  format: string
+  source: "%s ago"
+  target: "%s sitten"
+  target_initial: "%s sitten"
+- locale: fi
+  format: string
+  source: Amount
+  target: Määrä
+  target_initial: Määrä
+- locale: fi
+  format: string
+  source: Hour
+  target: Tunti
+  target_initial: Tunti
+- locale: fi
+  format: string
+  source: Day
+  target: Päivä
+  target_initial: Päivä
+- locale: fi
+  format: string
+  source: Background color
+  target: Taustaväri
+  target_initial: Taustaväri
+- locale: fi
+  format: string
+  source: Confirm/submit dialog
+  target: Vahvista/Lähetä Dialogi
+  target_initial: Vahvista/Lähetä Dialogi
+- locale: fi
+  format: string
+  source: Article#
+  target: Artikkeli#
+  target_initial: Artikkeli#
+- locale: fi
+  format: string
+  source: Configuration
+  target: Konfiguraatio
+  target_initial: Konfiguraatio
+- locale: fi
+  format: string
+  source: Days
+  target: Päivää
+  target_initial: Päivää
+- locale: fi
+  format: string
+  source: Month
+  target: Kuukausi
+  target_initial: Kuukausi
+- locale: fi
+  format: string
+  source: Year
+  target: Vuosi
+  target_initial: Vuosi
+- locale: fi
+  format: string
+  source: Article
+  target: Artikkeli
+  target_initial: Artikkeli
+- locale: fi
+  format: string
+  source: Configure Channels
+  target: Määrittele Kanavat
+  target_initial: Määrittele Kanavat
+- locale: fi
+  format: string
+  source: Confirm
+  target: Vahvista
+  target_initial: Vahvista
+- locale: fi
+  format: string
+  source: Connect
+  target: Yhdistä
+  target_initial: Yhdistä
+- locale: fi
+  format: string
+  source: Confirmation required
+  target: Vahvistus vaaditaan
+  target_initial: Vahvistus vaaditaan
+- locale: fi
+  format: string
+  source: Config
+  target: Konfiguraatio
+  target_initial: Konfiguraatio
+- locale: fi
+  format: string
+  source: Add Tag
+  target: Lisää Tagi
+  target_initial: Lisää Tagi
+- locale: fi
+  format: string
+  source: Address
+  target: Osoite
+  target_initial: Osoite
+- locale: fi
+  format: string
+  source: Change your password
+  target: Muuta salasanasi
+  target_initial: Muuta salasanasi
+- locale: fi
+  format: string
+  source: See less
+  target: Näe enemmän
+  target_initial: Näe enemmän
+- locale: fi
+  format: string
+  source: Chat Title
+  target: Chatin Otsikko
+  target_initial: Chatin Otsikko
+- locale: fi
+  format: string
+  source: All Tickets
+  target: Kaikki Tiketit
+  target_initial: Kaikki Tiketit
+- locale: fi
+  format: string
+  source: Changed
+  target: Muutettu
+  target_initial: Muutettu
+- locale: fi
+  format: string
+  source: Remember me
+  target: Muista minut
+  target_initial: Muista minut
+- locale: fi
+  format: string
+  source: Security
+  target: Turvallisuus
+  target_initial: Turvallisuus
+- locale: fi
+  format: string
+  source: See more
+  target: Näe vähemmän
+  target_initial: Näe vähemmän
+- locale: fi
+  format: string
+  source: 1 low
+  target: 1 Matala
+  target_initial: 1 Matala
+- locale: fi
+  format: string
+  source: 2 normal
+  target: 2 Normaali
+  target_initial: 2 Normaali
+- locale: fi
+  format: string
+  source: 3 high
+  target: 3 Korkea
+  target_initial: 3 Korkea
+- locale: fi
+  format: string
+  source: Adresses
+  target: Osoitteet
+  target_initial: Osoitteet
+- locale: fi
+  format: string
+  source: All Open Tickets
+  target: Kaikki Avoimet Tiketit
+  target_initial: Kaikki Avoimet Tiketit
+- locale: fi
+  format: string
+  source: Add a Note
+  target: Lisää Muistiinpano
+  target_initial: Lisää Muistiinpano
+- locale: fi
+  format: string
+  source: Channel
+  target: Kanava
+  target_initial: Kanava
+- locale: fi
+  format: string
+  source: Changes
+  target: Muutokset
+  target_initial: Muutokset
+- locale: fi
+  format: string
+  source: Channels
+  target: Kanavat
+  target_initial: Kanavat
+- locale: fi
+  format: string
+  source: Company Inc.
+  target: Yritys Oy.
+  target_initial: Yritys Oy.
+- locale: fi
+  format: string
+  source: Chat
+  target: Chat
+  target_initial: Chat
+- locale: fi
+  format: string
+  source: Continue session
+  target: Jatka sessiota
+  target_initial: Jatka sessiota
+- locale: fi
+  format: string
+  source: "%s started a new session"
+  target: "%s aloitti uuden session"
+  target_initial: "%s aloitti uuden session"
+- locale: fi
+  format: string
+  source: Add Link
+  target: Lisää Linkki
+  target_initial: Lisää Linkki
+- locale: fi
+  format: string
+  source: API
+  target: API
+  target_initial: API
+- locale: fi
+  format: string
+  source: "%s required!"
+  target: "%s vaadittu!"
+  target_initial: "%s vaadittu!"
+- locale: fi
+  format: string
+  source: API token
+  target: API token
+  target_initial: API token
+- locale: fi
+  format: string
+  source: Beginner
+  target: Aloittelija
+  target_initial: Aloittelija
+- locale: fi
+  format: string
+  source: Camera
+  target: Kamera
+  target_initial: Kamera
+- locale: fi
+  format: string
+  source: Split
+  target: Kahdenna tiketti
+  target_initial: Kahdenna tiketti
+- locale: fi
+  format: string
+  source: Invoice
+  target: Lasku
+  target_initial: Lasku
+- locale: fi
+  format: string
+  source: Stay on tab
+  target: Pysy välilehdellä
+  target_initial: Pysy välilehdellä
+- locale: fi
+  format: string
+  source: Reply-To
+  target: vastaus osoite
+  target_initial: vastaus osoite
+- locale: fi
+  format: string
+  source: submit
+  target: lähetä
+  target_initial: lähetä
+- locale: fi
+  format: string
+  source: reply
+  target: vastaa
+  target_initial: vastaa
+- locale: fi
+  format: string
+  source: split
+  target: kahdenna tiketti
+  target_initial: kahdenna tiketti
+- locale: fi
+  format: string
+  source: reply all
+  target: vastaa kaikille
+  target_initial: vastaa kaikille
+- locale: fi
+  format: string
+  source: Attach files
+  target: Liitä tiedostot
+  target_initial: Liitä tiedostot
+- locale: fi
+  format: string
+  source: Add Attribute
+  target: Lisää attribuutti
+  target_initial: Lisää attribuutti
+- locale: fi
+  format: string
+  source: Blue
+  target: Sininen
+  target_initial: Sininen
+- locale: fi
+  format: string
+  source: activated
+  target: aktivoitu
+  target_initial: aktivoitu
+- locale: fi
+  format: string
+  source: Active Agents
+  target: aktiiviset agentit
+  target_initial: aktiiviset agentit
+- locale: fi
+  format: string
+  source: active
+  target: aktiivinen
+  target_initial: aktiivinen
+- locale: fi
+  format: string
+  source: Add Bot
+  target: Lisää botti
+  target_initial: Lisää botti
+- locale: fi
+  format: string
+  source: Also notify via email
+  target: Ilmoita myös sähköpostilla
+  target_initial: Ilmoita myös sähköpostilla
+- locale: fi
+  format: string
+  source: again
+  target: uudelleen
+  target_initial: uudelleen
+- locale: fi
+  format: string
+  source: Assigned
+  target: Liitetty
+  target_initial: Liitetty
+- locale: fi
+  format: string
+  source: assign tickets
+  target: Liitetyt tiketit
+  target_initial: Liitetyt tiketit
+- locale: fi
+  format: string
+  source: close
+  target: sulje
+  target_initial: sulje
+- locale: fi
+  format: string
+  source: Close tab
+  target: Sulje välilehti
+  target_initial: Sulje välilehti
+- locale: fi
+  format: string
+  source: Close current tab
+  target: Sulje välilehti
+  target_initial: Sulje välilehti
+- locale: fi
+  format: string
+  source: Attached Files
+  target: Liitetyt tiedostot
+  target_initial: Liitetyt tiedostot
+- locale: fi
+  format: string
+  source: Administrator Account
+  target: Pääkäyttäjän tili
+  target_initial: Pääkäyttäjän tili
+- locale: fi
+  format: string
+  source: Billing
+  target: Laskutus
+  target_initial: Laskutus
+- locale: fi
+  format: string
+  source: Billing Cycle
+  target: Laskutusjakso
+  target_initial: Laskutusjakso
+- locale: fi
+  format: string
+  source: Billing information
+  target: Laskutustiedot
+  target_initial: Laskutustiedot
+- locale: fi
+  format: string
+  source: Escalated
+  target: Eskaloitunut
+  target_initial: Eskaloitunut
+- locale: fi
+  format: string
+  source: Folder
+  target: Kansio
+  target_initial: Kansio
+- locale: fi
+  format: string
+  source: up
+  target: ylös
+  target_initial: ylös
+- locale: fi
+  format: string
+  source: Change Customer
+  target: Vaihda asiakas
+  target_initial: Vaihda asiakas
+- locale: fi
+  format: string
+  source: created
+  target: luotu
+  target_initial: luotu
+- locale: fi
+  format: string
+  source: email
+  target: sähköposti
+  target_initial: sähköposti
+- locale: fi
+  format: string
+  source: Escalated Tickets
+  target: Eskaloituneet tiketit
+  target_initial: Eskaloituneet tiketit
+- locale: fi
+  format: string
+  source: Forgot your password?
+  target: Unohditko salasanasi?
+  target_initial: Unohditko salasanasi?
+- locale: fi
+  format: string
+  source: Facebook
+  target: Facebook
+  target_initial: Facebook
+- locale: fi
+  format: string
+  source: Discard
+  target: Hylkää
+  target_initial: Hylkää
+- locale: fi
+  format: string
+  source: Form
+  target: Lomake
+  target_initial: Lomake
+- locale: fi
+  format: string
+  source: Green
+  target: Vihreä
+  target_initial: Vihreä
+- locale: fi
+  format: string
+  source: Macros
+  target: Macros
+  target_initial: Macros
+- locale: fi
+  format: string
+  source: contains
+  target: sisältää
+  target_initial: sisältää
+- locale: fi
+  format: string
+  source: escalated
+  target: eskaloitunut
+  target_initial: eskaloitunut
+- locale: fi
+  format: string
+  source: Email Address
+  target: Sähköpostiosoite
+  target_initial: Sähköpostiosoite
+- locale: fi
+  format: string
+  source: Credit card
+  target: Luottokortti
+  target_initial: Luottokortti
+- locale: fi
+  format: string
+  source: Credit card number
+  target: Luottokortin numero
+  target_initial: Luottokortin numero
+- locale: fi
+  format: string
+  source: Change
+  target: Vaihda
+  target_initial: Vaihda
+- locale: fi
+  format: string
+  source: Installed
+  target: Asennettu
+  target_initial: Asennettu
+- locale: fi
+  format: string
+  source: Germany
+  target: Saksa
+  target_initial: Saksa
+- locale: fi
+  format: string
+  source: Macro
+  target: Macro
+  target_initial: Macro
+- locale: fi
+  format: string
+  source: Discard your unsaved changes.
+  target: Hylkää tallentamattomat muutokset
+  target_initial: Hylkää tallentamattomat muutokset
+- locale: fi
+  format: string
+  source: here
+  target: täällä
+  target_initial: täällä
+- locale: fi
+  format: string
+  source: forward
+  target: lähetä edelleen
+  target_initial: lähetä edelleen
+- locale: fi
+  format: string
+  source: contains all
+  target: sisältää kaikki
+  target_initial: sisältää kaikki
+- locale: fi
+  format: string
+  source: Back
+  target: Takaisin
+  target_initial: Takaisin
+- locale: fi
+  format: string
+  source: clear
+  target: tyhjennä
+  target_initial: tyhjennä
+- locale: fi
+  format: string
+  source: Discard Changes
+  target: Hylkää muutokset
+  target_initial: Hylkää muutokset
+- locale: fi
+  format: string
+  source: Forgot password?
+  target: Salasana unohtunut?
+  target_initial: Salasana unohtunut?
+- locale: fi
+  format: string
+  source: Logo
+  target: Logo
+  target_initial: Logo
+- locale: fi
+  format: string
+  source: Username / email
+  target: Käyttäjätunnus / sähköpostiosoite
+  target_initial: Käyttäjätunnus / sähköpostiosoite
+- locale: fi
+  format: string
+  source: Attributes
+  target: Attribuutit
+  target_initial: Attribuutit
+- locale: fi
+  format: string
+  source: First response
+  target: Ensimmäinen vastaus
+  target_initial: Ensimmäinen vastaus
+- locale: fi
+  format: string
+  source: Visibility
+  target: Näkyvyys
+  target_initial: Näkyvyys
+- locale: fi
+  format: string
+  source: Week
+  target: Viikko
+  target_initial: Viikko
+- locale: fi
+  format: string
+  source: Users
+  target: Käyttäjät
+  target_initial: Käyttäjät
+- locale: fi
+  format: string
+  source: updated
+  target: päivitetty
+  target_initial: päivitetty
+- locale: fi
+  format: string
+  source: Attach Screenshot of page
+  target: Liitä sivun näyttökaappaus
+  target_initial: Liitä sivun näyttökaappaus
+- locale: fi
+  format: string
+  source: Cancel Upload
+  target: Keskeytä lataus
+  target_initial: Keskeytä lataus
+- locale: fi
+  format: string
+  source: Can't create user
+  target: Käyttäjän luonti ei onnistu
+  target_initial: Käyttäjän luonti ei onnistu
+- locale: fi
+  format: string
+  source: Copy to clipboard
+  target: Kopioi leikepöydälle
+  target_initial: Kopioi leikepöydälle
+- locale: fi
+  format: string
+  source: from
+  target: lähettäjä
+  target_initial: lähettäjä
+- locale: fi
+  format: string
+  source: Calendars
+  target: Kalenterit
+  target_initial: Kalenterit
+- locale: fi
+  format: string
+  source: VIP
+  target: VIP
+  target_initial: VIP
+- locale: fi
+  format: string
+  source: Yellow
+  target: Keltainen
+  target_initial: Keltainen
+- locale: fi
+  format: string
+  source: Feedback Form
+  target: Palautelomake
+  target_initial: Palautelomake
+- locale: fi
+  format: string
+  source: just now
+  target: juuri nyt
+  target_initial: juuri nyt
+- locale: fi
+  format: string
+  source: Widget
+  target: Widget
+  target_initial: Widget
+- locale: fi
+  format: string
+  source: Clients
+  target: Asiakkaat
+  target_initial: Asiakkaat
+- locale: fi
+  format: string
+  source: maybe
+  target: ehkä
+  target_initial: ehkä
+- locale: fi
+  format: string
+  source: VAT
+  target: ALV
+  target_initial: ALV
+- locale: fi
+  format: string
+  source: VAT ID
+  target: Y-tunnus
+  target_initial: Y-tunnus
+- locale: fi
+  format: string
+  source: Username
+  target: Käyttäjätunnus
+  target_initial: Käyttäjätunnus
+- locale: fi
+  format: string
+  source: HTTP type
+  target: HTTP type
+  target_initial: HTTP type
+- locale: fi
+  format: string
+  source: All Agents
+  target: Kaikki agentit
+  target_initial: Kaikki agentit
+- locale: fi
+  format: string
+  source: Closing time
+  target: Sulkemisaika
+  target_initial: Sulkemisaika
+- locale: fi
+  format: string
+  source: Username or email
+  target: Käyttäjätunnus tai sähköpostiosoite
+  target_initial: Käyttäjätunnus tai sähköpostiosoite
+- locale: fi
+  format: string
+  source: Uploading
+  target: Lataan
+  target_initial: Lataan
+- locale: fi
+  format: string
+  source: Visible
+  target: Näkyvä
+  target_initial: Näkyvä
+- locale: fi
+  format: string
+  source: Where
+  target: Missä
+  target_initial: Missä
+- locale: fi
+  format: string
+  source: Activity Stream
+  target: Tapahtumaloki
+  target_initial: Tapahtumaloki
+- locale: fi
+  format: string
+  source: set to internal
+  target: Aseta sisäiseksi
+  target_initial: Aseta sisäiseksi
+- locale: fi
+  format: string
+  source: set to public
+  target: Aseta ulkoiseksi
+  target_initial: Aseta ulkoiseksi
+- locale: fi
+  format: string
+  source: Sign out
+  target: Kirjaudu ulos
+  target_initial: Kirjaudu ulos
+- locale: fi
+  format: string
+  source: Open Tickets
+  target: Avoimet tiketit
+  target_initial: Avoimet tiketit
+- locale: fi
+  format: string
+  source: down
+  target: alas
+  target_initial: alas
+- locale: fi
+  format: string
+  source: now
+  target: nyt
+  target_initial: nyt
+- locale: fi
+  format: string
+  source: Original
+  target: Alkuperäinen
+  target_initial: Alkuperäinen
+- locale: fi
+  format: string
+  source: Cancel & Go Back
+  target: Peruuta ja palaa takaisin
+  target_initial: Peruuta ja palaa takaisin
+- locale: fi
+  format: string
+  source: Online
+  target: Online
+  target_initial: Online
+- locale: fi
+  format: string
+  source: Skip
+  target: Ohita
+  target_initial: Ohita
+- locale: fi
+  format: string
+  source: Organization Name
+  target: Organisaation nimi
+  target_initial: Organisaation nimi
+- locale: fi
+  format: string
+  source: Department Name
+  target: Osaston nimi
+  target_initial: Osaston nimi
+- locale: fi
+  format: string
+  source: Email address
+  target: Sähköpostiosoite
+  target_initial: Sähköpostiosoite
+- locale: fi
+  format: string
+  source: Day(s)
+  target: Päivä(ä)
+  target_initial: Päivä(ä)
+- locale: fi
+  format: string
+  source: Subscription
+  target: Tilaus
+  target_initial: Tilaus
+- locale: fi
+  format: string
+  source: Order
+  target: Tilaus
+  target_initial: Tilaus
+- locale: fi
+  format: string
+  source: Overview
+  target: Yleisnäkymä
+  target_initial: Yleisnäkymä
+- locale: fi
+  format: string
+  source: Date & Time
+  target: Päivä & Aika
+  target_initial: Päivä & Aika
+- locale: fi
+  format: string
+  source: Show all...
+  target: Näytä kaikki...
+  target_initial: Näytä kaikki...
+- locale: fi
+  format: string
+  source: skip
+  target: ohita
+  target_initial: ohita
+- locale: fi
+  format: string
+  source: skipped
+  target: ohitettu
+  target_initial: ohitettu
+- locale: fi
+  format: string
+  source: Shared
+  target: Jaettu
+  target_initial: Jaettu
+- locale: fi
+  format: string
+  source: Or
+  target: Tai
+  target_initial: Tai
+- locale: fi
+  format: string
+  source: Department
+  target: Osasto
+  target_initial: Osasto
+- locale: fi
+  format: string
+  source: Subscription Settings
+  target: Tilauksen asetukset
+  target_initial: Tilauksen asetukset
+- locale: fi
+  format: string
+  source: Show
+  target: Näytä
+  target_initial: Näytä
+- locale: fi
+  format: string
+  source: Overviews
+  target: Yleisnäkymät
+  target_initial: Yleisnäkymät
+- locale: fi
+  format: string
+  source: Sign in
+  target: Kirjaudu sisään
+  target_initial: Kirjaudu sisään
+- locale: fi
+  format: string
+  source: Start new
+  target: Aloita uusi
+  target_initial: Aloita uusi
+- locale: fi
+  format: string
+  source: Pending reminder reached for Ticket |%s|
+  target: 'Odotusaika saavutettu tiketille |%s|  '
+  target_initial: 'Odotusaika saavutettu tiketille |%s|  '
+- locale: fi
+  format: string
+  source: pending
+  target: odottaa
+  target_initial: odottaa
+- locale: fi
+  format: string
+  source: Links
+  target: Linkit
+  target_initial: Linkit
+- locale: fi
+  format: string
+  source: pending close
+  target: Odottaa sulkemista
+  target_initial: Odottaa sulkemista
+- locale: fi
+  format: string
+  source: Created at
+  target: Luotu
+  target_initial: Luotu
+- locale: fi
+  format: string
+  source: Pink
+  target: Pinkki
+  target_initial: Pinkki
+- locale: fi
+  format: string
+  source: Pending reached
+  target: Odotusaika saavutettu
+  target_initial: Odotusaika saavutettu
+- locale: fi
+  format: string
+  source: List of shortcuts
+  target: Pikavalintalista
+  target_initial: Pikavalintalista
+- locale: fi
+  format: string
+  source: My pending reached Tickets
+  target: Minun odotusajan saavuttaneet tiketit
+  target_initial: Minun odotusajan saavuttaneet tiketit
+- locale: fi
+  format: string
+  source: Link %s
+  target: Linkki %s
+  target_initial: Linkki %s
+- locale: fi
+  format: string
+  source: Till
+  target: Asti
+  target_initial: Asti
+- locale: fi
+  format: string
+  source: Create new Customer
+  target: Luo uusi asiakas
+  target_initial: Luo uusi asiakas
+- locale: fi
+  format: string
+  source: Link
+  target: Linkki
+  target_initial: Linkki
+- locale: fi
+  format: string
+  source: Reset changes
+  target: Kumoa muutokset
+  target_initial: Kumoa muutokset
+- locale: fi
+  format: string
+  source: Removes the formatting
+  target: Poistaa muotoilut
+  target_initial: Poistaa muotoilut
+- locale: fi
+  format: string
+  source: Out of Office
+  target: Poissa toimistolta
+  target_initial: Poissa toimistolta
+- locale: fi
+  format: string
+  source: "%s created User |%s|"
+  target: "%s loi käyttäjän |%s| "
+  target_initial: "%s loi käyttäjän |%s| "
+- locale: fi
+  format: string
+  source: "%s created Ticket |%s|"
+  target: "%s loi tiketin |%s| "
+  target_initial: "%s loi tiketin |%s| "
+- locale: fi
+  format: string
+  source: "%s updated Ticket |%s|"
+  target: "%s päivitti tiketin |%s| "
+  target_initial: "%s päivitti tiketin |%s| "
+- locale: fi
+  format: string
+  source: "%s updated User |%s|"
+  target: "%s päivitti käyttäjän |%s| "
+  target_initial: "%s päivitti käyttäjän |%s| "
+- locale: fi
+  format: string
+  source: Translations
+  target: Käännökset
+  target_initial: Käännökset
+- locale: fi
+  format: string
+  source: uninstall
+  target: poista asennus
+  target_initial: poista asennus
+- locale: fi
+  format: string
+  source: Words
+  target: Sanat
+  target_initial: Sanat
+- locale: fi
+  format: string
+  source: Tools
+  target: Työkalut
+  target_initial: Työkalut
+- locale: fi
+  format: string
+  source: URL
+  target: URL
+  target_initial: URL
+- locale: fi
+  format: string
+  source: 'Total: %s'
+  target: 'Yhteensä: %s'
+  target_initial: 'Yhteensä: %s'
+- locale: fi
+  format: string
+  source: Triggers
+  target: Triggerit
+  target_initial: Triggerit
+- locale: fi
+  format: string
+  source: Updated at
+  target: Päivitetty
+  target_initial: Päivitetty
+- locale: fi
+  format: string
+  source: Updated by
+  target: Päivittäjä
+  target_initial: Päivittäjä
+- locale: fi
+  format: string
+  source: Topics
+  target: Aiheet
+  target_initial: Aiheet
+- locale: fi
+  format: string
+  source: Trigger
+  target: Triggeri
+  target_initial: Triggeri
+- locale: fi
+  format: string
+  source: Waiting Customers
+  target: Odotetaan asiakkaita
+  target_initial: Odotetaan asiakkaita
+- locale: fi
+  format: string
+  source: Web
+  target: Web
+  target_initial: Web
+- locale: fi
+  format: string
+  source: Year(s)
+  target: Vuotta
+  target_initial: Vuotta
+- locale: fi
+  format: string
+  source: Total
+  target: Yhteensä
+  target_initial: Yhteensä
+- locale: fi
+  format: string
+  source: Value
+  target: Arvo
+  target_initial: Arvo
+- locale: fi
+  format: string
+  source: 2 lower and 2 upper characters
+  target: 2 pientä ja 2 isoa merkkiä
+  target_initial: 2 pientä ja 2 isoa merkkiä
+- locale: fi
+  format: string
+  source: When should the job run?
+  target: Milloin jobi ajetaan?
+  target_initial: Milloin jobi ajetaan?
+- locale: fi
+  format: string
+  source: Call Outbound
+  target: Lähtevä puhelu
+  target_initial: Lähtevä puhelu
+- locale: fi
+  format: string
+  source: Call Inbound
+  target: Saapuva puhelu
+  target_initial: Saapuva puhelu
+- locale: fi
+  format: string
+  source: Branches
+  target: Haarat
+  target_initial: Haarat
+- locale: fi
+  format: string
+  source: Checksum
+  target: Tarkistesumma
+  target_initial: Tarkistesumma
+- locale: fi
+  format: string
+  source: App ID
+  target: Sovellus ID
+  target_initial: Sovellus ID
+- locale: fi
+  format: string
+  source: Avatar
+  target: Avatar
+  target_initial: Avatar
+- locale: fi
+  format: string
+  source: 'Average: %s minutes'
+  target: 'Keskiarvo: %s minuuttia'
+  target_initial: 'Keskiarvo: %s minuuttia'
+- locale: fi
+  format: string
+  source: 'Average: %s%'
+  target: 'Keskiarvo: %s%'
+  target_initial: 'Keskiarvo: %s%'
+- locale: fi
+  format: string
+  source: 'Average: %s'
+  target: 'Keskiarvo: %s'
+  target_initial: 'Keskiarvo: %s'
+- locale: fi
+  format: string
+  source: before (relative)
+  target: ennen (suhteellinen)
+  target_initial: ennen (suhteellinen)
+- locale: fi
+  format: string
+  source: Browser
+  target: Selain
+  target_initial: Selain
+- locale: fi
+  format: string
+  source: Choose Template
+  target: Valitse malli
+  target_initial: Valitse malli
+- locale: fi
+  format: string
+  source: attached
+  target: liitetty
+  target_initial: liitetty
+- locale: fi
+  format: string
+  source: busy
+  target: varattu
+  target_initial: varattu
+- locale: fi
+  format: string
+  source: Applications
+  target: Sovellukset
+  target_initial: Sovellukset
+- locale: fi
+  format: string
+  source: Billed annually
+  target: Laskutetaan vuosittain
+  target_initial: Laskutetaan vuosittain
+- locale: fi
+  format: string
+  source: Billed monthly
+  target: Laskutetaan kuukausittain
+  target_initial: Laskutetaan kuukausittain
+- locale: fi
+  format: string
+  source: Bots
+  target: Botit
+  target_initial: Botit
+- locale: fi
+  format: string
+  source: Bind User
+  target: Sido käyttäjä
+  target_initial: Sido käyttäjä
+- locale: fi
+  format: string
+  source: Bind Password
+  target: Sido salasana
+  target_initial: Sido salasana
+- locale: fi
+  format: string
+  source: activate
+  target: aktivoi
+  target_initial: aktivoi
+- locale: fi
+  format: string
+  source: "...add object link URL"
+  target: "...lisää linkin URL"
+  target_initial: "...lisää linkin URL"
+- locale: fi
+  format: string
+  source: "...add object title"
+  target: "...lisää otsikko"
+  target_initial: "...lisää otsikko"
+- locale: fi
+  format: string
+  source: Add-ons
+  target: Laajennukset
+  target_initial: Laajennukset
+- locale: fi
+  format: string
+  source: after (absolute)
+  target: jälkeen (absoluuttinen)
+  target_initial: jälkeen (absoluuttinen)
+- locale: fi
+  format: string
+  source: after (relative)
+  target: jälkeen (suhteellinen)
+  target_initial: jälkeen (suhteellinen)
+- locale: fi
+  format: string
+  source: Alternative name
+  target: Vaihtoehtoinen nimi
+  target_initial: Vaihtoehtoinen nimi
+- locale: fi
+  format: string
+  source: annually
+  target: vuosittain
+  target_initial: vuosittain
+- locale: fi
+  format: string
+  source: Annual
+  target: Vuosittainen
+  target_initial: Vuosittainen
+- locale: fi
+  format: string
+  source: Auto close
+  target: Sulje automaattisesti
+  target_initial: Sulje automaattisesti
+- locale: fi
+  format: string
+  source: before (absolute)
+  target: ennen (absoluuttinen)
+  target_initial: ennen (absoluuttinen)
+- locale: fi
+  format: string
+  source: Billing E-Mail Address
+  target: Laskutuksen sähköpostiosoite
+  target_initial: Laskutuksen sähköpostiosoite
+- locale: fi
+  format: string
+  source: Branding
+  target: Brändäys
+  target_initial: Brändäys
+- locale: fi
+  format: string
+  source: Change %s
+  target: Muutos %s
+  target_initial: Muutos %s
+- locale: fi
+  format: string
+  source: Choose your new password.
+  target: Valitse uusi salasana.
+  target_initial: Valitse uusi salasana.
+- locale: fi
+  format: string
+  source: Clone
+  target: Klooni
+  target_initial: Klooni
+- locale: fi
+  format: string
+  source: Product Name
+  target: Järjestelmän nimi
+  target_initial: Järjestelmän nimi
+- locale: fi
+  format: string
+  source: Role
+  target: Rooli
+  target_initial: Rooli
+- locale: fi
+  format: string
+  source: public
+  target: yleinen
+  target_initial: yleinen
+- locale: fi
+  format: string
+  source: raw
+  target: raaka
+  target_initial: raaka
+- locale: fi
+  format: string
+  source: Recipients
+  target: Vastaanottajat
+  target_initial: Vastaanottajat
+- locale: fi
+  format: string
+  source: reinstall
+  target: asenna uudelleen
+  target_initial: asenna uudelleen
+- locale: fi
+  format: string
+  source: Profiles
+  target: Profiilit
+  target_initial: Profiilit
+- locale: fi
+  format: string
+  source: Releases
+  target: Julkaisut
+  target_initial: Julkaisut
+- locale: fi
+  format: string
+  source: Reset Password
+  target: Alusta salasana
+  target_initial: Alusta salasana
+- locale: fi
+  format: string
+  source: Search for users
+  target: Etsi käyttäjiä
+  target_initial: Etsi käyttäjiä
+- locale: fi
+  format: string
+  source: Projects
+  target: Projektit
+  target_initial: Projektit
+- locale: fi
+  format: string
+  source: Project
+  target: Projekti
+  target_initial: Projekti
+- locale: fi
+  format: string
+  source: Purple
+  target: Violetti
+  target_initial: Violetti
+- locale: fi
+  format: string
+  source: Push Changes
+  target: Vie muutokset
+  target_initial: Vie muutokset
+- locale: fi
+  format: string
+  source: Received Call
+  target: Saapunut puhelu
+  target_initial: Saapunut puhelu
+- locale: fi
+  format: string
+  source: Restore Defaults
+  target: Palauta oletusasetukset
+  target_initial: Palauta oletusasetukset
+- locale: fi
+  format: string
+  source: Protocol
+  target: Protokolla
+  target_initial: Protokolla
+- locale: fi
+  format: string
+  source: Push my changes
+  target: Vie tekemäni muutokset
+  target_initial: Vie tekemäni muutokset
+- locale: fi
+  format: string
+  source: reached
+  target: saavutti
+  target_initial: saavutti
+- locale: fi
+  format: string
+  source: Report
+  target: Raportti
+  target_initial: Raportti
+- locale: fi
+  format: string
+  source: Uninstall
+  target: Poista asennus
+  target_initial: Poista asennus
+- locale: fi
+  format: string
+  source: untouched
+  target: koskematon
+  target_initial: koskematon
+- locale: fi
+  format: string
+  source: Urgency
+  target: Kiireellisyys
+  target_initial: Kiireellisyys
+- locale: fi
+  format: string
+  source: Topic
+  target: Aihe
+  target_initial: Aihe
+- locale: fi
+  format: string
+  source: Waiting
+  target: Odotetaan
+  target_initial: Odotetaan
+- locale: fi
+  format: string
+  source: Twitter
+  target: Twitter
+  target_initial: Twitter
+- locale: fi
+  format: string
+  source: Usage
+  target: Käyttö
+  target_initial: Käyttö
+- locale: fi
+  format: string
+  source: Verifying...
+  target: Varmistetaan...
+  target_initial: Varmistetaan...
+- locale: fi
+  format: string
+  source: What is it?
+  target: Mikä se on?
+  target_initial: Mikä se on?
+- locale: fi
+  format: string
+  source: Your Logo
+  target: Logo
+  target_initial: Logo
+- locale: fi
+  format: string
+  source: Removes any hyperlink
+  target: Poistaa kaikki hyperlinkit
+  target_initial: Poistaa kaikki hyperlinkit
+- locale: fi
+  format: string
+  source: Requirements
+  target: Vaatimukset
+  target_initial: Vaatimukset
+- locale: fi
+  format: string
+  source: required
+  target: vaadittu
+  target_initial: vaadittu
+- locale: fi
+  format: string
+  source: ringing
+  target: soitto
+  target_initial: soitto
+- locale: fi
+  format: string
+  source: Search...
+  target: Etsi...
+  target_initial: Etsi...
+- locale: fi
+  format: string
+  source: Recent logs
+  target: Uusimmat lokit
+  target_initial: Uusimmat lokit
+- locale: fi
+  format: string
+  source: Realtime
+  target: Reaaliaikainen
+  target_initial: Reaaliaikainen
+- locale: fi
+  format: string
+  source: Reporting
+  target: Raportointi
+  target_initial: Raportointi
+- locale: fi
+  format: string
+  source: right
+  target: oikea
+  target_initial: oikea
+- locale: fi
+  format: string
+  source: Proxy Settings
+  target: Välityspalvelimen asetukset
+  target_initial: Välityspalvelimen asetukset
+- locale: fi
+  format: string
+  source: Recent Customer Tickets
+  target: Tuoreimmat asiakkaiden tiketit
+  target_initial: Tuoreimmat asiakkaiden tiketit
+- locale: fi
+  format: string
+  source: Real name
+  target: Oikea nimi
+  target_initial: Oikea nimi
+- locale: fi
+  format: string
+  source: Recently viewed
+  target: Äskettäin katseltu
+  target_initial: Äskettäin katseltu
+- locale: fi
+  format: string
+  source: run macro
+  target: suorita makro
+  target_initial: suorita makro
+- locale: fi
+  format: string
+  source: Report Profile
+  target: Raportin profiili
+  target_initial: Raportin profiili
+- locale: fi
+  format: string
+  source: Save configuration
+  target: Tallenna asetukset
+  target_initial: Tallenna asetukset
+- locale: fi
+  format: string
+  source: Running...
+  target: Suoritetaan...
+  target_initial: Suoritetaan...
+- locale: fi
+  format: string
+  source: Products
+  target: Tuotteet
+  target_initial: Tuotteet
+- locale: fi
+  format: string
+  source: Proceed
+  target: Jatka
+  target_initial: Jatka
+- locale: fi
+  format: string
+  source: Receipt
+  target: Kuittaus
+  target_initial: Kuittaus
+- locale: fi
+  format: string
+  source: Recipient
+  target: Vastaanottaja
+  target_initial: Vastaanottaja
+- locale: fi
+  format: string
+  source: Proxy address.
+  target: Välityspalvelimen osoite
+  target_initial: Välityspalvelimen osoite
+- locale: fi
+  format: string
+  source: Pushing translations to i18n.zammad.com
+  target: Viedään käännökset 18n.zammad.com:iin
+  target_initial: Viedään käännökset 18n.zammad.com:iin
+- locale: fi
+  format: string
+  source: Read
+  target: Luku
+  target_initial: Luku
+- locale: fi
+  format: string
+  source: Queue
+  target: Jono
+  target_initial: Jono
+- locale: fi
+  format: string
+  source: Recent Releases
+  target: Viimeaikaiset julkaisut
+  target_initial: Viimeaikaiset julkaisut
+- locale: fi
+  format: string
+  source: Recent viewed Tickets
+  target: Äskettäin katsellut tiketit
+  target_initial: Äskettäin katsellut tiketit
+- locale: fi
+  format: string
+  source: Reopened
+  target: Uudelleenavatut
+  target_initial: Uudelleenavatut
+- locale: fi
+  format: string
+  source: Reload application
+  target: Lataa sovellus uudelleen
+  target_initial: Lataa sovellus uudelleen
+- locale: fi
+  format: string
+  source: Report Profiles
+  target: Raporttiprofiilit
+  target_initial: Raporttiprofiilit
+- locale: fi
+  format: string
+  source: Resend verification email
+  target: Lähetä uudelleen vahvistussähköposti
+  target_initial: Lähetä uudelleen vahvistussähköposti
+- locale: fi
+  format: string
+  source: Manage
+  target: Hallinnoi
+  target_initial: Hallinnoi
+- locale: fi
+  format: string
+  source: Linked Accounts
+  target: Linkitetyt tilit
+  target_initial: Linkitetyt tilit
+- locale: fi
+  format: string
+  source: Format as h3 heading
+  target: Muotoile H3-otsikoksi
+  target_initial: Muotoile H3-otsikoksi
+- locale: fi
+  format: string
+  source: Format as h2 heading
+  target: Muotoile H2-otsikoksi
+  target_initial: Muotoile H2-otsikoksi
+- locale: fi
+  format: string
+  source: Format as h1 heading
+  target: Muotoile H1-otsikoksi
+  target_initial: Muotoile H1-otsikoksi
+- locale: fi
+  format: string
+  source: Format as ordered list
+  target: Muotoile järjestettynä luettelona
+  target_initial: Muotoile järjestettynä luettelona
+- locale: fi
+  format: string
+  source: Format as unordered list
+  target: Muotoile järjestämättömänä luettelona
+  target_initial: Muotoile järjestämättömänä luettelona
+- locale: fi
+  format: string
+  source: Format as //strikethrough//
+  target: Muotoile //yliviivattuna//
+  target_initial: Muotoile //yliviivattuna//
+- locale: fi
+  format: string
+  source: Format as ||italic||
+  target: Muotoile ||kursivoituna||
+  target_initial: Muotoile ||kursivoituna||
+- locale: fi
+  format: string
+  source: not translated
+  target: kääntämättä
+  target_initial: kääntämättä
+- locale: fi
+  format: string
+  source: Full
+  target: Täysi
+  target_initial: Täysi
+- locale: fi
+  format: string
+  source: internal
+  target: sisäinen
+  target_initial: sisäinen
+- locale: fi
+  format: string
+  source: install
+  target: asennus
+  target_initial: asennus
+- locale: fi
+  format: string
+  source: Group by
+  target: Ryhmittele
+  target_initial: Ryhmittele
+- locale: fi
+  format: string
+  source: Inbound
+  target: Sisääntuleva
+  target_initial: Sisääntuleva
+- locale: fi
+  format: string
+  source: Outbound
+  target: Ulosmenevä
+  target_initial: Ulosmenevä
+- locale: fi
+  format: string
+  source: Invitation sent!
+  target: Kutsu lähetetty!
+  target_initial: Kutsu lähetetty!
+- locale: fi
+  format: string
+  source: Getting started!
+  target: Aloitetaan!
+  target_initial: Aloitetaan!
+- locale: fi
+  format: string
+  source: is the same
+  target: on sama kuin
+  target_initial: on sama kuin
+- locale: fi
+  format: string
+  source: Run every %s at %s
+  target: Suorita joka %s klo %s
+  target_initial: Suorita joka %s klo %s
+- locale: fi
+  format: string
+  source: Scheduled for
+  target: Ajastettu
+  target_initial: Ajastettu
+- locale: fi
+  format: string
+  source: Will process
+  target: Seuraava suoritus
+  target_initial: Seuraava suoritus
+- locale: fi
+  format: string
+  source: Objects
+  target: Objektit
+  target_initial: Objektit
+- locale: fi
+  format: string
+  source: Owned by nobody
+  target: Muiden
+  target_initial: Muiden
+- locale: fi
+  format: string
+  source: Owned by me
+  target: Omat
+  target_initial: Omat
+- locale: fi
+  format: string
+  source: Tickets of Organization
+  target: Oganisaation tiketit
+  target_initial: Oganisaation tiketit
+- locale: fi
+  format: string
+  source: Tickets of User
+  target: Käyttäjän tiketit
+  target_initial: Käyttäjän tiketit
+- locale: fi
+  format: string
+  source: Ticket update
+  target: Tiketin päivitys
+  target_initial: Tiketin päivitys
+- locale: fi
+  format: string
+  source: Shared organization
+  target: Jaettu organisaatio
+  target_initial: Jaettu organisaatio
+- locale: fi
+  format: string
+  source: Sign in with
+  target: Kirjaudu käyttäen
+  target_initial: Kirjaudu käyttäen
+- locale: fi
+  format: string
+  source: Sign in using
+  target: Kirjaudu käyttäen
+  target_initial: Kirjaudu käyttäen
+- locale: fi
+  format: string
+  source: Sign up
+  target: Rekisteröidy
+  target_initial: Rekisteröidy
+- locale: fi
+  format: string
+  source: Login successfully! Have a nice day!
+  target: Kirjautuminen onnistui! Hauskaa päivää!
+  target_initial: Kirjautuminen onnistui! Hauskaa päivää!
+- locale: fi
+  format: string
+  source: Ticket %s created!
+  target: Tiketti %s luotu!
+  target_initial: Tiketti %s luotu!
+- locale: fi
+  format: string
+  source: Templates
+  target: Mallit
+  target_initial: Mallit
+- locale: fi
+  format: string
+  source: Linked Objects
+  target: Linkitetyt objektit
+  target_initial: Linkitetyt objektit
+- locale: fi
+  format: string
+  source: Enter your username or email address
+  target: Anna käyttäjätunnus tai sähköpostiosoite
+  target_initial: Anna käyttäjätunnus tai sähköpostiosoite
+- locale: fi
+  format: string
+  source: First Solution
+  target: Ensimmäinen ratkaisu
+  target_initial: Ensimmäinen ratkaisu
+- locale: fi
+  format: string
+  source: Signatures
+  target: Allekirjoitukset
+  target_initial: Allekirjoitukset
+- locale: fi
+  format: string
+  source: Send invitation
+  target: Lähetä kutsu
+  target_initial: Lähetä kutsu
+- locale: fi
+  format: string
+  source: Link Accounts
+  target: Linkitä tilit
+  target_initial: Linkitä tilit
+- locale: fi
+  format: string
+  source: New SLA
+  target: Uusi SLA
+  target_initial: Uusi SLA
+- locale: fi
+  format: string
+  source: Send to clients
+  target: Lähetä asiakkaille
+  target_initial: Lähetä asiakkaille
+- locale: fi
+  format: string
+  source: Thanks for your Feedback!
+  target: Kiitos viestistäsi!
+  target_initial: Kiitos viestistäsi!
+- locale: fi
+  format: string
+  source: What can you do here?
+  target: Mitä täällä voi tehdä?
+  target_initial: Mitä täällä voi tehdä?
+- locale: fi
+  format: string
+  source: Here you can create one.
+  target: Tässä voit luoda uuden.
+  target_initial: Tässä voit luoda uuden.
+- locale: fi
+  format: string
+  source: Enter Answer or
+  target: Kirjoita vastaus tai
+  target_initial: Kirjoita vastaus tai
+- locale: fi
+  format: string
+  source: session started
+  target: istunto alkoi
+  target_initial: istunto alkoi
+- locale: fi
+  format: string
+  source: Target
+  target: Kohde
+  target_initial: Kohde
+- locale: fi
+  format: string
+  source: set internal
+  target: aseta sisäiseksi
+  target_initial: aseta sisäiseksi
+- locale: fi
+  format: string
+  source: Tags
+  target: Tagit
+  target_initial: Tagit
+- locale: fi
+  format: string
+  source: Maintenance
+  target: Huoltokatko
+  target_initial: Huoltokatko
+- locale: fi
+  format: string
+  source: Sessions
+  target: Istunnot
+  target_initial: Istunnot
+- locale: fi
+  format: string
+  source: Management
+  target: Ylläpito
+  target_initial: Ylläpito
+- locale: fi
+  format: string
+  source: Source
+  target: Lähde
+  target_initial: Lähde
+- locale: fi
+  format: string
+  source: Sync Changes
+  target: Synkronoi muutokset
+  target_initial: Synkronoi muutokset
+- locale: fi
+  format: string
+  source: Lost Password
+  target: Salasana unohtunut
+  target_initial: Salasana unohtunut
+- locale: fi
+  format: string
+  source: SSL
+  target: SSL
+  target_initial: SSL
+- locale: fi
+  format: string
+  source: Storage
+  target: Tallennus
+  target_initial: Tallennus
+- locale: fi
+  format: string
+  source: Storage Mechanism
+  target: Tallennustapa
+  target_initial: Tallennustapa
+- locale: fi
+  format: string
+  source: SLAs
+  target: SLA:t
+  target_initial: SLA:t
+- locale: fi
+  format: string
+  source: New Profile
+  target: Uusi profiili
+  target_initial: Uusi profiili
+- locale: fi
+  format: string
+  source: Login with %s
+  target: Kirjaudu palvelimelle %s
+  target_initial: Kirjaudu palvelimelle %s
+- locale: fi
+  format: string
+  source: Send Email
+  target: Lähetä sähköpostia
+  target_initial: Lähetä sähköpostia
+- locale: fi
+  format: string
+  source: New Project
+  target: Uusi projekti
+  target_initial: Uusi projekti
+- locale: fi
+  format: string
+  source: Ticket Number Format
+  target: Tiketin numeroformaatti
+  target_initial: Tiketin numeroformaatti
+- locale: fi
+  format: string
+  source: Status Code
+  target: Tilakoodi
+  target_initial: Tilakoodi
+- locale: fi
+  format: string
+  source: Select Template
+  target: Valitse malli
+  target_initial: Valitse malli
+- locale: fi
+  format: string
+  source: Tag
+  target: Tagi
+  target_initial: Tagi
+- locale: fi
+  format: string
+  source: Template Title
+  target: Mallin otsikko
+  target_initial: Mallin otsikko
+- locale: fi
+  format: string
+  source: Switch to
+  target: Vaihda
+  target_initial: Vaihda
+- locale: fi
+  format: string
+  source: First Steps
+  target: Ensimmäiset askeleet
+  target_initial: Ensimmäiset askeleet
+- locale: fi
+  format: string
+  source: Ticket Number Increment
+  target: Tikettien numeroinnin lisäystapa
+  target_initial: Tikettien numeroinnin lisäystapa
+- locale: fi
+  format: string
+  source: System URL
+  target: Järjestelmän URL
+  target_initial: Järjestelmän URL
+- locale: fi
+  format: string
+  source: Send Mails via
+  target: Lähetä sähköpostit käyttäen
+  target_initial: Lähetä sähköpostit käyttäen
+- locale: fi
+  format: string
+  source: Maintenance Message
+  target: Huoltokatkon ilmoitus
+  target_initial: Huoltokatkon ilmoitus
+- locale: fi
+  format: string
+  source: Status Type
+  target: Tilan tyyppi
+  target_initial: Tilan tyyppi
+- locale: fi
+  format: string
+  source: escalation
+  target: eskalointi
+  target_initial: eskalointi
+- locale: fi
+  format: string
+  source: Escalation Times
+  target: Eskalointiajat
+  target_initial: Eskalointiajat
+- locale: fi
+  format: string
+  source: Thanks for contributing!
+  target: Kiitos osallistumisesta!
+  target_initial: Kiitos osallistumisesta!
+- locale: fi
+  format: string
+  source: today
+  target: tänään
+  target_initial: tänään
+- locale: fi
+  format: string
+  source: Font size
+  target: Fontin koko
+  target_initial: Fontin koko
+- locale: fi
+  format: string
+  source: Testing
+  target: Testataan
+  target_initial: Testataan
+- locale: fi
+  format: string
+  source: Title of the form
+  target: Lomakkeen otsikko
+  target_initial: Lomakkeen otsikko
+- locale: fi
+  format: string
+  source: LinkedIn App Credentials
+  target: LinkedIn-sovelluksen kirjautumistiedot
+  target_initial: LinkedIn-sovelluksen kirjautumistiedot
+- locale: fi
+  format: string
+  source: Show title in form.
+  target: Näytä otsikko lomakkeella.
+  target_initial: Näytä otsikko lomakkeella.
+- locale: fi
+  format: string
+  source: Thank you for your inquiry! We'll contact you soon as possible.
+  target: Kiitos viestistäsi! Otamme yhteyttä mahdollisimman pian.
+  target_initial: Kiitos viestistäsi! Otamme yhteyttä mahdollisimman pian.
+- locale: fi
+  format: string
+  source: Some Text
+  target: Tekstiä
+  target_initial: Tekstiä
+- locale: fi
+  format: string
+  source: The default font size is 12px.
+  target: Fontin oletuskoko on 12px.
+  target_initial: Fontin oletuskoko on 12px.
+- locale: fi
+  format: string
+  source: The chat is turned off.
+  target: Chat-toiminto ei ole käytettävissä.
+  target_initial: Chat-toiminto ei ole käytettävissä.
+- locale: fi
+  format: string
+  source: Limit Groups
+  target: Rajoita ryhmiä
+  target_initial: Rajoita ryhmiä
+- locale: fi
+  format: string
+  source: Ticket escalation
+  target: Tiketin eskalointi
+  target_initial: Tiketin eskalointi
+- locale: fi
+  format: string
+  source: Manage your notifications settings
+  target: Hallinnoi ilmoitusasetuksia
+  target_initial: Hallinnoi ilmoitusasetuksia
+- locale: fi
+  format: string
+  source: Sending...
+  target: Lähetetään...
+  target_initial: Lähetetään...
+- locale: fi
+  format: string
+  source: Select item
+  target: Valitse
+  target_initial: Valitse
+- locale: fi
+  format: string
+  source: Text editing
+  target: Tekstin muokkaus
+  target_initial: Tekstin muokkaus
+- locale: fi
+  format: string
+  source: Starting Zammad
+  target: Käynnistetään Zammad
+  target_initial: Käynnistetään Zammad
+- locale: fi
+  format: string
+  source: Load
+  target: Lataa
+  target_initial: Lataa
+- locale: fi
+  format: string
+  source: Last sync at
+  target: Viimeksi synkronoitu
+  target_initial: Viimeksi synkronoitu
+- locale: fi
+  format: string
+  source: Current password
+  target: 'Nykyinen salasanasi:'
+  target_initial: 'Nykyinen salasanasi:'
+- locale: fi
+  format: string
+  source: New password (confirm)
+  target: Uusi salasana (uudelleen)
+  target_initial: Uusi salasana (uudelleen)
+- locale: fi
+  format: string
+  source: Enter Title...
+  target: Anna otsikko...
+  target_initial: Anna otsikko...
+- locale: fi
+  format: string
+  source: Sure to delete this object?
+  target: Haluatko todellakin poistaa tämän objektin?
+  target_initial: Haluatko todellakin poistaa tämän objektin?
+- locale: fi
+  format: string
+  source: Experts
+  target: Asiantuntijat
+  target_initial: Asiantuntijat
+- locale: fi
+  format: string
+  source: specific user
+  target: tietty käyttäjä
+  target_initial: tietty käyttäjä
+- locale: fi
+  format: string
+  source: shown
+  target: näytetään
+  target_initial: näytetään
+- locale: fi
+  format: string
+  source: Latest updates
+  target: Uusimmat päivitykset
+  target_initial: Uusimmat päivitykset
+- locale: fi
+  format: string
+  source: Expert
+  target: Asiantuntija
+  target_initial: Asiantuntija
+- locale: fi
+  format: string
+  source: Extended Search
+  target: Laajennettu haku
+  target_initial: Laajennettu haku
+- locale: fi
+  format: string
+  source: Last used
+  target: Viimeksi käytetty
+  target_initial: Viimeksi käytetty
+- locale: fi
+  format: string
+  source: tax
+  target: vero
+  target_initial: vero
+- locale: fi
+  format: string
+  source: Expiration (MM/YYYY)
+  target: Päättyy (KK/VVVV)
+  target_initial: Päättyy (KK/VVVV)
+- locale: fi
+  format: string
+  source: Summary
+  target: Yhteenveto
+  target_initial: Yhteenveto
+- locale: fi
+  format: string
+  source: Selected
+  target: Valittu
+  target_initial: Valittu
+- locale: fi
+  format: string
+  source: Sure?
+  target: Oletko varma?
+  target_initial: Oletko varma?
+- locale: fi
+  format: string
+  source: Sounds
+  target: Äänet
+  target_initial: Äänet
+- locale: fi
+  format: string
+  source: SLA Times
+  target: SLA-ajat
+  target_initial: SLA-ajat
+- locale: fi
+  format: string
+  source: New Tags
+  target: Uusi tägi
+  target_initial: Uusi tägi
+- locale: fi
+  format: string
+  source: Manage Tags
+  target: Hallinnoi tageja
+  target_initial: Hallinnoi tageja
+- locale: fi
+  format: string
+  source: The format of the subject.
+  target: Otsikon muoto.
+  target_initial: Otsikon muoto.
+- locale: fi
+  format: string
+  source: left
+  target: vasen
+  target_initial: vasen
+- locale: fi
+  format: string
+  source: Feature disabled!
+  target: Ominaisuus pois käytöstä!
+  target_initial: Ominaisuus pois käytöstä!
+- locale: fi
+  format: string
+  source: Manage %s Settings
+  target: Hallinnoi %s asetuksia
+  target_initial: Hallinnoi %s asetuksia
+- locale: fi
+  format: string
+  source: Manage %s
+  target: Hallinnoi %s
+  target_initial: Hallinnoi %s
+- locale: fi
+  format: string
+  source: New Role
+  target: Uusi rooli
+  target_initial: Uusi rooli
+- locale: fi
+  format: string
+  source: specific organization
+  target: tietty organisaatio
+  target_initial: tietty organisaatio
+- locale: fi
+  format: string
+  source: Thank you for your inquiry (#%s)! We'll contact you as soon as possible.
+  target: Kiitos viestistäsi (#%S)! Otamme yhteyttä mahdollisimman pian.
+  target_initial: Kiitos viestistäsi (#%S)! Otamme yhteyttä mahdollisimman pian.
+- locale: fi
+  format: string
+  source: Enter credentials
+  target: Kirjaudu
+  target_initial: Kirjaudu
+- locale: fi
+  format: string
+  source: Test Connection
+  target: Kokeile yhteyttä
+  target_initial: Kokeile yhteyttä
+- locale: fi
+  format: string
+  source: Selector
+  target: Valitsin
+  target_initial: Valitsin
+- locale: fi
+  format: string
+  source: SEPA Direct Debit
+  target: SEPA-suoraveloitus
+  target_initial: SEPA-suoraveloitus
+- locale: fi
+  format: string
+  source: The way to communicate with us is this thing called "ticket".
+  target: Tapa, jolla voit viestiä ongelmasta meille on nimeltään "tiketti".
+  target_initial: Tapa, jolla voit viestiä ongelmasta meille on nimeltään "tiketti".
+- locale: fi
+  format: string
+  source: Successful!
+  target: Onnistui!
+  target_initial: Onnistui!
+- locale: fi
+  format: string
+  source: Time zone
+  target: Aikavyöhyke
+  target_initial: Aikavyöhyke
+- locale: fi
+  format: string
+  source: select attachment...
+  target: valitse liitetiedosto...
+  target_initial: valitse liitetiedosto...
+- locale: fi
+  format: string
+  source: Text modules
+  target: Vakiotekstimodulit
+  target_initial: Vakiotekstimodulit
+- locale: fi
+  format: string
+  source: Third-party Applications
+  target: Kolmannen osapuolen sovellukset
+  target_initial: Kolmannen osapuolen sovellukset
+- locale: fi
+  format: string
+  source: Sender
+  target: Lähettäjä
+  target_initial: Lähettäjä
+- locale: fi
+  format: string
+  source: Service
+  target: Palvelu
+  target_initial: Palvelu
+- locale: fi
+  format: string
+  source: This is Zammad version %s
+  target: Tämä on Zammadin versio %s
+  target_initial: Tämä on Zammadin versio %s
+- locale: fi
+  format: string
+  source: Wrong Username or Password combination.
+  target: Väärä käyttäjätunnuksen ja salasanan yhdistelmä.
+  target_initial: Väärä käyttäjätunnuksen ja salasanan yhdistelmä.
+- locale: fi
+  format: string
+  source: Services
+  target: Palvelut
+  target_initial: Palvelut
+- locale: fi
+  format: string
+  source: Feedback
+  target: Palaute
+  target_initial: Palaute
+- locale: fi
+  format: string
+  source: Telegram
+  target: Sähke
+  target_initial: Sähke
+- locale: fi
+  format: string
+  source: LDAP Host
+  target: LDAP-isäntä
+  target_initial: LDAP-isäntä
+- locale: fi
+  format: string
+  source: Last sync
+  target: Viimeisin synkronointi
+  target_initial: Viimeisin synkronointi
+- locale: fi
+  format: string
+  source: failed
+  target: epäonnistui
+  target_initial: epäonnistui
+- locale: fi
+  format: string
+  source: Text missing
+  target: Teksti puuttuu
+  target_initial: Teksti puuttuu
+- locale: fi
+  format: string
+  source: Locale
+  target: Kielisyys
+  target_initial: Kielisyys
+- locale: fi
+  format: string
+  source: The import was successful.
+  target: Tuonti onnistui.
+  target_initial: Tuonti onnistui.
+- locale: fi
+  format: string
+  source: The test run was successful.
+  target: Testiajo onnistui.
+  target_initial: Testiajo onnistui.
+- locale: fi
+  format: string
+  source: Select CSV file
+  target: Valitse CSV-tiedosto
+  target_initial: Valitse CSV-tiedosto
+- locale: fi
+  format: string
+  source: SMS Accounts
+  target: SMS-tilit
+  target_initial: SMS-tilit
+- locale: fi
+  format: string
+  source: SMS Account
+  target: SMS-tili
+  target_initial: SMS-tili
+- locale: fi
+  format: string
+  source: SMS
+  target: SMS
+  target_initial: SMS
+- locale: fi
+  format: string
+  source: SMS Notification
+  target: SMS-viesti
+  target_initial: SMS-viesti
+- locale: fi
+  format: string
+  source: Password (confirm)
+  target: Salasana (uudelleen)
+  target_initial: Salasana (uudelleen)
+- locale: fi
+  format: string
+  source: Create my account
+  target: Rekisteröi tilini
+  target_initial: Rekisteröi tilini
+- locale: fi
+  format: string
+  source: Please try to login!
+  target: Yritä kirjautua!
+  target_initial: Yritä kirjautua!
+- locale: fi
+  format: string
+  source: Create Admin
+  target: Tee ylläpitäjä
+  target_initial: Tee ylläpitäjä
+- locale: fi
+  format: string
+  source: Packages
+  target: Päivityspaketit
+  target_initial: Päivityspaketit
+- locale: fi
+  format: string
+  source: Port
+  target: Portti
+  target_initial: Portti
+- locale: fi
+  format: string
+  source: Prio
+  target: Prioriteetti
+  target_initial: Prioriteetti
+- locale: fi
+  format: string
+  source: Register as a new customer
+  target: Rekisteröidy uutena käyttäjänä
+  target_initial: Rekisteröidy uutena käyttäjänä
+- locale: fi
+  format: string
+  source: You can request your password
+  target: Voit pyytää salasanan lähettämistä
+  target_initial: Voit pyytää salasanan lähettämistä
+- locale: fi
+  format: string
+  source: Save Template
+  target: Tallenna malli
+  target_initial: Tallenna malli
+- locale: fi
+  format: string
+  source: Save new template
+  target: Tallenna uusi malli
+  target_initial: Tallenna uusi malli
+- locale: fi
+  format: string
+  source: Package
+  target: Päivityspaketti
+  target_initial: Päivityspaketti
+- locale: fi
+  format: string
+  source: Personal Settings
+  target: Omat asetukset
+  target_initial: Omat asetukset
+- locale: fi
+  format: string
+  source: Create Macros
+  target: Tee makroja
+  target_initial: Tee makroja
+- locale: fi
+  format: string
+  source: John Smith
+  target: John Smith
+  target_initial: John Smith
+- locale: fi
+  format: string
+  source: Keywords
+  target: Avainsanat
+  target_initial: Avainsanat
+- locale: fi
+  format: string
+  source: Professional
+  target: Ammattilainen
+  target_initial: Ammattilainen
+- locale: fi
+  format: string
+  source: Please enter a valid "%s"!
+  target: Anna kelvollinen "%s"!
+  target_initial: Anna kelvollinen "%s"!
+- locale: fi
+  format: string
+  source: Postal Code
+  target: Postinumero
+  target_initial: Postinumero
+- locale: fi
+  format: string
+  source: Permissions
+  target: Oikeudet
+  target_initial: Oikeudet
+- locale: fi
+  format: string
+  source: Count
+  target: Lukumäärä
+  target_initial: Lukumäärä
+- locale: fi
+  format: string
+  source: Save as template
+  target: Tallenna mallina
+  target_initial: Tallenna mallina
+- locale: fi
+  format: string
+  source: Join %s
+  target: Rekisteröidy uutena käyttäjänä
+  target_initial: Rekisteröidy uutena käyttäjänä
+- locale: fi
+  format: string
+  source: Authentication
+  target: Tunnistaudu
+  target_initial: Tunnistaudu
+- locale: fi
+  format: string
+  source: Closed Tickets
+  target: Suljetut tiketit
+  target_initial: Suljetut tiketit
+- locale: fi
+  format: string
+  source: deactivate
+  target: deaktivoi
+  target_initial: deaktivoi
+- locale: fi
+  format: string
+  source: deactivated
+  target: deaktivoitu
+  target_initial: deaktivoitu
+- locale: fi
+  format: string
+  source: Change order
+  target: Muutospyyntö
+  target_initial: Muutospyyntö
+- locale: fi
+  format: string
+  source: Back to top
+  target: Takaisin ylös
+  target_initial: Takaisin ylös
+- locale: fi
+  format: string
+  source: Authentication via LinkedIn
+  target: Tunnistaudu LinkedIn:in avulla
+  target_initial: Tunnistaudu LinkedIn:in avulla
+- locale: fi
+  format: string
+  source: Authentication via Google
+  target: Tunnistaudu Googlen avulla
+  target_initial: Tunnistaudu Googlen avulla
+- locale: fi
+  format: string
+  source: Authentication via Facebook
+  target: Tunnistaudu Facebookin avulla
+  target_initial: Tunnistaudu Facebookin avulla
+- locale: fi
+  format: string
+  source: Authentication via Twitter
+  target: Tunnistaudu Twitterin avulla
+  target_initial: Tunnistaudu Twitterin avulla
+- locale: fi
+  format: string
+  source: You're already registered with your email adress if you've been in touch
+    with our support team.
+  target: Olet jo rekisteröitynyt sähköpostiosoitteellasi mikäli olet ollut yhteydessä
+    Support-tiimiimme.
+  target_initial: Olet jo rekisteröitynyt sähköpostiosoitteellasi mikäli olet ollut
+    yhteydessä Support-tiimiimme.
+- locale: fi
+  format: string
+  source: Criteria
+  target: Kriteeri
+  target_initial: Kriteeri
+- locale: fi
+  format: string
+  source: Back to my view
+  target: Takaisin omaan näkymään
+  target_initial: Takaisin omaan näkymään
+- locale: fi
+  format: string
+  source: Connect Channels
+  target: Yhdistä kanavia
+  target_initial: Yhdistä kanavia
+- locale: fi
+  format: string
+  source: contains not
+  target: ei sisällä
+  target_initial: ei sisällä
+- locale: fi
+  format: string
+  source: Customer Chat
+  target: Asiakas-chat
+  target_initial: Asiakas-chat
+- locale: fi
+  format: string
+  source: Accounts
+  target: Tilit
+  target_initial: Tilit
+- locale: fi
+  format: string
+  source: Default
+  target: Oletus
+  target_initial: Oletus
+- locale: fi
+  format: string
+  source: Create a Test Ticket
+  target: Luo testitiketti
+  target_initial: Luo testitiketti
+- locale: fi
+  format: string
+  source: current user
+  target: nykyinen käyttäjä
+  target_initial: nykyinen käyttäjä
+- locale: fi
+  format: string
+  source: connected
+  target: yhdistetty
+  target_initial: yhdistetty
+- locale: fi
+  format: string
+  source: Zammad Karma
+  target: Zammad Karma
+  target_initial: Zammad Karma
+- locale: fi
+  format: string
+  source: Authentication via %s
+  target: Tunnistaudu käyttäen %s
+  target_initial: Tunnistaudu käyttäen %s
+- locale: fi
+  format: string
+  source: Current User
+  target: Nykyinen käyttäjä
+  target_initial: Nykyinen käyttäjä
+- locale: fi
+  format: string
+  source: Current Status
+  target: Nykyinen tila
+  target_initial: Nykyinen tila
+- locale: fi
+  format: string
+  source: Create Text Modules
+  target: Luo vakiotekstimoduleita
+  target_initial: Luo vakiotekstimoduleita
+- locale: fi
+  format: string
+  source: Continue anyway
+  target: Jatka silti
+  target_initial: Jatka silti
+- locale: fi
+  format: string
+  source: Create your first ticket
+  target: Luo ensimmäinen tikettisi
+  target_initial: Luo ensimmäinen tikettisi
+- locale: fi
+  format: string
+  source: Your tickets in process
+  target: Käsiteltävänä olevat tikettisi
+  target_initial: Käsiteltävänä olevat tikettisi
+- locale: fi
+  format: string
+  source: You're already registered with your email address if you've been in touch
+    with our support team.
+  target: Olet jo rekisteröitynyt sähköpostiosoitteellasi mikäli olet ollut yhteydessä
+    Support-tiimiimme.
+  target_initial: Olet jo rekisteröitynyt sähköpostiosoitteellasi mikäli olet ollut
+    yhteydessä Support-tiimiimme.
+- locale: fi
+  format: string
+  source: contains all not
+  target: ei sisällä yhtäkään
+  target_initial: ei sisällä yhtäkään
+- locale: fi
+  format: string
+  source: contains one
+  target: sisältää yhden
+  target_initial: sisältää yhden
+- locale: fi
+  format: string
+  source: contains one not
+  target: sisältää yhden, joka ei ole
+  target_initial: sisältää yhden, joka ei ole
+- locale: fi
+  format: string
+  source: Connecting ...
+  target: Yhdistetään...
+  target_initial: Yhdistetään...
+- locale: fi
+  format: string
+  source: Configure
+  target: Konfiguroi
+  target_initial: Konfiguroi
+- locale: fi
+  format: string
+  source: Connect Facebook App
+  target: Yhdistä Facebookiin
+  target_initial: Yhdistä Facebookiin
+- locale: fi
+  format: string
+  source: Connect Twitter App
+  target: Yhdistä Twitter
+  target_initial: Yhdistä Twitter
+- locale: fi
+  format: string
+  source: Change Objects
+  target: Muutospyynnöt
+  target_initial: Muutospyynnöt
+- locale: fi
+  format: string
+  source: New User
+  target: Uusi käyttäjä
+  target_initial: Uusi käyttäjä
+- locale: fi
+  format: string
+  source: My Organization Tickets
+  target: Oman organisaation tiketit
+  target_initial: Oman organisaation tiketit
+- locale: fi
+  format: string
+  source: My Organization
+  target: Oma organisaatio
+  target_initial: Oma organisaatio
+- locale: fi
+  format: string
+  source: New Add-On
+  target: Uusi laajennus
+  target_initial: Uusi laajennus
+- locale: fi
+  format: string
+  source: New Branch
+  target: Uusi haara
+  target_initial: Uusi haara
+- locale: fi
+  format: string
+  source: New Release
+  target: Uusi julkaisu
+  target_initial: Uusi julkaisu
+- locale: fi
+  format: string
+  source: New Attribute
+  target: Uusi attribuutti
+  target_initial: Uusi attribuutti
+- locale: fi
+  format: string
+  source: Display
+  target: Näyttö
+  target_initial: Näyttö
+- locale: fi
+  format: string
+  source: Notifications
+  target: Ilmoitukset
+  target_initial: Ilmoitukset
+- locale: fi
+  format: string
+  source: My Group
+  target: Oma ryhmäni
+  target_initial: Oma ryhmäni
+- locale: fi
+  format: string
+  source: My Stats
+  target: Omat tilastot
+  target_initial: Omat tilastot
+- locale: fi
+  format: string
+  source: New Overview
+  target: Uusi yhteenveto
+  target_initial: Uusi yhteenveto
+- locale: fi
+  format: string
+  source: New Organization
+  target: Uusi organisaatio
+  target_initial: Uusi organisaatio
+- locale: fi
+  format: string
+  source: New Group
+  target: Uusi ryhmä
+  target_initial: Uusi ryhmä
+- locale: fi
+  format: string
+  source: Digit required
+  target: Numero vaaditaan
+  target_initial: Numero vaaditaan
+- locale: fi
+  format: string
+  source: no criteria
+  target: ei kriteeriä
+  target_initial: ei kriteeriä
+- locale: fi
+  format: string
+  source: Schedulers
+  target: Ajastukset
+  target_initial: Ajastukset
+- locale: fi
+  format: string
+  source: new & open
+  target: uusi & avaa
+  target_initial: uusi & avaa
+- locale: fi
+  format: string
+  source: Direct URL
+  target: Suora URL
+  target_initial: Suora URL
+- locale: fi
+  format: string
+  source: Devices
+  target: Laitteet
+  target_initial: Laitteet
+- locale: fi
+  format: string
+  source: New Calendar
+  target: Uusi kalenteri
+  target_initial: Uusi kalenteri
+- locale: fi
+  format: string
+  source: New Version
+  target: Uusi versio
+  target_initial: Uusi versio
+- locale: fi
+  format: string
+  source: Keyboard Shortcuts
+  target: Pikanäppäimet
+  target_initial: Pikanäppäimet
+- locale: fi
+  format: string
+  source: New Macro
+  target: Uusi makro
+  target_initial: Uusi makro
+- locale: fi
+  format: string
+  source: done
+  target: valmis
+  target_initial: valmis
+- locale: fi
+  format: string
+  source: disconnect
+  target: katkaise yhteys
+  target_initial: katkaise yhteys
+- locale: fi
+  format: string
+  source: Disable Notifications
+  target: Estä ilmoitukset
+  target_initial: Estä ilmoitukset
+- locale: fi
+  format: string
+  source: New Scheduler
+  target: Uusi ajastin
+  target_initial: Uusi ajastin
+- locale: fi
+  format: string
+  source: Duration
+  target: Kesto
+  target_initial: Kesto
+- locale: fi
+  format: string
+  source: New App
+  target: Uusi sovelma
+  target_initial: Uusi sovelma
+- locale: fi
+  format: string
+  source: Scheduler
+  target: Ajastus
+  target_initial: Ajastus
+- locale: fi
+  format: string
+  source: Domain
+  target: Toimialue
+  target_initial: Toimialue
+- locale: fi
+  format: string
+  source: New Trigger
+  target: Uusi triggeri
+  target_initial: Uusi triggeri
+- locale: fi
+  format: string
+  source: Notification
+  target: Ilmoitus
+  target_initial: Ilmoitus
+- locale: fi
+  format: string
+  source: New text module
+  target: Uusi vakiotekstimoduli
+  target_initial: Uusi vakiotekstimoduli
+- locale: fi
+  format: string
+  source: Drop files here
+  target: Pudota tiedostot tähän
+  target_initial: Pudota tiedostot tähän
+- locale: fi
+  format: string
+  source: Network
+  target: Verkko
+  target_initial: Verkko
+- locale: fi
+  format: string
+  source: New Application
+  target: Uusi sovellus
+  target_initial: Uusi sovellus
+- locale: fi
+  format: string
+  source: Disable
+  target: Estä
+  target_initial: Estä
+- locale: fi
+  format: string
+  source: My closed Tickets
+  target: Omat suljetut tiketit
+  target_initial: Omat suljetut tiketit
+- locale: fi
+  format: string
+  source: disabled
+  target: estetty
+  target_initial: estetty
+- locale: fi
+  format: string
+  source: Display name
+  target: Näytön nimi
+  target_initial: Näytön nimi
+- locale: fi
+  format: string
+  source: Default at Signup
+  target: Oletus kirjauduttaessa
+  target_initial: Oletus kirjauduttaessa
+- locale: fi
+  format: string
+  source: Members
+  target: Jäsenet
+  target_initial: Jäsenet
+- locale: fi
+  format: string
+  source: Minimal size
+  target: Minimi koko
+  target_initial: Minimi koko
+- locale: fi
+  format: string
+  source: Geo Services
+  target: Geo-palvelut
+  target_initial: Geo-palvelut
+- locale: fi
+  format: string
+  source: Outbound Call
+  target: Lähtevä puhelu
+  target_initial: Lähtevä puhelu
+- locale: fi
+  format: string
+  source: Frequency
+  target: Taajuus
+  target_initial: Taajuus
+- locale: fi
+  format: string
+  source: is
+  target: 'on'
+  target_initial: 'on'
+- locale: fi
+  format: string
+  source: in hours
+  target: tunteina
+  target_initial: tunteina
+- locale: fi
+  format: string
+  source: is not
+  target: ei ole
+  target_initial: ei ole
+- locale: fi
+  format: string
+  source: Get latest translations
+  target: Hae uusimmat käännökset
+  target_initial: Hae uusimmat käännökset
+- locale: fi
+  format: string
+  source: Holidays
+  target: Vapaapäivät
+  target_initial: Vapaapäivät
+- locale: fi
+  format: string
+  source: Move left and right
+  target: Siirrä vasemmalle ja oikealle
+  target_initial: Siirrä vasemmalle ja oikealle
+- locale: fi
+  format: string
+  source: Move up and down
+  target: Siirrä ylös ja alas
+  target_initial: Siirrä ylös ja alas
+- locale: fi
+  format: string
+  source: Invite
+  target: Kutsu
+  target_initial: Kutsu
+- locale: fi
+  format: string
+  source: Full Name
+  target: Koko nimi
+  target_initial: Koko nimi
+- locale: fi
+  format: string
+  source: Month(s)
+  target: Kuukautta
+  target_initial: Kuukautta
+- locale: fi
+  format: string
+  source: Hour(s)
+  target: Tunnit
+  target_initial: Tunnit
+- locale: fi
+  format: string
+  source: Minute(s)
+  target: Minuuttia
+  target_initial: Minuuttia
+- locale: fi
+  format: string
+  source: Has processed
+  target: Suoritettu
+  target_initial: Suoritettu
+- locale: fi
+  format: string
+  source: Integrations
+  target: Integraatiot
+  target_initial: Integraatiot
+- locale: fi
+  format: string
+  source: inactive
+  target: ei-aktiivinen
+  target_initial: ei-aktiivinen
+- locale: fi
+  format: string
+  source: Mode
+  target: Tila
+  target_initial: Tila
+- locale: fi
+  format: string
+  source: has changed
+  target: on muuttunut
+  target_initial: on muuttunut
+- locale: fi
+  format: string
+  source: monthly
+  target: kuukausittain
+  target_initial: kuukausittain
+- locale: fi
+  format: string
+  source: Monitoring
+  target: Seuranta
+  target_initial: Seuranta
+- locale: fi
+  format: string
+  source: Geo Location Service
+  target: Geolokaatio-palvelu
+  target_initial: Geolokaatio-palvelu
+- locale: fi
+  format: string
+  source: Minimum length
+  target: Minimi pituus
+  target_initial: Minimi pituus
+- locale: fi
+  format: string
+  source: Messages
+  target: Viestit
+  target_initial: Viestit
+- locale: fi
+  format: string
+  source: Format as |bold|
+  target: Muotoile |lihavoituna|
+  target_initial: Muotoile |lihavoituna|
+- locale: fi
+  format: string
+  source: Format as _underlined_
+  target: Muotoile _alleviivattuna_
+  target_initial: Muotoile _alleviivattuna_
+- locale: fi
+  format: string
+  source: Previous tab
+  target: Edellinen välilehti
+  target_initial: Edellinen välilehti
+- locale: fi
+  format: string
+  source: Execute changes on objects
+  target: Tee muutoksia objekteihin
+  target_initial: Tee muutoksia objekteihin
+- locale: fi
+  format: string
+  source: forwarded
+  target: välitetty
+  target_initial: välitetty
+- locale: fi
+  format: string
+  source: Product Version
+  target: Tuotteen versio
+  target_initial: Tuotteen versio
+- locale: fi
+  format: string
+  source: Conditions where SLA is used
+  target: Ehdot, joissa SLA on käytössä
+  target_initial: Ehdot, joissa SLA on käytössä
+- locale: fi
+  format: string
+  source: Close & Tag as Spam
+  target: Sulje ja merkitse roskapostiksi
+  target_initial: Sulje ja merkitse roskapostiksi
+- locale: fi
+  format: string
+  source: Conditions for shown Tickets
+  target: Ehdot, joiden mukaan tiketit näytetään
+  target_initial: Ehdot, joiden mukaan tiketit näytetään
+- locale: fi
+  format: string
+  source: Conditions for effected objects
+  target: Ehdot, joiden mukaan objektit haetaan
+  target_initial: Ehdot, joiden mukaan objektit haetaan
+- locale: fi
+  format: string
+  source: We've sent password reset instructions to your email address.
+  target: Ohjeet salasanan vaihtamiseksi on lähetetty säköpostiisi. Tarkista myös
+    roskapostikansio, mikäli viestiä ei näy saapuneissa viesteissä.
+  target_initial: Ohjeet salasanan vaihtamiseksi on lähetetty säköpostiisi. Tarkista
+    myös roskapostikansio, mikäli viestiä ei näy saapuneissa viesteissä.
+- locale: fi
+  format: string
+  source: Available for Role
+  target: Käytössä roolilla
+  target_initial: Käytössä roolilla
+- locale: fi
+  format: string
+  source: Notification Sender
+  target: Ilmoituksen lähettäjä
+  target_initial: Ilmoituksen lähettäjä
+- locale: fi
+  format: string
+  source: View this in Zammad
+  target: Näytä tämä Zammadissa
+  target_initial: Näytä tämä Zammadissa
+- locale: fi
+  format: string
+  source: Available for User
+  target: Käytössä käyttäjällä
+  target_initial: Käytössä käyttäjällä
+- locale: fi
+  format: string
+  source: Notice
+  target: Huomautus
+  target_initial: Huomautus
+- locale: fi
+  format: string
+  source: Account not verified
+  target: Tiliä ei ole vielä vahvistettu
+  target_initial: Tiliä ei ole vielä vahvistettu
+- locale: fi
+  format: string
+  source: If you don\'t see the email, check other places it might be, like your junk,
+    spam, social, or other folders.
+  target: Ellei viestiä näy saapuneissa viesteissä, tarkista myös muista kansioista,
+    esim. roskaposti, sosiaalinen media jne.
+  target_initial: Ellei viestiä näy saapuneissa viesteissä, tarkista myös muista kansioista,
+    esim. roskaposti, sosiaalinen media jne.
+- locale: fi
+  format: string
+  source: We\'ve sent an email to _%s_. Click the link in the email to verify your
+    account.
+  target: Lähetimme sähköpostia osoitteeseen _%s_. Klikkaa sähköpostiisi tulleessa
+    viestissä olevaa linkkiä, jotta tilin luonti vahvistetaan.
+  target_initial: Lähetimme sähköpostia osoitteeseen _%s_. Klikkaa sähköpostiisi tulleessa
+    viestissä olevaa linkkiä, jotta tilin luonti vahvistetaan.
+- locale: fi
+  format: string
+  source: Nothing selected
+  target: Ei valintaa
+  target_initial: Ei valintaa
+- locale: fi
+  format: string
+  source: Notification Sound
+  target: Ilmoituksen ääni
+  target_initial: Ilmoituksen ääni
+- locale: fi
+  format: string
+  source: Enable Ticket creation
+  target: Salli tikettien luonti
+  target_initial: Salli tikettien luonti
+- locale: fi
+  format: string
+  source: Enable or disable the maintenance mode of Zammad. If enabled, _all non-administrators
+    get logged out_ and _only administrators can start a new session_.
+  target: Aseta päälle tai pois päältä Zammadin huoltopäivitys-tila. Jos tila on asetettu
+    päälle, _kaikki, jotka eivät ole ylläpitäjiä, kirjataan ulos_ ja _vain ylläpitäjät
+    voivat aloittaa uuden istunnon_.
+  target_initial: Aseta päälle tai pois päältä Zammadin huoltopäivitys-tila. Jos tila
+    on asetettu päälle, _kaikki, jotka eivät ole ylläpitäjiä, kirjataan ulos_ ja _vain
+    ylläpitäjät voivat aloittaa uuden istunnon_.
+- locale: fi
+  format: string
+  source: Send a message to all logged in users.
+  target: Lähetä viesti kaikille kirjautuneille käyttäjille.
+  target_initial: Lähetä viesti kaikille kirjautuneille käyttäjille.
+- locale: fi
+  format: string
+  source: Put a message on the login page. To change it, click on the text area below
+    and change it in-line.
+  target: Näytä viesti login-sivulla. Muuttaaksesi näytettävää viestiä, klikkaa alapuolella
+    olevaa tekstialuetta ja tee siihen haluamasi muutokset.
+  target_initial: Näytä viesti login-sivulla. Muuttaaksesi näytettävää viestiä, klikkaa
+    alapuolella olevaa tekstialuetta ja tee siihen haluamasi muutokset.
+- locale: fi
+  format: string
+  source: "∅ Waiting time today"
+  target: "∅ Odotusaika tänään"
+  target_initial: "∅ Odotusaika tänään"
+- locale: fi
+  format: string
+  source: Channel Distribution
+  target: Kanavien jakautuminen
+  target_initial: Kanavien jakautuminen
+- locale: fi
+  format: string
+  source: Reopening rate
+  target: Uudelleenavausten määrä
+  target_initial: Uudelleenavausten määrä
+- locale: fi
+  format: string
+  source: Chatting Customers
+  target: Chat-asiakkaat
+  target_initial: Chat-asiakkaat
+- locale: fi
+  format: string
+  source: Mood
+  target: Miltä tuntuu
+  target_initial: Miltä tuntuu
+- locale: fi
+  format: string
+  source: "%s of my tickets escalated."
+  target: "%s tiketeistäni eskaloitui."
+  target_initial: "%s tiketeistäni eskaloitui."
+- locale: fi
+  format: string
+  source: 'My handling time: %s minutes'
+  target: 'Käsittelyaikani: %s minuuttia'
+  target_initial: 'Käsittelyaikani: %s minuuttia'
+- locale: fi
+  format: string
+  source: Time Units Total
+  target: Aikayksikköä yhteensä
+  target_initial: Aikayksikköä yhteensä
+- locale: fi
+  format: string
+  source: 'Tickets assigned to me: %s of %s'
+  target: 'Minulle osoitettuja tikettejä: %s / %s'
+  target_initial: 'Minulle osoitettuja tikettejä: %s / %s'
+- locale: fi
+  format: string
+  source: Time Units
+  target: Aikayksiköt
+  target_initial: Aikayksiköt
+- locale: fi
+  format: string
+  source: "%s% are currently in process"
+  target: "%s parhaillaan käsiteltävänä"
+  target_initial: "%s parhaillaan käsiteltävänä"
+- locale: fi
+  format: string
+  source: "%s% have been reopened"
+  target: "%s% avattu uudelleen"
+  target_initial: "%s% avattu uudelleen"
+- locale: fi
+  format: string
+  source: Object Manager
+  target: Objektimallin ylläpito
+  target_initial: Objektimallin ylläpito
+- locale: fi
+  format: string
+  source: not exist
+  target: ei löydy
+  target_initial: ei löydy
+- locale: fi
+  format: string
+  source: or sign in using
+  target: tai kirjaudu käyttäen
+  target_initial: tai kirjaudu käyttäen
+- locale: fi
+  format: string
+  source: Original Formatting
+  target: Alkuperäinen muotoilu
+  target_initial: Alkuperäinen muotoilu
+- locale: fi
+  format: string
+  source: Option
+  target: Valinta
+  target_initial: Valinta
+- locale: fi
+  format: string
+  source: Open tickets
+  target: Avoimet tiketit
+  target_initial: Avoimet tiketit
+- locale: fi
+  format: string
+  source: TextModule
+  target: Tekstimoduli
+  target_initial: Tekstimoduli
+- locale: fi
+  format: string
+  source: Allow users to add new tags.
+  target: Salli käyttäjien lisätä tageja.
+  target_initial: Salli käyttäjien lisätä tageja.
+- locale: fi
+  format: string
+  source: Archive
+  target: Archive
+  target_initial: Archive
+- locale: fi
+  format: string
+  source: Attachments
+  target: Liitteet
+  target_initial: Liitteet
+- locale: fi
+  format: string
+  source: Knowledge Base
+  target: Tietopankki
+  target_initial: Tietopankki
+- locale: fi
+  format: string
+  source: Archived
+  target: Archived
+  target_initial: Archived
+- locale: fi
+  format: string
+  source: Dashboard
+  target: Kojetaulu
+  target_initial: Kojetaulu
+- locale: fi
+  format: string
+  source: Base
+  target: Pohja
+  target_initial: Pohja
+- locale: fi
+  format: string
+  source: Activates lost password feature for users.
+  target: Aktivoi kadonneen salasanan palautustoiminnon.
+  target_initial: Aktivoi kadonneen salasanan palautustoiminnon.
+- locale: fi
+  format: string
+  source: "%s ended switch to |%s|!"
+  target: päättyi vaihtuen
+  target_initial: päättyi vaihtuen
+- locale: fi
+  format: string
+  source: "%s switched to |%s|!"
+  target: muutettu
+  target_initial: muutettu
+- locale: fi
+  format: string
+  source: "%s created Organization |%s|"
+  target: loi organisaation
+  target_initial: loi organisaation
+- locale: fi
+  format: string
+  source: "%s created Group |%s|"
+  target: loi ryhmän
+  target_initial: loi ryhmän
+- locale: fi
+  format: string
+  source: "%s updated Group |%s|"
+  target: Ryhmä päivitetty
+  target_initial: Ryhmä päivitetty
+- locale: fi
+  format: string
+  source: "%s updated Organization |%s|"
+  target: Organisaatio päivitetty
+  target_initial: Organisaatio päivitetty
+- locale: fi
+  format: string
+  source: "%s created Article for |%s|"
+  target: loi artikkelin
+  target_initial: loi artikkelin
+- locale: fi
+  format: string
+  source: "...of whole textarea"
+  target: koko tekstikehyksestä
+  target_initial: koko tekstikehyksestä
+- locale: fi
+  format: string
+  source: Access to %s
+  target: Pääsy
+  target_initial: Pääsy
+- locale: fi
+  format: string
+  source: "%s Migration"
+  target: Mirgraatio
+  target_initial: Mirgraatio
+- locale: fi
+  format: string
+  source: "%s credentials"
+  target: käyttäjäoikeustiedot
+  target_initial: käyttäjäoikeustiedot
+- locale: fi
+  format: string
+  source: "%s of your tickets are currently in process."
+  target: tikettiä työn alla
+  target_initial: tikettiä työn alla
+- locale: fi
+  format: string
+  source: Account Time
+  target: aika per tili
+  target_initial: aika per tili
+- locale: fi
+  format: string
+  source: "%s people"
+  target: Henkilöt
+  target_initial: Henkilöt
+- locale: fi
+  format: string
+  source: Accounted Time
+  target: Kirjattu aika
+  target_initial: Kirjattu aika
+- locale: fi
+  format: string
+  source: "%s user to %s user"
+  target: käyttäjältä
+  target_initial: käyttäjältä
+- locale: fi
+  format: string
+  source: Account Holder
+  target: Tilin haltija
+  target_initial: Tilin haltija
+- locale: fi
+  format: string
+  source: "%s Object(s) have been created."
+  target: kohde luotu
+  target_initial: kohde luotu
+- locale: fi
+  format: string
+  source: "%s Object(s) are created."
+  target: Objekti luotu
+  target_initial: Objekti luotu
+- locale: fi
+  format: string
+  source: "%s Object(s) have been updated."
+  target: Kohde päivitetty
+  target_initial: Kohde päivitetty
+- locale: fi
+  format: string
+  source: "%s Object(s) are updated."
+  target: Kohde päivitetty
+  target_initial: Kohde päivitetty
+- locale: fi
+  format: string
+  source: "%s Object(s) are deleted."
+  target: Kohde poistettu
+  target_initial: Kohde poistettu
+- locale: fi
+  format: string
+  source: "%s Object(s) were deleted."
+  target: Kohde poistettu
+  target_initial: Kohde poistettu
+- locale: fi
+  format: string
+  source: "%s agent seats remaining."
+  target: Agentteja käytettävissä
+  target_initial: Agentteja käytettävissä
+- locale: fi
+  format: string
+  source: "%s agent seat remaining."
+  target: Agentteja paikalla
+  target_initial: Agentteja paikalla
+- locale: fi
+  format: string
+  source: "%s Api Token"
+  target: API Valtuus
+  target_initial: API Valtuus
+- locale: fi
+  format: string
+  source: Last contact
+  target: Viimeinen yhteydenotto
+  target_initial: Viimeinen yhteydenotto
+- locale: fi
+  format: string
+  source: Create an inbound Ticket
+  target: Luo saapuva tiketti
+  target_initial: Luo saapuva tiketti
+- locale: fi
+  format: string
+  source: Create an outbound Ticket (will send this as email to customer)
+  target: Luo lähtevä tiketti (sähköposti)
+  target_initial: Luo lähtevä tiketti (sähköposti)
+- locale: fi
+  format: string
+  source: Moved in
+  target: Siirretty sisään
+  target_initial: Siirretty sisään
+- locale: fi
+  format: string
+  source: Moved out
+  target: Siirretty ulos
+  target_initial: Siirretty ulos
+- locale: fi
+  format: string
+  source: Update successful!
+  target: Päivitys onnistui!
+  target_initial: Päivitys onnistui!
+- locale: fi
+  format: string
+  source: Invite Agents
+  target: Kutsu agentteja
+  target_initial: Kutsu agentteja
+- locale: fi
+  format: string
+  source: Mark all as seen.
+  target: Merkitse nähdyksi
+  target_initial: Merkitse nähdyksi
+- locale: fi
+  format: string
+  source: Edit Customer
+  target: Muokkaa asiakasta
+  target_initial: Muokkaa asiakasta
+- locale: fi
+  format: string
+  source: Edit Organization
+  target: Muokkaa organisaatiota
+  target_initial: Muokkaa organisaatiota
+- locale: fi
+  format: string
+  source: Mark all as read
+  target: Merkitse luetuksi
+  target_initial: Merkitse luetuksi
+- locale: fi
+  format: string
+  source: Needed
+  target: Tarvittu
+  target_initial: Tarvittu
+- locale: fi
+  format: string
+  source: Import Mode
+  target: tuontitapa
+  target_initial: tuontitapa
+- locale: fi
+  format: string
+  source: New User Accounts
+  target: Uudet käyttäjätilit
+  target_initial: Uudet käyttäjätilit
+- locale: fi
+  format: string
+  source: Time Tracking
+  target: Ajan seuranta
+  target_initial: Ajan seuranta
+- locale: fi
+  format: string
+  source: Delete File
+  target: Poista tiedosto
+  target_initial: Poista tiedosto
+- locale: fi
+  format: string
+  source: Block Notifications
+  target: Estä ilmoitukset
+  target_initial: Estä ilmoitukset
+- locale: fi
+  format: string
+  source: Enable Chat
+  target: Aktivoi chat-keskustelu
+  target_initial: Aktivoi chat-keskustelu
+- locale: fi
+  format: string
+  source: View from user's perspective
+  target: Katso käyttäjän näkymästä
+  target_initial: Katso käyttäjän näkymästä
+- locale: fi
+  format: string
+  source: Notes
+  target: Muistiinpanot
+  target_initial: Muistiinpanot
+- locale: fi
+  format: string
+  source: Business Hours
+  target: Aukioloajat
+  target_initial: Aukioloajat
+- locale: fi
+  format: string
+  source: matches
+  target: hakutulos (vastaa haun parametreihin)
+  target_initial: hakutulos (vastaa haun parametreihin)
+- locale: fi
+  format: string
+  source: Enable/Disable online chat.
+  target: Aktivoi/Sammuta Chat-keskustelu
+  target_initial: Aktivoi/Sammuta Chat-keskustelu
+- locale: fi
+  format: string
+  source: Designer
+  target: Suunnittelija
+  target_initial: Suunnittelija
+- locale: fi
+  format: string
+  source: Email Notification
+  target: Huomautus sähköpostilla
+  target_initial: Huomautus sähköpostilla
+- locale: fi
+  format: string
+  source: Email Accounts
+  target: Sähköpostitilit
+  target_initial: Sähköpostitilit
+- locale: fi
+  format: string
+  source: Email Account
+  target: Sähköpostitili
+  target_initial: Sähköpostitili
+- locale: fi
+  format: string
+  source: Email Inbound
+  target: Saapuva Sähköposti
+  target_initial: Saapuva Sähköposti
+- locale: fi
+  format: string
+  source: Email Outbound
+  target: Lähtevä Sähköposti
+  target_initial: Lähtevä Sähköposti
+- locale: fi
+  format: string
+  source: Next in overview
+  target: Seuraava kokonaisnäkymässä
+  target_initial: Seuraava kokonaisnäkymässä
+- locale: fi
+  format: string
+  source: Not Assigned
+  target: 'Osoittamaton '
+  target_initial: 'Osoittamaton '
+- locale: fi
+  format: string
+  source: Update as closed
+  target: Päivitä suljetuksi
+  target_initial: Päivitä suljetuksi
+- locale: fi
+  format: string
+  source: Next in tab
+  target: Seuraava välilehdessä
+  target_initial: Seuraava välilehdessä
+- locale: fi
+  format: string
+  source: Invite Colleagues
+  target: Kutsu kollegoja
+  target_initial: Kutsu kollegoja
+- locale: fi
+  format: string
+  source: Manually open chat
+  target: Avaa chat manuaalisesti
+  target_initial: Avaa chat manuaalisesti
+- locale: fi
+  format: string
+  source: Invite Customer
+  target: Kutsu asiakkaita
+  target_initial: Kutsu asiakkaita
+- locale: fi
+  format: string
+  source: enclosed
+  target: liitetty
+  target_initial: liitetty
+- locale: fi
+  format: string
+  source: Enclosure
+  target: Liite
+  target_initial: Liite
+- locale: fi
+  format: string
+  source: Database Update required
+  target: Tietokantapäivitys vaadittu
+  target_initial: Tietokantapäivitys vaadittu
+- locale: fi
+  format: string
+  source: Update Database
+  target: Päivitä tietokanta
+  target_initial: Päivitä tietokanta
+- locale: fi
+  format: string
+  source: You have closed a ticket
+  target: Olet sulkenut tiketin
+  target_initial: Olet sulkenut tiketin
+- locale: fi
+  format: string
+  source: You have created a ticket
+  target: Olet luonut tiketin
+  target_initial: Olet luonut tiketin
+- locale: fi
+  format: string
+  source: You have answered a ticket within 1h
+  target: Olet vastannut tikettiin tunnin sisällä
+  target_initial: Olet vastannut tikettiin tunnin sisällä
+- locale: fi
+  format: string
+  source: Hero
+  target: Sankari
+  target_initial: Sankari
+- locale: fi
+  format: string
+  source: Intermediate
+  target: Välittäjä
+  target_initial: Välittäjä
+- locale: fi
+  format: string
+  source: Newbie
+  target: Aloittelija
+  target_initial: Aloittelija
+- locale: fi
+  format: string
+  source: Master
+  target: Pääasiallinen (master)
+  target_initial: Pääasiallinen (master)
+- locale: fi
+  format: string
+  source: You have escalated tickets
+  target: Sinulla on eskaloituja tikettejä
+  target_initial: Sinulla on eskaloituja tikettejä
+- locale: fi
+  format: string
+  source: per agent / month
+  target: per agentti / kuukausi
+  target_initial: per agentti / kuukausi
+- locale: fi
+  format: string
+  source: User Preferences
+  target: Käyttäjien asetukset
+  target_initial: Käyttäjien asetukset
+- locale: fi
+  format: string
+  source: reject follow up/do not reopen Ticket
+  target: Estä vastaaminen / älä avaa tikettiä uudelleen
+  target_initial: Estä vastaaminen / älä avaa tikettiä uudelleen
+- locale: fi
+  format: string
+  source: do not reopen Ticket but create new Ticket
+  target: 'älä avaa uudelleen vanhaa tikettiä vaan luo uusi. '
+  target_initial: 'älä avaa uudelleen vanhaa tikettiä vaan luo uusi. '
+- locale: fi
+  format: string
+  source: Merge to Ticket#
+  target: Yhdistä Ticket#
+  target_initial: Yhdistä Ticket#
+- locale: fi
+  format: string
+  source: current user organization
+  target: Käyttäjän tämänhetkinen organisaatio
+  target_initial: Käyttäjän tämänhetkinen organisaatio
+- locale: fi
+  format: string
+  source: Base Objects
+  target: Perus Objektit
+  target_initial: Perus Objektit
+- locale: fi
+  format: string
+  source: Import from
+  target: Tuo
+  target_initial: Tuo
+- locale: fi
+  format: string
+  source: Time Accounting
+  target: Työajanseuranta
+  target_initial: Työajanseuranta
+- locale: fi
+  format: string
+  source: Last contact (agent)
+  target: Viimeinen yhteydenotto (Agentti)
+  target_initial: Viimeinen yhteydenotto (Agentti)
+- locale: fi
+  format: string
+  source: Last contact (customer)
+  target: Viimeinen yhteydenotto (Asiakas)
+  target_initial: Viimeinen yhteydenotto (Asiakas)
+- locale: fi
+  format: string
+  source: Bulk action executed!
+  target: Massa-ajo suoritettu
+  target_initial: Massa-ajo suoritettu
+- locale: fi
+  format: string
+  source: An open source monitoring tool.
+  target: Avoimen lähdekoodin valvontatyökalu
+  target_initial: Avoimen lähdekoodin valvontatyökalu
+- locale: fi
+  format: string
+  source: Copy current object number (e. g. Ticket#) to clipboard
+  target: Kopioi leikepöydälle
+  target_initial: Kopioi leikepöydälle
+- locale: fi
+  format: string
+  source: drag here to cancel
+  target: raahaa tänne peruuttaaksesi
+  target_initial: raahaa tänne peruuttaaksesi
+- locale: fi
+  format: string
+  source: Enable
+  target: Aktivoi
+  target_initial: Aktivoi
+- locale: fi
+  format: string
+  source: Updating Database
+  target: Päivittää tietokantaa
+  target_initial: Päivittää tietokantaa
+- locale: fi
+  format: string
+  source: Delivery failed
+  target: Lähetys epäonnistui
+  target_initial: Lähetys epäonnistui
+- locale: fi
+  format: string
+  source: Plan
+  target: Suunnitelma
+  target_initial: Suunnitelma
+- locale: fi
+  format: string
+  source: Job is waiting to get started...
+  target: Työ odottaa aloittamista
+  target_initial: Työ odottaa aloittamista
+- locale: fi
+  format: string
+  source: Mapping
+  target: Kartoitus
+  target_initial: Kartoitus
+- locale: fi
+  format: string
+  source: Base DN
+  target: Pohja DN
+  target_initial: Pohja DN
+- locale: fi
+  format: string
+  source: Replacement
+  target: Korvaava
+  target_initial: Korvaava
+- locale: fi
+  format: string
+  source: Endpoint
+  target: Päätepiste
+  target_initial: Päätepiste
+- locale: fi
+  format: string
+  source: My replacement Tickets
+  target: Minun korvaavat tiketit
+  target_initial: Minun korvaavat tiketit
+- locale: fi
+  format: string
+  source: delete
+  target: Poista
+  target_initial: Poista
+- locale: fi
+  format: string
+  source: Enter Person or Organization/Company
+  target: Lisää käyttäjä tai organisaatio
+  target_initial: Lisää käyttäjä tai organisaatio
+- locale: fi
+  format: string
+  source: Match all of the following
+  target: Sovita kaikki seuraavat
+  target_initial: Sovita kaikki seuraavat
+- locale: fi
+  format: string
+  source: Delete records
+  target: Poista tiedot
+  target_initial: Poista tiedot
+- locale: fi
+  format: string
+  source: Update existing records
+  target: Päivitä olemassa olevat tiedot
+  target_initial: Päivitä olemassa olevat tiedot
+- locale: fi
+  format: string
+  source: Delete all existing records first.
+  target: Poista kaikki olemassa olevat tiedot ensin
+  target_initial: Poista kaikki olemassa olevat tiedot ensin
+- locale: fi
+  format: string
+  source: Current list of active agents
+  target: Aktiiviset agentit
+  target_initial: Aktiiviset agentit
+- locale: fi
+  format: string
+  source: enabled
+  target: Sallittu/Aktivoitu
+  target_initial: Sallittu/Aktivoitu
+- locale: fi
+  format: string
+  source: Answers
+  target: Vastaukset
+  target_initial: Vastaukset
+- locale: fi
+  format: string
+  source: Internal
+  target: Sisäinen
+  target_initial: Sisäinen
+- locale: fi
+  format: string
+  source: New Category
+  target: Uusi luokitus
+  target_initial: Uusi luokitus
+- locale: fi
+  format: string
+  source: Publish
+  target: Julkaise
+  target_initial: Julkaise
+- locale: fi
+  format: string
+  source: Escalation at
+  target: Eskaloitu
+  target_initial: Eskaloitu
+- locale: fi
+  format: string
+  source: Public
+  target: Julkinen
+  target_initial: Julkinen
+- locale: fi
+  format: string
+  source: Theme
+  target: Teema
+  target_initial: Teema
+- locale: fi
+  format: string
+  source: New Answer
+  target: Uusi vastaus
+  target_initial: Uusi vastaus
+- locale: fi
+  format: string
+  source: Visible to everyone
+  target: Näkyy kaikille
+  target_initial: Näkyy kaikille
+- locale: fi
+  format: string
+  source: Edit Category
+  target: Muokkaa luokitusta
+  target_initial: Muokkaa luokitusta
+- locale: fi
+  format: string
+  source: Custom URL
+  target: Yksilöity polku
+  target_initial: Yksilöity polku
+- locale: fi
+  format: string
+  source: Timing
+  target: Ajoitus
+  target_initial: Ajoitus
+- locale: fi
+  format: string
+  source: Categories
+  target: Luokitukset
+  target_initial: Luokitukset
+- locale: fi
+  format: string
+  source: My Organization Closed Tickets
+  target: Organisaationi jäsenten sulkemat tiketit
+  target_initial: Organisaationi jäsenten sulkemat tiketit
+- locale: fi
+  format: string
+  source: Empty
+  target: Tyhjä
+  target_initial: Tyhjä
+- locale: fi
+  format: string
+  source: Public Menu
+  target: Julkinen valikko
+  target_initial: Julkinen valikko
+- locale: fi
+  format: string
+  source: Icon Set
+  target: kuvakesetti
+  target_initial: kuvakesetti
+- locale: fi
+  format: string
+  source: Enter timezone...
+  target: Määritä aikavyöhyke
+  target_initial: Määritä aikavyöhyke
+- locale: fi
+  format: string
+  source: published
+  target: Julkaistu
+  target_initial: Julkaistu
+- locale: fi
+  format: string
+  source: Create a translation
+  target: Luo käännös
+  target_initial: Luo käännös
+- locale: fi
+  format: string
+  source: Linked Tickets
+  target: Linkitetyt tiketit
+  target_initial: Linkitetyt tiketit
+- locale: fi
+  format: string
+  source: Category
+  target: Luokat
+  target_initial: Luokat
+- locale: fi
+  format: string
+  source: Icon
+  target: Ikoni
+  target_initial: Ikoni
+- locale: fi
+  format: string
+  source: Edit Answer
+  target: Muokkaa vastausta
+  target_initial: Muokkaa vastausta
+- locale: fi
+  format: string
+  source: Drag to reorder
+  target: Raahaa järjestelläksesi
+  target_initial: Raahaa järjestelläksesi
+- locale: fi
+  format: string
+  source: Draft
+  target: Luonnos
+  target_initial: Luonnos
+- locale: fi
+  format: string
+  source: Icon & Link Color
+  target: ikonin ja linkin väri
+  target_initial: ikonin ja linkin väri
+- locale: fi
+  format: string
+  source: Delete Knowledge Base
+  target: Poista tietopankki
+  target_initial: Poista tietopankki
+- locale: fi
+  format: string
+  source: Welcome message
+  target: Tervetuloa viesti
+  target_initial: Tervetuloa viesti
+- locale: fi
+  format: string
+  source: chat
+  target: chat-keskustelu
+  target_initial: chat-keskustelu
+- locale: fi
+  format: string
+  source: Change your language.
+  target: Vaihda kieli
+  target_initial: Vaihda kieli
+- locale: fi
+  format: string
+  source: Christmas holiday
+  target: Joululoma
+  target_initial: Joululoma
+- locale: fi
+  format: string
+  source: Easter holiday
+  target: Pääsiäisloma
+  target_initial: Pääsiäisloma
+- locale: fi
+  format: string
+  source: note
+  target: muistiinpano
+  target_initial: muistiinpano
+- locale: fi
+  format: string
+  source: all
+  target: Kaikki
+  target_initial: Kaikki
+- locale: fi
+  format: string
+  source: year
+  target: vuosi
+  target_initial: vuosi
+- locale: fi
+  format: string
+  source: owner
+  target: Omistaja
+  target_initial: Omistaja
+- locale: fi
+  format: string
+  source: update
+  target: Päivitä
+  target_initial: Päivitä
+- locale: fi
+  format: string
+  source: Done
+  target: Valmis
+  target_initial: Valmis
+- locale: fi
+  format: string
+  source: Install
+  target: Asenna
+  target_initial: Asenna
+- locale: fi
+  format: string
+  source: My Open Tickets
+  target: Minun avoimet tiketit
+  target_initial: Minun avoimet tiketit
+- locale: fi
+  format: string
+  source: month
+  target: kuukausi
+  target_initial: kuukausi
+- locale: fi
+  format: string
+  source: agent
+  target: Agentti
+  target_initial: Agentti
+- locale: fi
+  format: string
+  source: create
+  target: luo
+  target_initial: luo
+- locale: fi
+  format: string
+  source: priority
+  target: prioriteetti
+  target_initial: prioriteetti
+- locale: fi
+  format: string
+  source: customer
+  target: Asiakas
+  target_initial: Asiakas
+- locale: fi
+  format: string
+  source: Close Time
+  target: Sulkemisaika
+  target_initial: Sulkemisaika
+- locale: fi
+  format: string
+  source: Reaction time
+  target: Reagointiaika
+  target_initial: Reagointiaika
+- locale: fi
+  format: string
+  source: Assign me + Close
+  target: Osoita minulle ja sulje
+  target_initial: Osoita minulle ja sulje
+- locale: fi
+  format: string
+  source: Escalation time
+  target: Eskalointi aika
+  target_initial: Eskalointi aika
+- source: Select the customer of the ticket or create one.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Unassigned Tickets
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Unassigned & Open Tickets
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Sender Format
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: New to
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: join today!
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: twitter status
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: twitter direct-message
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Assignment Timeout
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Woo hoo! Your password has been changed!
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Username or email address invalid, please try again.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: If you don't receive instructions within a minute or two, check your email's
+    spam and junk filters, or try resending your request.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Please click the button below to create your first one.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Items per page
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Follow up possible
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Assign Follow Ups
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Work Disposition
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Business Times
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: First Response Time
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: 'Copy to clipboard: Ctrl+C, Enter'
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Feedback about our new Interface
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: What ideas do you have?
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Fold in
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: in %s
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Edit Addon
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Edit Branch
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: All pending reached Tickets
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Ticket Hook
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Ticket Hook Position
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Client Secret
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Twitter Secret
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Twitter Key
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Max. Email Size
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Import Endpoint
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Import Key
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Frontend
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Geo IP Backend
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Geo Location Backend
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: At a glance
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Maximal failed logins
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Maximal failed logins after account is inactive.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Enables users to create their own account via web interface.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Defines OTRS endpoint auth key.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Defines OTRS endpoint to import users, ticket, states and articles.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Password needs to contain 2 lower and 2 upper characters.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Password needs to have at least one digit.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Shoot
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Email & Online
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Matrix
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: No template created yet.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Choose attributes and then save them as a new template.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Will also be included in emails as an X-Header.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Send client stats to central server.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Ticket Subject Size
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: App Secret
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Send client stats
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Client storage
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Fully Qualified Domain Name
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Layout Reference
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Zammad looks like this for "%s"
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Store
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Setup Finished
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Configure Base
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Enter Template Name
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Twitter App Credentials
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: No filter.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Timeframe for solving the problem.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Timeframe for every following response.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Timeframe for the first response.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Ticket Selector
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Ticket Subscriptions
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: at
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Your Email Configuration
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: ended switch to
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Invite Agents/Colleges
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Enable debugging for implementation.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: E. g. recent changed tickets, users or organizations.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Defines the sender of email notifications.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Destination Group
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: We have already found %s email(s) in your mailbox. Zammad will move it all
+    from your mailbox into Zammad.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Organization Support
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Verify sending and receiving
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: support@example.com
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Widget Designer
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Name of form submit button
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Message after sending form
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Start modal dialog for form.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: You have no configured account right now.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Fixed Email Accounts
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Inline translation
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Just click into the marker and update the words just in place. Enjoy!
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Text with enabled inline translations looks like
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: If you want to translate it via the translation table, just go ahead below.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Text with disabled inline translations looks like
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Previous in overview
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: There are too many people in queue for the chat.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: The browser is outdated. It does not support WebSocket - the technology
+    we use for the chat.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Here you can create new tickets. Also if you have the permissions you can
+    create new customers and organizations.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Ticket reminder reached
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: A new version of Zammad is available, please reload your browser.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Ticket |%s| is escalated!
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Most recent activity
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Reply to last article
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Open note box
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Enable/disable inline translations
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Used when composing a text
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Used when viewing a Ticket
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Open reply box
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Inserts a horizontal rule
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Used in lists (views and results)
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Used anywhere (admin only)
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Used anywhere
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Set article to internal/public
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: To open and work on it, click on the Ticket |#%s| directly %l or in the
+    overview |"%s"| %l and click on the Ticket.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Here you can sign out, change the frontend language and see your last viewed
+    items.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: This template saves the following attributes
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: With templates you can pre-fill ticket attributes.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Online Forms
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: How to use it
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Create Overviews
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Additional Channels
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: migrate from another system
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Setup new System
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: When you turn on debugging by setting the option §debug§ to §true§ the reason
+    gets printed to the javascript console.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: 'Zammad Chat requires jQuery. If you don''t already use it on your website
+    include it like this:'
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Flat Design
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: 'There can be several reasons for the chat to not show up:'
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: If you want to open the chat by the press of a button set the option §show§
+    to §false§ and add the class §open-zammad-chat§ to the button.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: The chat will show up once the connection to the server got established
+    and if there is someone online to chat with.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Can be in any CSS color format.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Shown when the chat is closed.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: You can create multiple chat topics.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Preview Width
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Max. clients in waitlist
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: The URL to this installation of Zammad.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: within last (relative)
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: within next (relative)
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Only available for Users with shared Organization
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Organization & Department Name
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: not reached
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: CTI
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Changes were made that require a database update.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Used in object views
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Zammad is currently in maintenance mode. Only administrators can login.
+    Please wait until the maintenance window is over.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Unable to verify email. Please contact your administrator.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Navigate through article
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Scroll down to see new messages
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Karma Trends
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: What affects your Zammad Karma?
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Usage of advanced features
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Evangelist
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Your current level
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Your karma is |%s|.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: You are an |%s|.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Karma Level
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Zammad Karma is a powerful tool that tracks and visualizes your productivity.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Find what you search. E. g. "search phrase"
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Show Search Details
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: OK, I've copied my token
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Callback URL
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Manage applications that can use Zammad as an OAuth provider and applications
+    that you've authorized to use your account.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Pick a name for the application, and we'll give you a unique token.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Enable REST API access using the username/email address and password for
+    the authentication user.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Token Access
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Your New Personal Access Token
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Personal Access Tokens
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: You can generate a personal access token for each application you use that
+    needs access to the Zammad API.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Add a Personal Access Token
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: For security reasons, the API token is shown only once. You'll need to copy
+    it somewhere safe before continuing.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: You have tickets that are over 2 days overdue
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Please type §%s§ to proceed or close this modal to cancel.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: This action will lead to data loss. To prevent accidental actions we ask
+    you to confirm your intention.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: You are going to cancel your Zammad account. Are you ABSOLUTELY sure?
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Enables user authentication via %s. Register your app first at [%s](%s).
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Payment method
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Cardholder
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Your trial is running till %s
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Do you want to cancel your subscription?
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Yes, please cancel my subscription
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Update payment method
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: or %s %s monthly
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Payment history
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Next payment due
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: When your subscription is canceled, you will no longer be able to use your
+    Zammad.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Pay with
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: CVV
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Update subscription
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Your account got canceled at %s! Your system will be removed at %s
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Yes, undo my subscription cancel
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: You |accumulate positive Karma| when you regularly answer and close tickets
+    on time and when you use advanced features such as text modules, ticket reminders
+    or tagging tickets. Zammad |Karma will decrease| when you have re-opend tickets,
+    escalated tickets or tickets that are two or more days overdue.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: You use %s in text but no attachment is attached. Do you want to continue?
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Not configured
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Subscribe to iCalendar feed
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Why doesn't the chat show up?
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Holidays iCalendar Feed
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: No Entries
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: This service sends notifications to your %s channel.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Default caller id for outbound calls.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Default caller id
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Default caller id.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Set outbound caller id
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Destination caller id
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Set caller id of outbound calls based on destination caller id.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Caller id to block
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Blocked caller ids based on sender caller id.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Also caller id of outbound calls can be changed.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: This service shows you contacts of incoming calls and a caller list in realtime.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: VoIP service provider with realtime push.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: A team communication tool for the 21st century.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Domain based assignment
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Ticket |%s| will escalate soon!
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: The identifier for a ticket, e.g. Ticket#, Call#, MyTicket#. The default
+    is Ticket#.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: "|Left| means |[Ticket#12345] Some Subject|"
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: "|Right| means |Some Subject [Ticket#12345]|"
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: '|None| means |Some Subject| (without ticket number). In the last case you
+    should enable "postmaster___follow___up___search___in" to recognize followups
+    based on email headers and/or body.'
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Min. size of number
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: With |Date| the ticket numbers will be generated by the current date, the
+    SystemID and the counter. The format looks like "Year.Month.Day.SystemID.Counter"
+    (e.g. 201206231010138, 201206231010139).
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: '|Increment| increments the ticket number, the SystemID and the counter
+    are used with "SystemID.Counter" format (e.g. 1010138, 1010139).'
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Selects the ticket number generator module.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: The text at the beginning of the subject in an email reply, e.g. RE, AW,
+    or AS.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Ticket Subject Reply
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Geo Calendar Service
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Defines if a customer can create tickets via the web interface.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Group selection for Ticket creation
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Defines the name of the application, shown in the web interface, tabs and
+    title bar of the web browser.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Will be shown in the app and is included in email footers.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Defines the logo of the application, shown in the web interface.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: You can switch between the backend for new attachments even on a system
+    that is already in production without any loss of data.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: If you want to move already stored attachments from one backend to another,
+    you need to execute the following via console.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Move all from "%s" to "%s"
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: 'Defines the fully qualified domain name of the system. This setting is
+    used as a variable, #{setting.fqdn} which is found in all forms of messaging used
+    by the application, to build links to the tickets within your system.'
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Defines the backend for geo location lookups to store geo locations for
+    addresses.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Defines the backend for user and organization image lookups.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Image Service
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Use client storage to cache data to perform speed of application.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Send client stats/error message to central server to improve the usability.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: To select placeholders from a list, just enter "::".
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Assign Users based on users domain.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Create rules that single out the tickets for the Service Level Agreement.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Customers in the organization can view each other items.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Access to Customer Tickets based on current_user.id and current_user.organization_id
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Access to Agent Tickets based on Group Access
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Current Token
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: no issues
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Health information can be retrieved as JSON using
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Health Check
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: not set (not defined)
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: No such master ticket number!
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: You need to configure the Zammad endpoints in the Sipgate web interface
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: With Checksum the counter will be appended with a checksum at the end. The
+    format looks like %s (e. g. %s).
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Play user interface sound effects
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: There is no agent online.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Subscribe to public holidays in
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Open Ticket# %s
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: A test ticket has been created, you can find it in your overview "%s" %l.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Add attachment option to upload.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: This might take some time where the system can't be used.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Powered by
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: We found a lot of dynamic fields which are not common in Zammad, as we follow
+    a different approach to ticket attributes. Zammad uses also tags in addition to
+    custom fields to classify tickets. This difference can create a new philosophy
+    of your ticket attributes / tags compared to your current use of dynamic fields
+    in OTRS.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Enter the link provided by the plugin at the end of the installation to
+    link the two systems
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: We detected OTRS BPM processes which can't get imported into Zammad, since
+    we currently don't support these kind of workflows.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Migration Plugin for %s
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Migrate %s Data
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Download and install the %s Migration Plugin on your %s instance.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Download %s Migration Plugin
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: 'Attention: These will be your login password after the import is completed.'
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Enter the URL of your %s system
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Enter your email address and the %s API token gained from your admin interface.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Password for proxy connection.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Username for proxy connection.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Password needs to have at least minimal size of characters.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: In default the follow up check is done via the subject of an email. With
+    this setting you can add more fields where the follow up check is executed.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Enable time accounting for following matching tickets.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: At the same time, We authorize our credit institute to settle the direct
+    debits drawn by Zammad GmbH on our account.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Insert the widget-code into the source code of every page the chat should
+    be visible on. It should be placed at the end of the page source code before the
+    `</body>` closing tag.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: I hereby authorize Zammad GmbH to collect the amounts due from my account
+    by direct debit until further notice.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: 'Issuance of a SEPA-Base Direct Debit Mandate until revocation:'
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: You have not created a ticket yet.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Invite customers to create issues in Zammad
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: With Checksum, a checksum will be appended to the counter. The format looks
+    like "%s" (e. g. %s).
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: To set up this service you need to create a new |"Incoming webhook"| in
+    your %s integration panel, and enter the web hook URL below.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: When notification is being sent.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Only for these groups.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: iCalendar links from Google will get fetched once a day
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Enable REST API using tokens (not username/email address and password).
+    Each user needs to create own access tokens in user profile.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Your account has not been verified. Please click the link in the verification
+    email.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Woo hoo! Your email address has been verified!
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Please execute database changes only in a maintenance time-slot.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: With form you can add a form to your web page which directly generates a
+    ticket for you.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Here you can search for tickets, customers and organizations. Use the wildcard
+    §*§ to find everything. E. g. §smi*§ or §rosent*l§. You also can use ||double
+    quotes|| for searching phrases §"some phrase"§.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: You can create chat widgets for your web pages to allow visitors to chat
+    with you.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: You need to add the following Javascript code snippet to your web page
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Insert the widget code into the source code of every page the chat shall
+    be visible on. It should be placed at the end of the page's source code before
+    the §</body>§ closing tag.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Set up the communication channels you want to use with your Zammad.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Don't load CSS for form. You need to generate your own CSS for the form.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Here you see a quick overview of your and other agents' performance.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Here you find your ticket overviews for open, assigned and escalated tickets.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Tab has changed, do you really want to close it?
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: '|%s| stores all attachments in the "%s".'
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Automatically show chat
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Unassigned email addresses, assign them to a channel or delete them.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: With filters you can e. g. dispatch new tickets into certain groups or set
+    a certain priority for tickets of a VIP customer.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Here you will find the latest activities of your system.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: A new session was created with your account. This session will be stopped
+    to prevent a conflict.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: To make translations easier you can enable and disable the inline translation
+    feature by pressing "%s".
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Invite agents/colleagues to help working on tickets
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: No unread notifications for you. :)
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: A powerfull service to get more information about your customers.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Max. length of the subject in an email reply.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Use client storage to cache data to enhance performance of application.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Defines the backend for geo IP lookups. Shows also location of an IP address
+    if an IP address is shown.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Defines the backend for geo calendar lookups. Used for initial calendar
+    succession.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Password needs to contain at least one digit.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Getting an Access Token
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Where to append the chat to.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Number of failed logins after account will be deactivated.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Password Access
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Identifier of the chat-topic.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Sender Format Separator
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Unable to load information!
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Show the chat when ready.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Defines the system identifier. Every ticket number contains this ID. This
+    ensures that only tickets which belong to your system will be processed as follow-ups
+    (useful when communicating between two instances of Zammad).
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Password needs to have at least a minimal number of characters.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Requesting the Grant
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Location of an external chat.css file.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: CSS font-size with a unit like 12px, 1.5em. If left to undefined it inherits
+    the font-size of the website.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Geo IP Service
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Defines if ticket can get created via web form.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: If left empty, the host gets auto-detected - in this case %s. The auto-detection
+    reads out the host from the <script> tag. If you don't include it via a <script>
+    tag you need to specify the host.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Enables console logging.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Welcome Title shown on the closed chat. Can contain HTML.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Removes the shadows for a flat look.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Add this class to a button on your page that should open the chat.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: This class gets added to the button on initialization and gets removed once
+    the chat connection got established.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Automatically loads the chat.css file. If you want to use your own css,
+    just set it to false.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Define the http protocol of your instance.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Invalid agent count value, only numbers are allowed!
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Yes, change my subscription
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: This option got set manually by the Zammad GmbH. You will recieve an invoice
+    about your Zammad Subscription and you have to pay it within 7 days. Do not change
+    this payment method until you really want it, because this option is a hidden
+    feature which can by only activated by the Zammad Team.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Payment by invoice
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: The downgrade of your account will be done at the end of your current already
+    charged periode.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: We will charge for next full periode
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Already charged in this periode
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Your new selection
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: This option got set manually by the Zammad GmbH. You will recieve an invoice
+    about your Zammad Subscription and you have to pay it within 14 days. Do not change
+    this payment method until you really want it, because this option is a hidden
+    feature which can by only activated by the Zammad Team.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Analyzing structure...
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: With your current configuration the following will happen
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Analyzing entries with given configuration...
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Counting entries. This may take a while.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: 'Note: All not mapped users will get the default signup roles.'
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: No %s configured.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: This service enables Zammad to connect with your LDAP server.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: "%s groups to %s roles assignments"
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Article Last Sender
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Invalid ticket selector conditions
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Defines the separator between the agent's real name and the given group
+    email address.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Maximum size in MB of emails.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Defines how the From field of emails (sent from answers and email tickets)
+    should look like.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: If this regex matches, no notification will be sent by the sender.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Set/overwrite sender/from of email based on reply-to header. Useful to set
+    correct customer if email is received from a third party system on behalf of a
+    customer.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Sender based on Reply-To header
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: By default the follow-up check is done via the subject of an email. With
+    this setting you can add more fields for which the follow-up check will be executed.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Maximum Email Size
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Additional follow-up detection
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: LDAP integration for user management.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Defines pretty date format.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: You have no configured %s right now.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: You can connect %s with Zammad. You need to connect your Zammad with %s
+    first.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Pretty Date
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Default visibility for new note.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Use sender initials at end of an tweet.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Twitter - tweet initials
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Email - subject field
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Note - default visibility
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Maximum failed logins
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Defines groups for which a customer can create tickets via web interface.
+    "-" means all groups are available.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Enable if you want to quote the full email in your answer. The quoted email
+    will be put at the end of your answer. If you just want to quote a certain phrase,
+    just mark the text and press reply (this feature is always available).
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Email - full quote
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: CMDB to document complex relations of your network components.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Out of office replacement
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: There are more than 1000 tickets in the Zendesk system. Due to API rate
+    limit restrictions we can't get the exact number of tickets yet and have to fetch
+    them in batches of 1000. This might take some time, better grab a cup of coffee.
+    The total number of tickets gets updated as soon as the currently known number
+    is surpassed.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Exchange integration for contacts management.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: This service enables Zammad to connect with your Exchange server.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: What values of %s should be synced to users.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Automatically enrich your customers and organizations with fresh, up-to-date
+    intel. Map data directly to object fields.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: What values of %s should be synced to organization.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: If the host and service is recovered again, the ticket will be closed automatically.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: To enable %s for sending http requests to %s, you need create "%s" in the
+    admin interface if %s.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Auto close state
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: This service receives emails from %s and creates tickets with host and service.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Agent limit exceeded, please check your account settings.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Please fill also some text in!
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Defines if tickets should be closed if service is recovered.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Defines the sender email address of the service emails.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: This service allows you to connect %s with %s.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Defines the state of auto closed tickets.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Defines the group of created tickets.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: To enable %s for sending http requests to %s, you need create a own "notification
+    rule" in %s.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: You can use the following script to post the data to %s.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Configurable in the admin interface of %s.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: People who create Tickets ask for help.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: This service receives http requests or emails from %s and creates tickets
+    with host and service.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Use subject field for emails. If disabled, the ticket title will be used
+    as subject.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Add sender initials to end of a tweet.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: To configure your system.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: To work on Tickets.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: The certificate of the domain |%s| could not be verified. This may allow
+    hackers to steal your credentials. If you are sure that you are using a self-signed
+    certificate, you can press "Proceed". Otherwise, please "Cancel".
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: If the sender is an agent, set the first user in the recipient list as a
+    customer.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Customer selection based on sender and receiver list
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Defines the system default language.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: No proxy for the following hosts.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: 'Attention: When creating a ticket an e-mail is sent.'
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: The form content has been changed. Do you want to close it and lose your
+    changes?
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Auto Assignment
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Here you define which authorization has access to the attribute.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Automatic account link on initial logon
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Tickets are only assigned automatically if they do not already have an owner.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Enables the automatic linking of an existing account on initial login via
+    a third party application. If this is disabled, an existing user must first log
+    into Zammad and then link his "Third Party" account to his Zammad account via
+    Profile -> Linked Accounts.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Enable automatic assignment the first time an agent opens a ticket.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Perform action of the following
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Only available for Users which are replacements for other users.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Caller log
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Last customer contact (without consideration an agent has replied to it)
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Last customer contact (with consideration an agent has replied to it)
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: 'The following changes have been made:'
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Ticket Last Contact Behaviour
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Alternatively, you can use the Zammad API to import data.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: 'The following changes are made:'
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Sets the last customer contact based on the last contact of a customer or
+    on the last contact of a customer to whom an agent has not yet responded.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Define an exception of "automatic assignment" for certain users (e.g. executives).
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Example CSV file for download.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Exception users
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Create new records
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Yes, start real import.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Paste in CSV data
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: You have %s active agents.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Not charged.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: You have %s active agent.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: You need to configure the Zammad endpoints in the %s
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: 'On %s, %s wrote:'
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Summer holiday
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Create and setup %s
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: e.g.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Max. concurrent chats
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Link Related Answer
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: by
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: No translation for this locale available
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Schedule for
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Header Color
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Permanently Delete Knowledge Base
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: No categories
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Only visible to editors
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Website
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: You can provide different versions of your knowledge base for different
+    locales. Add a language below, then select it in the Knowledge Base Editor to
+    add your translations.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Not available in selected language
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Related Answers
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Visible to agents & editors
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: How can we help you? Search for an answer or a topic...
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: No results were found.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Every category in your knowledge base should be given a unique icon for
+    maximum visual clarity. Each set below provides a wide range of icons to choose
+    from, but beware-you can't mix and match different icons from different sets.
+    Choose carefully!
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Deleting your knowledge base requires an additional verification step. To
+    proceed, enter its name below ("Zammad Helpdesk Knowledge Base"). THIS ACTION
+    CANNOT BE UNDONE.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Languages
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Footer Note
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: The default URL for your knowledge base is e.g. example.com or example.com/help.
+    To serve it from a custom URL instead, enter the destination below (e.g., "/support",
+    "example.com", or "example.com/support"). Then, follow the directions under "Web
+    Server Configuration" to complete the process.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Back to search results
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Build Test Release
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: How long has each customer had to wait, on average, to get a response from
+    you today?
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: How many of your tickets have been re-opened after being marked “closed”?
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Out of all open tickets (company-wide), how many are assigned to you?
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: What percentage of your tickets have you responded to, updated, or modified
+    in some way today?
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: How many escalated tickets do you have open? (Mr. Bubbles gets grumpy if
+    you have too many…)
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: How many of your tickets are coming from email, phone, Twitter, or Facebook?
+    (Shows percentages for both inbound and outbound tickets.)
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: invalid api token
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Add Telegram Bot
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: You are welcome! Just ask me something!
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Unable to save changes.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Unable to save Bot.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Your callback URL
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: The tutorial on how to manage a %s is hosted on our online documentation
+    %l.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Getting latest translations from i18n.zammad.com
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Choose the group in which mentions will get added to.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Enter your %s App Keys
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Choose the group in which messages will get added to.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Choose the group in which wall postings will get added to.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Choose the group in which page postings will get added to.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Choose the group in which direct messages will get added to.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Assign follow up to latest agent again.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Ticket %s merged!
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Notes are visible to agents only, never to customers.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: See your tickets from within your favorite calendar by adding the following
+    URL to your calendar app.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Add alarm to pending reminder and escalated tickets.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: The data must be in the comma separated values (CSV) format and saved as
+    UTF-8. You can import a CSV file or paste the data directly into the text area.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Records that exist in the import data (but not in Zammad) will always be
+    created.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: facebook feed comment
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Follow up for closed ticket possible or not.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Create and setup Knowledge Base
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: All computers and browsers that have access to your Zammad appear here.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Bulk import allows you to create and update many records at once.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Update existing records with the attributes specified in the import data.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Once completed...
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Assignment timeout in minutes if assigned agent is not working on it. Ticket
+    will be shown as unassigend.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: facebook feed post
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Please enter your time which you want to account.
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: telegram personal-message
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Create new Overviews
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Test SMS provider
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: "%s agent seats remaining (including %s not charged seads)."
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Only current language
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: system
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Ignore Escalation/SLA Information
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''
+- source: Clear
+  format: string
+  locale: fi
+  target: ''
+  target_initial: ''

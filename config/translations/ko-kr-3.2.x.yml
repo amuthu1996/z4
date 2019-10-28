@@ -1,0 +1,7767 @@
+---
+- locale: ko-kr
+  format: string
+  source: Jan
+  target: 월
+  target_initial: 월
+- locale: ko-kr
+  format: string
+  source: January
+  target: 1월
+  target_initial: 1월
+- locale: ko-kr
+  format: string
+  source: Job is waiting to get started...
+  target: 작업은 시작을 기다리고 있습니다 ...
+  target_initial: 작업은 시작을 기다리고 있습니다 ...
+- locale: ko-kr
+  format: string
+  source: John Smith
+  target: 존 스미스
+  target_initial: 존 스미스
+- locale: ko-kr
+  format: string
+  source: SLAs
+  target: SLA를
+  target_initial: SLA를
+- locale: ko-kr
+  format: string
+  source: sms
+  target: SMS
+  target_initial: SMS
+- locale: ko-kr
+  format: string
+  source: failed
+  target: 실패한
+  target_initial: 실패한
+- locale: ko-kr
+  format: string
+  source: Join %s
+  target: "%s 가입"
+  target_initial: "%s 가입"
+- locale: ko-kr
+  format: string
+  source: Report Profiles
+  target: 보고서 프로필
+  target_initial: 보고서 프로필
+- locale: ko-kr
+  format: string
+  source: Reporting
+  target: 보고
+  target_initial: 보고
+- locale: ko-kr
+  format: string
+  source: Sign up
+  target: 가입
+  target_initial: 가입
+- locale: ko-kr
+  format: string
+  source: Signature
+  target: 서명
+  target_initial: 서명
+- locale: ko-kr
+  format: string
+  source: Signatures
+  target: 서명
+  target_initial: 서명
+- locale: ko-kr
+  format: string
+  source: Skip
+  target: 버킷
+  target_initial: 버킷
+- locale: ko-kr
+  format: string
+  source: skip
+  target: 버킷
+  target_initial: 버킷
+- locale: ko-kr
+  format: string
+  source: skipped
+  target: 생략
+  target_initial: 생략
+- locale: ko-kr
+  format: string
+  source: SLA
+  target: SLA
+  target_initial: SLA
+- locale: ko-kr
+  format: string
+  source: "%s agent seat remaining."
+  target: "%s 대리인 시트 남아."
+  target_initial: "%s 대리인 시트 남아."
+- locale: ko-kr
+  format: string
+  source: "%s agent seats remaining."
+  target: "%s 에이전트는 남아있는 좌석."
+  target_initial: "%s 에이전트는 남아있는 좌석."
+- locale: ko-kr
+  format: string
+  source: "%s ago"
+  target: "%s 전"
+  target_initial: "%s 전"
+- locale: ko-kr
+  format: string
+  source: "%s created Article for |%s|"
+  target: "%s |에 대한 %s 생성 제 |"
+  target_initial: "%s |에 대한 %s 생성 제 |"
+- locale: ko-kr
+  format: string
+  source: "%s created Group |%s|"
+  target: "%s 생성 그룹 |%s|"
+  target_initial: "%s 생성 그룹 |%s|"
+- locale: ko-kr
+  format: string
+  source: "%s created Organization |%s|"
+  target: "%s 생성기구 |%s|"
+  target_initial: "%s 생성기구 |%s|"
+- locale: ko-kr
+  format: string
+  source: "%s created Ticket |%s|"
+  target: "%s 의 생성 Ticket |%s|"
+  target_initial: "%s 의 생성 Ticket |%s|"
+- locale: ko-kr
+  format: string
+  source: "%s created User |%s|"
+  target: "%s 생성 사용자 |%s|"
+  target_initial: "%s 생성 사용자 |%s|"
+- locale: ko-kr
+  format: string
+  source: "%s credentials"
+  target: "%s 자격 증명"
+  target_initial: "%s 자격 증명"
+- locale: ko-kr
+  format: string
+  source: "%s ended switch to |%s|!"
+  target: "%에의 종료 스위치 |%s|!"
+  target_initial: "%에의 종료 스위치 |%s|!"
+- locale: ko-kr
+  format: string
+  source: "%s groups to %s roles assignments"
+  target: "%s 역할 할당에 %s 그룹"
+  target_initial: "%s 역할 할당에 %s 그룹"
+- locale: ko-kr
+  format: string
+  source: "%s Migration"
+  target: "%s 마이그레이션"
+  target_initial: "%s 마이그레이션"
+- locale: ko-kr
+  format: string
+  source: "%s Object(s) are created."
+  target: "%s 객체 (들)이 생성된다."
+  target_initial: "%s 객체 (들)이 생성된다."
+- locale: ko-kr
+  format: string
+  source: "%s Object(s) are deleted."
+  target: "%s 객체 (들) 삭제됩니다."
+  target_initial: "%s 객체 (들) 삭제됩니다."
+- locale: ko-kr
+  format: string
+  source: "%s Object(s) are updated."
+  target: "%s 객체 (들) 업데이트됩니다."
+  target_initial: "%s 객체 (들) 업데이트됩니다."
+- locale: ko-kr
+  format: string
+  source: "%s Object(s) have been created."
+  target: "%s 객체 (들)가 생성되었다."
+  target_initial: "%s 객체 (들)가 생성되었다."
+- locale: ko-kr
+  format: string
+  source: "%s Object(s) have been updated."
+  target: "%s 객체 (들) 업데이트되었습니다."
+  target_initial: "%s 객체 (들) 업데이트되었습니다."
+- locale: ko-kr
+  format: string
+  source: "%s Object(s) were deleted."
+  target: "%s 객체 (들) 삭제되었습니다."
+  target_initial: "%s 객체 (들) 삭제되었습니다."
+- locale: ko-kr
+  format: string
+  source: "%s of my tickets escalated."
+  target: 내 Ticket %s은 (는) 에스컬레이션.
+  target_initial: 내 Ticket %s은 (는) 에스컬레이션.
+- locale: ko-kr
+  format: string
+  source: "%s of your tickets are currently in process."
+  target: Ticket의 %s 현재 처리됩니다.
+  target_initial: Ticket의 %s 현재 처리됩니다.
+- locale: ko-kr
+  format: string
+  source: "%s people"
+  target: "%s 사람들"
+  target_initial: "%s 사람들"
+- locale: ko-kr
+  format: string
+  source: "%s required!"
+  target: "%S가 필요합니다!"
+  target_initial: "%S가 필요합니다!"
+- locale: ko-kr
+  format: string
+  source: "%s started a new session"
+  target: "%s은 (는) 새로운 세션을 시작"
+  target_initial: "%s은 (는) 새로운 세션을 시작"
+- locale: ko-kr
+  format: string
+  source: "%s switched to |%s|!"
+  target: "%s | %s는로 전환 |!"
+  target_initial: "%s | %s는로 전환 |!"
+- locale: ko-kr
+  format: string
+  source: "%s updated Group |%s|"
+  target: "%s에 업데이트 된 그룹 |%s|"
+  target_initial: "%s에 업데이트 된 그룹 |%s|"
+- locale: ko-kr
+  format: string
+  source: "%s updated Organization |%s|"
+  target: "%s 업데이트기구 |%s|"
+  target_initial: "%s 업데이트기구 |%s|"
+- locale: ko-kr
+  format: string
+  source: "%s updated Ticket |%s|"
+  target: "%s에 업데이트 된 Ticket |%s|"
+  target_initial: "%s에 업데이트 된 Ticket |%s|"
+- locale: ko-kr
+  format: string
+  source: "%s updated User |%s|"
+  target: "%s에 업데이트 된 사용자 |%s|"
+  target_initial: "%s에 업데이트 된 사용자 |%s|"
+- locale: ko-kr
+  format: string
+  source: "%s URL"
+  target: "%s URL"
+  target_initial: "%s URL"
+- locale: ko-kr
+  format: string
+  source: "%s user to %s user"
+  target: "%s 사용자의 사용자 %"
+  target_initial: "%s 사용자의 사용자 %"
+- locale: ko-kr
+  format: string
+  source: "%s% are being reopened"
+  target: "%S %가 재개되고"
+  target_initial: "%S %가 재개되고"
+- locale: ko-kr
+  format: string
+  source: "%s% are currently in process"
+  target: "%s %는 과정에있다"
+  target_initial: "%s %는 과정에있다"
+- locale: ko-kr
+  format: string
+  source: "%s% have been reopened"
+  target: "%s %가 재개되었다"
+  target_initial: "%s %가 재개되었다"
+- locale: ko-kr
+  format: string
+  source: "...add object link URL"
+  target: "... 오브젝트 링크 URL을 추가"
+  target_initial: "... 오브젝트 링크 URL을 추가"
+- locale: ko-kr
+  format: string
+  source: "...add object title"
+  target: "... 개체의 제목을 추가"
+  target_initial: "... 개체의 제목을 추가"
+- locale: ko-kr
+  format: string
+  source: "...of whole textarea"
+  target: "... 전체 텍스트 영역의"
+  target_initial: "... 전체 텍스트 영역의"
+- locale: ko-kr
+  format: string
+  source: '|%s| stores all attachments in the "%s".'
+  target: '|%s| 은 "%s"에 저장 모든 첨부 파일을.'
+  target_initial: '|%s| 은 "%s"에 저장 모든 첨부 파일을.'
+- locale: ko-kr
+  format: string
+  source: '|Increment| increments the ticket number, the SystemID and the counter
+    are used with "SystemID.Counter" format (e.g. 1010138, 1010139).'
+  target: '| 증가 | Ticket 번호를 증가, 시스템 식별자 및 카운터는 "SystemID.Counter"형식 (예 : 1010138,
+    1010139)와 함께 사용됩니다.'
+  target_initial: '| 증가 | Ticket 번호를 증가, 시스템 식별자 및 카운터는 "SystemID.Counter"형식 (예 :
+    1010138, 1010139)와 함께 사용됩니다.'
+- locale: ko-kr
+  format: string
+  source: "|Left| means |[Ticket#12345] Some Subject|"
+  target: "| 왼쪽 | 의미 | [Ticket # 12345] 일부 주제 |"
+  target_initial: "| 왼쪽 | 의미 | [Ticket # 12345] 일부 주제 |"
+- locale: ko-kr
+  format: string
+  source: '|None| means |Some Subject| (without ticket number). In the last case you
+    should enable "postmaster___follow___up___search___in" to recognize followups
+    based on email headers and/or body.'
+  target: '| 없음 | 의미 | 어떤 주제 | (Ticket 번호없이). 마지막 경우는 이메일 헤더 및 / 또는 신체에 따라 followups을
+    인식하는 "postmaster___follow___up___search___in"를 사용하도록 설정해야합니다.'
+  target_initial: '| 없음 | 의미 | 어떤 주제 | (Ticket 번호없이). 마지막 경우는 이메일 헤더 및 / 또는 신체에 따라
+    followups을 인식하는 "postmaster___follow___up___search___in"를 사용하도록 설정해야합니다.'
+- locale: ko-kr
+  format: string
+  source: "|Right| means |Some Subject [Ticket#12345]|"
+  target: "| 오른쪽 | 어떤 주제 [Ticket # 12345] | | 의미"
+  target_initial: "| 오른쪽 | 어떤 주제 [Ticket # 12345] | | 의미"
+- locale: ko-kr
+  format: string
+  source: 1 low
+  target: 1 low
+  target_initial: 1 low
+- locale: ko-kr
+  format: string
+  source: 2 lower and 2 upper characters
+  target: 하위 2 개와 2 위 문자
+  target_initial: 하위 2 개와 2 위 문자
+- locale: ko-kr
+  format: string
+  source: 2 normal
+  target: 2 normal
+  target_initial: 2 normal
+- locale: ko-kr
+  format: string
+  source: 3 high
+  target: 3 high
+  target_initial: 3 high
+- locale: ko-kr
+  format: string
+  source: A new session was created with your account. This session will be stopped
+    to prevent a conflict.
+  target: 새로운 세션이 계정에 만들어졌습니다. 이 세션에서는 충돌을 방지하기 위해 중지됩니다.
+  target_initial: 새로운 세션이 계정에 만들어졌습니다. 이 세션에서는 충돌을 방지하기 위해 중지됩니다.
+- locale: ko-kr
+  format: string
+  source: A new version of Zammad is available, please reload your browser.
+  target: Zammad의 새 버전을 사용할 수, 브라우저를 다시로드하십시오.
+  target_initial: Zammad의 새 버전을 사용할 수, 브라우저를 다시로드하십시오.
+- locale: ko-kr
+  format: string
+  source: A open source monitoring tool.
+  target: 오픈 소스 모니터링 도구.
+  target_initial: 오픈 소스 모니터링 도구.
+- locale: ko-kr
+  format: string
+  source: A powerfull service to get more information about your customers.
+  target: 강력한 서비스는 고객에 대한 자세한 정보를 얻을 수 있습니다.
+  target_initial: 강력한 서비스는 고객에 대한 자세한 정보를 얻을 수 있습니다.
+- locale: ko-kr
+  format: string
+  source: A team communication tool for the 21st century.
+  target: 21 세기를위한 팀 커뮤니케이션 도구입니다.
+  target_initial: 21 세기를위한 팀 커뮤니케이션 도구입니다.
+- locale: ko-kr
+  format: string
+  source: A test ticket has been created, you can find it in your overview "%s" %l.
+  target: 테스트 Ticket은 당신이 당신의 Overview "%s"%s 리터에서 찾을 수 있습니다, 작성되었습니다.
+  target_initial: 테스트 Ticket은 당신이 당신의 Overview "%s"%s 리터에서 찾을 수 있습니다, 작성되었습니다.
+- locale: ko-kr
+  format: string
+  source: Access to %s
+  target: "%s에 액세스"
+  target_initial: "%s에 액세스"
+- locale: ko-kr
+  format: string
+  source: Access to Agent Tickets based on Group Access
+  target: 그룹 액세스를 기반으로 에이전트 Ticket 액세스
+  target_initial: 그룹 액세스를 기반으로 에이전트 Ticket 액세스
+- locale: ko-kr
+  format: string
+  source: Access to Customer Tickets based on current_user.id and current_user.organization_id
+  target: 고객 Ticket에 대한 접근 current_user.id 및 current_user.organization_id에 따라
+  target_initial: 고객 Ticket에 대한 접근 current_user.id 및 current_user.organization_id에
+    따라
+- locale: ko-kr
+  format: string
+  source: Account Holder
+  target: 계정 소유자
+  target_initial: 계정 소유자
+- locale: ko-kr
+  format: string
+  source: Account not verified
+  target: 계정 확인되지
+  target_initial: 계정 확인되지
+- locale: ko-kr
+  format: string
+  source: Account Time
+  target: 계정 시간
+  target_initial: 계정 시간
+- locale: ko-kr
+  format: string
+  source: Accounted Time
+  target: 차지 시간
+  target_initial: 차지 시간
+- locale: ko-kr
+  format: string
+  source: Accounts
+  target: 계정
+  target_initial: 계정
+- locale: ko-kr
+  format: string
+  source: Action
+  target: 활동
+  target_initial: 활동
+- locale: ko-kr
+  format: string
+  source: Actions
+  target: 활동 스트림
+  target_initial: 활동 스트림
+- locale: ko-kr
+  format: string
+  source: activate
+  target: 활성화
+  target_initial: 활성화
+- locale: ko-kr
+  format: string
+  source: activated
+  target: 활성화
+  target_initial: 활성화
+- locale: ko-kr
+  format: string
+  source: Activates lost password feature for users.
+  target: 사용자를위한 암호 기능을 상실 활성화합니다.
+  target_initial: 사용자를위한 암호 기능을 상실 활성화합니다.
+- locale: ko-kr
+  format: string
+  source: Active
+  target: 유효한
+  target_initial: 유효한
+- locale: ko-kr
+  format: string
+  source: active
+  target: 유효한
+  target_initial: 유효한
+- locale: ko-kr
+  format: string
+  source: Active Agents
+  target: 활성 상담원
+  target_initial: 활성 상담원
+- locale: ko-kr
+  format: string
+  source: Activity Stream
+  target: 활동 스트림
+  target_initial: 활동 스트림
+- locale: ko-kr
+  format: string
+  source: Add
+  target: 더하다
+  target_initial: 더하다
+- locale: ko-kr
+  format: string
+  source: Add a Note
+  target: 메모 추가
+  target_initial: 메모 추가
+- locale: ko-kr
+  format: string
+  source: Add a Personal Access Token
+  target: 개인 액세스 토큰 추가
+  target_initial: 개인 액세스 토큰 추가
+- locale: ko-kr
+  format: string
+  source: Add alarm to pending reminder and escalated tickets.
+  target: 알림 및 에스컬레이션 Ticket 보류에 알람을 추가합니다.
+  target_initial: 알림 및 에스컬레이션 Ticket 보류에 알람을 추가합니다.
+- locale: ko-kr
+  format: string
+  source: Add attachment option to upload.
+  target: 업로드 첨부 파일 옵션을 추가합니다.
+  target_initial: 업로드 첨부 파일 옵션을 추가합니다.
+- locale: ko-kr
+  format: string
+  source: Add Attribute
+  target: 속성 추가
+  target_initial: 속성 추가
+- locale: ko-kr
+  format: string
+  source: Add Bot
+  target: 봇 추가
+  target_initial: 봇 추가
+- locale: ko-kr
+  format: string
+  source: Add Link
+  target: 링크 추가
+  target_initial: 링크 추가
+- locale: ko-kr
+  format: string
+  source: Add sender initials to end of a tweet.
+  target: 트윗의 마지막에 보낸 사람의 이니셜을 추가합니다.
+  target_initial: 트윗의 마지막에 보낸 사람의 이니셜을 추가합니다.
+- locale: ko-kr
+  format: string
+  source: Add Tag
+  target: 태그 추가
+  target_initial: 태그 추가
+- locale: ko-kr
+  format: string
+  source: Add this class to a button on your page that should open the chat.
+  target: 채팅을 열어야 페이지에 버튼에이 클래스를 추가합니다.
+  target_initial: 채팅을 열어야 페이지에 버튼에이 클래스를 추가합니다.
+- locale: ko-kr
+  format: string
+  source: Additional Channels
+  target: 추가 채널
+  target_initial: 추가 채널
+- locale: ko-kr
+  format: string
+  source: Additional follow-up detection
+  target: 추가 후속 감지
+  target_initial: 추가 후속 감지
+- locale: ko-kr
+  format: string
+  source: Add-ons
+  target: 기능 추가
+  target_initial: 기능 추가
+- locale: ko-kr
+  format: string
+  source: Address
+  target: 주소
+  target_initial: 주소
+- locale: ko-kr
+  format: string
+  source: Admin
+  target: 관리자
+  target_initial: 관리자
+- locale: ko-kr
+  format: string
+  source: Administrator Account
+  target: 관리자 계정
+  target_initial: 관리자 계정
+- locale: ko-kr
+  format: string
+  source: Adresses
+  target: Adresses
+  target_initial: Adresses
+- locale: ko-kr
+  format: string
+  source: after (absolute)
+  target: 후 (절대)
+  target_initial: 후 (절대)
+- locale: ko-kr
+  format: string
+  source: after (relative)
+  target: "(상대적으로) 후에"
+  target_initial: "(상대적으로) 후에"
+- locale: ko-kr
+  format: string
+  source: again
+  target: 다시
+  target_initial: 다시
+- locale: ko-kr
+  format: string
+  source: Age
+  target: 나이
+  target_initial: 나이
+- locale: ko-kr
+  format: string
+  source: Agent
+  target: 에이전트
+  target_initial: 에이전트
+- locale: ko-kr
+  format: string
+  source: Agent limit exceeded, please check your account settings.
+  target: 에이전트 한도 초과, 계정 설정을 확인하시기 바랍니다.
+  target_initial: 에이전트 한도 초과, 계정 설정을 확인하시기 바랍니다.
+- locale: ko-kr
+  format: string
+  source: Agents
+  target: 자치령 대표
+  target_initial: 자치령 대표
+- locale: ko-kr
+  format: string
+  source: All
+  target: 모든
+  target_initial: 모든
+- locale: ko-kr
+  format: string
+  source: All Agents
+  target: 모든 에이전트
+  target_initial: 모든 에이전트
+- locale: ko-kr
+  format: string
+  source: All computers and browsers that have access to your Zammad appear here.
+  target: 당신의 Zammad에 액세스 할 수있는 모든 컴퓨터와 브라우저가 여기에 표시.
+  target_initial: 당신의 Zammad에 액세스 할 수있는 모든 컴퓨터와 브라우저가 여기에 표시.
+- locale: ko-kr
+  format: string
+  source: All Open Tickets
+  target: 모든 오픈 Ticket
+  target_initial: 모든 오픈 Ticket
+- locale: ko-kr
+  format: string
+  source: All pending reached Tickets
+  target: 모든 도달 Ticket 보류
+  target_initial: 모든 도달 Ticket 보류
+- locale: ko-kr
+  format: string
+  source: All Tickets
+  target: 모든 Ticket
+  target_initial: 모든 Ticket
+- locale: ko-kr
+  format: string
+  source: Allow users to add new tags.
+  target: 사용자가 새 태그를 추가 할 수 있습니다.
+  target_initial: 사용자가 새 태그를 추가 할 수 있습니다.
+- locale: ko-kr
+  format: string
+  source: Already charged in this periode
+  target: 이미이 periode에 충전
+  target_initial: 이미이 periode에 충전
+- locale: ko-kr
+  format: string
+  source: Authentication via LinkedIn
+  target: 링크드 인을 통해 인증
+  target_initial: 링크드 인을 통해 인증
+- locale: ko-kr
+  format: string
+  source: Also caller id of outbound calls can be changed.
+  target: 또한 아웃 바운드 통화의 발신자 ID는 변경 될 수 있습니다.
+  target_initial: 또한 아웃 바운드 통화의 발신자 ID는 변경 될 수 있습니다.
+- locale: ko-kr
+  format: string
+  source: Also notify via email
+  target: 또한 이메일을 통해 통지
+  target_initial: 또한 이메일을 통해 통지
+- locale: ko-kr
+  format: string
+  source: Alternative name
+  target: 대체 이름
+  target_initial: 대체 이름
+- locale: ko-kr
+  format: string
+  source: Alternatively, you can use the Zammad API to import data.
+  target: 다른 방법으로는 데이터를 가져올 Zammad API를 사용할 수 있습니다.
+  target_initial: 다른 방법으로는 데이터를 가져올 Zammad API를 사용할 수 있습니다.
+- locale: ko-kr
+  format: string
+  source: Amount
+  target: 양
+  target_initial: 양
+- locale: ko-kr
+  format: string
+  source: An open source monitoring tool.
+  target: 오픈 소스 모니터링 도구.
+  target_initial: 오픈 소스 모니터링 도구.
+- locale: ko-kr
+  format: string
+  source: Analyzing entries with given configuration...
+  target: 주어진 구성 항목을 분석 ...
+  target_initial: 주어진 구성 항목을 분석 ...
+- locale: ko-kr
+  format: string
+  source: Analyzing structure...
+  target: 구조를 분석 ...
+  target_initial: 구조를 분석 ...
+- locale: ko-kr
+  format: string
+  source: and
+  target: 과
+  target_initial: 과
+- locale: ko-kr
+  format: string
+  source: Annual
+  target: 일년생 식물
+  target_initial: 일년생 식물
+- locale: ko-kr
+  format: string
+  source: annually
+  target: 매년
+  target_initial: 매년
+- locale: ko-kr
+  format: string
+  source: API
+  target: API
+  target_initial: API
+- locale: ko-kr
+  format: string
+  source: API token
+  target: API 토큰
+  target_initial: API 토큰
+- locale: ko-kr
+  format: string
+  source: App ID
+  target: 앱 ID
+  target_initial: 앱 ID
+- locale: ko-kr
+  format: string
+  source: App Secret
+  target: 앱의 비밀
+  target_initial: 앱의 비밀
+- locale: ko-kr
+  format: string
+  source: Applications
+  target: 응용 프로그램
+  target_initial: 응용 프로그램
+- locale: ko-kr
+  format: string
+  source: Apply
+  target: 적용
+  target_initial: 적용
+- locale: ko-kr
+  format: string
+  source: Apr
+  target: 4월
+  target_initial: 4월
+- locale: ko-kr
+  format: string
+  source: April
+  target: 4월
+  target_initial: 4월
+- locale: ko-kr
+  format: string
+  source: Article
+  target: 조
+  target_initial: 조
+- locale: ko-kr
+  format: string
+  source: Article Count
+  target: 제 개수
+  target_initial: 제 개수
+- locale: ko-kr
+  format: string
+  source: Article Last Sender
+  target: 제 마지막 발신자
+  target_initial: 제 마지막 발신자
+- locale: ko-kr
+  format: string
+  source: Article#
+  target: 조#
+  target_initial: 조#
+- locale: ko-kr
+  format: string
+  source: Assign follow up to latest agent again.
+  target: 다시 최신 에이전트에 후속 할당합니다.
+  target_initial: 다시 최신 에이전트에 후속 할당합니다.
+- locale: ko-kr
+  format: string
+  source: Assign Follow Ups
+  target: 팔로우 업 지정
+  target_initial: 팔로우 업 지정
+- locale: ko-kr
+  format: string
+  source: assign tickets
+  target: Ticket을 할당
+  target_initial: Ticket을 할당
+- locale: ko-kr
+  format: string
+  source: Assign Users based on users domain.
+  target: 사용자의 도메인을 기반으로 사용자를 할당합니다.
+  target_initial: 사용자의 도메인을 기반으로 사용자를 할당합니다.
+- locale: ko-kr
+  format: string
+  source: Assigned
+  target: 할당
+  target_initial: 할당
+- locale: ko-kr
+  format: string
+  source: Assignment Timeout
+  target: 지정 시간 초과
+  target_initial: 지정 시간 초과
+- locale: ko-kr
+  format: string
+  source: Assignment timeout in minutes if assigned agent is not working on it. Ticket
+    will be shown as unassigend.
+  target: 분 할당 시간 초과 할당 된 에이전트가 작동하지 않은 경우. Ticket은 unassigend로 표시됩니다.
+  target_initial: 분 할당 시간 초과 할당 된 에이전트가 작동하지 않은 경우. Ticket은 unassigend로 표시됩니다.
+- locale: ko-kr
+  format: string
+  source: at
+  target: "...에서"
+  target_initial: "...에서"
+- locale: ko-kr
+  format: string
+  source: At a glance
+  target: 한눈에
+  target_initial: 한눈에
+- locale: ko-kr
+  format: string
+  source: At the same time, We authorize our credit institute to settle the direct
+    debits drawn by Zammad GmbH on our account.
+  target: 동시에, 우리는 우리의 계정에 Zammad GmbH에 의해 그려진 직불 결제를 해결하기 위해 신용 기관을 승인합니다.
+  target_initial: 동시에, 우리는 우리의 계정에 Zammad GmbH에 의해 그려진 직불 결제를 해결하기 위해 신용 기관을 승인합니다.
+- locale: ko-kr
+  format: string
+  source: Attach files
+  target: 파일 첨부
+  target_initial: 파일 첨부
+- locale: ko-kr
+  format: string
+  source: Attach Screenshot of page
+  target: 페이지의 스크린 샷을 첨부
+  target_initial: 페이지의 스크린 샷을 첨부
+- locale: ko-kr
+  format: string
+  source: attached
+  target: 붙여진
+  target_initial: 붙여진
+- locale: ko-kr
+  format: string
+  source: Attached Files
+  target: 첨부 파일
+  target_initial: 첨부 파일
+- locale: ko-kr
+  format: string
+  source: Attachment
+  target: 부착
+  target_initial: 부착
+- locale: ko-kr
+  format: string
+  source: 'Attention: These will be your login password after the import is completed.'
+  target: '주의 : 가져 오기가 완료된 후 이들은 당신의 로그인 암호를 될 것입니다.'
+  target_initial: '주의 : 가져 오기가 완료된 후 이들은 당신의 로그인 암호를 될 것입니다.'
+- locale: ko-kr
+  format: string
+  source: 'Attention: When creating a ticket an e-mail is sent.'
+  target: '주의 : Ticket을 만들 때 전자 메일이 전송됩니다.'
+  target_initial: '주의 : Ticket을 만들 때 전자 메일이 전송됩니다.'
+- locale: ko-kr
+  format: string
+  source: Attributes
+  target: 속성
+  target_initial: 속성
+- locale: ko-kr
+  format: string
+  source: Aug
+  target: 8월
+  target_initial: 8월
+- locale: ko-kr
+  format: string
+  source: August
+  target: 8월
+  target_initial: 8월
+- locale: ko-kr
+  format: string
+  source: Authentication
+  target: 인증
+  target_initial: 인증
+- locale: ko-kr
+  format: string
+  source: Authentication via %s
+  target: "%s을 통해 인증"
+  target_initial: "%s을 통해 인증"
+- locale: ko-kr
+  format: string
+  source: Authentication via Facebook
+  target: 페이스 북을 통해 인증
+  target_initial: 페이스 북을 통해 인증
+- locale: ko-kr
+  format: string
+  source: Authentication via Google
+  target: Google을 통해 인증
+  target_initial: Google을 통해 인증
+- locale: ko-kr
+  format: string
+  source: Authentication via Twitter
+  target: 트위터를 통해 인증
+  target_initial: 트위터를 통해 인증
+- locale: ko-kr
+  format: string
+  source: Auto Assignment
+  target: 자동 할당
+  target_initial: 자동 할당
+- locale: ko-kr
+  format: string
+  source: Auto close
+  target: 자동 닫기
+  target_initial: 자동 닫기
+- locale: ko-kr
+  format: string
+  source: Auto close state
+  target: 자동 가까운 상태
+  target_initial: 자동 가까운 상태
+- locale: ko-kr
+  format: string
+  source: Automatic account link on initial logon
+  target: 초기 로그온에 자동 계정 링크
+  target_initial: 초기 로그온에 자동 계정 링크
+- locale: ko-kr
+  format: string
+  source: Automatically enrich your customers and organizations with fresh, up-to-date
+    intel. Map data directly to object fields.
+  target: 자동으로 신선한, 최신 인텔과 고객과 조직을 풍부. 지도 데이터는 직접 필드를 반대합니다.
+  target_initial: 자동으로 신선한, 최신 인텔과 고객과 조직을 풍부. 지도 데이터는 직접 필드를 반대합니다.
+- locale: ko-kr
+  format: string
+  source: Automatically loads the chat.css file. If you want to use your own css,
+    just set it to false.
+  target: 자동 chat.css 파일을로드합니다. 당신이 당신의 자신의 CSS를 사용하려면, 단지 false로 설정합니다.
+  target_initial: 자동 chat.css 파일을로드합니다. 당신이 당신의 자신의 CSS를 사용하려면, 단지 false로 설정합니다.
+- locale: ko-kr
+  format: string
+  source: Automatically show chat
+  target: 자동으로 채팅을 보여
+  target_initial: 자동으로 채팅을 보여
+- locale: ko-kr
+  format: string
+  source: Auto-show chat
+  target: 자동 쇼 채팅
+  target_initial: 자동 쇼 채팅
+- locale: ko-kr
+  format: string
+  source: Available for Role
+  target: 역할 가능
+  target_initial: 역할 가능
+- locale: ko-kr
+  format: string
+  source: Available for User
+  target: 사용 가능
+  target_initial: 사용 가능
+- locale: ko-kr
+  format: string
+  source: Avatar
+  target: 화신
+  target_initial: 화신
+- locale: ko-kr
+  format: string
+  source: 'Average: %s'
+  target: '평균 : %s'
+  target_initial: '평균 : %s'
+- locale: ko-kr
+  format: string
+  source: 'Average: %s minutes'
+  target: '평균 : %s 분'
+  target_initial: '평균 : %s 분'
+- locale: ko-kr
+  format: string
+  source: 'Average: %s%'
+  target: '평균 : %s%'
+  target_initial: '평균 : %s%'
+- locale: ko-kr
+  format: string
+  source: Back
+  target: 뒤로
+  target_initial: 뒤로
+- locale: ko-kr
+  format: string
+  source: Back to my view
+  target: 돌아 가기 내보기에
+  target_initial: 돌아 가기 내보기에
+- locale: ko-kr
+  format: string
+  source: Back to top
+  target: 맨 위로
+  target_initial: 맨 위로
+- locale: ko-kr
+  format: string
+  source: Background color
+  target: 배경색
+  target_initial: 배경색
+- locale: ko-kr
+  format: string
+  source: Bank Name
+  target: 은행 이름
+  target_initial: 은행 이름
+- locale: ko-kr
+  format: string
+  source: Base
+  target: 베이스
+  target_initial: 베이스
+- locale: ko-kr
+  format: string
+  source: Base DN
+  target: 기본 DN
+  target_initial: 기본 DN
+- locale: ko-kr
+  format: string
+  source: Base Objects
+  target: 기본 개체
+  target_initial: 기본 개체
+- locale: ko-kr
+  format: string
+  source: before (absolute)
+  target: "(절대) 이전"
+  target_initial: "(절대) 이전"
+- locale: ko-kr
+  format: string
+  source: before (relative)
+  target: "(상대) 전"
+  target_initial: "(상대) 전"
+- locale: ko-kr
+  format: string
+  source: Beginner
+  target: 초보자
+  target_initial: 초보자
+- locale: ko-kr
+  format: string
+  source: Billed annually
+  target: 매년 청구
+  target_initial: 매년 청구
+- locale: ko-kr
+  format: string
+  source: Billed monthly
+  target: 매월 청구
+  target_initial: 매월 청구
+- locale: ko-kr
+  format: string
+  source: Billing
+  target: 청구
+  target_initial: 청구
+- locale: ko-kr
+  format: string
+  source: Billing Cycle
+  target: 결제주기
+  target_initial: 결제주기
+- locale: ko-kr
+  format: string
+  source: Billing E-Mail Address
+  target: 결제 이메일 주소
+  target_initial: 결제 이메일 주소
+- locale: ko-kr
+  format: string
+  source: Billing information
+  target: 결제 정보
+  target_initial: 결제 정보
+- locale: ko-kr
+  format: string
+  source: Bind Password
+  target: 바인드 비밀번호
+  target_initial: 바인드 비밀번호
+- locale: ko-kr
+  format: string
+  source: Bind User
+  target: 바인드 사용자
+  target_initial: 바인드 사용자
+- locale: ko-kr
+  format: string
+  source: Block Notifications
+  target: 블록 알림
+  target_initial: 블록 알림
+- locale: ko-kr
+  format: string
+  source: Blocked caller ids based on sender caller id.
+  target: 발신자 발신자 ID를 기반으로 발신자 ID를 차단.
+  target_initial: 발신자 발신자 ID를 기반으로 발신자 ID를 차단.
+- locale: ko-kr
+  format: string
+  source: Blue
+  target: 푸른
+  target_initial: 푸른
+- locale: ko-kr
+  format: string
+  source: Bots
+  target: 봇
+  target_initial: 봇
+- locale: ko-kr
+  format: string
+  source: Branches
+  target: 지점
+  target_initial: 지점
+- locale: ko-kr
+  format: string
+  source: Branding
+  target: 브랜딩
+  target_initial: 브랜딩
+- locale: ko-kr
+  format: string
+  source: Browser
+  target: 브라우저
+  target_initial: 브라우저
+- locale: ko-kr
+  format: string
+  source: Build Test Release
+  target: 테스트 릴리스 빌드
+  target_initial: 테스트 릴리스 빌드
+- locale: ko-kr
+  format: string
+  source: Bulk action executed!
+  target: 대량 작업 실행!
+  target_initial: 대량 작업 실행!
+- locale: ko-kr
+  format: string
+  source: Bulk import allows you to create and update many records at once.
+  target: 대량 가져 오기를 작성하고 한 번에 여러 레코드를 업데이트 할 수 있습니다.
+  target_initial: 대량 가져 오기를 작성하고 한 번에 여러 레코드를 업데이트 할 수 있습니다.
+- locale: ko-kr
+  format: string
+  source: Business Hours
+  target: 업무 시간
+  target_initial: 업무 시간
+- locale: ko-kr
+  format: string
+  source: Business Times
+  target: 비즈니스 타임즈
+  target_initial: 비즈니스 타임즈
+- locale: ko-kr
+  format: string
+  source: busy
+  target: 바쁜
+  target_initial: 바쁜
+- locale: ko-kr
+  format: string
+  source: Channel
+  target: 채널
+  target_initial: 채널
+- locale: ko-kr
+  format: string
+  source: By default the follow-up check is done via the subject of an email. With
+    this setting you can add more fields for which the follow-up check will be executed.
+  target: 기본적으로 추적 검사는 이메일의 제목을 통해 이루어집니다. 이 설정을 사용하면 후속 검사가 실행됩니다있는 더 많은 필드를 추가 할
+    수 있습니다.
+  target_initial: 기본적으로 추적 검사는 이메일의 제목을 통해 이루어집니다. 이 설정을 사용하면 후속 검사가 실행됩니다있는 더 많은
+    필드를 추가 할 수 있습니다.
+- locale: ko-kr
+  format: string
+  source: Calendar
+  target: 달력
+  target_initial: 달력
+- locale: ko-kr
+  format: string
+  source: Calendars
+  target: 달력
+  target_initial: 달력
+- locale: ko-kr
+  format: string
+  source: Call Inbound
+  target: 인바운드 전화
+  target_initial: 인바운드 전화
+- locale: ko-kr
+  format: string
+  source: Call Outbound
+  target: 콜 아웃 바운드
+  target_initial: 콜 아웃 바운드
+- locale: ko-kr
+  format: string
+  source: Callback URL
+  target: 콜백 URL
+  target_initial: 콜백 URL
+- locale: ko-kr
+  format: string
+  source: Caller id to block
+  target: 블록에 발신자 ID
+  target_initial: 블록에 발신자 ID
+- locale: ko-kr
+  format: string
+  source: Caller log
+  target: 발신자 로그
+  target_initial: 발신자 로그
+- locale: ko-kr
+  format: string
+  source: Camera
+  target: 카메라
+  target_initial: 카메라
+- locale: ko-kr
+  format: string
+  source: Can be in any CSS color format.
+  target: 어떤 CSS 색상 형식 일 수 있습니다.
+  target_initial: 어떤 CSS 색상 형식 일 수 있습니다.
+- locale: ko-kr
+  format: string
+  source: Cancel
+  target: 취소
+  target_initial: 취소
+- locale: ko-kr
+  format: string
+  source: Cancel & Go Back
+  target: 취소 및 돌아 가기
+  target_initial: 취소 및 돌아 가기
+- locale: ko-kr
+  format: string
+  source: Cancel Upload
+  target: 업로드 취소
+  target_initial: 업로드 취소
+- locale: ko-kr
+  format: string
+  source: Can't create user
+  target: 사용자를 만들 수 없습니다
+  target_initial: 사용자를 만들 수 없습니다
+- locale: ko-kr
+  format: string
+  source: Cardholder
+  target: 카드 소지자
+  target_initial: 카드 소지자
+- locale: ko-kr
+  format: string
+  source: Cc
+  target: 참조
+  target_initial: 참조
+- locale: ko-kr
+  format: string
+  source: Change
+  target: 변화
+  target_initial: 변화
+- locale: ko-kr
+  format: string
+  source: Change %s
+  target: "%s 변경"
+  target_initial: "%s 변경"
+- locale: ko-kr
+  format: string
+  source: Change Customer
+  target: 변경 고객
+  target_initial: 변경 고객
+- locale: ko-kr
+  format: string
+  source: Change Objects
+  target: 변경 개체
+  target_initial: 변경 개체
+- locale: ko-kr
+  format: string
+  source: Change order
+  target: 주문 변경
+  target_initial: 주문 변경
+- locale: ko-kr
+  format: string
+  source: Change your language.
+  target: 언어를 변경합니다.
+  target_initial: 언어를 변경합니다.
+- locale: ko-kr
+  format: string
+  source: Change your password
+  target: 비밀번호 변경
+  target_initial: 비밀번호 변경
+- locale: ko-kr
+  format: string
+  source: Changed
+  target: 변경
+  target_initial: 변경
+- locale: ko-kr
+  format: string
+  source: Changes
+  target: 변경
+  target_initial: 변경
+- locale: ko-kr
+  format: string
+  source: Changes were made that require a database update.
+  target: 변경 내용은 데이터베이스 업데이트를 필요로 하였다.
+  target_initial: 변경 내용은 데이터베이스 업데이트를 필요로 하였다.
+- locale: ko-kr
+  format: string
+  source: Channel Distribution
+  target: 접수 채널
+  target_initial: 접수 채널
+- locale: ko-kr
+  format: string
+  source: Channels
+  target: 채널
+  target_initial: 채널
+- locale: ko-kr
+  format: string
+  source: Chat
+  target: 채팅
+  target_initial: 채팅
+- locale: ko-kr
+  format: string
+  source: Chat Title
+  target: 채팅 제목
+  target_initial: 채팅 제목
+- locale: ko-kr
+  format: string
+  source: Chatting Customers
+  target: 고객 채팅
+  target_initial: 고객 채팅
+- locale: ko-kr
+  format: string
+  source: Checksum
+  target: 체크섬
+  target_initial: 체크섬
+- locale: ko-kr
+  format: string
+  source: Child
+  target: 하위
+  target_initial: 하위
+- locale: ko-kr
+  format: string
+  source: Choose attributes and then save them as a new template.
+  target: 속성을 선택한 다음 새 템플릿으로 저장할 수 있습니다.
+  target_initial: 속성을 선택한 다음 새 템플릿으로 저장할 수 있습니다.
+- locale: ko-kr
+  format: string
+  source: Choose Template
+  target: 템플릿을 선택합니다
+  target_initial: 템플릿을 선택합니다
+- locale: ko-kr
+  format: string
+  source: Choose your new password.
+  target: 새 암호를 선택합니다.
+  target_initial: 새 암호를 선택합니다.
+- locale: ko-kr
+  format: string
+  source: City
+  target: 시티
+  target_initial: 시티
+- locale: ko-kr
+  format: string
+  source: clear
+  target: 명확한
+  target_initial: 명확한
+- locale: ko-kr
+  format: string
+  source: Client Secret
+  target: 클라이언트의 비밀
+  target_initial: 클라이언트의 비밀
+- locale: ko-kr
+  format: string
+  source: Client storage
+  target: 클라이언트 저장
+  target_initial: 클라이언트 저장
+- locale: ko-kr
+  format: string
+  source: Clients
+  target: 클라이언트
+  target_initial: 클라이언트
+- locale: ko-kr
+  format: string
+  source: Clone
+  target: 복제
+  target_initial: 복제
+- locale: ko-kr
+  format: string
+  source: close
+  target: 닫기
+  target_initial: 닫기
+- locale: ko-kr
+  format: string
+  source: Close
+  target: 닫기
+  target_initial: 닫기
+- locale: ko-kr
+  format: string
+  source: Close & Tag as Spam
+  target: 닫기 및 스팸으로 태그
+  target_initial: 닫기 및 스팸으로 태그
+- locale: ko-kr
+  format: string
+  source: Close current tab
+  target: 현재 탭 닫기
+  target_initial: 현재 탭 닫기
+- locale: ko-kr
+  format: string
+  source: Close tab
+  target: 탭 닫기
+  target_initial: 탭 닫기
+- locale: ko-kr
+  format: string
+  source: Close time
+  target: 닫기 시간
+  target_initial: 닫기 시간
+- locale: ko-kr
+  format: string
+  source: closed
+  target: 닫기 완료
+  target_initial: 닫기 완료
+- locale: ko-kr
+  format: string
+  source: Closed
+  target: 종료
+  target_initial: 종료
+- locale: ko-kr
+  format: string
+  source: Closed Tickets
+  target: 종료된 Ticket
+  target_initial: 종료된 Ticket
+- locale: ko-kr
+  format: string
+  source: Closing time
+  target: 마감 시간
+  target_initial: 마감 시간
+- locale: ko-kr
+  format: string
+  source: CMDB to document complex relations of your network components.
+  target: CMDB는 네트워크 구성 요소의 복잡한 관계를 문서화합니다.
+  target_initial: CMDB는 네트워크 구성 요소의 복잡한 관계를 문서화합니다.
+- locale: ko-kr
+  format: string
+  source: Comment
+  target: 코멘트
+  target_initial: 코멘트
+- locale: ko-kr
+  format: string
+  source: Company Inc.
+  target: 회사
+  target_initial: 회사
+- locale: ko-kr
+  format: string
+  source: Conditions for effected objects
+  target: 영향받는 개체에 대한 조건
+  target_initial: 영향받는 개체에 대한 조건
+- locale: ko-kr
+  format: string
+  source: Conditions for shown Tickets
+  target: 표시 Ticket 조건
+  target_initial: 표시 Ticket 조건
+- locale: ko-kr
+  format: string
+  source: Conditions where SLA is used
+  target: SLA를 사용하는 조건
+  target_initial: SLA를 사용하는 조건
+- locale: ko-kr
+  format: string
+  source: Config
+  target: 구성
+  target_initial: 구성
+- locale: ko-kr
+  format: string
+  source: Configurable in the admin interface of %s.
+  target: "%s 님의 관리자 인터페이스에서 구성."
+  target_initial: "%s 님의 관리자 인터페이스에서 구성."
+- locale: ko-kr
+  format: string
+  source: Configuration
+  target: 구성
+  target_initial: 구성
+- locale: ko-kr
+  format: string
+  source: Configure
+  target: 구성
+  target_initial: 구성
+- locale: ko-kr
+  format: string
+  source: Configure Base
+  target: 구성 자료
+  target_initial: 구성 자료
+- locale: ko-kr
+  format: string
+  source: Configure Channels
+  target: 채널 구성
+  target_initial: 채널 구성
+- locale: ko-kr
+  format: string
+  source: Confirm
+  target: 확인
+  target_initial: 확인
+- locale: ko-kr
+  format: string
+  source: Confirm/submit dialog
+  target: 대화 상자를 제출 / 확인
+  target_initial: 대화 상자를 제출 / 확인
+- locale: ko-kr
+  format: string
+  source: Confirmation required
+  target: 확인 필요
+  target_initial: 확인 필요
+- locale: ko-kr
+  format: string
+  source: Connect
+  target: 연결
+  target_initial: 연결
+- locale: ko-kr
+  format: string
+  source: Connect Channels
+  target: 채널 연결
+  target_initial: 채널 연결
+- locale: ko-kr
+  format: string
+  source: Connect Facebook App
+  target: 페이스 북 앱을 연결
+  target_initial: 페이스 북 앱을 연결
+- locale: ko-kr
+  format: string
+  source: Connect Twitter App
+  target: 트위터 앱을 연결
+  target_initial: 트위터 앱을 연결
+- locale: ko-kr
+  format: string
+  source: connected
+  target: 연결
+  target_initial: 연결
+- locale: ko-kr
+  format: string
+  source: Connecting ...
+  target: 연결 중 ...
+  target_initial: 연결 중 ...
+- locale: ko-kr
+  format: string
+  source: contains
+  target: 포함
+  target_initial: 포함
+- locale: ko-kr
+  format: string
+  source: contains all
+  target: 모두 포함
+  target_initial: 모두 포함
+- locale: ko-kr
+  format: string
+  source: contains all not
+  target: 모든 포함되지
+  target_initial: 모든 포함되지
+- locale: ko-kr
+  format: string
+  source: contains not
+  target: 포함하지 않음
+  target_initial: 포함하지 않음
+- locale: ko-kr
+  format: string
+  source: contains one
+  target: 하나를 포함
+  target_initial: 하나를 포함
+- locale: ko-kr
+  format: string
+  source: contains one not
+  target: 포함하지 않음
+  target_initial: 포함하지 않음
+- locale: ko-kr
+  format: string
+  source: Content
+  target: 컨텐츠
+  target_initial: 컨텐츠
+- locale: ko-kr
+  format: string
+  source: Continue
+  target: 계속
+  target_initial: 계속
+- locale: ko-kr
+  format: string
+  source: Continue anyway
+  target: 어쨌든 계속
+  target_initial: 어쨌든 계속
+- locale: ko-kr
+  format: string
+  source: Continue session
+  target: 세션을 계속
+  target_initial: 세션을 계속
+- locale: ko-kr
+  format: string
+  source: Copy current object number (e. g. Ticket#) to clipboard
+  target: '클립 보드에 현재의 개체 번호 (예 : Ticket #)을 복사합니다'
+  target_initial: '클립 보드에 현재의 개체 번호 (예 : Ticket #)을 복사합니다'
+- locale: ko-kr
+  format: string
+  source: Copy to clipboard
+  target: 클립 보드에 복사
+  target_initial: 클립 보드에 복사
+- locale: ko-kr
+  format: string
+  source: 'Copy to clipboard: Ctrl+C, Enter'
+  target: '클립 보드에 복사 : Ctrl + C를 입력'
+  target_initial: '클립 보드에 복사 : Ctrl + C를 입력'
+- locale: ko-kr
+  format: string
+  source: Count
+  target: 카운트
+  target_initial: 카운트
+- locale: ko-kr
+  format: string
+  source: Counting entries. This may take a while.
+  target: 항목을 계산. 시간이 걸릴 수 있습니다.
+  target_initial: 항목을 계산. 시간이 걸릴 수 있습니다.
+- locale: ko-kr
+  format: string
+  source: Country
+  target: 국가
+  target_initial: 국가
+- locale: ko-kr
+  format: string
+  source: Create
+  target: 생성
+  target_initial: 생성
+- locale: ko-kr
+  format: string
+  source: Create a Test Ticket
+  target: 테스트 Ticket 만들기
+  target_initial: 테스트 Ticket 만들기
+- locale: ko-kr
+  format: string
+  source: Create Admin
+  target: 관리자 만들기
+  target_initial: 관리자 만들기
+- locale: ko-kr
+  format: string
+  source: Create an inbound Ticket
+  target: 인바운드 Ticket 만들기
+  target_initial: 인바운드 Ticket 만들기
+- locale: ko-kr
+  format: string
+  source: Create an outbound Ticket (will send this as email to customer)
+  target: 아웃 바운드 Ticket 만들기 (고객에게 이메일로이 보내드립니다)
+  target_initial: 아웃 바운드 Ticket 만들기 (고객에게 이메일로이 보내드립니다)
+- locale: ko-kr
+  format: string
+  source: Create Macros
+  target: 매크로 만들기
+  target_initial: 매크로 만들기
+- locale: ko-kr
+  format: string
+  source: Create my account
+  target: 내 계정 만들기
+  target_initial: 내 계정 만들기
+- locale: ko-kr
+  format: string
+  source: Create new Customer
+  target: 새로운 고객을 만들기
+  target_initial: 새로운 고객을 만들기
+- locale: ko-kr
+  format: string
+  source: Create new records
+  target: 새 레코드를 생성
+  target_initial: 새 레코드를 생성
+- locale: ko-kr
+  format: string
+  source: Create Overviews
+  target: Overview 작성
+  target_initial: Overview 작성
+- locale: ko-kr
+  format: string
+  source: Create rules that single out the tickets for the Service Level Agreement.
+  target: 서비스 수준 계약에 대한 Ticket을 골라 규칙을 만듭니다.
+  target_initial: 서비스 수준 계약에 대한 Ticket을 골라 규칙을 만듭니다.
+- locale: ko-kr
+  format: string
+  source: Create Template
+  target: 템플릿 만들기
+  target_initial: 템플릿 만들기
+- locale: ko-kr
+  format: string
+  source: Create Text Modules
+  target: 텍스트 모듈 만들기
+  target_initial: 텍스트 모듈 만들기
+- locale: ko-kr
+  format: string
+  source: Create your first ticket
+  target: 첫 번째 표를 작성
+  target_initial: 첫 번째 표를 작성
+- locale: ko-kr
+  format: string
+  source: Created
+  target: 생성완료
+  target_initial: 생성완료
+- locale: ko-kr
+  format: string
+  source: created
+  target: 생성 완료
+  target_initial: 생성 완료
+- locale: ko-kr
+  format: string
+  source: Created at
+  target: 에서 만든
+  target_initial: 에서 만든
+- locale: ko-kr
+  format: string
+  source: Created by
+  target: 만든 사람
+  target_initial: 만든 사람
+- locale: ko-kr
+  format: string
+  source: Credit card
+  target: 신용 카드
+  target_initial: 신용 카드
+- locale: ko-kr
+  format: string
+  source: Credit card number
+  target: 신용 카드 번호
+  target_initial: 신용 카드 번호
+- locale: ko-kr
+  format: string
+  source: Criteria
+  target: 기준
+  target_initial: 기준
+- locale: ko-kr
+  format: string
+  source: CSS font-size with a unit like 12px, 1.5em. If left to undefined it inherits
+    the font-size of the website.
+  target: 12 픽셀과 같은 단위, 1.5em와 CSS 폰트 크기. 정의되지 않은 왼쪽 경우 웹 사이트의 글꼴 크기를 상속합니다.
+  target_initial: 12 픽셀과 같은 단위, 1.5em와 CSS 폰트 크기. 정의되지 않은 왼쪽 경우 웹 사이트의 글꼴 크기를 상속합니다.
+- locale: ko-kr
+  format: string
+  source: CTI
+  target: CTI
+  target_initial: CTI
+- locale: ko-kr
+  format: string
+  source: Current list of active agents
+  target: 활성제의 현재 목록
+  target_initial: 활성제의 현재 목록
+- locale: ko-kr
+  format: string
+  source: Current password
+  target: 현재 비밀번호
+  target_initial: 현재 비밀번호
+- locale: ko-kr
+  format: string
+  source: Current Status
+  target: 현재 상태
+  target_initial: 현재 상태
+- locale: ko-kr
+  format: string
+  source: Current Token
+  target: 현재 토큰
+  target_initial: 현재 토큰
+- locale: ko-kr
+  format: string
+  source: current user
+  target: 현재 사용자
+  target_initial: 현재 사용자
+- locale: ko-kr
+  format: string
+  source: Current User
+  target: 현재 사용자
+  target_initial: 현재 사용자
+- locale: ko-kr
+  format: string
+  source: current user organization
+  target: 현재 사용자 조직
+  target_initial: 현재 사용자 조직
+- locale: ko-kr
+  format: string
+  source: Customer
+  target: 고객
+  target_initial: 고객
+- locale: ko-kr
+  format: string
+  source: Customer Chat
+  target: 고객 채팅
+  target_initial: 고객 채팅
+- locale: ko-kr
+  format: string
+  source: Customer selection based on sender and receiver list
+  target: 송신자와 수신자 목록을 기반으로 고객 선택
+  target_initial: 송신자와 수신자 목록을 기반으로 고객 선택
+- locale: ko-kr
+  format: string
+  source: Customers in the organization can view each other items.
+  target: 조직의 고객은 각각 다른 항목을 볼 수 있습니다.
+  target_initial: 조직의 고객은 각각 다른 항목을 볼 수 있습니다.
+- locale: ko-kr
+  format: string
+  source: CVV
+  target: CVV
+  target_initial: CVV
+- locale: ko-kr
+  format: string
+  source: Dashboard
+  target: Dashboard
+  target_initial: Dashboard
+- locale: ko-kr
+  format: string
+  source: Domain based assignment
+  target: 도메인 기반 할당
+  target_initial: 도메인 기반 할당
+- locale: ko-kr
+  format: string
+  source: Database Update required
+  target: 데이터베이스 업데이트가 필요합니다
+  target_initial: 데이터베이스 업데이트가 필요합니다
+- locale: ko-kr
+  format: time
+  source: date
+  target: 날짜
+  target_initial: 날짜
+- locale: ko-kr
+  format: string
+  source: Date
+  target: 날짜
+  target_initial: 날짜
+- locale: ko-kr
+  format: string
+  source: Date & Time
+  target: 날짜 시간
+  target_initial: 날짜 시간
+- locale: ko-kr
+  format: string
+  source: day
+  target: 일
+  target_initial: 일
+- locale: ko-kr
+  format: string
+  source: Day
+  target: 일
+  target_initial: 일
+- locale: ko-kr
+  format: string
+  source: Day(s)
+  target: 날 (들)
+  target_initial: 날 (들)
+- locale: ko-kr
+  format: string
+  source: days
+  target: 일
+  target_initial: 일
+- locale: ko-kr
+  format: string
+  source: Days
+  target: 일
+  target_initial: 일
+- locale: ko-kr
+  format: string
+  source: deactivate
+  target: 비활성화
+  target_initial: 비활성화
+- locale: ko-kr
+  format: string
+  source: deactivated
+  target: 비활성화
+  target_initial: 비활성화
+- locale: ko-kr
+  format: string
+  source: Dec
+  target: 12월
+  target_initial: 12월
+- locale: ko-kr
+  format: string
+  source: December
+  target: 12월
+  target_initial: 12월
+- locale: ko-kr
+  format: string
+  source: Default
+  target: 기본
+  target_initial: 기본
+- locale: ko-kr
+  format: string
+  source: Default at Signup
+  target: 회원 가입시 기본
+  target_initial: 회원 가입시 기본
+- locale: ko-kr
+  format: string
+  source: Default caller id
+  target: 기본 발신자 ID
+  target_initial: 기본 발신자 ID
+- locale: ko-kr
+  format: string
+  source: Default caller id for outbound calls.
+  target: 아웃 바운드 통화에 대한 기본 발신자 ID입니다.
+  target_initial: 아웃 바운드 통화에 대한 기본 발신자 ID입니다.
+- locale: ko-kr
+  format: string
+  source: Default caller id.
+  target: 기본 발신자 ID입니다.
+  target_initial: 기본 발신자 ID입니다.
+- locale: ko-kr
+  format: string
+  source: Default visibility for new note.
+  target: 새 메모의 기본 가시성.
+  target_initial: 새 메모의 기본 가시성.
+- locale: ko-kr
+  format: string
+  source: Define an exception of "automatic assignment" for certain users (e.g. executives).
+  target: '특정 사용자 (예 : 임원)에 대한 "자동 할당"의 예외를 정의합니다.'
+  target_initial: '특정 사용자 (예 : 임원)에 대한 "자동 할당"의 예외를 정의합니다.'
+- locale: ko-kr
+  format: string
+  source: Define the http protocol of your instance.
+  target: 인스턴스의 HTTP 프로토콜을 정의합니다.
+  target_initial: 인스턴스의 HTTP 프로토콜을 정의합니다.
+- locale: ko-kr
+  format: string
+  source: Defines groups for which a customer can create tickets via web interface.
+    "-" means all groups are available.
+  target: 고객이 웹 인터페이스를 통해 Ticket을 만들 수있는 그룹을 정의합니다. "-"모든 그룹을 사용할 수 있습니다 의미합니다.
+  target_initial: 고객이 웹 인터페이스를 통해 Ticket을 만들 수있는 그룹을 정의합니다. "-"모든 그룹을 사용할 수 있습니다 의미합니다.
+- locale: ko-kr
+  format: string
+  source: Defines the backend for user and organization image lookups.
+  target: 사용자와 조직 이미지 조회를위한 백엔드를 정의합니다.
+  target_initial: 사용자와 조직 이미지 조회를위한 백엔드를 정의합니다.
+- locale: ko-kr
+  format: string
+  source: Defines how the From field of emails (sent from answers and email tickets)
+    should look like.
+  target: "(답변 및 이메일 Ticket에서 보낸) 이메일의에서 필드처럼 보이게하는 방법을 정의합니다."
+  target_initial: "(답변 및 이메일 Ticket에서 보낸) 이메일의에서 필드처럼 보이게하는 방법을 정의합니다."
+- locale: ko-kr
+  format: string
+  source: Defines if a customer can create tickets via the web interface.
+  target: 고객이 웹 인터페이스를 통해 Ticket을 만들 수 있는지를 정의합니다.
+  target_initial: 고객이 웹 인터페이스를 통해 Ticket을 만들 수 있는지를 정의합니다.
+- locale: ko-kr
+  format: string
+  source: Defines if ticket can get created via web form.
+  target: Ticket은 웹 양식을 만들 수 있다면 정의합니다.
+  target_initial: Ticket은 웹 양식을 만들 수 있다면 정의합니다.
+- locale: ko-kr
+  format: string
+  source: Defines if tickets should be closed if service is recovered.
+  target: 서비스가 복구되면 Ticket은 폐쇄해야하는지 정의합니다.
+  target_initial: 서비스가 복구되면 Ticket은 폐쇄해야하는지 정의합니다.
+- locale: ko-kr
+  format: string
+  source: Defines OTRS endpoint auth key.
+  target: OTRS 엔드 포인트 인증 키를 정의합니다.
+  target_initial: OTRS 엔드 포인트 인증 키를 정의합니다.
+- locale: ko-kr
+  format: string
+  source: Defines OTRS endpoint to import users, ticket, states and articles.
+  target: 사용자, Ticket, 상태 및 기사를 가져올 수 OTRS 엔드 포인트를 정의합니다.
+  target_initial: 사용자, Ticket, 상태 및 기사를 가져올 수 OTRS 엔드 포인트를 정의합니다.
+- locale: ko-kr
+  format: string
+  source: Defines pretty date format.
+  target: 꽤 날짜 형식을 정의합니다.
+  target_initial: 꽤 날짜 형식을 정의합니다.
+- locale: ko-kr
+  format: string
+  source: Defines the backend for geo calendar lookups. Used for initial calendar
+    succession.
+  target: 지리 달력 조회를위한 백엔드를 정의합니다. 초기 일정 승계에 사용됩니다.
+  target_initial: 지리 달력 조회를위한 백엔드를 정의합니다. 초기 일정 승계에 사용됩니다.
+- locale: ko-kr
+  format: string
+  source: Defines the backend for geo IP lookups. Shows also location of an IP address
+    if an IP address is shown.
+  target: 지리적 IP 조회를위한 백엔드를 정의합니다. IP 주소가 표시되는 경우도 IP 주소의 위치를 ​​표시합니다.
+  target_initial: 지리적 IP 조회를위한 백엔드를 정의합니다. IP 주소가 표시되는 경우도 IP 주소의 위치를 ​​표시합니다.
+- locale: ko-kr
+  format: string
+  source: Defines the backend for geo location lookups to store geo locations for
+    addresses.
+  target: 주소에 대한 지리적 위치를 저장하는 지리적 위치 조회를위한 백엔드를 정의합니다.
+  target_initial: 주소에 대한 지리적 위치를 저장하는 지리적 위치 조회를위한 백엔드를 정의합니다.
+- locale: ko-kr
+  format: string
+  source: delete
+  target: 지우다
+  target_initial: 지우다
+- locale: ko-kr
+  format: string
+  source: 'Defines the fully qualified domain name of the system. This setting is
+    used as a variable, #{setting.fqdn} which is found in all forms of messaging used
+    by the application, to build links to the tickets within your system.'
+  target: '시스템의 정규화 된 도메인 이름을 정의합니다. 이 설정은 시스템 내에서 Ticket 링크를 구축, 응용 프로그램에서 사용하는 메시지의
+    모든 형태에서 발견되는 변수, # {setting.fqdn}으로 사용됩니다.'
+  target_initial: '시스템의 정규화 된 도메인 이름을 정의합니다. 이 설정은 시스템 내에서 Ticket 링크를 구축, 응용 프로그램에서
+    사용하는 메시지의 모든 형태에서 발견되는 변수, # {setting.fqdn}으로 사용됩니다.'
+- locale: ko-kr
+  format: string
+  source: Defines the group of created tickets.
+  target: 생성 된 Ticket의 그룹을 정의합니다.
+  target_initial: 생성 된 Ticket의 그룹을 정의합니다.
+- locale: ko-kr
+  format: string
+  source: Defines the logo of the application, shown in the web interface.
+  target: 웹 인터페이스에 표시되는 응용 프로그램의 로고를 정의합니다.
+  target_initial: 웹 인터페이스에 표시되는 응용 프로그램의 로고를 정의합니다.
+- locale: ko-kr
+  format: string
+  source: Defines the name of the application, shown in the web interface, tabs and
+    title bar of the web browser.
+  target: 웹 브라우저의 웹 인터페이스, 탭 및 제목 표시 줄에 표시 응용 프로그램의 이름을 정의합니다.
+  target_initial: 웹 브라우저의 웹 인터페이스, 탭 및 제목 표시 줄에 표시 응용 프로그램의 이름을 정의합니다.
+- locale: ko-kr
+  format: string
+  source: Defines the sender email address of the service emails.
+  target: 서비스 전자 메일의 보낸 사람의 이메일 주소를 정의합니다.
+  target_initial: 서비스 전자 메일의 보낸 사람의 이메일 주소를 정의합니다.
+- locale: ko-kr
+  format: string
+  source: Defines the sender of email notifications.
+  target: 전자 메일 알림의 보낸 사람을 정의합니다.
+  target_initial: 전자 메일 알림의 보낸 사람을 정의합니다.
+- locale: ko-kr
+  format: string
+  source: Defines the separator between the agent's real name and the given group
+    email address.
+  target: 에이전트의 실제 이름으로 지정된 그룹에 이메일 주소 사이의 구분을 정의합니다.
+  target_initial: 에이전트의 실제 이름으로 지정된 그룹에 이메일 주소 사이의 구분을 정의합니다.
+- locale: ko-kr
+  format: string
+  source: Defines the state of auto closed tickets.
+  target: 자동차의 상태가 Ticket을 폐쇄 정의합니다.
+  target_initial: 자동차의 상태가 Ticket을 폐쇄 정의합니다.
+- locale: ko-kr
+  format: string
+  source: Defines the system default language.
+  target: 시스템 기본 언어를 정의합니다.
+  target_initial: 시스템 기본 언어를 정의합니다.
+- locale: ko-kr
+  format: string
+  source: Defines the system identifier. Every ticket number contains this ID. This
+    ensures that only tickets which belong to your system will be processed as follow-ups
+    (useful when communicating between two instances of Zammad).
+  target: 시스템 식별자를 정의한다. 모든 Ticket 번호는이 ID를 포함합니다. 이것은 (Zammad의 두 인스턴스 사이에서 통신 할 때
+    유용) 시스템에 속한 유일한 Ticket은 후속으로 처리됩니다 보장합니다.
+  target_initial: 시스템 식별자를 정의한다. 모든 Ticket 번호는이 ID를 포함합니다. 이것은 (Zammad의 두 인스턴스 사이에서
+    통신 할 때 유용) 시스템에 속한 유일한 Ticket은 후속으로 처리됩니다 보장합니다.
+- locale: ko-kr
+  format: string
+  source: Delete
+  target: 삭제
+  target_initial: 삭제
+- locale: ko-kr
+  format: string
+  source: Delete all existing records first.
+  target: 먼저 기존의 모든 기록을 삭제합니다.
+  target_initial: 먼저 기존의 모든 기록을 삭제합니다.
+- locale: ko-kr
+  format: string
+  source: Delete File
+  target: 파일 삭제
+  target_initial: 파일 삭제
+- locale: ko-kr
+  format: string
+  source: Delete records
+  target: 기록 삭제
+  target_initial: 기록 삭제
+- locale: ko-kr
+  format: string
+  source: Delivery failed
+  target: 배송 실패
+  target_initial: 배송 실패
+- locale: ko-kr
+  format: string
+  source: Department
+  target: 부서
+  target_initial: 부서
+- locale: ko-kr
+  format: string
+  source: Department Name
+  target: 부서 이름
+  target_initial: 부서 이름
+- locale: ko-kr
+  format: string
+  source: Description
+  target: 상세
+  target_initial: 상세
+- locale: ko-kr
+  format: string
+  source: Designer
+  target: 디자이너
+  target_initial: 디자이너
+- locale: ko-kr
+  format: string
+  source: Destination caller id
+  target: 대상 발신자 ID
+  target_initial: 대상 발신자 ID
+- locale: ko-kr
+  format: string
+  source: Destination Group
+  target: 대상 그룹
+  target_initial: 대상 그룹
+- locale: ko-kr
+  format: string
+  source: Devices
+  target: 장치
+  target_initial: 장치
+- locale: ko-kr
+  format: string
+  source: Digit required
+  target: 자리가 필요
+  target_initial: 자리가 필요
+- locale: ko-kr
+  format: string
+  source: Direct URL
+  target: 직접 URL
+  target_initial: 직접 URL
+- locale: ko-kr
+  format: string
+  source: Direction
+  target: 방향
+  target_initial: 방향
+- locale: ko-kr
+  format: string
+  source: Disable
+  target: 해제
+  target_initial: 해제
+- locale: ko-kr
+  format: string
+  source: Disable Notifications
+  target: 알림 취소
+  target_initial: 알림 취소
+- locale: ko-kr
+  format: string
+  source: disabled
+  target: disabled
+  target_initial: disabled
+- locale: ko-kr
+  format: string
+  source: Discard
+  target: 취소
+  target_initial: 취소
+- locale: ko-kr
+  format: string
+  source: Discard Changes
+  target: 변경 사항을 취소
+  target_initial: 변경 사항을 취소
+- locale: ko-kr
+  format: string
+  source: Discard your unsaved changes.
+  target: 저장되지 않은 변경 사항을 무시.
+  target_initial: 저장되지 않은 변경 사항을 무시.
+- locale: ko-kr
+  format: string
+  source: disconnect
+  target: 분리
+  target_initial: 분리
+- locale: ko-kr
+  format: string
+  source: Display
+  target: 디스플레이
+  target_initial: 디스플레이
+- locale: ko-kr
+  format: string
+  source: Display name
+  target: 표시 이름
+  target_initial: 표시 이름
+- locale: ko-kr
+  format: string
+  source: do not reopen Ticket but create new Ticket
+  target: Ticket을 다시하지만 새 Ticket을 생성하지 않는
+  target_initial: Ticket을 다시하지만 새 Ticket을 생성하지 않는
+- locale: ko-kr
+  format: string
+  source: Do you want to cancel your subscription?
+  target: 당신은 당신의 가입을 취소 하시겠습니까?
+  target_initial: 당신은 당신의 가입을 취소 하시겠습니까?
+- locale: ko-kr
+  format: string
+  source: Domain
+  target: 도메인
+  target_initial: 도메인
+- locale: ko-kr
+  format: string
+  source: done
+  target: 끝난
+  target_initial: 끝난
+- locale: ko-kr
+  format: string
+  source: Don't load CSS for form. You need to generate your own CSS for the form.
+  target: 양식 CSS를 넣지 마십시오. 당신은 양식에 대한 자신의 CSS를 생성해야합니다.
+  target_initial: 양식 CSS를 넣지 마십시오. 당신은 양식에 대한 자신의 CSS를 생성해야합니다.
+- locale: ko-kr
+  format: string
+  source: down
+  target: 아래
+  target_initial: 아래
+- locale: ko-kr
+  format: string
+  source: Down
+  target: 아래
+  target_initial: 아래
+- locale: ko-kr
+  format: string
+  source: Download %s Migration Plugin
+  target: 다운로드 %s 마이그레이션 플러그인
+  target_initial: 다운로드 %s 마이그레이션 플러그인
+- locale: ko-kr
+  format: string
+  source: Download and install the %s Migration Plugin on your %s instance.
+  target: 다운로드하여 %s 예에서 %s 마이그레이션 플러그인을 설치합니다.
+  target_initial: 다운로드하여 %s 예에서 %s 마이그레이션 플러그인을 설치합니다.
+- locale: ko-kr
+  format: string
+  source: drag here to cancel
+  target: 취소하려면 여기를 드래그
+  target_initial: 취소하려면 여기를 드래그
+- locale: ko-kr
+  format: string
+  source: Drop files here
+  target: 여기에 파일을 드롭
+  target_initial: 여기에 파일을 드롭
+- locale: ko-kr
+  format: string
+  source: Duration
+  target: 지속
+  target_initial: 지속
+- locale: ko-kr
+  format: string
+  source: E. g. recent changed tickets, users or organizations.
+  target: E.의 g. 변경 Ticket, 사용자 또는 조직 최근.
+  target_initial: E.의 g. 변경 Ticket, 사용자 또는 조직 최근.
+- locale: ko-kr
+  format: string
+  source: Edit
+  target: 편집
+  target_initial: 편집
+- locale: ko-kr
+  format: string
+  source: Edit Addon
+  target: 편집 부가 기능
+  target_initial: 편집 부가 기능
+- locale: ko-kr
+  format: string
+  source: Edit Branch
+  target: 편집 지점
+  target_initial: 편집 지점
+- locale: ko-kr
+  format: string
+  source: Edit Customer
+  target: 편집 고객
+  target_initial: 편집 고객
+- locale: ko-kr
+  format: string
+  source: Edit Organization
+  target: 조직 편집
+  target_initial: 조직 편집
+- locale: ko-kr
+  format: string
+  source: Email
+  target: 이메일
+  target_initial: 이메일
+- locale: ko-kr
+  format: string
+  source: email
+  target: 이메일
+  target_initial: 이메일
+- locale: ko-kr
+  format: string
+  source: Email - full quote
+  target: 이메일 - 전체 견적
+  target_initial: 이메일 - 전체 견적
+- locale: ko-kr
+  format: string
+  source: Email - subject field
+  target: 이메일 - 주제 필드
+  target_initial: 이메일 - 주제 필드
+- locale: ko-kr
+  format: string
+  source: Email & Online
+  target: 이메일 및 온라인
+  target_initial: 이메일 및 온라인
+- locale: ko-kr
+  format: string
+  source: Email Account
+  target: 이메일 계정
+  target_initial: 이메일 계정
+- locale: ko-kr
+  format: string
+  source: Email Accounts
+  target: 전자 메일 계정
+  target_initial: 전자 메일 계정
+- locale: ko-kr
+  format: string
+  source: Email Address
+  target: 이메일 주소
+  target_initial: 이메일 주소
+- locale: ko-kr
+  format: string
+  source: Email address
+  target: 이메일 주소
+  target_initial: 이메일 주소
+- locale: ko-kr
+  format: string
+  source: Email Inbound
+  target: 이메일 인바운드
+  target_initial: 이메일 인바운드
+- locale: ko-kr
+  format: string
+  source: Email Notification
+  target: 이메일 알림
+  target_initial: 이메일 알림
+- locale: ko-kr
+  format: string
+  source: Email Outbound
+  target: 이메일 아웃 바운드
+  target_initial: 이메일 아웃 바운드
+- locale: ko-kr
+  format: string
+  source: Enable
+  target: 사용
+  target_initial: 사용
+- locale: ko-kr
+  format: string
+  source: Enable automatic assignment the first time an agent opens a ticket.
+  target: 자동 할당에게 에이전트가 Ticket을 여는 첫 번째 시간을 설정합니다.
+  target_initial: 자동 할당에게 에이전트가 Ticket을 여는 첫 번째 시간을 설정합니다.
+- locale: ko-kr
+  format: string
+  source: Enable Chat
+  target: 채팅 사용
+  target_initial: 채팅 사용
+- locale: ko-kr
+  format: string
+  source: Enable debugging for implementation.
+  target: 구현을위한 디버깅을 활성화합니다.
+  target_initial: 구현을위한 디버깅을 활성화합니다.
+- locale: ko-kr
+  format: string
+  source: Enable if you want to quote the full email in your answer. The quoted email
+    will be put at the end of your answer. If you just want to quote a certain phrase,
+    just mark the text and press reply (this feature is always available).
+  target: 당신이 당신의 대답에 전체 이메일을 인용 할 경우에 사용합니다. 인용 된 이메일은 답변의 마지막에 넣어지게된다. 당신은 단지 특정
+    문구를 인용하려면, 단지 텍스트를 눌러 응답을 (이 기능을 사용할 수 항상) 표시합니다.
+  target_initial: 당신이 당신의 대답에 전체 이메일을 인용 할 경우에 사용합니다. 인용 된 이메일은 답변의 마지막에 넣어지게된다. 당신은
+    단지 특정 문구를 인용하려면, 단지 텍스트를 눌러 응답을 (이 기능을 사용할 수 항상) 표시합니다.
+- locale: ko-kr
+  format: string
+  source: Enable or disable the maintenance mode of Zammad. If enabled, _all non-administrators
+    get logged out_ and _only administrators can start a new session_.
+  target: 사용 또는 Zammad의 유지 관리 모드를 해제합니다. 사용하도록 설정 한 경우, _all 관리자가 아닌 OUT_으로 로그 및 _only
+    관리자는 새로운 session_을 시작할 수 있습니다.
+  target_initial: 사용 또는 Zammad의 유지 관리 모드를 해제합니다. 사용하도록 설정 한 경우, _all 관리자가 아닌 OUT_으로
+    로그 및 _only 관리자는 새로운 session_을 시작할 수 있습니다.
+- locale: ko-kr
+  format: string
+  source: Enable REST API access using the username/email address and password for
+    the authentication user.
+  target: 인증 사용자에 대한 사용자 이름 / 이메일 주소와 비밀번호를 사용하여 REST API 액세스를 활성화합니다.
+  target_initial: 인증 사용자에 대한 사용자 이름 / 이메일 주소와 비밀번호를 사용하여 REST API 액세스를 활성화합니다.
+- locale: ko-kr
+  format: string
+  source: Enable REST API using tokens (not username/email address and password).
+    Each user needs to create own access tokens in user profile.
+  target: 토큰을 사용하여 REST API를 사용 (이메일 주소와 비밀번호 / 사용자 이름 없음). 각 사용자는 사용자 프로필에 자신의 액세스
+    토큰을 만들 필요가있다.
+  target_initial: 토큰을 사용하여 REST API를 사용 (이메일 주소와 비밀번호 / 사용자 이름 없음). 각 사용자는 사용자 프로필에
+    자신의 액세스 토큰을 만들 필요가있다.
+- locale: ko-kr
+  format: string
+  source: Enable Ticket creation
+  target: Ticket 생성을 활성화
+  target_initial: Ticket 생성을 활성화
+- locale: ko-kr
+  format: string
+  source: Enable time accounting for following matching tickets.
+  target: 일치하는 Ticket을 다음 회계 시간을 설정합니다.
+  target_initial: 일치하는 Ticket을 다음 회계 시간을 설정합니다.
+- locale: ko-kr
+  format: string
+  source: Enable/disable inline translations
+  target: 인라인 번역을 활성화 / 비활성화
+  target_initial: 인라인 번역을 활성화 / 비활성화
+- locale: ko-kr
+  format: string
+  source: Enable/Disable online chat.
+  target: 온라인 채팅을 활성화 / 비활성화합니다.
+  target_initial: 온라인 채팅을 활성화 / 비활성화합니다.
+- locale: ko-kr
+  format: string
+  source: enabled
+  target: 사용 가능
+  target_initial: 사용 가능
+- locale: ko-kr
+  format: string
+  source: Enables console logging.
+  target: 콘솔 로깅을 사용합니다.
+  target_initial: 콘솔 로깅을 사용합니다.
+- locale: ko-kr
+  format: string
+  source: Enables the automatic linking of an existing account on initial login via
+    a third party application. If this is disabled, an existing user must first log
+    into Zammad and then link his "Third Party" account to his Zammad account via
+    Profile -> Linked Accounts.
+  target: 타사 응용 프로그램을 통해 초기 로그인에 기존 계정의 자동 연결을 가능하게합니다. 이 비활성화 된 경우, 기존 사용자는 먼저 Zammad에
+    로그인 한 후 프로필을 통해 자신의 Zammad 계정에 자신의 "타사"계정을 연결해야합니다 -> 링크 된 계정.
+  target_initial: 타사 응용 프로그램을 통해 초기 로그인에 기존 계정의 자동 연결을 가능하게합니다. 이 비활성화 된 경우, 기존 사용자는
+    먼저 Zammad에 로그인 한 후 프로필을 통해 자신의 Zammad 계정에 자신의 "타사"계정을 연결해야합니다 -> 링크 된 계정.
+- locale: ko-kr
+  format: string
+  source: Enables user authentication via %s. Register your app first at [%s](%s).
+  target: "%s (S)를 통해 사용자 인증을 가능. [%s (%s)에서 먼저 응용 프로그램을 등록합니다."
+  target_initial: "%s (S)를 통해 사용자 인증을 가능. [%s (%s)에서 먼저 응용 프로그램을 등록합니다."
+- locale: ko-kr
+  format: string
+  source: Enables users to create their own account via web interface.
+  target: 웹 인터페이스를 통해 자신의 계정을 생성 할 수 있습니다.
+  target_initial: 웹 인터페이스를 통해 자신의 계정을 생성 할 수 있습니다.
+- locale: ko-kr
+  format: string
+  source: enclosed
+  target: 에워싸는
+  target_initial: 에워싸는
+- locale: ko-kr
+  format: string
+  source: Enclosure
+  target: 울로 둘러싼 땅
+  target_initial: 울로 둘러싼 땅
+- locale: ko-kr
+  format: string
+  source: ended switch to
+  target: 로 엔드 스위치
+  target_initial: 로 엔드 스위치
+- locale: ko-kr
+  format: string
+  source: Endpoint
+  target: 엔드 포인트
+  target_initial: 엔드 포인트
+- locale: ko-kr
+  format: string
+  source: Enter Answer or
+  target: 답변 입력하거나
+  target_initial: 답변 입력하거나
+- locale: ko-kr
+  format: string
+  source: Enter credentials
+  target: 자격 증명을 입력
+  target_initial: 자격 증명을 입력
+- locale: ko-kr
+  format: string
+  source: Enter Person or Organization/Company
+  target: 개인이나 조직 / 회사를 입력
+  target_initial: 개인이나 조직 / 회사를 입력
+- locale: ko-kr
+  format: string
+  source: Enter Template Name
+  target: 템플릿 이름을 입력합니다
+  target_initial: 템플릿 이름을 입력합니다
+- locale: ko-kr
+  format: string
+  source: Facebook
+  target: 페이스 북
+  target_initial: 페이스 북
+- locale: ko-kr
+  format: string
+  source: Enter the link provided by the plugin at the end of the installation to
+    link the two systems
+  target: 두 시스템을 연결하기 위해 설치가 끝날 때 플러그인에서 제공하는 링크를 입력
+  target_initial: 두 시스템을 연결하기 위해 설치가 끝날 때 플러그인에서 제공하는 링크를 입력
+- locale: ko-kr
+  format: string
+  source: Enter the URL of your %s system
+  target: 당신의 %s 시스템의 URL을 입력
+  target_initial: 당신의 %s 시스템의 URL을 입력
+- locale: ko-kr
+  format: string
+  source: Enter Title...
+  target: 제목을 입력 ...
+  target_initial: 제목을 입력 ...
+- locale: ko-kr
+  format: string
+  source: Enter your email address and the %s API token gained from your admin interface.
+  target: 당신의 이메일 주소와 관리 인터페이스에서 얻은 %s API 토큰을 입력합니다.
+  target_initial: 당신의 이메일 주소와 관리 인터페이스에서 얻은 %s API 토큰을 입력합니다.
+- locale: ko-kr
+  format: string
+  source: Enter your username or email address
+  target: 사용자 이름 또는 이메일 주소를 입력
+  target_initial: 사용자 이름 또는 이메일 주소를 입력
+- locale: ko-kr
+  format: string
+  source: escalated
+  target: 에스컬레이션
+  target_initial: 에스컬레이션
+- locale: ko-kr
+  format: string
+  source: Escalated
+  target: 에스컬레이션
+  target_initial: 에스컬레이션
+- locale: ko-kr
+  format: string
+  source: Escalated Tickets
+  target: 신고 된 Ticket
+  target_initial: 신고 된 Ticket
+- locale: ko-kr
+  format: string
+  source: escalation
+  target: 단계적 확대
+  target_initial: 단계적 확대
+- locale: ko-kr
+  format: string
+  source: Escalation
+  target: 단계적 확대
+  target_initial: 단계적 확대
+- locale: ko-kr
+  format: string
+  source: Escalation Times
+  target: 에스컬레이션 시간
+  target_initial: 에스컬레이션 시간
+- locale: ko-kr
+  format: string
+  source: Evangelist
+  target: 전도자
+  target_initial: 전도자
+- locale: ko-kr
+  format: string
+  source: Example
+  target: 예
+  target_initial: 예
+- locale: ko-kr
+  format: string
+  source: Example CSV file for download.
+  target: 예 CSV는 다운로드 파일.
+  target_initial: 예 CSV는 다운로드 파일.
+- locale: ko-kr
+  format: string
+  source: Exception users
+  target: 예외 사용자
+  target_initial: 예외 사용자
+- locale: ko-kr
+  format: string
+  source: Exchange integration for contacts management.
+  target: 연락처 관리에 대한 Exchange 통합.
+  target_initial: 연락처 관리에 대한 Exchange 통합.
+- locale: ko-kr
+  format: string
+  source: Execute changes on objects
+  target: 객체에 대한 변경을 실행
+  target_initial: 객체에 대한 변경을 실행
+- locale: ko-kr
+  format: string
+  source: Expert
+  target: 전문가
+  target_initial: 전문가
+- locale: ko-kr
+  format: string
+  source: Experts
+  target: 전문가
+  target_initial: 전문가
+- locale: ko-kr
+  format: string
+  source: Expiration (MM/YYYY)
+  target: 만료 (MM / YYYY)
+  target_initial: 만료 (MM / YYYY)
+- locale: ko-kr
+  format: string
+  source: Expires
+  target: 만료
+  target_initial: 만료
+- locale: ko-kr
+  format: string
+  source: Extended Search
+  target: 확장 검색
+  target_initial: 확장 검색
+- locale: ko-kr
+  format: string
+  source: Fax
+  target: 팩스
+  target_initial: 팩스
+- locale: ko-kr
+  format: string
+  source: Feature disabled!
+  target: 기능은 사용할 수 없습니다!
+  target_initial: 기능은 사용할 수 없습니다!
+- locale: ko-kr
+  format: string
+  source: Feb
+  target: 2월
+  target_initial: 2월
+- locale: ko-kr
+  format: string
+  source: February
+  target: 2월
+  target_initial: 2월
+- locale: ko-kr
+  format: string
+  source: Feedback
+  target: 피드백
+  target_initial: 피드백
+- locale: ko-kr
+  format: string
+  source: Feedback about our new Interface
+  target: 우리의 새로운 인터페이스에 대한 의견
+  target_initial: 우리의 새로운 인터페이스에 대한 의견
+- locale: ko-kr
+  format: string
+  source: Feedback Form
+  target: 피드백 폼
+  target_initial: 피드백 폼
+- locale: ko-kr
+  format: string
+  source: Filter
+  target: 필터
+  target_initial: 필터
+- locale: ko-kr
+  format: string
+  source: Find what you search. E. g. "search phrase"
+  target: 당신이 검색을 찾으십시오. E.의 g. "검색 구문"
+  target_initial: 당신이 검색을 찾으십시오. E.의 g. "검색 구문"
+- locale: ko-kr
+  format: string
+  source: Finish
+  target: 끝
+  target_initial: 끝
+- locale: ko-kr
+  format: string
+  source: First response
+  target: 첫 번째 응답
+  target_initial: 첫 번째 응답
+- locale: ko-kr
+  format: string
+  source: First Response Time
+  target: 첫 번째 응답 시간
+  target_initial: 첫 번째 응답 시간
+- locale: ko-kr
+  format: string
+  source: First Solution
+  target: 첫 번째 솔루션
+  target_initial: 첫 번째 솔루션
+- locale: ko-kr
+  format: string
+  source: First Steps
+  target: 첫 번째 단계
+  target_initial: 첫 번째 단계
+- locale: ko-kr
+  format: string
+  source: Firstname
+  target: 이름
+  target_initial: 이름
+- locale: ko-kr
+  format: string
+  source: Fixed Email Accounts
+  target: 고정 전자 메일 계정
+  target_initial: 고정 전자 메일 계정
+- locale: ko-kr
+  format: string
+  source: Flat Design
+  target: 평면 디자인
+  target_initial: 평면 디자인
+- locale: ko-kr
+  format: string
+  source: Fold in
+  target: 접어 넣다
+  target_initial: 접어 넣다
+- locale: ko-kr
+  format: string
+  source: Folder
+  target: 폴더
+  target_initial: 폴더
+- locale: ko-kr
+  format: string
+  source: Follow up for closed ticket possible or not.
+  target: 가능 여부 폐쇄 Ticket 후속.
+  target_initial: 가능 여부 폐쇄 Ticket 후속.
+- locale: ko-kr
+  format: string
+  source: Follow up possible
+  target: 최대 수에 따라
+  target_initial: 최대 수에 따라
+- locale: ko-kr
+  format: string
+  source: Font size
+  target: 글꼴 크기
+  target_initial: 글꼴 크기
+- locale: ko-kr
+  format: string
+  source: For security reasons, the API token is shown only once. You'll need to copy
+    it somewhere safe before continuing.
+  target: 보안상의 이유로 API 토큰은 한 번만 표시됩니다. 계속하기 전에 안전한 곳에 복사해야합니다.
+  target_initial: 보안상의 이유로 API 토큰은 한 번만 표시됩니다. 계속하기 전에 안전한 곳에 복사해야합니다.
+- locale: ko-kr
+  format: string
+  source: Forgot password?
+  target: 비밀번호를 잊으 셨나요?
+  target_initial: 비밀번호를 잊으 셨나요?
+- locale: ko-kr
+  format: string
+  source: Forgot your password?
+  target: 비밀번호를 잊어 버렸습니까?
+  target_initial: 비밀번호를 잊어 버렸습니까?
+- locale: ko-kr
+  format: string
+  source: Form
+  target: 형태
+  target_initial: 형태
+- locale: ko-kr
+  format: string
+  source: Format as //strikethrough//
+  target: "// 취소 // 같은 형식"
+  target_initial: "// 취소 // 같은 형식"
+- locale: ko-kr
+  format: string
+  source: Format as _underlined_
+  target: _underlined_ 같은 형식
+  target_initial: _underlined_ 같은 형식
+- locale: ko-kr
+  format: string
+  source: Format as ||italic||
+  target: "|| 이탤릭체로 형식 ||"
+  target_initial: "|| 이탤릭체로 형식 ||"
+- locale: ko-kr
+  format: string
+  source: Format as |bold|
+  target: 형식으로 | 굵은 |
+  target_initial: 형식으로 | 굵은 |
+- locale: ko-kr
+  format: string
+  source: Format as h1 heading
+  target: H1 제목 등의 형식
+  target_initial: H1 제목 등의 형식
+- locale: ko-kr
+  format: string
+  source: Format as h2 heading
+  target: H2 제목 등의 형식
+  target_initial: H2 제목 등의 형식
+- locale: ko-kr
+  format: string
+  source: Format as h3 heading
+  target: H3 제목 등의 형식
+  target_initial: H3 제목 등의 형식
+- locale: ko-kr
+  format: string
+  source: Format as ordered list
+  target: 정렬 된 목록과 같은 형식
+  target_initial: 정렬 된 목록과 같은 형식
+- locale: ko-kr
+  format: string
+  source: Format as unordered list
+  target: 정렬되지 않은 목록으로 형식
+  target_initial: 정렬되지 않은 목록으로 형식
+- locale: ko-kr
+  format: string
+  source: forward
+  target: 앞으로
+  target_initial: 앞으로
+- locale: ko-kr
+  format: string
+  source: forwarded
+  target: 전달
+  target_initial: 전달
+- locale: ko-kr
+  format: string
+  source: Frequency
+  target: 회수
+  target_initial: 회수
+- locale: ko-kr
+  format: string
+  source: Fri
+  target: 금
+  target_initial: 금
+- locale: ko-kr
+  format: string
+  source: Friday
+  target: 금요일
+  target_initial: 금요일
+- locale: ko-kr
+  format: string
+  source: From
+  target: 에서
+  target_initial: 에서
+- locale: ko-kr
+  format: string
+  source: from
+  target: "...에서"
+  target_initial: "...에서"
+- locale: ko-kr
+  format: string
+  source: Frontend
+  target: 프런트 엔드
+  target_initial: 프런트 엔드
+- locale: ko-kr
+  format: string
+  source: Full
+  target: 완전한
+  target_initial: 완전한
+- locale: ko-kr
+  format: string
+  source: Full Name
+  target: 전체 이름
+  target_initial: 전체 이름
+- locale: ko-kr
+  format: string
+  source: Fully Qualified Domain Name
+  target: 정규화 된 도메인 이름
+  target_initial: 정규화 된 도메인 이름
+- locale: ko-kr
+  format: string
+  source: Geo Calendar Service
+  target: 지오 달력 서비스
+  target_initial: 지오 달력 서비스
+- locale: ko-kr
+  format: string
+  source: Geo IP Backend
+  target: 지오 IP 백엔드
+  target_initial: 지오 IP 백엔드
+- locale: ko-kr
+  format: string
+  source: Geo IP Service
+  target: 지오 IP 서비스
+  target_initial: 지오 IP 서비스
+- locale: ko-kr
+  format: string
+  source: Geo Location Backend
+  target: 지리적 위치 백엔드
+  target_initial: 지리적 위치 백엔드
+- locale: ko-kr
+  format: string
+  source: Geo Location Service
+  target: 지리적 위치 서비스
+  target_initial: 지리적 위치 서비스
+- locale: ko-kr
+  format: string
+  source: Geo Services
+  target: 지오 서비스
+  target_initial: 지오 서비스
+- locale: ko-kr
+  format: string
+  source: Germany
+  target: 독일
+  target_initial: 독일
+- locale: ko-kr
+  format: string
+  source: Get latest translations
+  target: 최신 번역 받기
+  target_initial: 최신 번역 받기
+- locale: ko-kr
+  format: string
+  source: Getting an Access Token
+  target: 액세스 토큰을 얻기
+  target_initial: 액세스 토큰을 얻기
+- locale: ko-kr
+  format: string
+  source: Getting started!
+  target: 시작하기!
+  target_initial: 시작하기!
+- locale: ko-kr
+  format: string
+  source: Go Back
+  target: 돌아 가기
+  target_initial: 돌아 가기
+- locale: ko-kr
+  format: string
+  source: Green
+  target: 녹색
+  target_initial: 녹색
+- locale: ko-kr
+  format: string
+  source: Group
+  target: 그룹
+  target_initial: 그룹
+- locale: ko-kr
+  format: string
+  source: Group by
+  target: 그룹에 의해
+  target_initial: 그룹에 의해
+- locale: ko-kr
+  format: string
+  source: Group selection for Ticket creation
+  target: Ticket 생성을위한 그룹 선택
+  target_initial: Ticket 생성을위한 그룹 선택
+- locale: ko-kr
+  format: string
+  source: Groups
+  target: 그룹
+  target_initial: 그룹
+- locale: ko-kr
+  format: string
+  source: has changed
+  target: 변경
+  target_initial: 변경
+- locale: ko-kr
+  format: string
+  source: Has processed
+  target: 처리 한
+  target_initial: 처리 한
+- locale: ko-kr
+  format: string
+  source: Health Check
+  target: Health Check
+  target_initial: Health Check
+- locale: ko-kr
+  format: string
+  source: Health information can be retrieved as JSON using
+  target: 건강 정보를 사용하여 JSON으로 검색 할 수 있습니다
+  target_initial: 건강 정보를 사용하여 JSON으로 검색 할 수 있습니다
+- locale: ko-kr
+  format: string
+  source: here
+  target: 이리
+  target_initial: 이리
+- locale: ko-kr
+  format: string
+  source: Here you can create new tickets. Also if you have the permissions you can
+    create new customers and organizations.
+  target: 여기에 새로운 Ticket을 만들 수 있습니다. 당신은 권한이있는 경우 또한 당신은 새로운 고객과 조직을 만들 수 있습니다.
+  target_initial: 여기에 새로운 Ticket을 만들 수 있습니다. 당신은 권한이있는 경우 또한 당신은 새로운 고객과 조직을 만들 수
+    있습니다.
+- locale: ko-kr
+  format: string
+  source: Here you can create one.
+  target: 여기에 하나를 만들 수 있습니다.
+  target_initial: 여기에 하나를 만들 수 있습니다.
+- locale: ko-kr
+  format: string
+  source: Here you can sign out, change the frontend language and see your last viewed
+    items.
+  target: 여기, 아웃 프론트 엔드 언어를 변경하고 마지막으로 본 항목을 볼 수 있습니다.
+  target_initial: 여기, 아웃 프론트 엔드 언어를 변경하고 마지막으로 본 항목을 볼 수 있습니다.
+- locale: ko-kr
+  format: string
+  source: Here you define which authorization has access to the attribute.
+  target: 여기에서 속성에 액세스 할 수있는 권한을 정의합니다.
+  target_initial: 여기에서 속성에 액세스 할 수있는 권한을 정의합니다.
+- locale: ko-kr
+  format: string
+  source: Here you find your ticket overviews for open, assigned and escalated tickets.
+  target: 여기가 열려, 할당 및 에스컬레이션 Ticket Ticket 개요를 찾을 수 있습니다.
+  target_initial: 여기가 열려, 할당 및 에스컬레이션 Ticket Ticket 개요를 찾을 수 있습니다.
+- locale: ko-kr
+  format: string
+  source: Here you see a quick overview of your and other agents' performance.
+  target: 여기에서 당신은 당신과 다른 에이전트의 성능에 대한 간단한 Overview를 참조하십시오.
+  target_initial: 여기에서 당신은 당신과 다른 에이전트의 성능에 대한 간단한 Overview를 참조하십시오.
+- locale: ko-kr
+  format: string
+  source: Here you will find the latest activities of your system.
+  target: 여기에서 당신은 당신의 시스템의 최신 활동을 찾을 수 있습니다.
+  target_initial: 여기에서 당신은 당신의 시스템의 최신 활동을 찾을 수 있습니다.
+- locale: ko-kr
+  format: string
+  source: Hero
+  target: 영웅
+  target_initial: 영웅
+- locale: ko-kr
+  format: string
+  source: History
+  target: 이력
+  target_initial: 이력
+- locale: ko-kr
+  format: string
+  source: Holidays
+  target: 휴일
+  target_initial: 휴일
+- locale: ko-kr
+  format: string
+  source: Holidays iCalendar Feed
+  target: 휴일을 iCalendar 피드
+  target_initial: 휴일을 iCalendar 피드
+- locale: ko-kr
+  format: string
+  source: Host
+  target: 숙주
+  target_initial: 숙주
+- locale: ko-kr
+  format: string
+  source: hour
+  target: 시간
+  target_initial: 시간
+- locale: ko-kr
+  format: string
+  source: Hour
+  target: 시간
+  target_initial: 시간
+- locale: ko-kr
+  format: string
+  source: Hour(s)
+  target: 시간
+  target_initial: 시간
+- locale: ko-kr
+  format: string
+  source: hours
+  target: 시간
+  target_initial: 시간
+- locale: ko-kr
+  format: string
+  source: Hours
+  target: 시간
+  target_initial: 시간
+- locale: ko-kr
+  format: string
+  source: How to use it
+  target: 이것을 어떻게 사용 하는가
+  target_initial: 이것을 어떻게 사용 하는가
+- locale: ko-kr
+  format: string
+  source: HTTP type
+  target: HTTP 유형
+  target_initial: HTTP 유형
+- locale: ko-kr
+  format: string
+  source: I hereby authorize Zammad GmbH to collect the amounts due from my account
+    by direct debit until further notice.
+  target: 본인은 추후 공지가있을 때까지 이체 내 계정에 의한 금액을 수집 Zammad GmbH의 권한을 부여.
+  target_initial: 본인은 추후 공지가있을 때까지 이체 내 계정에 의한 금액을 수집 Zammad GmbH의 권한을 부여.
+- locale: ko-kr
+  format: string
+  source: iCalendar links from Google will get fetched once a day
+  target: 구글에서 iCalendar는 링크는 하루에 한 번 인출 얻을 것이다
+  target_initial: 구글에서 iCalendar는 링크는 하루에 한 번 인출 얻을 것이다
+- locale: ko-kr
+  format: string
+  source: iCalendar links from Google, will get fetched once a day
+  target: 구글에서 iCalendar는 링크, 하루에 한 번 인출 얻을 것이다
+  target_initial: 구글에서 iCalendar는 링크, 하루에 한 번 인출 얻을 것이다
+- locale: ko-kr
+  format: string
+  source: Identifier of the chat-topic.
+  target: 채팅 주제의 식별자.
+  target_initial: 채팅 주제의 식별자.
+- locale: ko-kr
+  format: string
+  source: If left empty, the host gets auto-detected - in this case %s. The auto-detection
+    reads out the host from the <script> tag. If you don't include it via a <script>
+    tag you need to specify the host.
+  target: 이 경우 %s에서 -가 비어 있으면 호스트가 자동으로 감지 가져옵니다. 자동 감지는 <script> 태그에서 호스트를 읽습니다.
+    당신이 <script>를 통해 그것을 포함하지 않는 경우 호스트를 지정해야합니다 태그.
+  target_initial: 이 경우 %s에서 -가 비어 있으면 호스트가 자동으로 감지 가져옵니다. 자동 감지는 <script> 태그에서 호스트를
+    읽습니다. 당신이 <script>를 통해 그것을 포함하지 않는 경우 호스트를 지정해야합니다 태그.
+- locale: ko-kr
+  format: string
+  source: If the host and service is recovered again, the ticket will be closed automatically.
+  target: 호스트와 서비스가 다시 복구되는 경우, Ticket은 자동으로 종료됩니다.
+  target_initial: 호스트와 서비스가 다시 복구되는 경우, Ticket은 자동으로 종료됩니다.
+- locale: ko-kr
+  format: string
+  source: If the sender is an agent, set the first user in the recipient list as a
+    customer.
+  target: 보낸 사람이 대리인 인 경우, 고객과받는 사람 목록의 첫 번째 사용자를 설정합니다.
+  target_initial: 보낸 사람이 대리인 인 경우, 고객과받는 사람 목록의 첫 번째 사용자를 설정합니다.
+- locale: ko-kr
+  format: string
+  source: If this regex matches, no notification will be sent by the sender.
+  target: 이 정규식과 일치하는 경우, 통지는 송신자가 전송되지 않습니다.
+  target_initial: 이 정규식과 일치하는 경우, 통지는 송신자가 전송되지 않습니다.
+- locale: ko-kr
+  format: string
+  source: If you don\'t see the email, check other places it might be, like your junk,
+    spam, social, or other folders.
+  target: T는 이메일을 볼 \ 당신이 돈 경우, 정크, 스팸, 사회, 또는 다른 폴더처럼, 그것은 될 수있는 다른 장소를 확인합니다.
+  target_initial: T는 이메일을 볼 \ 당신이 돈 경우, 정크, 스팸, 사회, 또는 다른 폴더처럼, 그것은 될 수있는 다른 장소를 확인합니다.
+- locale: ko-kr
+  format: string
+  source: If you don't receive instructions within a minute or two, check your email's
+    spam and junk filters, or try resending your request.
+  target: 당신은 2 분 이내의 지시를받지 못한 경우 이메일의 스팸 및 스팸 필터를 확인하거나 요청을 다시 보내십시오.
+  target_initial: 당신은 2 분 이내의 지시를받지 못한 경우 이메일의 스팸 및 스팸 필터를 확인하거나 요청을 다시 보내십시오.
+- locale: ko-kr
+  format: string
+  source: Inserts a horizontal rule
+  target: 수평 규칙을 삽입
+  target_initial: 수평 규칙을 삽입
+- locale: ko-kr
+  format: string
+  source: If you want to move already stored attachments from one backend to another,
+    you need to execute the following via console.
+  target: 다른 하나의 백엔드에서 이미 저장된 첨부 파일을 이동하려면, 당신은 콘솔을 통해 다음을 수행해야합니다.
+  target_initial: 다른 하나의 백엔드에서 이미 저장된 첨부 파일을 이동하려면, 당신은 콘솔을 통해 다음을 수행해야합니다.
+- locale: ko-kr
+  format: string
+  source: If you want to translate it via the translation table, just go ahead below.
+  target: 당신은 변환 테이블을 통해 번역하고 싶다면, 그냥 앞서 아래 이동합니다.
+  target_initial: 당신은 변환 테이블을 통해 번역하고 싶다면, 그냥 앞서 아래 이동합니다.
+- locale: ko-kr
+  format: string
+  source: Image Service
+  target: 이미지 서비스
+  target_initial: 이미지 서비스
+- locale: ko-kr
+  format: string
+  source: Import
+  target: 가져오기
+  target_initial: 가져오기
+- locale: ko-kr
+  format: string
+  source: Import Endpoint
+  target: 가져 오기 엔드 포인트
+  target_initial: 가져 오기 엔드 포인트
+- locale: ko-kr
+  format: string
+  source: Import from
+  target: 에서 가져 오기
+  target_initial: 에서 가져 오기
+- locale: ko-kr
+  format: string
+  source: Import Key
+  target: 키 가져 오기
+  target_initial: 키 가져 오기
+- locale: ko-kr
+  format: string
+  source: Import Mode
+  target: 가져 오기 모드
+  target_initial: 가져 오기 모드
+- locale: ko-kr
+  format: string
+  source: in %s
+  target: "%s에서"
+  target_initial: "%s에서"
+- locale: ko-kr
+  format: string
+  source: In default the follow up check is done via the subject of an email. With
+    this setting you can add more fields where the follow up check is executed.
+  target: 기본적으로 후속 검사는 이메일의 제목을 통해 이루어집니다. 이 설정을 사용하면 후속 검사가 실행됩니다 더 많은 필드를 추가 할 수
+    있습니다.
+  target_initial: 기본적으로 후속 검사는 이메일의 제목을 통해 이루어집니다. 이 설정을 사용하면 후속 검사가 실행됩니다 더 많은 필드를
+    추가 할 수 있습니다.
+- locale: ko-kr
+  format: string
+  source: in hours
+  target: 시간
+  target_initial: 시간
+- locale: ko-kr
+  format: string
+  source: inactive
+  target: 비활성
+  target_initial: 비활성
+- locale: ko-kr
+  format: string
+  source: Inbound
+  target: 인바운드
+  target_initial: 인바운드
+- locale: ko-kr
+  format: string
+  source: Inline translation
+  target: 인라인 번역
+  target_initial: 인라인 번역
+- locale: ko-kr
+  format: string
+  source: Insert the widget-code into the source code of every page the chat should
+    be visible on. It should be placed at the end of the page source code before the
+    `</body>` closing tag.
+  target: 대화가 볼 수 있어야 모든 페이지의 소스 코드에 위젯 코드를 삽입합니다. 그것은 태그 폐쇄 '</ body>'전에 페이지의 소스
+    코드의 끝에 배치한다.
+  target_initial: 대화가 볼 수 있어야 모든 페이지의 소스 코드에 위젯 코드를 삽입합니다. 그것은 태그 폐쇄 '</ body>'전에
+    페이지의 소스 코드의 끝에 배치한다.
+- locale: ko-kr
+  format: string
+  source: install
+  target: 설치
+  target_initial: 설치
+- locale: ko-kr
+  format: string
+  source: Install Package
+  target: 패키지 설치
+  target_initial: 패키지 설치
+- locale: ko-kr
+  format: string
+  source: Installed
+  target: 설치
+  target_initial: 설치
+- locale: ko-kr
+  format: string
+  source: Integrations
+  target: 통합
+  target_initial: 통합
+- locale: ko-kr
+  format: string
+  source: Intermediate
+  target: 중간의
+  target_initial: 중간의
+- locale: ko-kr
+  format: string
+  source: internal
+  target: 내부의
+  target_initial: 내부의
+- locale: ko-kr
+  format: string
+  source: Intro
+  target: 소개
+  target_initial: 소개
+- locale: ko-kr
+  format: string
+  source: Invalid agent count value, only numbers are allowed!
+  target: 잘못된 에이전트 카운트 값은 숫자 만 허용됩니다!
+  target_initial: 잘못된 에이전트 카운트 값은 숫자 만 허용됩니다!
+- locale: ko-kr
+  format: string
+  source: Invalid ticket selector conditions
+  target: 잘못된 Ticket 선택 조건
+  target_initial: 잘못된 Ticket 선택 조건
+- locale: ko-kr
+  format: string
+  source: Invitation sent!
+  target: 초대 보냈습니다!
+  target_initial: 초대 보냈습니다!
+- locale: ko-kr
+  format: string
+  source: Invite
+  target: 초대
+  target_initial: 초대
+- locale: ko-kr
+  format: string
+  source: Invite Agents
+  target: 에이전트를 초대
+  target_initial: 에이전트를 초대
+- locale: ko-kr
+  format: string
+  source: Invite agents/colleagues to help working on tickets
+  target: Ticket 작업을하기 위해 에이전트 / 동료를 초대
+  target_initial: Ticket 작업을하기 위해 에이전트 / 동료를 초대
+- locale: ko-kr
+  format: string
+  source: Invite Agents/Colleges
+  target: 에이전트 / 대학 초대
+  target_initial: 에이전트 / 대학 초대
+- locale: ko-kr
+  format: string
+  source: Invite Colleagues
+  target: 동료를 초대
+  target_initial: 동료를 초대
+- locale: ko-kr
+  format: string
+  source: Invite Customer
+  target: 고객 초대
+  target_initial: 고객 초대
+- locale: ko-kr
+  format: string
+  source: Invite customers to create issues in Zammad
+  target: Zammad에 문제가 발생할 고객을 초대
+  target_initial: Zammad에 문제가 발생할 고객을 초대
+- locale: ko-kr
+  format: string
+  source: Invoice
+  target: Invoice
+  target_initial: Invoice
+- locale: ko-kr
+  format: string
+  source: is
+  target: 이다
+  target_initial: 이다
+- locale: ko-kr
+  format: string
+  source: is not
+  target: 아니다
+  target_initial: 아니다
+- locale: ko-kr
+  format: string
+  source: is the same
+  target: 똑같다
+  target_initial: 똑같다
+- locale: ko-kr
+  format: string
+  source: 'Issuance of a SEPA-Base Direct Debit Mandate until revocation:'
+  target: '취소까지 SEPA-자료 자동 이체 위임장 발급 :'
+  target_initial: '취소까지 SEPA-자료 자동 이체 위임장 발급 :'
+- locale: ko-kr
+  format: string
+  source: Items per page
+  target: 페이지 당 항목
+  target_initial: 페이지 당 항목
+- locale: ko-kr
+  format: string
+  source: join today!
+  target: 오늘 가입!
+  target_initial: 오늘 가입!
+- locale: ko-kr
+  format: string
+  source: Jul
+  target: 7월
+  target_initial: 7월
+- locale: ko-kr
+  format: string
+  source: July
+  target: 7월
+  target_initial: 7월
+- locale: ko-kr
+  format: string
+  source: Jun
+  target: 6월
+  target_initial: 6월
+- locale: ko-kr
+  format: string
+  source: June
+  target: 6월
+  target_initial: 6월
+- locale: ko-kr
+  format: string
+  source: Just click into the marker and update the words just in place. Enjoy!
+  target: 그냥 마커로 클릭하고 바로 자리에 단어를 업데이트합니다. 즐겨!
+  target_initial: 그냥 마커로 클릭하고 바로 자리에 단어를 업데이트합니다. 즐겨!
+- locale: ko-kr
+  format: string
+  source: just now
+  target: 방금
+  target_initial: 방금
+- locale: ko-kr
+  format: string
+  source: Karma Level
+  target: 카르마 레벨
+  target_initial: 카르마 레벨
+- locale: ko-kr
+  format: string
+  source: Karma Trends
+  target: 카르마 동향
+  target_initial: 카르마 동향
+- locale: ko-kr
+  format: string
+  source: Keyboard Shortcuts
+  target: 키보드 단축키
+  target_initial: 키보드 단축키
+- locale: ko-kr
+  format: string
+  source: Keywords
+  target: 키워드
+  target_initial: 키워드
+- locale: ko-kr
+  format: string
+  source: Language
+  target: 언어
+  target_initial: 언어
+- locale: ko-kr
+  format: string
+  source: Last contact
+  target: 마지막 접촉
+  target_initial: 마지막 접촉
+- locale: ko-kr
+  format: string
+  source: Last contact (agent)
+  target: 마지막 접촉 (에이전트)
+  target_initial: 마지막 접촉 (에이전트)
+- locale: ko-kr
+  format: string
+  source: Last contact (customer)
+  target: 마지막 접촉 (고객)
+  target_initial: 마지막 접촉 (고객)
+- locale: ko-kr
+  format: string
+  source: Last customer contact (with consideration an agent has replied to it)
+  target: "(고려 에이전트가 그것에 대답했다) 마지막 고객 연락처"
+  target_initial: "(고려 에이전트가 그것에 대답했다) 마지막 고객 연락처"
+- locale: ko-kr
+  format: string
+  source: Last customer contact (without consideration an agent has replied to it)
+  target: "(에이전트가 회신 한 고려없이) 마지막 고객 연락처"
+  target_initial: "(에이전트가 회신 한 고려없이) 마지막 고객 연락처"
+- locale: ko-kr
+  format: string
+  source: Last run
+  target: 마지막 실행
+  target_initial: 마지막 실행
+- locale: ko-kr
+  format: string
+  source: Last sync
+  target: 마지막 동기화
+  target_initial: 마지막 동기화
+- locale: ko-kr
+  format: string
+  source: Last sync at
+  target: 에서 마지막 동기화
+  target_initial: 에서 마지막 동기화
+- locale: ko-kr
+  format: string
+  source: Last used
+  target: 마지막으로 사용
+  target_initial: 마지막으로 사용
+- locale: ko-kr
+  format: string
+  source: Lastname
+  target: 성
+  target_initial: 성
+- locale: ko-kr
+  format: string
+  source: Latest updates
+  target: 최신 업데이트
+  target_initial: 최신 업데이트
+- locale: ko-kr
+  format: string
+  source: Layout Reference
+  target: 레이아웃 참조
+  target_initial: 레이아웃 참조
+- locale: ko-kr
+  format: string
+  source: LDAP Host
+  target: LDAP 호스트
+  target_initial: LDAP 호스트
+- locale: ko-kr
+  format: string
+  source: LDAP integration for user management.
+  target: 사용자 관리를위한 LDAP 통합.
+  target_initial: 사용자 관리를위한 LDAP 통합.
+- locale: ko-kr
+  format: string
+  source: left
+  target: 왼쪽
+  target_initial: 왼쪽
+- locale: ko-kr
+  format: string
+  source: Limit Groups
+  target: 제한 그룹
+  target_initial: 제한 그룹
+- locale: ko-kr
+  format: string
+  source: Link
+  target: 링크
+  target_initial: 링크
+- locale: ko-kr
+  format: string
+  source: Link %s
+  target: 링크 %s
+  target_initial: 링크 %s
+- locale: ko-kr
+  format: string
+  source: Link Accounts
+  target: 링크 계정
+  target_initial: 링크 계정
+- locale: ko-kr
+  format: string
+  source: Linked Accounts
+  target: 링크 된 계정
+  target_initial: 링크 된 계정
+- locale: ko-kr
+  format: string
+  source: Linked Objects
+  target: 링크 된 오브젝트
+  target_initial: 링크 된 오브젝트
+- locale: ko-kr
+  format: string
+  source: LinkedIn App Credentials
+  target: 링크드 인 앱 자격 증명
+  target_initial: 링크드 인 앱 자격 증명
+- locale: ko-kr
+  format: string
+  source: Links
+  target: 링크
+  target_initial: 링크
+- locale: ko-kr
+  format: string
+  source: List of shortcuts
+  target: 단축키 목록
+  target_initial: 단축키 목록
+- locale: ko-kr
+  format: string
+  source: Load
+  target: 하중
+  target_initial: 하중
+- locale: ko-kr
+  format: string
+  source: Load no CSS for form. You need to generate your own CSS for the form.
+  target: 형태에 대한 CSS를로드하지 않습니다. 당신은 양식에 대한 자신의 CSS를 생성해야합니다.
+  target_initial: 형태에 대한 CSS를로드하지 않습니다. 당신은 양식에 대한 자신의 CSS를 생성해야합니다.
+- locale: ko-kr
+  format: string
+  source: Loading...
+  target: 로드 중 ...
+  target_initial: 로드 중 ...
+- locale: ko-kr
+  format: string
+  source: Locale
+  target: 장소
+  target_initial: 장소
+- locale: ko-kr
+  format: string
+  source: Location
+  target: 위치
+  target_initial: 위치
+- locale: ko-kr
+  format: string
+  source: Location of an external chat.css file.
+  target: 외부 chat.css 파일의 위치.
+  target_initial: 외부 chat.css 파일의 위치.
+- locale: ko-kr
+  format: string
+  source: Login
+  target: 로그인
+  target_initial: 로그인
+- locale: ko-kr
+  format: string
+  source: Login successfully! Have a nice day!
+  target: 성공적으로 로그인 되었습니다! 좋은 하루 되세요!
+  target_initial: 성공적으로 로그인 되었습니다! 좋은 하루 되세요!
+- locale: ko-kr
+  format: string
+  source: Login with %s
+  target: "%s에 로그인"
+  target_initial: "%s에 로그인"
+- locale: ko-kr
+  format: string
+  source: Logo
+  target: 심벌 마크
+  target_initial: 심벌 마크
+- locale: ko-kr
+  format: string
+  source: Logout
+  target: 로그 아웃
+  target_initial: 로그 아웃
+- locale: ko-kr
+  format: string
+  source: Lost Password
+  target: 비밀번호 분실
+  target_initial: 비밀번호 분실
+- locale: ko-kr
+  format: string
+  source: Macro
+  target: 매크로
+  target_initial: 매크로
+- locale: ko-kr
+  format: string
+  source: Macros
+  target: 매크로
+  target_initial: 매크로
+- locale: ko-kr
+  format: string
+  source: Maintenance
+  target: 유지
+  target_initial: 유지
+- locale: ko-kr
+  format: string
+  source: Maintenance Message
+  target: 유지 보수 메시지
+  target_initial: 유지 보수 메시지
+- locale: ko-kr
+  format: string
+  source: Manage
+  target: 관리영역
+  target_initial: 관리영역
+- locale: ko-kr
+  format: string
+  source: Manage %s
+  target: "%s 관리"
+  target_initial: "%s 관리"
+- locale: ko-kr
+  format: string
+  source: Manage %s Settings
+  target: "%s 설정 관리"
+  target_initial: "%s 설정 관리"
+- locale: ko-kr
+  format: string
+  source: Manage applications that can use Zammad as an OAuth provider and applications
+    that you've authorized to use your account.
+  target: OAuth를 제공하고 당신이 당신의 계정을 사용하도록 허가 한 응용 프로그램으로 Zammad을 사용할 수있는 응용 프로그램을 관리
+    할 수 ​​있습니다.
+  target_initial: OAuth를 제공하고 당신이 당신의 계정을 사용하도록 허가 한 응용 프로그램으로 Zammad을 사용할 수있는 응용
+    프로그램을 관리 할 수 ​​있습니다.
+- locale: ko-kr
+  format: string
+  source: Manage Tags
+  target: 태그 관리
+  target_initial: 태그 관리
+- locale: ko-kr
+  format: string
+  source: Manage your notifications settings
+  target: 알림 설정 관리
+  target_initial: 알림 설정 관리
+- locale: ko-kr
+  format: string
+  source: Management
+  target: 조치
+  target_initial: 조치
+- locale: ko-kr
+  format: string
+  source: Manually open chat
+  target: 수동으로 열려있는 채팅
+  target_initial: 수동으로 열려있는 채팅
+- locale: ko-kr
+  format: string
+  source: Mapping
+  target: 지도 제작
+  target_initial: 지도 제작
+- locale: ko-kr
+  format: string
+  source: Mar
+  target: 월
+  target_initial: 월
+- locale: ko-kr
+  format: string
+  source: March
+  target: 3월
+  target_initial: 3월
+- locale: ko-kr
+  format: string
+  source: Mark all as read
+  target: 마크는 모든 읽기로
+  target_initial: 마크는 모든 읽기로
+- locale: ko-kr
+  format: string
+  source: Mark all as seen.
+  target: 마크는 모두 같은 본.
+  target_initial: 마크는 모두 같은 본.
+- locale: ko-kr
+  format: string
+  source: Master
+  target: 석사
+  target_initial: 석사
+- locale: ko-kr
+  format: string
+  source: Match all of the following
+  target: 다음의 모든 일치
+  target_initial: 다음의 모든 일치
+- locale: ko-kr
+  format: string
+  source: matches
+  target: 성냥
+  target_initial: 성냥
+- locale: ko-kr
+  format: string
+  source: Matrix
+  target: 매트릭스
+  target_initial: 매트릭스
+- locale: ko-kr
+  format: string
+  source: Max. clients in waitlist
+  target: 최대. 대기자 명단에있는 클라이언트
+  target_initial: 최대. 대기자 명단에있는 클라이언트
+- locale: ko-kr
+  format: string
+  source: Max. concurrent chats
+  target: 최대. 동시 채팅
+  target_initial: 최대. 동시 채팅
+- locale: ko-kr
+  format: string
+  source: Max. Email Size
+  target: 최대. 이메일 크기
+  target_initial: 최대. 이메일 크기
+- locale: ko-kr
+  format: string
+  source: Max. length of the subject in an email reply.
+  target: 최대. 이메일 회신 피사체의 길이.
+  target_initial: 최대. 이메일 회신 피사체의 길이.
+- locale: ko-kr
+  format: string
+  source: Maximal failed logins
+  target: 최대는 로그인 실패
+  target_initial: 최대는 로그인 실패
+- locale: ko-kr
+  format: string
+  source: Maximal failed logins after account is inactive.
+  target: 계정이 비활성화 된 후 최대는 로그인을하지 못했습니다.
+  target_initial: 계정이 비활성화 된 후 최대는 로그인을하지 못했습니다.
+- locale: ko-kr
+  format: string
+  source: Maximum Email Size
+  target: 최대 이메일 크기
+  target_initial: 최대 이메일 크기
+- locale: ko-kr
+  format: string
+  source: Maximum failed logins
+  target: 최대 로그인 실패
+  target_initial: 최대 로그인 실패
+- locale: ko-kr
+  format: string
+  source: Maximum size in MB of emails.
+  target: 이메일 MB의 최대 크기.
+  target_initial: 이메일 MB의 최대 크기.
+- locale: ko-kr
+  format: string
+  source: May
+  target: 5월
+  target_initial: 5월
+- locale: ko-kr
+  format: string
+  source: maybe
+  target: 아마도
+  target_initial: 아마도
+- locale: ko-kr
+  format: string
+  source: Members
+  target: 회원
+  target_initial: 회원
+- locale: ko-kr
+  format: string
+  source: Merge
+  target: 병합
+  target_initial: 병합
+- locale: ko-kr
+  format: string
+  source: Merge to Ticket#
+  target: 'Ticket #에 병합'
+  target_initial: 'Ticket #에 병합'
+- locale: ko-kr
+  format: string
+  source: merged
+  target: 합병
+  target_initial: 합병
+- locale: ko-kr
+  format: string
+  source: Message
+  target: 메시지
+  target_initial: 메시지
+- locale: ko-kr
+  format: string
+  source: Message after sending form
+  target: 양식을 보낸 후 메시지
+  target_initial: 양식을 보낸 후 메시지
+- locale: ko-kr
+  format: string
+  source: Messages
+  target: 메시지
+  target_initial: 메시지
+- locale: ko-kr
+  format: string
+  source: Migrate %s Data
+  target: "%s 데이터 마이그레이션"
+  target_initial: "%s 데이터 마이그레이션"
+- locale: ko-kr
+  format: string
+  source: migrate from another system
+  target: 다른 시스템에서 마이그레이션
+  target_initial: 다른 시스템에서 마이그레이션
+- locale: ko-kr
+  format: string
+  source: Migration Plugin for %s
+  target: "%s에 대한 마이그레이션 플러그인"
+  target_initial: "%s에 대한 마이그레이션 플러그인"
+- locale: ko-kr
+  format: string
+  source: Min. size of number
+  target: 최소. 숫자의 크기
+  target_initial: 최소. 숫자의 크기
+- locale: ko-kr
+  format: string
+  source: Minimal size
+  target: 최소 크기
+  target_initial: 최소 크기
+- locale: ko-kr
+  format: string
+  source: Minimum length
+  target: 최소 길이
+  target_initial: 최소 길이
+- locale: ko-kr
+  format: string
+  source: minute
+  target: 분
+  target_initial: 분
+- locale: ko-kr
+  format: string
+  source: Minute(s)
+  target: 의사록
+  target_initial: 의사록
+- locale: ko-kr
+  format: string
+  source: minutes
+  target: 의사록
+  target_initial: 의사록
+- locale: ko-kr
+  format: string
+  source: Mobile
+  target: 변하기 쉬운
+  target_initial: 변하기 쉬운
+- locale: ko-kr
+  format: string
+  source: Mode
+  target: 방법
+  target_initial: 방법
+- locale: ko-kr
+  format: string
+  source: Mon
+  target: 월
+  target_initial: 월
+- locale: ko-kr
+  format: string
+  source: Monday
+  target: 월요일
+  target_initial: 월요일
+- locale: ko-kr
+  format: string
+  source: Monitoring
+  target: 모니터링
+  target_initial: 모니터링
+- locale: ko-kr
+  format: string
+  source: Month
+  target: 달
+  target_initial: 달
+- locale: ko-kr
+  format: string
+  source: Month(s)
+  target: 월 (들)
+  target_initial: 월 (들)
+- locale: ko-kr
+  format: string
+  source: monthly
+  target: 월간 간행물
+  target_initial: 월간 간행물
+- locale: ko-kr
+  format: string
+  source: Mood
+  target: Ticket 확대
+  target_initial: Ticket 확대
+- locale: ko-kr
+  format: string
+  source: Most recent activity
+  target: 최근 활동
+  target_initial: 최근 활동
+- locale: ko-kr
+  format: string
+  source: Move all from "%s" to "%s"
+  target: '"%S"에서 "%s ''에 모든 이동'
+  target_initial: '"%S"에서 "%s ''에 모든 이동'
+- locale: ko-kr
+  format: string
+  source: Move left and right
+  target: 이동 왼쪽과 오른쪽
+  target_initial: 이동 왼쪽과 오른쪽
+- locale: ko-kr
+  format: string
+  source: Move up and down
+  target: 위로 이동 및 아래로
+  target_initial: 위로 이동 및 아래로
+- locale: ko-kr
+  format: string
+  source: Moved in
+  target: 입주
+  target_initial: 입주
+- locale: ko-kr
+  format: string
+  source: Moved out
+  target: 이사
+  target_initial: 이사
+- locale: ko-kr
+  format: string
+  source: My assigned Tickets
+  target: 내 할당 된 Ticket
+  target_initial: 내 할당 된 Ticket
+- locale: ko-kr
+  format: string
+  source: My closed Tickets
+  target: 내 폐쇄 Ticket
+  target_initial: 내 폐쇄 Ticket
+- locale: ko-kr
+  format: string
+  source: My Group
+  target: 나의 그룹
+  target_initial: 나의 그룹
+- locale: ko-kr
+  format: string
+  source: 'My handling time: %s minutes'
+  target: '내 처리 시간 : %s 분'
+  target_initial: '내 처리 시간 : %s 분'
+- locale: ko-kr
+  format: string
+  source: My Organization
+  target: 내 조직
+  target_initial: 내 조직
+- locale: ko-kr
+  format: string
+  source: My Organization Tickets
+  target: 내 조직 Ticket
+  target_initial: 내 조직 Ticket
+- locale: ko-kr
+  format: string
+  source: My pending reached Tickets
+  target: 내 대기중 Ticket
+  target_initial: 내 대기중 Ticket
+- locale: ko-kr
+  format: string
+  source: My replacement Tickets
+  target: 내 교체 Ticket
+  target_initial: 내 교체 Ticket
+- locale: ko-kr
+  format: string
+  source: My Stats
+  target: 내 통계
+  target_initial: 내 통계
+- locale: ko-kr
+  format: string
+  source: My Tickets
+  target: 내 Ticket
+  target_initial: 내 Ticket
+- locale: ko-kr
+  format: string
+  source: Name
+  target: 이름
+  target_initial: 이름
+- locale: ko-kr
+  format: string
+  source: Name of form submit button
+  target: 형태의 이름 제출 '버튼을
+  target_initial: 형태의 이름 제출 '버튼을
+- locale: ko-kr
+  format: string
+  source: Navigate through article
+  target: 기사를 탐색
+  target_initial: 기사를 탐색
+- locale: ko-kr
+  format: string
+  source: Needed
+  target: 필요
+  target_initial: 필요
+- locale: ko-kr
+  format: string
+  source: Network
+  target: 회로망
+  target_initial: 회로망
+- locale: ko-kr
+  format: string
+  source: New
+  target: 새로운
+  target_initial: 새로운
+- locale: ko-kr
+  format: string
+  source: new
+  target: 새로운
+  target_initial: 새로운
+- locale: ko-kr
+  format: string
+  source: new & open
+  target: 신 공개
+  target_initial: 신 공개
+- locale: ko-kr
+  format: string
+  source: New Add-On
+  target: 새로운 애드온
+  target_initial: 새로운 애드온
+- locale: ko-kr
+  format: string
+  source: New App
+  target: 새로운 앱
+  target_initial: 새로운 앱
+- locale: ko-kr
+  format: string
+  source: New Application
+  target: 새 응용 프로그램
+  target_initial: 새 응용 프로그램
+- locale: ko-kr
+  format: string
+  source: New Attribute
+  target: 새 속성
+  target_initial: 새 속성
+- locale: ko-kr
+  format: string
+  source: New Branch
+  target: 새로운 지점
+  target_initial: 새로운 지점
+- locale: ko-kr
+  format: string
+  source: New Calendar
+  target: 새로운 달력
+  target_initial: 새로운 달력
+- locale: ko-kr
+  format: string
+  source: New Group
+  target: 새로운 그룹
+  target_initial: 새로운 그룹
+- locale: ko-kr
+  format: string
+  source: New Macro
+  target: 새 매크로
+  target_initial: 새 매크로
+- locale: ko-kr
+  format: string
+  source: New Organization
+  target: 새 조직
+  target_initial: 새 조직
+- locale: ko-kr
+  format: string
+  source: New Overview
+  target: 새로운 Overview
+  target_initial: 새로운 Overview
+- locale: ko-kr
+  format: string
+  source: New password
+  target: 새 비밀번호
+  target_initial: 새 비밀번호
+- locale: ko-kr
+  format: string
+  source: New password (confirm)
+  target: 새로운 비밀번호 (확인)
+  target_initial: 새로운 비밀번호 (확인)
+- locale: ko-kr
+  format: string
+  source: New Profile
+  target: 새 프로필
+  target_initial: 새 프로필
+- locale: ko-kr
+  format: string
+  source: New Project
+  target: 새 프로젝트
+  target_initial: 새 프로젝트
+- locale: ko-kr
+  format: string
+  source: New Release
+  target: 새로 출시
+  target_initial: 새로 출시
+- locale: ko-kr
+  format: string
+  source: New Role
+  target: 새 역할
+  target_initial: 새 역할
+- locale: ko-kr
+  format: string
+  source: New Scheduler
+  target: 새로운 스케줄러
+  target_initial: 새로운 스케줄러
+- locale: ko-kr
+  format: string
+  source: New SLA
+  target: 새로운 SLA
+  target_initial: 새로운 SLA
+- locale: ko-kr
+  format: string
+  source: New Tags
+  target: 새로운 태그
+  target_initial: 새로운 태그
+- locale: ko-kr
+  format: string
+  source: New text module
+  target: 새로운 텍스트 모듈
+  target_initial: 새로운 텍스트 모듈
+- locale: ko-kr
+  format: string
+  source: New Ticket
+  target: 새로운 Ticket
+  target_initial: 새로운 Ticket
+- locale: ko-kr
+  format: string
+  source: New to
+  target: 새로
+  target_initial: 새로
+- locale: ko-kr
+  format: string
+  source: New Trigger
+  target: 새 트리거
+  target_initial: 새 트리거
+- locale: ko-kr
+  format: string
+  source: New User
+  target: 새로운 사용자
+  target_initial: 새로운 사용자
+- locale: ko-kr
+  format: string
+  source: New User Accounts
+  target: 새 사용자 계정
+  target_initial: 새 사용자 계정
+- locale: ko-kr
+  format: string
+  source: New Version
+  target: 새로운 버전
+  target_initial: 새로운 버전
+- locale: ko-kr
+  format: string
+  source: Newbie
+  target: 신참
+  target_initial: 신참
+- locale: ko-kr
+  format: string
+  source: Next
+  target: 다음 것
+  target_initial: 다음 것
+- locale: ko-kr
+  format: string
+  source: Next in overview
+  target: Overview에서 다음
+  target_initial: Overview에서 다음
+- locale: ko-kr
+  format: string
+  source: Next in tab
+  target: 탭에서 다음
+  target_initial: 탭에서 다음
+- locale: ko-kr
+  format: string
+  source: Next payment due
+  target: 때문에 다음 지불
+  target_initial: 때문에 다음 지불
+- locale: ko-kr
+  format: string
+  source: Next...
+  target: 다음 것...
+  target_initial: 다음 것...
+- locale: ko-kr
+  format: string
+  source: 'no'
+  target: 아니
+  target_initial: 아니
+- locale: ko-kr
+  format: string
+  source: 'No'
+  target: 아니
+  target_initial: 아니
+- locale: ko-kr
+  format: string
+  source: No %s configured.
+  target: 없음 %s이 (가) 구성되지.
+  target_initial: 없음 %s이 (가) 구성되지.
+- locale: ko-kr
+  format: string
+  source: no criteria
+  target: 어떤 기준이 없다
+  target_initial: 어떤 기준이 없다
+- locale: ko-kr
+  format: string
+  source: No Entries
+  target: 어떤 항목 없습니다
+  target_initial: 어떤 항목 없습니다
+- locale: ko-kr
+  format: string
+  source: No filter.
+  target: 필터 없음.
+  target_initial: 필터 없음.
+- locale: ko-kr
+  format: string
+  source: no issues
+  target: 아무 문제 없습니다
+  target_initial: 아무 문제 없습니다
+- locale: ko-kr
+  format: string
+  source: No proxy for the following hosts.
+  target: 다음 호스트에 대한 프록시 없습니다.
+  target_initial: 다음 호스트에 대한 프록시 없습니다.
+- locale: ko-kr
+  format: string
+  source: No such master ticket number!
+  target: 이러한 마스터 Ticket 수 없습니다!
+  target_initial: 이러한 마스터 Ticket 수 없습니다!
+- locale: ko-kr
+  format: string
+  source: No template created yet.
+  target: 어떤 템플릿은 아직 생성하지 않습니다.
+  target_initial: 어떤 템플릿은 아직 생성하지 않습니다.
+- locale: ko-kr
+  format: string
+  source: No unread notifications for you. :)
+  target: 당신을 위해 읽지 않은 알림이 없습니다. :)
+  target_initial: 당신을 위해 읽지 않은 알림이 없습니다. :)
+- locale: ko-kr
+  format: string
+  source: none
+  target: 없음
+  target_initial: 없음
+- locale: ko-kr
+  format: string
+  source: Normal
+  target: 표준
+  target_initial: 표준
+- locale: ko-kr
+  format: string
+  source: Not Assigned
+  target: 할당되지 않음
+  target_initial: 할당되지 않음
+- locale: ko-kr
+  format: string
+  source: Not charged.
+  target: 충전하지 않습니다.
+  target_initial: 충전하지 않습니다.
+- locale: ko-kr
+  format: string
+  source: Not configured
+  target: 구성되지 않음
+  target_initial: 구성되지 않음
+- locale: ko-kr
+  format: string
+  source: not exist
+  target: 존재하지
+  target_initial: 존재하지
+- locale: ko-kr
+  format: string
+  source: not reached
+  target: 에 도달하지
+  target_initial: 에 도달하지
+- locale: ko-kr
+  format: string
+  source: 'On %s, %s wrote:'
+  target: "%s에서 %s 님이 작성 :"
+  target_initial: "%s에서 %s 님이 작성 :"
+- locale: ko-kr
+  format: string
+  source: not set (not defined)
+  target: 설정하지 (정의 생략)
+  target_initial: 설정하지 (정의 생략)
+- locale: ko-kr
+  format: string
+  source: not translated
+  target: 번역되지
+  target_initial: 번역되지
+- locale: ko-kr
+  format: string
+  source: Note
+  target: 노트
+  target_initial: 노트
+- locale: ko-kr
+  format: string
+  source: note
+  target: 노트
+  target_initial: 노트
+- locale: ko-kr
+  format: string
+  source: Note - default visibility
+  target: 주 - 기본 가시성
+  target_initial: 주 - 기본 가시성
+- locale: ko-kr
+  format: string
+  source: 'Note: All not mapped users will get the default signup roles.'
+  target: '참고 : 모든 매핑되지 않은 사용자가 기본 가입 역할을 얻을 것이다.'
+  target_initial: '참고 : 모든 매핑되지 않은 사용자가 기본 가입 역할을 얻을 것이다.'
+- locale: ko-kr
+  format: string
+  source: Notes
+  target: 노트
+  target_initial: 노트
+- locale: ko-kr
+  format: string
+  source: Notes are visible to agents only, never to customers.
+  target: 주의 사항은, 결코 고객에게 에이전트 볼 수 있습니다.
+  target_initial: 주의 사항은, 결코 고객에게 에이전트 볼 수 있습니다.
+- locale: ko-kr
+  format: string
+  source: Nothing selected
+  target: 아무것도 선택하지
+  target_initial: 아무것도 선택하지
+- locale: ko-kr
+  format: string
+  source: Notice
+  target: 주의
+  target_initial: 주의
+- locale: ko-kr
+  format: string
+  source: Notification
+  target: 공고
+  target_initial: 공고
+- locale: ko-kr
+  format: string
+  source: Notification Sender
+  target: 알림 발신자
+  target_initial: 알림 발신자
+- locale: ko-kr
+  format: string
+  source: Notification Sound
+  target: 알림 소리
+  target_initial: 알림 소리
+- locale: ko-kr
+  format: string
+  source: Notifications
+  target: 알림
+  target_initial: 알림
+- locale: ko-kr
+  format: string
+  source: Nov
+  target: 11월
+  target_initial: 11월
+- locale: ko-kr
+  format: string
+  source: November
+  target: 11월
+  target_initial: 11월
+- locale: ko-kr
+  format: string
+  source: now
+  target: 지금
+  target_initial: 지금
+- locale: ko-kr
+  format: string
+  source: Number
+  target: 번호
+  target_initial: 번호
+- locale: ko-kr
+  format: string
+  source: Number of failed logins after account will be deactivated.
+  target: 계정 로그인 실패 후 수는 ​​비활성화됩니다.
+  target_initial: 계정 로그인 실패 후 수는 ​​비활성화됩니다.
+- locale: ko-kr
+  format: string
+  source: Object Manager
+  target: 개체 관리자
+  target_initial: 개체 관리자
+- locale: ko-kr
+  format: string
+  source: Objects
+  target: 사물
+  target_initial: 사물
+- locale: ko-kr
+  format: string
+  source: Oct
+  target: 10월
+  target_initial: 10월
+- locale: ko-kr
+  format: string
+  source: October
+  target: 10월
+  target_initial: 10월
+- locale: ko-kr
+  format: string
+  source: of
+  target: 의
+  target_initial: 의
+- locale: ko-kr
+  format: string
+  source: OK, I've copied my token
+  target: OK, 내 토큰을 복사 한
+  target_initial: OK, 내 토큰을 복사 한
+- locale: ko-kr
+  format: string
+  source: Online
+  target: 온라인으로
+  target_initial: 온라인으로
+- locale: ko-kr
+  format: string
+  source: Online Forms
+  target: 온라인 양식
+  target_initial: 온라인 양식
+- locale: ko-kr
+  format: string
+  source: Only available for Users which are replacements for other users.
+  target: 만 다른 사용자의 대체 인 사용자는 사용할 수 있습니다.
+  target_initial: 만 다른 사용자의 대체 인 사용자는 사용할 수 있습니다.
+- locale: ko-kr
+  format: string
+  source: Only available for Users with shared Organization
+  target: 공유 조직을 가진 사용자 만 사용할 수 있습니다
+  target_initial: 공유 조직을 가진 사용자 만 사용할 수 있습니다
+- locale: ko-kr
+  format: string
+  source: Only for these groups.
+  target: 만 이러한 그룹.
+  target_initial: 만 이러한 그룹.
+- locale: ko-kr
+  format: string
+  source: open
+  target: 열다
+  target_initial: 열다
+- locale: ko-kr
+  format: string
+  source: Open
+  target: 열다
+  target_initial: 열다
+- locale: ko-kr
+  format: string
+  source: Open note box
+  target: 노트 열기 상자
+  target_initial: 노트 열기 상자
+- locale: ko-kr
+  format: string
+  source: Open reply box
+  target: 열기 답장 상자
+  target_initial: 열기 답장 상자
+- locale: ko-kr
+  format: string
+  source: Open Ticket# %s
+  target: '오픈 Ticket # %s을 (를)'
+  target_initial: '오픈 Ticket # %s을 (를)'
+- locale: ko-kr
+  format: string
+  source: Open Tickets
+  target: 오픈 Ticket
+  target_initial: 오픈 Ticket
+- locale: ko-kr
+  format: string
+  source: Open tickets
+  target: 오픈 Ticket
+  target_initial: 오픈 Ticket
+- locale: ko-kr
+  format: string
+  source: Option
+  target: 선택권
+  target_initial: 선택권
+- locale: ko-kr
+  format: string
+  source: Options
+  target: 옵션
+  target_initial: 옵션
+- locale: ko-kr
+  format: string
+  source: or
+  target: 또는
+  target_initial: 또는
+- locale: ko-kr
+  format: string
+  source: Or
+  target: 또는
+  target_initial: 또는
+- locale: ko-kr
+  format: string
+  source: or %s %s monthly
+  target: 또는 %s %s 월간
+  target_initial: 또는 %s %s 월간
+- locale: ko-kr
+  format: string
+  source: or sign in using
+  target: 또는 사용하여 로그인
+  target_initial: 또는 사용하여 로그인
+- locale: ko-kr
+  format: string
+  source: Order
+  target: 주문
+  target_initial: 주문
+- locale: ko-kr
+  format: string
+  source: Organization
+  target: 조직
+  target_initial: 조직
+- locale: ko-kr
+  format: string
+  source: Organization & Department Name
+  target: 조직 및 부서명
+  target_initial: 조직 및 부서명
+- locale: ko-kr
+  format: string
+  source: Organization Name
+  target: 조직 이름
+  target_initial: 조직 이름
+- locale: ko-kr
+  format: string
+  source: Organization Support
+  target: 조직 지원
+  target_initial: 조직 지원
+- locale: ko-kr
+  format: string
+  source: Organizations
+  target: 조직
+  target_initial: 조직
+- locale: ko-kr
+  format: string
+  source: Original
+  target: 기발한
+  target_initial: 기발한
+- locale: ko-kr
+  format: string
+  source: Original Formatting
+  target: 원래 서식
+  target_initial: 원래 서식
+- locale: ko-kr
+  format: string
+  source: Out of Office
+  target: 사무실 중
+  target_initial: 사무실 중
+- locale: ko-kr
+  format: string
+  source: Out of office replacement
+  target: 사무실 교체 아웃
+  target_initial: 사무실 교체 아웃
+- locale: ko-kr
+  format: string
+  source: Outbound
+  target: 아웃바운드
+  target_initial: 아웃바운드
+- locale: ko-kr
+  format: string
+  source: Outbound Call
+  target: 아웃 바운드 통화
+  target_initial: 아웃 바운드 통화
+- locale: ko-kr
+  format: string
+  source: Overview
+  target: Overview
+  target_initial: Overview
+- locale: ko-kr
+  format: string
+  source: Overviews
+  target: Overviews
+  target_initial: Overviews
+- locale: ko-kr
+  format: string
+  source: Owned by me
+  target: 내가 소유
+  target_initial: 내가 소유
+- locale: ko-kr
+  format: string
+  source: Owned by nobody
+  target: 아무도 소유
+  target_initial: 아무도 소유
+- locale: ko-kr
+  format: string
+  source: Owner
+  target: 소유자
+  target_initial: 소유자
+- locale: ko-kr
+  format: string
+  source: Package
+  target: 패키지
+  target_initial: 패키지
+- locale: ko-kr
+  format: string
+  source: Packages
+  target: 패키지
+  target_initial: 패키지
+- locale: ko-kr
+  format: string
+  source: Parent
+  target: 부모의
+  target_initial: 부모의
+- locale: ko-kr
+  format: string
+  source: Password
+  target: 암호
+  target_initial: 암호
+- locale: ko-kr
+  format: string
+  source: Password (confirm)
+  target: 비밀번호 (확인)
+  target_initial: 비밀번호 (확인)
+- locale: ko-kr
+  format: string
+  source: Password Access
+  target: 암호 액세스
+  target_initial: 암호 액세스
+- locale: ko-kr
+  format: string
+  source: Password for proxy connection.
+  target: 프록시 연결을위한 암호입니다.
+  target_initial: 프록시 연결을위한 암호입니다.
+- locale: ko-kr
+  format: string
+  source: Password needs to contain 2 lower and 2 upper characters.
+  target: 비밀번호 낮은 2 개, 2 위 문자를 포함 할 필요가있다.
+  target_initial: 비밀번호 낮은 2 개, 2 위 문자를 포함 할 필요가있다.
+- locale: ko-kr
+  format: string
+  source: Password needs to contain at least one digit.
+  target: 비밀번호에는 적어도 하나의 숫자가 포함 할 필요가있다.
+  target_initial: 비밀번호에는 적어도 하나의 숫자가 포함 할 필요가있다.
+- locale: ko-kr
+  format: string
+  source: Password needs to have at least a minimal number of characters.
+  target: 암호 문자의 적어도 최소한의를 가질 필요가있다.
+  target_initial: 암호 문자의 적어도 최소한의를 가질 필요가있다.
+- locale: ko-kr
+  format: string
+  source: Password needs to have at least minimal size of characters.
+  target: 암호 문자의 적어도 최소한의 크기를 가질 필요가있다.
+  target_initial: 암호 문자의 적어도 최소한의 크기를 가질 필요가있다.
+- locale: ko-kr
+  format: string
+  source: Password needs to have at least one digit.
+  target: 비밀번호에는 적어도 하나의 숫자가 있어야합니다.
+  target_initial: 비밀번호에는 적어도 하나의 숫자가 있어야합니다.
+- locale: ko-kr
+  format: string
+  source: Paste in CSV data
+  target: CSV 데이터에 붙여 넣기
+  target_initial: CSV 데이터에 붙여 넣기
+- locale: ko-kr
+  format: string
+  source: Pay with
+  target: 지불
+  target_initial: 지불
+- locale: ko-kr
+  format: string
+  source: Payment by invoice
+  target: 송장으로 지불
+  target_initial: 송장으로 지불
+- locale: ko-kr
+  format: string
+  source: Payment history
+  target: 지급 내역
+  target_initial: 지급 내역
+- locale: ko-kr
+  format: string
+  source: Payment method
+  target: 지불 방법
+  target_initial: 지불 방법
+- locale: ko-kr
+  format: string
+  source: pending
+  target: 대기
+  target_initial: 대기
+- locale: ko-kr
+  format: string
+  source: Pending
+  target: 보류
+  target_initial: 보류
+- locale: ko-kr
+  format: string
+  source: pending close
+  target: 가까운 대기
+  target_initial: 가까운 대기
+- locale: ko-kr
+  format: string
+  source: Pending reached
+  target: 도달 보류
+  target_initial: 도달 보류
+- locale: ko-kr
+  format: string
+  source: pending reminder
+  target: 대기중인 알림
+  target_initial: 대기중인 알림
+- locale: ko-kr
+  format: string
+  source: Pending reminder reached for Ticket |%s|
+  target: "%s | Ticket에 도달 보류 알림 |"
+  target_initial: "%s | Ticket에 도달 보류 알림 |"
+- locale: ko-kr
+  format: string
+  source: Pending till
+  target: 까지 보류
+  target_initial: 까지 보류
+- locale: ko-kr
+  format: string
+  source: People who create Tickets ask for help.
+  target: Ticket을 만드는 사람들은 도움을 요청.
+  target_initial: Ticket을 만드는 사람들은 도움을 요청.
+- locale: ko-kr
+  format: string
+  source: per agent / month
+  target: 에이전트 / 월
+  target_initial: 에이전트 / 월
+- locale: ko-kr
+  format: string
+  source: Perform action of the following
+  target: 다음의 작업을 수행합니다
+  target_initial: 다음의 작업을 수행합니다
+- locale: ko-kr
+  format: string
+  source: Permissions
+  target: 권한
+  target_initial: 권한
+- locale: ko-kr
+  format: string
+  source: Personal Access Tokens
+  target: 개인 액세스 토큰
+  target_initial: 개인 액세스 토큰
+- locale: ko-kr
+  format: string
+  source: Personal Settings
+  target: 개인 설정
+  target_initial: 개인 설정
+- locale: ko-kr
+  format: string
+  source: Phone
+  target: 전화
+  target_initial: 전화
+- locale: ko-kr
+  format: string
+  source: Pick a name for the application, and we'll give you a unique token.
+  target: 응용 프로그램의 이름을 선택하고, 우리는 당신에게 고유 한 토큰을 줄 것이다.
+  target_initial: 응용 프로그램의 이름을 선택하고, 우리는 당신에게 고유 한 토큰을 줄 것이다.
+- locale: ko-kr
+  format: string
+  source: Pink
+  target: 담홍색
+  target_initial: 담홍색
+- locale: ko-kr
+  format: string
+  source: Plan
+  target: 계획
+  target_initial: 계획
+- locale: ko-kr
+  format: string
+  source: Play user interface sound effects
+  target: 사용자 인터페이스 사운드 효과를 재생
+  target_initial: 사용자 인터페이스 사운드 효과를 재생
+- locale: ko-kr
+  format: string
+  source: Please click the button below to create your first one.
+  target: 첫 번째 하나를 만들려면 아래 버튼을 클릭하십시오.
+  target_initial: 첫 번째 하나를 만들려면 아래 버튼을 클릭하십시오.
+- locale: ko-kr
+  format: string
+  source: Please enter a valid "%s"!
+  target: 유효한 '%s'을 (를) 입력하십시오!
+  target_initial: 유효한 '%s'을 (를) 입력하십시오!
+- locale: ko-kr
+  format: string
+  source: Please execute database changes only in a maintenance time-slot.
+  target: 단지 유지 보수 시간 슬롯에 데이터베이스 변경을 실행하십시오.
+  target_initial: 단지 유지 보수 시간 슬롯에 데이터베이스 변경을 실행하십시오.
+- locale: ko-kr
+  format: string
+  source: Please fill also some text in!
+  target: 또한 일부 텍스트를 입력하세요!
+  target_initial: 또한 일부 텍스트를 입력하세요!
+- locale: ko-kr
+  format: string
+  source: Please try to login!
+  target: 로그인을 시도하십시오!
+  target_initial: 로그인을 시도하십시오!
+- locale: ko-kr
+  format: string
+  source: Please update database changes only in a maintenance timeslot.
+  target: 데이터베이스는 유지 보수 타임 슬롯의 변화를 업데이트하시기 바랍니다.
+  target_initial: 데이터베이스는 유지 보수 타임 슬롯의 변화를 업데이트하시기 바랍니다.
+- locale: ko-kr
+  format: string
+  source: Port
+  target: 포트
+  target_initial: 포트
+- locale: ko-kr
+  format: string
+  source: Postal Code
+  target: 우편 번호
+  target_initial: 우편 번호
+- locale: ko-kr
+  format: string
+  source: Powered by
+  target: 에 의해 구동
+  target_initial: 에 의해 구동
+- locale: ko-kr
+  format: string
+  source: Pretty Date
+  target: 예쁜 날짜
+  target_initial: 예쁜 날짜
+- locale: ko-kr
+  format: string
+  source: Preview
+  target: 시사
+  target_initial: 시사
+- locale: ko-kr
+  format: string
+  source: Preview Width
+  target: 미리보기 폭
+  target_initial: 미리보기 폭
+- locale: ko-kr
+  format: string
+  source: Previous
+  target: 너무 이른
+  target_initial: 너무 이른
+- locale: ko-kr
+  format: string
+  source: Previous in overview
+  target: Overview에 이전
+  target_initial: Overview에 이전
+- locale: ko-kr
+  format: string
+  source: Previous tab
+  target: 이전 탭
+  target_initial: 이전 탭
+- locale: ko-kr
+  format: string
+  source: Prio
+  target: 프리 오
+  target_initial: 프리 오
+- locale: ko-kr
+  format: string
+  source: Priority
+  target: 우선 순위
+  target_initial: 우선 순위
+- locale: ko-kr
+  format: string
+  source: Proceed
+  target: 발하다
+  target_initial: 발하다
+- locale: ko-kr
+  format: string
+  source: Product Name
+  target: 상품명
+  target_initial: 상품명
+- locale: ko-kr
+  format: string
+  source: Product Version
+  target: 제품 버전
+  target_initial: 제품 버전
+- locale: ko-kr
+  format: string
+  source: Products
+  target: 제작품
+  target_initial: 제작품
+- locale: ko-kr
+  format: string
+  source: Professional
+  target: 직업적인
+  target_initial: 직업적인
+- locale: ko-kr
+  format: string
+  source: Profile
+  target: 설정
+  target_initial: 설정
+- locale: ko-kr
+  format: string
+  source: Profiles
+  target: 프로필
+  target_initial: 프로필
+- locale: ko-kr
+  format: string
+  source: Project
+  target: 계획
+  target_initial: 계획
+- locale: ko-kr
+  format: string
+  source: Projects
+  target: 프로젝트
+  target_initial: 프로젝트
+- locale: ko-kr
+  format: string
+  source: Protocol
+  target: 실험 계획안
+  target_initial: 실험 계획안
+- locale: ko-kr
+  format: string
+  source: Recipient
+  target: 수신자
+  target_initial: 수신자
+- locale: ko-kr
+  format: string
+  source: Proxy address.
+  target: 프록시 주소를 입력합니다.
+  target_initial: 프록시 주소를 입력합니다.
+- locale: ko-kr
+  format: string
+  source: Proxy Settings
+  target: 프록시 설정
+  target_initial: 프록시 설정
+- locale: ko-kr
+  format: string
+  source: public
+  target: 공공의
+  target_initial: 공공의
+- locale: ko-kr
+  format: string
+  source: Purple
+  target: 자
+  target_initial: 자
+- locale: ko-kr
+  format: string
+  source: Push Changes
+  target: 푸시 변경
+  target_initial: 푸시 변경
+- locale: ko-kr
+  format: string
+  source: Push my changes
+  target: 내 변경을 누르십시오
+  target_initial: 내 변경을 누르십시오
+- locale: ko-kr
+  format: string
+  source: Pushing translations to i18n.zammad.com
+  target: i18n.zammad.com에 번역을 누르면
+  target_initial: i18n.zammad.com에 번역을 누르면
+- locale: ko-kr
+  format: string
+  source: Put a message on the login page. To change it, click on the text area below
+    and change it inline.
+  target: 로그인 페이지에 메시지를 넣습니다. 이를 변경하려면 아래의 텍스트 영역을 클릭하고 인라인을 변경합니다.
+  target_initial: 로그인 페이지에 메시지를 넣습니다. 이를 변경하려면 아래의 텍스트 영역을 클릭하고 인라인을 변경합니다.
+- locale: ko-kr
+  format: string
+  source: Put a message on the login page. To change it, click on the text area below
+    and change it in-line.
+  target: 로그인 페이지에 메시지를 넣습니다. 이를 변경하려면 아래의 텍스트 영역을 클릭하고 인라인 (in-line)으로 변경합니다.
+  target_initial: 로그인 페이지에 메시지를 넣습니다. 이를 변경하려면 아래의 텍스트 영역을 클릭하고 인라인 (in-line)으로 변경합니다.
+- locale: ko-kr
+  format: string
+  source: Queue
+  target: 열
+  target_initial: 열
+- locale: ko-kr
+  format: string
+  source: raw
+  target: raw
+  target_initial: raw
+- locale: ko-kr
+  format: string
+  source: reached
+  target: 도달
+  target_initial: 도달
+- locale: ko-kr
+  format: string
+  source: Read
+  target: 독서
+  target_initial: 독서
+- locale: ko-kr
+  format: string
+  source: Real name
+  target: 실제 이름
+  target_initial: 실제 이름
+- locale: ko-kr
+  format: string
+  source: Realname
+  target: 실제 이름
+  target_initial: 실제 이름
+- locale: ko-kr
+  format: string
+  source: Realtime
+  target: 실시간
+  target_initial: 실시간
+- locale: ko-kr
+  format: string
+  source: Receipt
+  target: 영수증
+  target_initial: 영수증
+- locale: ko-kr
+  format: string
+  source: Received Call
+  target: 수신 전화
+  target_initial: 수신 전화
+- locale: ko-kr
+  format: string
+  source: Recent Customer Tickets
+  target: 최근 고객 Ticket
+  target_initial: 최근 고객 Ticket
+- locale: ko-kr
+  format: string
+  source: Recent logs
+  target: 최근 로그
+  target_initial: 최근 로그
+- locale: ko-kr
+  format: string
+  source: Recent Releases
+  target: 최근 자료
+  target_initial: 최근 자료
+- locale: ko-kr
+  format: string
+  source: Recent viewed Tickets
+  target: 최근 본 Ticket
+  target_initial: 최근 본 Ticket
+- locale: ko-kr
+  format: string
+  source: Recently viewed
+  target: 최근에 본
+  target_initial: 최근에 본
+- locale: ko-kr
+  format: string
+  source: Recipients
+  target: 받는 사람
+  target_initial: 받는 사람
+- locale: ko-kr
+  format: string
+  source: Records that exist in the import data (but not in Zammad) will always be
+    created.
+  target: 가져 오기 데이터에 존재하는 기록 (하지만 Zammad에서) 항상 생성됩니다.
+  target_initial: 가져 오기 데이터에 존재하는 기록 (하지만 Zammad에서) 항상 생성됩니다.
+- locale: ko-kr
+  format: string
+  source: Register as a new customer
+  target: 새로운 고객으로 등록
+  target_initial: 새로운 고객으로 등록
+- locale: ko-kr
+  format: string
+  source: reinstall
+  target: 다시 설치
+  target_initial: 다시 설치
+- locale: ko-kr
+  format: string
+  source: reject follow up/do not reopen Ticket
+  target: Ticket을 다시하지 않는 / 후속 거부
+  target_initial: Ticket을 다시하지 않는 / 후속 거부
+- locale: ko-kr
+  format: string
+  source: Releases
+  target: 자료
+  target_initial: 자료
+- locale: ko-kr
+  format: string
+  source: Reload application
+  target: 다시로드 응용 프로그램
+  target_initial: 다시로드 응용 프로그램
+- locale: ko-kr
+  format: string
+  source: Remember me
+  target: 날 기억해
+  target_initial: 날 기억해
+- locale: ko-kr
+  format: string
+  source: Remove
+  target: 풀다
+  target_initial: 풀다
+- locale: ko-kr
+  format: string
+  source: removed
+  target: 삭제 완료
+  target_initial: 삭제 완료
+- locale: ko-kr
+  format: string
+  source: Removes any hyperlink
+  target: 모든 하이퍼 링크를 제거합니다
+  target_initial: 모든 하이퍼 링크를 제거합니다
+- locale: ko-kr
+  format: string
+  source: Removes the formatting
+  target: 서식을 제거합니다
+  target_initial: 서식을 제거합니다
+- locale: ko-kr
+  format: string
+  source: Removes the shadows for a flat look.
+  target: 평평한 모양의 그림자를 제거합니다.
+  target_initial: 평평한 모양의 그림자를 제거합니다.
+- locale: ko-kr
+  format: string
+  source: Re-Open
+  target: 다시 열다
+  target_initial: 다시 열다
+- locale: ko-kr
+  format: string
+  source: Reopened
+  target: 다시 열림
+  target_initial: 다시 열림
+- locale: ko-kr
+  format: string
+  source: Reopening rate
+  target: 재 오픈 율(%)
+  target_initial: 재 오픈 율(%)
+- locale: ko-kr
+  format: string
+  source: Replacement
+  target: 바꿔 놓음
+  target_initial: 바꿔 놓음
+- locale: ko-kr
+  format: string
+  source: reply
+  target: 댓글
+  target_initial: 댓글
+- locale: ko-kr
+  format: string
+  source: Reply
+  target: 댓글
+  target_initial: 댓글
+- locale: ko-kr
+  format: string
+  source: reply all
+  target: 모든 응답
+  target_initial: 모든 응답
+- locale: ko-kr
+  format: string
+  source: Reply to last article
+  target: 마지막 기사에 회신
+  target_initial: 마지막 기사에 회신
+- locale: ko-kr
+  format: string
+  source: Reply-To
+  target: 답장하다
+  target_initial: 답장하다
+- locale: ko-kr
+  format: string
+  source: Reporing
+  target: Reporing
+  target_initial: Reporing
+- locale: ko-kr
+  format: string
+  source: Report
+  target: 보고서
+  target_initial: 보고서
+- locale: ko-kr
+  format: string
+  source: Report Profile
+  target: 보고서 프로필
+  target_initial: 보고서 프로필
+- locale: ko-kr
+  format: string
+  source: Requesting the Grant
+  target: 부여 요청
+  target_initial: 부여 요청
+- locale: ko-kr
+  format: string
+  source: required
+  target: 필요
+  target_initial: 필요
+- locale: ko-kr
+  format: string
+  source: Requirements
+  target: 요구 사항
+  target_initial: 요구 사항
+- locale: ko-kr
+  format: string
+  source: Resend verification email
+  target: 확인 이메일을 다시 보내
+  target_initial: 확인 이메일을 다시 보내
+- locale: ko-kr
+  format: string
+  source: Reset
+  target: 다시 놓기
+  target_initial: 다시 놓기
+- locale: ko-kr
+  format: string
+  source: Reset changes
+  target: 변경 재설정
+  target_initial: 변경 재설정
+- locale: ko-kr
+  format: string
+  source: Reset Password
+  target: 암호를 재설정
+  target_initial: 암호를 재설정
+- locale: ko-kr
+  format: string
+  source: Restore Defaults
+  target: 기본값으로 복원
+  target_initial: 기본값으로 복원
+- locale: ko-kr
+  format: string
+  source: right
+  target: 권리
+  target_initial: 권리
+- locale: ko-kr
+  format: string
+  source: ringing
+  target: 울리는
+  target_initial: 울리는
+- locale: ko-kr
+  format: string
+  source: Role
+  target: 역할
+  target_initial: 역할
+- locale: ko-kr
+  format: string
+  source: Roles
+  target: 역할
+  target_initial: 역할
+- locale: ko-kr
+  format: string
+  source: Run every %s at %s
+  target: "%s로 모든 %s을 (를) 실행"
+  target_initial: "%s로 모든 %s을 (를) 실행"
+- locale: ko-kr
+  format: string
+  source: run macro
+  target: 실행 매크로
+  target_initial: 실행 매크로
+- locale: ko-kr
+  format: string
+  source: Running...
+  target: 달리는...
+  target_initial: 달리는...
+- locale: ko-kr
+  format: string
+  source: Sat
+  target: 토
+  target_initial: 토
+- locale: ko-kr
+  format: string
+  source: Saturday
+  target: 토요일
+  target_initial: 토요일
+- locale: ko-kr
+  format: string
+  source: Save
+  target: 저장
+  target_initial: 저장
+- locale: ko-kr
+  format: string
+  source: Save as template
+  target: 템플릿으로 저장
+  target_initial: 템플릿으로 저장
+- locale: ko-kr
+  format: string
+  source: Save configuration
+  target: 저장 구성
+  target_initial: 저장 구성
+- locale: ko-kr
+  format: string
+  source: Save new template
+  target: 새 템플릿을 저장합니다
+  target_initial: 새 템플릿을 저장합니다
+- locale: ko-kr
+  format: string
+  source: Save Template
+  target: 템플릿 저장
+  target_initial: 템플릿 저장
+- locale: ko-kr
+  format: string
+  source: Scheduled for
+  target: 예정
+  target_initial: 예정
+- locale: ko-kr
+  format: string
+  source: Scheduler
+  target: 스케줄러
+  target_initial: 스케줄러
+- locale: ko-kr
+  format: string
+  source: Schedulers
+  target: 스케줄러
+  target_initial: 스케줄러
+- locale: ko-kr
+  format: string
+  source: Scroll down to see new messages
+  target: 새 메시지를 볼 수 아래로 스크롤
+  target_initial: 새 메시지를 볼 수 아래로 스크롤
+- locale: ko-kr
+  format: string
+  source: Search
+  target: 검색
+  target_initial: 검색
+- locale: ko-kr
+  format: string
+  source: Search for users
+  target: 사용자를위한 검색
+  target_initial: 사용자를위한 검색
+- locale: ko-kr
+  format: string
+  source: Search...
+  target: 수색...
+  target_initial: 수색...
+- locale: ko-kr
+  format: string
+  source: Security
+  target: 보안
+  target_initial: 보안
+- locale: ko-kr
+  format: string
+  source: See less
+  target: 참조 이하
+  target_initial: 참조 이하
+- locale: ko-kr
+  format: string
+  source: See more
+  target: 더보기
+  target_initial: 더보기
+- locale: ko-kr
+  format: string
+  source: See your tickets from within your favorite calendar by adding the following
+    URL to your calendar app.
+  target: 캘린더 응용 프로그램에 다음 URL을 추가하여 당신의 마음에 드는 일정 내에서 Ticket을 참조하십시오.
+  target_initial: 캘린더 응용 프로그램에 다음 URL을 추가하여 당신의 마음에 드는 일정 내에서 Ticket을 참조하십시오.
+- locale: ko-kr
+  format: string
+  source: Select
+  target: 고르다
+  target_initial: 고르다
+- locale: ko-kr
+  format: string
+  source: select attachment...
+  target: 선택 첨부 ...
+  target_initial: 선택 첨부 ...
+- locale: ko-kr
+  format: string
+  source: Select CSV file
+  target: CSV 파일을 선택
+  target_initial: CSV 파일을 선택
+- locale: ko-kr
+  format: string
+  source: Select item
+  target: 물품을 고르시 오
+  target_initial: 물품을 고르시 오
+- locale: ko-kr
+  format: string
+  source: Select Template
+  target: 템플릿 선택
+  target_initial: 템플릿 선택
+- locale: ko-kr
+  format: string
+  source: Select the customer of the ticket or create one.
+  target: Ticket의 고객을 선택하거나 만듭니다.
+  target_initial: Ticket의 고객을 선택하거나 만듭니다.
+- locale: ko-kr
+  format: string
+  source: Selected
+  target: 선택된
+  target_initial: 선택된
+- locale: ko-kr
+  format: string
+  source: Selector
+  target: 선택자
+  target_initial: 선택자
+- locale: ko-kr
+  format: string
+  source: Selects the ticket number generator module.
+  target: Ticket 번호 생성기 모듈을 선택합니다.
+  target_initial: Ticket 번호 생성기 모듈을 선택합니다.
+- locale: ko-kr
+  format: string
+  source: Send
+  target: 보내다
+  target_initial: 보내다
+- locale: ko-kr
+  format: string
+  source: Send a message to all logged in users.
+  target: 로그인 한 사용자 모두에게 메시지를 보냅니다.
+  target_initial: 로그인 한 사용자 모두에게 메시지를 보냅니다.
+- locale: ko-kr
+  format: string
+  source: Send client stats
+  target: 클라이언트 통계 보내기
+  target_initial: 클라이언트 통계 보내기
+- locale: ko-kr
+  format: string
+  source: Send client stats to central server.
+  target: 중앙 서버에 클라이언트 통계를 보냅니다.
+  target_initial: 중앙 서버에 클라이언트 통계를 보냅니다.
+- locale: ko-kr
+  format: string
+  source: Send client stats/error message to central server to improve the usability.
+  target: 사용성을 개선하기 위해 중앙 서버에 클라이언트 통계 / 오류 메시지를 보냅니다.
+  target_initial: 사용성을 개선하기 위해 중앙 서버에 클라이언트 통계 / 오류 메시지를 보냅니다.
+- locale: ko-kr
+  format: string
+  source: Send Email
+  target: 이메일을 보내
+  target_initial: 이메일을 보내
+- locale: ko-kr
+  format: string
+  source: Send invitation
+  target: 초대장을 보내다
+  target_initial: 초대장을 보내다
+- locale: ko-kr
+  format: string
+  source: Send Mails via
+  target: 를 통해 메일을 보내기
+  target_initial: 를 통해 메일을 보내기
+- locale: ko-kr
+  format: string
+  source: Send to clients
+  target: 클라이언트에게 보내기
+  target_initial: 클라이언트에게 보내기
+- locale: ko-kr
+  format: string
+  source: Sender
+  target: 송신기
+  target_initial: 송신기
+- locale: ko-kr
+  format: string
+  source: Sender based on Reply-To header
+  target: 를 기반으로 보낸 회신하려면 헤더
+  target_initial: 를 기반으로 보낸 회신하려면 헤더
+- locale: ko-kr
+  format: string
+  source: Sender Format
+  target: 보낸 사람 형식
+  target_initial: 보낸 사람 형식
+- locale: ko-kr
+  format: string
+  source: Sender Format Separator
+  target: 보낸 사람 형식 구분
+  target_initial: 보낸 사람 형식 구분
+- locale: ko-kr
+  format: string
+  source: Sending...
+  target: 배상...
+  target_initial: 배상...
+- locale: ko-kr
+  format: string
+  source: Sep
+  target: 9월
+  target_initial: 9월
+- locale: ko-kr
+  format: string
+  source: SEPA Direct Debit
+  target: SEPA 자동 이체
+  target_initial: SEPA 자동 이체
+- locale: ko-kr
+  format: string
+  source: September
+  target: 9월
+  target_initial: 9월
+- locale: ko-kr
+  format: string
+  source: Service
+  target: 서비스
+  target_initial: 서비스
+- locale: ko-kr
+  format: string
+  source: Services
+  target: 서비스
+  target_initial: 서비스
+- locale: ko-kr
+  format: string
+  source: Session
+  target: 세션
+  target_initial: 세션
+- locale: ko-kr
+  format: string
+  source: session started
+  target: 세션 시작
+  target_initial: 세션 시작
+- locale: ko-kr
+  format: string
+  source: Sessions
+  target: 세션
+  target_initial: 세션
+- locale: ko-kr
+  format: string
+  source: Set article to internal/public
+  target: 로 설정 기사 내부 공개 /
+  target_initial: 로 설정 기사 내부 공개 /
+- locale: ko-kr
+  format: string
+  source: Set caller id of outbound calls based on destination caller id.
+  target: 대상 발신자 ID를 기반으로 아웃 바운드 통화의 설정 발신자 ID입니다.
+  target_initial: 대상 발신자 ID를 기반으로 아웃 바운드 통화의 설정 발신자 ID입니다.
+- locale: ko-kr
+  format: string
+  source: set internal
+  target: 내부 설정
+  target_initial: 내부 설정
+- locale: ko-kr
+  format: string
+  source: Set outbound caller id
+  target: 설정 아웃 바운드 발신자 ID
+  target_initial: 설정 아웃 바운드 발신자 ID
+- locale: ko-kr
+  format: string
+  source: set to internal
+  target: 내부적으로 설정된
+  target_initial: 내부적으로 설정된
+- locale: ko-kr
+  format: string
+  source: set to public
+  target: 공개로 설정
+  target_initial: 공개로 설정
+- locale: ko-kr
+  format: string
+  source: Set up the communication channels you want to use with your Zammad.
+  target: 당신이 당신의 Zammad에 사용할 통신 채널을 설정합니다.
+  target_initial: 당신이 당신의 Zammad에 사용할 통신 채널을 설정합니다.
+- locale: ko-kr
+  format: string
+  source: SLA Times
+  target: SLA 시간
+  target_initial: SLA 시간
+- locale: ko-kr
+  format: string
+  source: Set/overwrite sender/from of email based on reply-to header. Useful to set
+    correct customer if email is received from a third party system on behalf of a
+    customer.
+  target: 에 따라 이메일에서 설정 / 덮어 쓰기 보낸 사람 / 회신하는 헤더. 이메일이 고객을 대신 타사 시스템에서 수신되는 경우 유용한
+    올바른 고객을 설정합니다.
+  target_initial: 에 따라 이메일에서 설정 / 덮어 쓰기 보낸 사람 / 회신하는 헤더. 이메일이 고객을 대신 타사 시스템에서 수신되는
+    경우 유용한 올바른 고객을 설정합니다.
+- locale: ko-kr
+  format: string
+  source: Sets the last customer contact based on the last contact of a customer or
+    on the last contact of a customer to whom an agent has not yet responded.
+  target: 아직 응답하지 않은 고객의 마지막 접촉 또는 에이전트를받는 자, 고객의 마지막 접촉을 기준으로 최종 고객 연락처를 설정합니다.
+  target_initial: 아직 응답하지 않은 고객의 마지막 접촉 또는 에이전트를받는 자, 고객의 마지막 접촉을 기준으로 최종 고객 연락처를
+    설정합니다.
+- locale: ko-kr
+  format: string
+  source: Settings
+  target: 설정
+  target_initial: 설정
+- locale: ko-kr
+  format: string
+  source: Setup Finished
+  target: 설치 완료
+  target_initial: 설치 완료
+- locale: ko-kr
+  format: string
+  source: Setup new System
+  target: 설정 새로운 시스템
+  target_initial: 설정 새로운 시스템
+- locale: ko-kr
+  format: string
+  source: Setup the communication channels you want to use with your Zammad.
+  target: 설정 당신이 당신의 Zammad에 사용할 통신 채널.
+  target_initial: 설정 당신이 당신의 Zammad에 사용할 통신 채널.
+- locale: ko-kr
+  format: string
+  source: Shared
+  target: 공유
+  target_initial: 공유
+- locale: ko-kr
+  format: string
+  source: Shared organization
+  target: 공유 조직
+  target_initial: 공유 조직
+- locale: ko-kr
+  format: string
+  source: Shoot
+  target: 사격
+  target_initial: 사격
+- locale: ko-kr
+  format: string
+  source: Show
+  target: 보여 주다
+  target_initial: 보여 주다
+- locale: ko-kr
+  format: string
+  source: Show all...
+  target: 모두 보이기...
+  target_initial: 모두 보이기...
+- locale: ko-kr
+  format: string
+  source: Show Search Details
+  target: 표시 상세 검색
+  target_initial: 표시 상세 검색
+- locale: ko-kr
+  format: string
+  source: Show the chat when ready.
+  target: 준비가되면 채팅을 표시합니다.
+  target_initial: 준비가되면 채팅을 표시합니다.
+- locale: ko-kr
+  format: string
+  source: Show title in form.
+  target: 형태의 제목을 표시합니다.
+  target_initial: 형태의 제목을 표시합니다.
+- locale: ko-kr
+  format: string
+  source: shown
+  target: 표시
+  target_initial: 표시
+- locale: ko-kr
+  format: string
+  source: Shown when the chat is closed.
+  target: 채팅이 닫힐 때 표시.
+  target_initial: 채팅이 닫힐 때 표시.
+- locale: ko-kr
+  format: string
+  source: Sign in
+  target: 로그인
+  target_initial: 로그인
+- locale: ko-kr
+  format: string
+  source: Sign in using
+  target: 사용하여 로그인
+  target_initial: 사용하여 로그인
+- locale: ko-kr
+  format: string
+  source: Sign in with
+  target: 으로 로그인
+  target_initial: 으로 로그인
+- locale: ko-kr
+  format: string
+  source: Sign out
+  target: 로그 아웃
+  target_initial: 로그 아웃
+- locale: ko-kr
+  format: string
+  source: SMS
+  target: SMS
+  target_initial: SMS
+- locale: ko-kr
+  format: string
+  source: SMS Account
+  target: SMS 계정
+  target_initial: SMS 계정
+- locale: ko-kr
+  format: string
+  source: SMS Accounts
+  target: SMS 계정
+  target_initial: SMS 계정
+- locale: ko-kr
+  format: string
+  source: SMS Notification
+  target: SMS 알림
+  target_initial: SMS 알림
+- locale: ko-kr
+  format: string
+  source: Solution Time
+  target: 해결 시간
+  target_initial: 해결 시간
+- locale: ko-kr
+  format: string
+  source: Some Text
+  target: 일부 텍스트
+  target_initial: 일부 텍스트
+- locale: ko-kr
+  format: string
+  source: Sounds
+  target: 사운드
+  target_initial: 사운드
+- locale: ko-kr
+  format: string
+  source: Source
+  target: 출처
+  target_initial: 출처
+- locale: ko-kr
+  format: string
+  source: specific organization
+  target: 특정 조직
+  target_initial: 특정 조직
+- locale: ko-kr
+  format: string
+  source: specific user
+  target: 특정 사용자
+  target_initial: 특정 사용자
+- locale: ko-kr
+  format: string
+  source: split
+  target: 스플릿
+  target_initial: 스플릿
+- locale: ko-kr
+  format: string
+  source: Split
+  target: 스플릿
+  target_initial: 스플릿
+- locale: ko-kr
+  format: string
+  source: SSL
+  target: SSL
+  target_initial: SSL
+- locale: ko-kr
+  format: string
+  source: Start modal dialog for form.
+  target: 양식 모달 대화를 시작합니다.
+  target_initial: 양식 모달 대화를 시작합니다.
+- locale: ko-kr
+  format: string
+  source: Start new
+  target: 새로운 시작
+  target_initial: 새로운 시작
+- locale: ko-kr
+  format: string
+  source: Starting Zammad
+  target: Zammad 시작
+  target_initial: Zammad 시작
+- locale: ko-kr
+  format: string
+  source: State
+  target: 상태
+  target_initial: 상태
+- locale: ko-kr
+  format: string
+  source: Status
+  target: 지위
+  target_initial: 지위
+- locale: ko-kr
+  format: string
+  source: Status Code
+  target: 상태 코드
+  target_initial: 상태 코드
+- locale: ko-kr
+  format: string
+  source: Status Type
+  target: 상태 유형
+  target_initial: 상태 유형
+- locale: ko-kr
+  format: string
+  source: Stay on tab
+  target: 탭에 그대로
+  target_initial: 탭에 그대로
+- locale: ko-kr
+  format: string
+  source: Storage
+  target: 저장
+  target_initial: 저장
+- locale: ko-kr
+  format: string
+  source: Storage Mechanism
+  target: 저장 메커니즘
+  target_initial: 저장 메커니즘
+- locale: ko-kr
+  format: string
+  source: Store
+  target: 저장
+  target_initial: 저장
+- locale: ko-kr
+  format: string
+  source: Street
+  target: 거리
+  target_initial: 거리
+- locale: ko-kr
+  format: string
+  source: Subject
+  target: 제목
+  target_initial: 제목
+- locale: ko-kr
+  format: string
+  source: Submit
+  target: 제출
+  target_initial: 제출
+- locale: ko-kr
+  format: string
+  source: submit
+  target: 제출
+  target_initial: 제출
+- locale: ko-kr
+  format: string
+  source: Subscribe to iCalendar feed
+  target: iCalendar는 피드를 구독
+  target_initial: iCalendar는 피드를 구독
+- locale: ko-kr
+  format: string
+  source: Subscribe to public holidays in
+  target: 의 공휴일에 가입
+  target_initial: 의 공휴일에 가입
+- locale: ko-kr
+  format: string
+  source: Subscription
+  target: 신청
+  target_initial: 신청
+- locale: ko-kr
+  format: string
+  source: Subscription Settings
+  target: 가입 설정
+  target_initial: 가입 설정
+- locale: ko-kr
+  format: string
+  source: Successful!
+  target: 성공한!
+  target_initial: 성공한!
+- locale: ko-kr
+  format: string
+  source: Successfully!
+  target: 성공적으로!
+  target_initial: 성공적으로!
+- locale: ko-kr
+  format: string
+  source: Summary
+  target: 개요
+  target_initial: 개요
+- locale: ko-kr
+  format: string
+  source: Sun
+  target: 일
+  target_initial: 일
+- locale: ko-kr
+  format: string
+  source: Sunday
+  target: 일요일
+  target_initial: 일요일
+- locale: ko-kr
+  format: string
+  source: support@example.com
+  target: support@example.com
+  target_initial: support@example.com
+- locale: ko-kr
+  format: string
+  source: Sure to delete this object?
+  target: 이 개체를 삭제해야?
+  target_initial: 이 개체를 삭제해야?
+- locale: ko-kr
+  format: string
+  source: Sure?
+  target: 확실한?
+  target_initial: 확실한?
+- locale: ko-kr
+  format: string
+  source: Switch to
+  target: 로 전환
+  target_initial: 로 전환
+- locale: ko-kr
+  format: string
+  source: Sync Changes
+  target: 동기화 변경
+  target_initial: 동기화 변경
+- locale: ko-kr
+  format: string
+  source: System
+  target: 체계
+  target_initial: 체계
+- locale: ko-kr
+  format: string
+  source: System URL
+  target: 시스템 URL
+  target_initial: 시스템 URL
+- locale: ko-kr
+  format: string
+  source: SystemID
+  target: 시스템 ID
+  target_initial: 시스템 ID
+- locale: ko-kr
+  format: string
+  source: Tab has changed, do you really want to close it?
+  target: 탭 변경, 당신은 정말 그것을 닫으시겠습니까?
+  target_initial: 탭 변경, 당신은 정말 그것을 닫으시겠습니까?
+- locale: ko-kr
+  format: string
+  source: Tag
+  target: 꼬리표
+  target_initial: 꼬리표
+- locale: ko-kr
+  format: string
+  source: Tags
+  target: 태그
+  target_initial: 태그
+- locale: ko-kr
+  format: string
+  source: Target
+  target: 목표
+  target_initial: 목표
+- locale: ko-kr
+  format: string
+  source: tax
+  target: 세
+  target_initial: 세
+- locale: ko-kr
+  format: string
+  source: Telegram
+  target: 전보
+  target_initial: 전보
+- locale: ko-kr
+  format: string
+  source: Template Title
+  target: 템플릿 제목
+  target_initial: 템플릿 제목
+- locale: ko-kr
+  format: string
+  source: Templates
+  target: 템플릿
+  target_initial: 템플릿
+- locale: ko-kr
+  format: string
+  source: Test Connection
+  target: 연결 테스트
+  target_initial: 연결 테스트
+- locale: ko-kr
+  format: string
+  source: Testing
+  target: 테스트
+  target_initial: 테스트
+- locale: ko-kr
+  format: string
+  source: Text
+  target: 본문
+  target_initial: 본문
+- locale: ko-kr
+  format: string
+  source: Text editing
+  target: 텍스트 편집
+  target_initial: 텍스트 편집
+- locale: ko-kr
+  format: string
+  source: Text missing
+  target: 텍스트 누락
+  target_initial: 텍스트 누락
+- locale: ko-kr
+  format: string
+  source: Text modules
+  target: 텍스트 모듈
+  target_initial: 텍스트 모듈
+- locale: ko-kr
+  format: string
+  source: Text with disabled inline translations looks like
+  target: 장애인 인라인 번역과 텍스트처럼 보인다
+  target_initial: 장애인 인라인 번역과 텍스트처럼 보인다
+- locale: ko-kr
+  format: string
+  source: Text with enabled inline translations looks like
+  target: 활성화 인라인 번역과 텍스트처럼 보인다
+  target_initial: 활성화 인라인 번역과 텍스트처럼 보인다
+- locale: ko-kr
+  format: string
+  source: TextModule
+  target: TextModule
+  target_initial: TextModule
+- locale: ko-kr
+  format: string
+  source: TextModules
+  target: TextModules
+  target_initial: TextModules
+- locale: ko-kr
+  format: string
+  source: Thank you for your inquiry (#%s)! We'll contact you as soon as possible.
+  target: 문의 (# %s)에 감사드립니다! 우리는 가능한 한 빨리 연락 드리겠습니다.
+  target_initial: 문의 (# %s)에 감사드립니다! 우리는 가능한 한 빨리 연락 드리겠습니다.
+- locale: ko-kr
+  format: string
+  source: Thank you for your inquiry! We'll contact you soon as possible.
+  target: 문의 주셔서 감사합니다! 우리는 가능한 한 빨리 연락 드리겠습니다.
+  target_initial: 문의 주셔서 감사합니다! 우리는 가능한 한 빨리 연락 드리겠습니다.
+- locale: ko-kr
+  format: string
+  source: Thanks for contributing!
+  target: 기여에 감사드립니다!
+  target_initial: 기여에 감사드립니다!
+- locale: ko-kr
+  format: string
+  source: Thanks for your Feedback!
+  target: 의견을 보내 주셔서 감사합니다!
+  target_initial: 의견을 보내 주셔서 감사합니다!
+- locale: ko-kr
+  format: string
+  source: The browser is outdated. It does not support WebSocket - the technology
+    we use for the chat.
+  target: 브라우저는 구식이다. 이 웹 소켓을 지원하지 않습니다 - 우리가 채팅에 사용하는 기술.
+  target_initial: 브라우저는 구식이다. 이 웹 소켓을 지원하지 않습니다 - 우리가 채팅에 사용하는 기술.
+- locale: ko-kr
+  format: string
+  source: The certificate of the domain |%s| could not be verified. This may allow
+    hackers to steal your credentials. If you are sure that you are using a self-signed
+    certificate, you can press "Proceed". Otherwise, please "Cancel".
+  target: '%s | 도메인의 인증서 | 확인할 수 없습니다. 이것은 해커가 사용자의 자격 증명을 도용 할 수 있습니다. 당신은 당신이 자체
+    서명 된 인증서를 사용하고 있는지 확인하는 경우, 당신은 "진행"누를 수 있습니다. 그렇지 않으면, "취소"를하시기 바랍니다.'
+  target_initial: '%s | 도메인의 인증서 | 확인할 수 없습니다. 이것은 해커가 사용자의 자격 증명을 도용 할 수 있습니다. 당신은
+    당신이 자체 서명 된 인증서를 사용하고 있는지 확인하는 경우, 당신은 "진행"누를 수 있습니다. 그렇지 않으면, "취소"를하시기 바랍니다.'
+- locale: ko-kr
+  format: string
+  source: The chat is turned off.
+  target: 채팅이 해제됩니다.
+  target_initial: 채팅이 해제됩니다.
+- locale: ko-kr
+  format: string
+  source: The way to communicate with us is this thing called "ticket".
+  target: 우리와 의사 소통을하는 방법은 "Ticket"이라는 것입니다.
+  target_initial: 우리와 의사 소통을하는 방법은 "Ticket"이라는 것입니다.
+- locale: ko-kr
+  format: string
+  source: The chat will show up once the connection to the server got established
+    and if there is someone online to chat with.
+  target: 들과 대화를 나눌 수있는 온라인 누군가가있을 경우 채팅 서버에 연결이있어 한 번 표시하고 있습니다.
+  target_initial: 들과 대화를 나눌 수있는 온라인 누군가가있을 경우 채팅 서버에 연결이있어 한 번 표시하고 있습니다.
+- locale: ko-kr
+  format: string
+  source: The data must be in the comma separated values (CSV) format and saved as
+    UTF-8. You can import a CSV file or paste the data directly into the text area.
+  target: 데이터는 CSV (comma separated values) 형식으로하고 UTF-8로 저장한다. 당신은 CSV 파일을 가져 오거나
+    텍스트 영역에 직접 데이터를 붙여 넣을 수 있습니다.
+  target_initial: 데이터는 CSV (comma separated values) 형식으로하고 UTF-8로 저장한다. 당신은 CSV 파일을
+    가져 오거나 텍스트 영역에 직접 데이터를 붙여 넣을 수 있습니다.
+- locale: ko-kr
+  format: string
+  source: The default font size is 12px.
+  target: 기본 글꼴 크기는 12 픽셀입니다.
+  target_initial: 기본 글꼴 크기는 12 픽셀입니다.
+- locale: ko-kr
+  format: string
+  source: The downgrade of your account will be done at the end of your current already
+    charged periode.
+  target: 계정의 다운 그레이드는 현재 이미 충전 periode의 끝에서 수행됩니다.
+  target_initial: 계정의 다운 그레이드는 현재 이미 충전 periode의 끝에서 수행됩니다.
+- locale: ko-kr
+  format: string
+  source: 'The following changes are made:'
+  target: 다음과 같이 변경됩니다
+  target_initial: 다음과 같이 변경됩니다
+- locale: ko-kr
+  format: string
+  source: 'The following changes have been made:'
+  target: 다음 사항이 변경되었습니다
+  target_initial: 다음 사항이 변경되었습니다
+- locale: ko-kr
+  format: string
+  source: The form content has been changed. Do you want to close it and lose your
+    changes?
+  target: 양식의 내용이 변경되었습니다. 당신은 그것을 닫고 변경 사항을 잃고 싶지합니까?
+  target_initial: 양식의 내용이 변경되었습니다. 당신은 그것을 닫고 변경 사항을 잃고 싶지합니까?
+- locale: ko-kr
+  format: string
+  source: The format of the subject.
+  target: 피사체의 형식입니다.
+  target_initial: 피사체의 형식입니다.
+- locale: ko-kr
+  format: string
+  source: The identifier for a ticket, e.g. Ticket#, Call#, MyTicket#. The default
+    is Ticket#.
+  target: 'Ticket의 식별자, 예를 들어, Ticket 번호는 #, MyTicket 번호를 호출합니다. 기본값은 Ticket #입니다.'
+  target_initial: 'Ticket의 식별자, 예를 들어, Ticket 번호는 #, MyTicket 번호를 호출합니다. 기본값은 Ticket
+    #입니다.'
+- locale: ko-kr
+  format: string
+  source: The import was successful.
+  target: 가져 오기에 성공했습니다.
+  target_initial: 가져 오기에 성공했습니다.
+- locale: ko-kr
+  format: string
+  source: The test run was successful.
+  target: 테스트 실행 성공했습니다.
+  target_initial: 테스트 실행 성공했습니다.
+- locale: ko-kr
+  format: string
+  source: The text at the beginning of the subject in an email reply, e.g. RE, AW,
+    or AS.
+  target: AW, 또는 AS 이메일 답장, 예를 들면 RE에서 피사체의 시작 부분에 텍스트입니다.
+  target_initial: AW, 또는 AS 이메일 답장, 예를 들면 RE에서 피사체의 시작 부분에 텍스트입니다.
+- locale: ko-kr
+  format: string
+  source: The URL to this installation of Zammad.
+  target: Zammad이 설치 URL입니다.
+  target_initial: Zammad이 설치 URL입니다.
+- locale: ko-kr
+  format: string
+  source: There are more than 1000 tickets in the Zendesk system. Due to API rate
+    limit restrictions we can't get the exact number of tickets yet and have to fetch
+    them in batches of 1000. This might take some time, better grab a cup of coffee.
+    The total number of tickets gets updated as soon as the currently known number
+    is surpassed.
+  target: 젠 데스크 시스템에서 1000 명 이상의 Ticket이 있습니다. 때문에 API 속도 제한 제한으로 우리는 아직 Ticket의 정확한
+    수를 얻고 더 시간이 걸릴 수 있습니다 1000이의 일괄 처리를 가져 커피 한 잔을 잡아 가질 수 없습니다. Ticket의 총 수는 곧 현재까지
+    알려진 숫자가 초과 될 때 업데이트됩니다.
+  target_initial: 젠 데스크 시스템에서 1000 명 이상의 Ticket이 있습니다. 때문에 API 속도 제한 제한으로 우리는 아직 Ticket의
+    정확한 수를 얻고 더 시간이 걸릴 수 있습니다 1000이의 일괄 처리를 가져 커피 한 잔을 잡아 가질 수 없습니다. Ticket의 총 수는
+    곧 현재까지 알려진 숫자가 초과 될 때 업데이트됩니다.
+- locale: ko-kr
+  format: string
+  source: There are too many people in queue for the chat.
+  target: 채팅을위한 큐에 너무 많은 사람들이있다.
+  target_initial: 채팅을위한 큐에 너무 많은 사람들이있다.
+- locale: ko-kr
+  format: string
+  source: 'There can be several reasons for the chat to not show up:'
+  target: '표시하지 않도록 채팅 여러 가지 이유가있을 수 있습니다 :'
+  target_initial: '표시하지 않도록 채팅 여러 가지 이유가있을 수 있습니다 :'
+- locale: ko-kr
+  format: string
+  source: There is no agent online.
+  target: 어떤 에이전트가 온라인이 없습니다.
+  target_initial: 어떤 에이전트가 온라인이 없습니다.
+- locale: ko-kr
+  format: string
+  source: Third-party Applications
+  target: 타사 응용 프로그램
+  target_initial: 타사 응용 프로그램
+- locale: ko-kr
+  format: string
+  source: This action will lead to data loss. To prevent accidental actions we ask
+    you to confirm your intention.
+  target: 이 작업은 데이터 손실로 이어질 것입니다. 당신의 의도를 확인하기 위해 우리는 당신에게 우발적 인 행동을 방지하기 위해.
+  target_initial: 이 작업은 데이터 손실로 이어질 것입니다. 당신의 의도를 확인하기 위해 우리는 당신에게 우발적 인 행동을 방지하기
+    위해.
+- locale: ko-kr
+  format: string
+  source: This class gets added to the button on initialization and gets removed once
+    the chat connection got established.
+  target: 이 클래스는 초기화의 버튼에 추가됩니다 및 채팅 연결이있어 일단 제거됩니다.
+  target_initial: 이 클래스는 초기화의 버튼에 추가됩니다 및 채팅 연결이있어 일단 제거됩니다.
+- locale: ko-kr
+  format: string
+  source: This is Zammad version %s
+  target: 이 Zammad 버전 %s입니다
+  target_initial: 이 Zammad 버전 %s입니다
+- locale: ko-kr
+  format: string
+  source: This might take some time where the system can't be used.
+  target: 이 시스템을 사용할 수없는 시간이 걸릴 수 있습니다.
+  target_initial: 이 시스템을 사용할 수없는 시간이 걸릴 수 있습니다.
+- locale: ko-kr
+  format: string
+  source: Thursday
+  target: 목요일
+  target_initial: 목요일
+- locale: ko-kr
+  format: string
+  source: This option got set manually by the Zammad GmbH. You will recieve an invoice
+    about your Zammad Subscription and you have to pay it within 14 days. Do not change
+    this payment method until you really want it, because this option is a hidden
+    feature which can by only activated by the Zammad Team.
+  target: 이 옵션은 Zammad GmbH에 의해 수동으로 설정되었다. 당신은 당신의 Zammad 가입에 대한 송장을받을 것이며 14 일 이내에
+    지불해야한다. 당신이 정말로 원하는 때까지이 옵션은에 의해 Zammad 팀에 의해 활성화 할 수있는 숨겨진 기능이 있기 때문에,이 지불 방법을
+    변경하지 마십시오.
+  target_initial: 이 옵션은 Zammad GmbH에 의해 수동으로 설정되었다. 당신은 당신의 Zammad 가입에 대한 송장을받을 것이며
+    14 일 이내에 지불해야한다. 당신이 정말로 원하는 때까지이 옵션은에 의해 Zammad 팀에 의해 활성화 할 수있는 숨겨진 기능이 있기 때문에,이
+    지불 방법을 변경하지 마십시오.
+- locale: ko-kr
+  format: string
+  source: This option got set manually by the Zammad GmbH. You will recieve an invoice
+    about your Zammad Subscription and you have to pay it within 7 days. Do not change
+    this payment method until you really want it, because this option is a hidden
+    feature which can by only activated by the Zammad Team.
+  target: 이 옵션은 Zammad GmbH에 의해 수동으로 설정되었다. 당신은 당신의 Zammad 가입에 대한 송장을받을 것하고 7 일 이내에
+    납부해야한다. 당신이 정말로 원하는 때까지이 옵션은에 의해 Zammad 팀에 의해 활성화 할 수있는 숨겨진 기능이 있기 때문에,이 지불 방법을
+    변경하지 마십시오.
+  target_initial: 이 옵션은 Zammad GmbH에 의해 수동으로 설정되었다. 당신은 당신의 Zammad 가입에 대한 송장을받을 것하고
+    7 일 이내에 납부해야한다. 당신이 정말로 원하는 때까지이 옵션은에 의해 Zammad 팀에 의해 활성화 할 수있는 숨겨진 기능이 있기 때문에,이
+    지불 방법을 변경하지 마십시오.
+- locale: ko-kr
+  format: string
+  source: This service allows you to connect %s with %s.
+  target: 이 서비스를 사용하면 %s 님과 함께 %s에 연결할 수 있습니다.
+  target_initial: 이 서비스를 사용하면 %s 님과 함께 %s에 연결할 수 있습니다.
+- locale: ko-kr
+  format: string
+  source: This service enables Zammad to connect with your Exchange server.
+  target: 이 서비스는 Exchange 서버와 연결 Zammad 수 있습니다.
+  target_initial: 이 서비스는 Exchange 서버와 연결 Zammad 수 있습니다.
+- locale: ko-kr
+  format: string
+  source: This service enables Zammad to connect with your LDAP server.
+  target: 이 서비스는 LDAP 서버와 연결 Zammad 수 있습니다.
+  target_initial: 이 서비스는 LDAP 서버와 연결 Zammad 수 있습니다.
+- locale: ko-kr
+  format: string
+  source: This service receives emails from %s and creates tickets with host and service.
+  target: 이 서비스는 %s에서 이메일을 수신 호스트와 서비스 Ticket을 만듭니다.
+  target_initial: 이 서비스는 %s에서 이메일을 수신 호스트와 서비스 Ticket을 만듭니다.
+- locale: ko-kr
+  format: string
+  source: This service receives http requests or emails from %s and creates tickets
+    with host and service.
+  target: 이 서비스는 %s HTTP 요청 또는 이메일을 수신하고 호스트와 서비스 Ticket을 만듭니다.
+  target_initial: 이 서비스는 %s HTTP 요청 또는 이메일을 수신하고 호스트와 서비스 Ticket을 만듭니다.
+- locale: ko-kr
+  format: string
+  source: This service sends notifications to your %s channel.
+  target: 이 서비스는 사용자의 %s 채널에 알림을 보냅니다.
+  target_initial: 이 서비스는 사용자의 %s 채널에 알림을 보냅니다.
+- locale: ko-kr
+  format: string
+  source: This service shows you contacts of incoming calls and a caller list in realtime.
+  target: 이 서비스는 당신에게 걸려 오는 전화와 실시간으로 발신자 목록의 연락처를 보여줍니다.
+  target_initial: 이 서비스는 당신에게 걸려 오는 전화와 실시간으로 발신자 목록의 연락처를 보여줍니다.
+- locale: ko-kr
+  format: string
+  source: This template saves the following attributes
+  target: 이 템플릿은 다음과 같은 속성을 저장
+  target_initial: 이 템플릿은 다음과 같은 속성을 저장
+- locale: ko-kr
+  format: string
+  source: Thu
+  target: 목
+  target_initial: 목
+- locale: ko-kr
+  format: string
+  source: Ticket
+  target: Ticket
+  target_initial: Ticket
+- locale: ko-kr
+  format: string
+  source: Ticket %s created!
+  target: Ticket %s이 (가) 작성!
+  target_initial: Ticket %s이 (가) 작성!
+- locale: ko-kr
+  format: string
+  source: Ticket |%s| is escalated!
+  target: Ticket |%s| 에스컬레이트!
+  target_initial: Ticket |%s| 에스컬레이트!
+- locale: ko-kr
+  format: string
+  source: Ticket |%s| will escalate soon!
+  target: Ticket |%s| 곧 확대됩니다!
+  target_initial: Ticket |%s| 곧 확대됩니다!
+- locale: ko-kr
+  format: string
+  source: Ticket escalation
+  target: Ticket 에스컬레이션
+  target_initial: Ticket 에스컬레이션
+- locale: ko-kr
+  format: string
+  source: Ticket Hook
+  target: Ticket 후크
+  target_initial: Ticket 후크
+- locale: ko-kr
+  format: string
+  source: Ticket Hook Position
+  target: Ticket 후크 위치
+  target_initial: Ticket 후크 위치
+- locale: ko-kr
+  format: string
+  source: Ticket Last Contact Behaviour
+  target: Ticket 마지막 연락 동작
+  target_initial: Ticket 마지막 연락 동작
+- locale: ko-kr
+  format: string
+  source: Ticket Number Format
+  target: Ticket 번호 형식
+  target_initial: Ticket 번호 형식
+- locale: ko-kr
+  format: string
+  source: Ticket Number Increment
+  target: Ticket 수 증가
+  target_initial: Ticket 수 증가
+- locale: ko-kr
+  format: string
+  source: Ticket reminder reached
+  target: Ticket 알림에 도달
+  target_initial: Ticket 알림에 도달
+- locale: ko-kr
+  format: string
+  source: Ticket Selector
+  target: Ticket 선택기
+  target_initial: Ticket 선택기
+- locale: ko-kr
+  format: string
+  source: Ticket Subject Reply
+  target: Ticket 주제 답글
+  target_initial: Ticket 주제 답글
+- locale: ko-kr
+  format: string
+  source: Ticket Subject Size
+  target: Ticket 주제 크기
+  target_initial: Ticket 주제 크기
+- locale: ko-kr
+  format: string
+  source: Ticket Subscriptions
+  target: Ticket 구독
+  target_initial: Ticket 구독
+- locale: ko-kr
+  format: string
+  source: Ticket update
+  target: Ticket 업데이트
+  target_initial: Ticket 업데이트
+- locale: ko-kr
+  format: string
+  source: Tickets
+  target: Ticket
+  target_initial: Ticket
+- locale: ko-kr
+  format: string
+  source: Tickets are only assigned automatically if they do not already have an owner.
+  target: 이미 소유자가없는 경우 Ticket은 자동으로 할당됩니다.
+  target_initial: 이미 소유자가없는 경우 Ticket은 자동으로 할당됩니다.
+- locale: ko-kr
+  format: string
+  source: 'Tickets assigned to me: %s of %s'
+  target: '나에게 할당 된 Ticket : %s의 %s'
+  target_initial: '나에게 할당 된 Ticket : %s의 %s'
+- locale: ko-kr
+  format: string
+  source: Tickets of Organization
+  target: 조직의 Ticket
+  target_initial: 조직의 Ticket
+- locale: ko-kr
+  format: string
+  source: Tickets of User
+  target: 사용자의 Ticket
+  target_initial: 사용자의 Ticket
+- locale: ko-kr
+  format: string
+  source: Till
+  target: 까지
+  target_initial: 까지
+- locale: ko-kr
+  format: string
+  source: Time
+  target: 시각
+  target_initial: 시각
+- locale: ko-kr
+  format: string
+  source: Time Accounting
+  target: 시간 회계
+  target_initial: 시간 회계
+- locale: ko-kr
+  format: string
+  source: Time Tracking
+  target: 시간 추적
+  target_initial: 시간 추적
+- locale: ko-kr
+  format: string
+  source: Time Units
+  target: 시간 단위
+  target_initial: 시간 단위
+- locale: ko-kr
+  format: string
+  source: Time Units Total
+  target: 시간 단위 총
+  target_initial: 시간 단위 총
+- locale: ko-kr
+  format: string
+  source: Time zone
+  target: 시간대
+  target_initial: 시간대
+- locale: ko-kr
+  format: string
+  source: Timeframe for every following response.
+  target: 모든 다음과 같은 응답을위한 기간.
+  target_initial: 모든 다음과 같은 응답을위한 기간.
+- locale: ko-kr
+  format: string
+  source: Timeframe for solving the problem.
+  target: 이 문제를 해결하기위한 기간.
+  target_initial: 이 문제를 해결하기위한 기간.
+- locale: ko-kr
+  format: string
+  source: Timeframe for the first response.
+  target: 첫 번째 응답 기간.
+  target_initial: 첫 번째 응답 기간.
+- locale: ko-kr
+  format: time
+  source: timestamp
+  target: 타임 스탬프
+  target_initial: 타임 스탬프
+- locale: ko-kr
+  format: string
+  source: Timezone
+  target: 시간대
+  target_initial: 시간대
+- locale: ko-kr
+  format: string
+  source: Title
+  target: 제목
+  target_initial: 제목
+- locale: ko-kr
+  format: string
+  source: Title of the form
+  target: 양식의 제목
+  target_initial: 양식의 제목
+- locale: ko-kr
+  format: string
+  source: To
+  target: 에
+  target_initial: 에
+- locale: ko-kr
+  format: string
+  source: to
+  target: 에
+  target_initial: 에
+- locale: ko-kr
+  format: string
+  source: To configure your system.
+  target: 시스템을 구성합니다.
+  target_initial: 시스템을 구성합니다.
+- locale: ko-kr
+  format: string
+  source: To do easier translations you can enable and disable inline translation
+    feature by pressing "%s".
+  target: 쉽게 번역을 위해 당신이 사용하고 '%s'을 (를) 눌러 인라인 번역 기능을 해제 할 수 있습니다.
+  target_initial: 쉽게 번역을 위해 당신이 사용하고 '%s'을 (를) 눌러 인라인 번역 기능을 해제 할 수 있습니다.
+- locale: ko-kr
+  format: string
+  source: To enable %s for sending http requests to %s, you need create "%s" in the
+    admin interface if %s.
+  target: '%s HTTP 요청을 보내는 %s을 사용하려면 %s 경우 관리 인터페이스에서 "%s"를 만들 필요가있다.'
+  target_initial: '%s HTTP 요청을 보내는 %s을 사용하려면 %s 경우 관리 인터페이스에서 "%s"를 만들 필요가있다.'
+- locale: ko-kr
+  format: string
+  source: To enable %s for sending http requests to %s, you need create a own "notification
+    rule" in %s.
+  target: '%s HTTP 요청을 보내는 %s을 사용하려면 %s에서 자신의 "알림 규칙"을 작성해야합니다.'
+  target_initial: '%s HTTP 요청을 보내는 %s을 사용하려면 %s에서 자신의 "알림 규칙"을 작성해야합니다.'
+- locale: ko-kr
+  format: string
+  source: To make translations easier you can enable and disable the inline translation
+    feature by pressing "%s".
+  target: 번역이 쉽게 활성화하고 '%s'을 (를) 눌러 인라인 번역 기능을 해제 할 수 있도록합니다.
+  target_initial: 번역이 쉽게 활성화하고 '%s'을 (를) 눌러 인라인 번역 기능을 해제 할 수 있도록합니다.
+- locale: ko-kr
+  format: string
+  source: To open and work on it, click on the Ticket |#%s| directly %l or in the
+    overview |"%s"| %l and click on the Ticket.
+  target: '# %s | 열고 작업을하려면 Ticket 클릭 | 직접 %s 리터 또는 Overview | "%S"| % L과는 Ticket
+    클릭합니다.'
+  target_initial: '# %s | 열고 작업을하려면 Ticket 클릭 | 직접 %s 리터 또는 Overview | "%S"| % L과는
+    Ticket 클릭합니다.'
+- locale: ko-kr
+  format: string
+  source: To select placeholders from a list, just enter "::".
+  target: 단지 입력, 목록에서 자리를 선택하려면 "::".
+  target_initial: 단지 입력, 목록에서 자리를 선택하려면 "::".
+- locale: ko-kr
+  format: string
+  source: To set up this service you need to create a new |"Incoming webhook"| in
+    your %s integration panel, and enter the web hook URL below.
+  target: '"수신은 webhook"| 새를 작성해야이 서비스를 설정하려면 | 당신의 %s 통합 패널에서 아래의 웹 후크 URL을 입력합니다.'
+  target_initial: '"수신은 webhook"| 새를 작성해야이 서비스를 설정하려면 | 당신의 %s 통합 패널에서 아래의 웹 후크 URL을
+    입력합니다.'
+- locale: ko-kr
+  format: string
+  source: To work on Tickets.
+  target: Ticket에서 작동합니다.
+  target_initial: Ticket에서 작동합니다.
+- locale: ko-kr
+  format: string
+  source: today
+  target: 오늘
+  target_initial: 오늘
+- locale: ko-kr
+  format: string
+  source: Token Access
+  target: 토큰 액세스
+  target_initial: 토큰 액세스
+- locale: ko-kr
+  format: string
+  source: Tools
+  target: 도구
+  target_initial: 도구
+- locale: ko-kr
+  format: string
+  source: Topic
+  target: 이야기
+  target_initial: 이야기
+- locale: ko-kr
+  format: string
+  source: Topics
+  target: 주제
+  target_initial: 주제
+- locale: ko-kr
+  format: string
+  source: Total
+  target: 합계
+  target_initial: 합계
+- locale: ko-kr
+  format: string
+  source: 'Total: %s'
+  target: '총 : %s'
+  target_initial: '총 : %s'
+- locale: ko-kr
+  format: string
+  source: Translations
+  target: 번역
+  target_initial: 번역
+- locale: ko-kr
+  format: string
+  source: Trigger
+  target: 트리거
+  target_initial: 트리거
+- locale: ko-kr
+  format: string
+  source: Triggers
+  target: 트리거
+  target_initial: 트리거
+- locale: ko-kr
+  format: string
+  source: Tue
+  target: 화
+  target_initial: 화
+- locale: ko-kr
+  format: string
+  source: Tuesday
+  target: 화요일
+  target_initial: 화요일
+- locale: ko-kr
+  format: string
+  source: Twitter
+  target: 지저귀다
+  target_initial: 지저귀다
+- locale: ko-kr
+  format: string
+  source: Twitter - tweet initials
+  target: 트위터 - 짹짹 이니셜
+  target_initial: 트위터 - 짹짹 이니셜
+- locale: ko-kr
+  format: string
+  source: Twitter App Credentials
+  target: 트위터 앱 자격 증명
+  target_initial: 트위터 앱 자격 증명
+- locale: ko-kr
+  format: string
+  source: twitter direct-message
+  target: 직접 메시지를 트위터
+  target_initial: 직접 메시지를 트위터
+- locale: ko-kr
+  format: string
+  source: Twitter Key
+  target: 트위터 키
+  target_initial: 트위터 키
+- locale: ko-kr
+  format: string
+  source: Twitter Secret
+  target: 트위터 비밀
+  target_initial: 트위터 비밀
+- locale: ko-kr
+  format: string
+  source: twitter status
+  target: 트위터 상태
+  target_initial: 트위터 상태
+- locale: ko-kr
+  format: string
+  source: Type
+  target: 유형
+  target_initial: 유형
+- locale: ko-kr
+  format: string
+  source: Unable to load information!
+  target: 정보를로드 할 수 없습니다!
+  target_initial: 정보를로드 할 수 없습니다!
+- locale: ko-kr
+  format: string
+  source: Updating Database
+  target: 업데이트 데이터베이스
+  target_initial: 업데이트 데이터베이스
+- locale: ko-kr
+  format: string
+  source: Unable to verify email. Please contact your administrator.
+  target: 이메일을 확인할 수 없습니다. 관리자에게 문의하시기 바랍니다.
+  target_initial: 이메일을 확인할 수 없습니다. 관리자에게 문의하시기 바랍니다.
+- locale: ko-kr
+  format: string
+  source: Unassigned & Open
+  target: 할당되지 않은 및 열기
+  target_initial: 할당되지 않은 및 열기
+- locale: ko-kr
+  format: string
+  source: Unassigned & Open Tickets
+  target: 할당되지 않은 및 오픈 Ticket
+  target_initial: 할당되지 않은 및 오픈 Ticket
+- locale: ko-kr
+  format: string
+  source: Unassigned email addresses, assign them to a channel or delete them.
+  target: 할당되지 않은 이메일 주소는 채널에 할당하거나 삭제할 수 있습니다.
+  target_initial: 할당되지 않은 이메일 주소는 채널에 할당하거나 삭제할 수 있습니다.
+- locale: ko-kr
+  format: string
+  source: Unassigned Tickets
+  target: 할당되지 않은 Ticket
+  target_initial: 할당되지 않은 Ticket
+- locale: ko-kr
+  format: string
+  source: uninstall
+  target: 제거
+  target_initial: 제거
+- locale: ko-kr
+  format: string
+  source: Uninstall
+  target: 제거
+  target_initial: 제거
+- locale: ko-kr
+  format: string
+  source: uninstalled
+  target: 제거 된
+  target_initial: 제거 된
+- locale: ko-kr
+  format: string
+  source: Unlinked Email Addresses, assign it to a channel or delete it.
+  target: 연결되지 않은 이메일 주소는 채널에 할당하거나 삭제합니다.
+  target_initial: 연결되지 않은 이메일 주소는 채널에 할당하거나 삭제합니다.
+- locale: ko-kr
+  format: string
+  source: untouched
+  target: 손대지 않은
+  target_initial: 손대지 않은
+- locale: ko-kr
+  format: string
+  source: up
+  target: 위
+  target_initial: 위
+- locale: ko-kr
+  format: string
+  source: Update
+  target: 최신 정보
+  target_initial: 최신 정보
+- locale: ko-kr
+  format: string
+  source: Update as closed
+  target: 업데이트 폐쇄로
+  target_initial: 업데이트 폐쇄로
+- locale: ko-kr
+  format: string
+  source: Update Database
+  target: 데이터베이스 업데이트
+  target_initial: 데이터베이스 업데이트
+- locale: ko-kr
+  format: string
+  source: Update existing records
+  target: 기존 레코드를 업데이트
+  target_initial: 기존 레코드를 업데이트
+- locale: ko-kr
+  format: string
+  source: Update existing records with the attributes specified in the import data.
+  target: 가져 오기 데이터에 지정된 특성을 가진 기존 레코드를 업데이트합니다.
+  target_initial: 가져 오기 데이터에 지정된 특성을 가진 기존 레코드를 업데이트합니다.
+- locale: ko-kr
+  format: string
+  source: Update payment method
+  target: 결제 수단 업데이트
+  target_initial: 결제 수단 업데이트
+- locale: ko-kr
+  format: string
+  source: Update subscription
+  target: 업데이트 가입
+  target_initial: 업데이트 가입
+- locale: ko-kr
+  format: string
+  source: Update successful!
+  target: 성공적인 업데이트!
+  target_initial: 성공적인 업데이트!
+- locale: ko-kr
+  format: string
+  source: Update Time
+  target: 업데이트 시간
+  target_initial: 업데이트 시간
+- locale: ko-kr
+  format: string
+  source: updated
+  target: 변경 완료
+  target_initial: 변경 완료
+- locale: ko-kr
+  format: string
+  source: Updated at
+  target: 에서 업데이트
+  target_initial: 에서 업데이트
+- locale: ko-kr
+  format: string
+  source: Updated by
+  target: 업데이트
+  target_initial: 업데이트
+- locale: ko-kr
+  format: string
+  source: Upload
+  target: 업로드
+  target_initial: 업로드
+- locale: ko-kr
+  format: string
+  source: Uploading
+  target: 업로드
+  target_initial: 업로드
+- locale: ko-kr
+  format: string
+  source: Urgency
+  target: 긴급
+  target_initial: 긴급
+- locale: ko-kr
+  format: string
+  source: URL
+  target: URL
+  target_initial: URL
+- locale: ko-kr
+  format: string
+  source: Usage
+  target: 용법
+  target_initial: 용법
+- locale: ko-kr
+  format: string
+  source: Usage of advanced features
+  target: 고급 기능 사용
+  target_initial: 고급 기능 사용
+- locale: ko-kr
+  format: string
+  source: Use client storage to cache data to enhance performance of application.
+  target: 응용 프로그램의 성능을 향상시키기 위해 데이터를 캐시 클라이언트 스토리지를 사용합니다.
+  target_initial: 응용 프로그램의 성능을 향상시키기 위해 데이터를 캐시 클라이언트 스토리지를 사용합니다.
+- locale: ko-kr
+  format: string
+  source: Use client storage to cache data to perform speed of application.
+  target: 응용 프로그램의 속도를 수행하기 위해 데이터를 캐시 클라이언트 스토리지를 사용합니다.
+  target_initial: 응용 프로그램의 속도를 수행하기 위해 데이터를 캐시 클라이언트 스토리지를 사용합니다.
+- locale: ko-kr
+  format: string
+  source: Use sender initials at end of an tweet.
+  target: 트윗의 끝에서 보낸 사람의 이니셜을 사용합니다.
+  target_initial: 트윗의 끝에서 보낸 사람의 이니셜을 사용합니다.
+- locale: ko-kr
+  format: string
+  source: Use subject field for emails. If disabled, the ticket title will be used
+    as subject.
+  target: 이메일에 대한 주제 필드를 사용합니다. 사용할 경우, Ticket 제목이 제목으로 사용됩니다.
+  target_initial: 이메일에 대한 주제 필드를 사용합니다. 사용할 경우, Ticket 제목이 제목으로 사용됩니다.
+- locale: ko-kr
+  format: string
+  source: Used anywhere
+  target: 어디서든 사용
+  target_initial: 어디서든 사용
+- locale: ko-kr
+  format: string
+  source: Used anywhere (admin only)
+  target: 어디서든 사용 (관리자 만 해당)
+  target_initial: 어디서든 사용 (관리자 만 해당)
+- locale: ko-kr
+  format: string
+  source: Used in lists (views and results)
+  target: 목록에서 사용 (뷰와 결과)
+  target_initial: 목록에서 사용 (뷰와 결과)
+- locale: ko-kr
+  format: string
+  source: Used in object views
+  target: 개체보기에 사용
+  target_initial: 개체보기에 사용
+- locale: ko-kr
+  format: string
+  source: Used when composing a text
+  target: 텍스트를 작성할 때 사용
+  target_initial: 텍스트를 작성할 때 사용
+- locale: ko-kr
+  format: string
+  source: Used when viewing a Ticket
+  target: Ticket을 볼 때 사용
+  target_initial: Ticket을 볼 때 사용
+- locale: ko-kr
+  format: string
+  source: User
+  target: 사용자
+  target_initial: 사용자
+- locale: ko-kr
+  format: string
+  source: User Preferences
+  target: 사용자 환경 설정
+  target_initial: 사용자 환경 설정
+- locale: ko-kr
+  format: string
+  source: Username
+  target: 사용자 이름
+  target_initial: 사용자 이름
+- locale: ko-kr
+  format: string
+  source: Username / email
+  target: 사용자 이름 / 이메일
+  target_initial: 사용자 이름 / 이메일
+- locale: ko-kr
+  format: string
+  source: Username for proxy connection.
+  target: 프록시 연결을위한 사용자 이름.
+  target_initial: 프록시 연결을위한 사용자 이름.
+- locale: ko-kr
+  format: string
+  source: Username or email
+  target: 아이디 또는 이메일
+  target_initial: 아이디 또는 이메일
+- locale: ko-kr
+  format: string
+  source: Username or email address invalid, please try again.
+  target: 아이디 또는 잘못된 이메일 주소를 다시 시도하십시오.
+  target_initial: 아이디 또는 잘못된 이메일 주소를 다시 시도하십시오.
+- locale: ko-kr
+  format: string
+  source: Users
+  target: 사용자
+  target_initial: 사용자
+- locale: ko-kr
+  format: string
+  source: Value
+  target: 값
+  target_initial: 값
+- locale: ko-kr
+  format: string
+  source: VAT
+  target: VAT
+  target_initial: VAT
+- locale: ko-kr
+  format: string
+  source: VAT ID
+  target: VAT ID
+  target_initial: VAT ID
+- locale: ko-kr
+  format: string
+  source: Vendor
+  target: 공급 업체
+  target_initial: 공급 업체
+- locale: ko-kr
+  format: string
+  source: Verify sending and receiving
+  target: 전송 및 수신 확인
+  target_initial: 전송 및 수신 확인
+- locale: ko-kr
+  format: string
+  source: Verifying...
+  target: 확인 중 ...
+  target_initial: 확인 중 ...
+- locale: ko-kr
+  format: string
+  source: Version
+  target: 번역
+  target_initial: 번역
+- locale: ko-kr
+  format: string
+  source: View from user's perspective
+  target: 사용자의 관점에서보기
+  target_initial: 사용자의 관점에서보기
+- locale: ko-kr
+  format: string
+  source: View this in Zammad
+  target: Zammad이보기
+  target_initial: Zammad이보기
+- locale: ko-kr
+  format: string
+  source: VIP
+  target: 요일
+  target_initial: 요일
+- locale: ko-kr
+  format: string
+  source: Visibility
+  target: 시계
+  target_initial: 시계
+- locale: ko-kr
+  format: string
+  source: Visible
+  target: 명백한
+  target_initial: 명백한
+- locale: ko-kr
+  format: string
+  source: VoIP service provider with realtime push.
+  target: 실시간 푸시와 VoIP 서비스 제공 업체.
+  target_initial: 실시간 푸시와 VoIP 서비스 제공 업체.
+- locale: ko-kr
+  format: string
+  source: Waiting
+  target: 기다리는
+  target_initial: 기다리는
+- locale: ko-kr
+  format: string
+  source: Waiting Customers
+  target: 대기 고객
+  target_initial: 대기 고객
+- locale: ko-kr
+  format: string
+  source: We detected OTRS BPM processes which can't get imported into Zammad, since
+    we currently don't support these kind of workflows.
+  target: 우리는 우리가 현재 워크 플로우의 이러한 종류를 지원하지 않기 때문에, Zammad로 가져받을 수 없습니다 OTRS BPM 프로세스를
+    감지했습니다.
+  target_initial: 우리는 우리가 현재 워크 플로우의 이러한 종류를 지원하지 않기 때문에, Zammad로 가져받을 수 없습니다 OTRS
+    BPM 프로세스를 감지했습니다.
+- locale: ko-kr
+  format: string
+  source: What values of %s should be synced to users.
+  target: "%s에 어떤 값은 사용자에 동기화해야합니다."
+  target_initial: "%s에 어떤 값은 사용자에 동기화해야합니다."
+- locale: ko-kr
+  format: string
+  source: Yes, change my subscription
+  target: 예, 가입 변경
+  target_initial: 예, 가입 변경
+- locale: ko-kr
+  format: string
+  source: We found a lot of dynamic fields which are not common in Zammad, as we follow
+    a different approach to ticket attributes. Zammad uses also tags in addition to
+    custom fields to classify tickets. This difference can create a new philosophy
+    of your ticket attributes / tags compared to your current use of dynamic fields
+    in OTRS.
+  target: 우리는 우리가 Ticket 속성에 대한 다른 접근 방식을 따를 때, Zammad에서 일반적없는 동적 필드를 많이 발견했다. Zammad도
+    사용 Ticket을 분류하는 사용자 정의 필드에 추가 태그. 이러한 차이는 OTRS 동적 필드의 현재 사용에 비해 Ticket 속성 / 태그의
+    새로운 철학을 만들 수 있습니다.
+  target_initial: 우리는 우리가 Ticket 속성에 대한 다른 접근 방식을 따를 때, Zammad에서 일반적없는 동적 필드를 많이 발견했다.
+    Zammad도 사용 Ticket을 분류하는 사용자 정의 필드에 추가 태그. 이러한 차이는 OTRS 동적 필드의 현재 사용에 비해 Ticket
+    속성 / 태그의 새로운 철학을 만들 수 있습니다.
+- locale: ko-kr
+  format: string
+  source: We have already found %s email(s) in your mailbox. Zammad will move it all
+    from your mailbox into Zammad.
+  target: 우리는 이미 사서함 %s 이메일 (들)을 발견했다. Zammad는 Zammad에 사서함에서 모든 이동합니다.
+  target_initial: 우리는 이미 사서함 %s 이메일 (들)을 발견했다. Zammad는 Zammad에 사서함에서 모든 이동합니다.
+- locale: ko-kr
+  format: string
+  source: We will charge for next full periode
+  target: 우리는 다음 전체 periode에 대한 청구됩니다
+  target_initial: 우리는 다음 전체 periode에 대한 청구됩니다
+- locale: ko-kr
+  format: string
+  source: We\'ve sent an email to _%s_. Click the link in the email to verify your
+    account.
+  target: 우리는 _ %s S_에 이메일을 보낸 적이 \ '. 계정을 확인하는 이메일에있는 링크를 클릭합니다.
+  target_initial: 우리는 _ %s S_에 이메일을 보낸 적이 \ '. 계정을 확인하는 이메일에있는 링크를 클릭합니다.
+- locale: ko-kr
+  format: string
+  source: Web
+  target: 편물
+  target_initial: 편물
+- locale: ko-kr
+  format: string
+  source: Wed
+  target: 금
+  target_initial: 금
+- locale: ko-kr
+  format: string
+  source: Wednesday
+  target: 수요일
+  target_initial: 수요일
+- locale: ko-kr
+  format: string
+  source: Week
+  target: 주
+  target_initial: 주
+- locale: ko-kr
+  format: string
+  source: week
+  target: 주
+  target_initial: 주
+- locale: ko-kr
+  format: string
+  source: Welcome Title shown on the closed chat. Can contain HTML.
+  target: 폐쇄 채팅에 표시 오신 것을 환영합니다 제목입니다. HTML을 포함 할 수 있습니다.
+  target_initial: 폐쇄 채팅에 표시 오신 것을 환영합니다 제목입니다. HTML을 포함 할 수 있습니다.
+- locale: ko-kr
+  format: string
+  source: Welcome!
+  target: 환영합니다.!
+  target_initial: 환영합니다.!
+- locale: ko-kr
+  format: string
+  source: We've sent password reset instructions to your email address.
+  target: 우리는 당신의 이메일 주소로 비밀번호 재설정 안내를 보내 드렸습니다.
+  target_initial: 우리는 당신의 이메일 주소로 비밀번호 재설정 안내를 보내 드렸습니다.
+- locale: ko-kr
+  format: string
+  source: What affects your Zammad Karma?
+  target: 당신의 Zammad 카르마는 어떤 영향을?
+  target_initial: 당신의 Zammad 카르마는 어떤 영향을?
+- locale: ko-kr
+  format: string
+  source: What can you do here?
+  target: 당신은 여기서 무엇을 할 수 있는가?
+  target_initial: 당신은 여기서 무엇을 할 수 있는가?
+- locale: ko-kr
+  format: string
+  source: What ideas do you have?
+  target: 당신은 어떤 아이디어를 가지고 있습니까?
+  target_initial: 당신은 어떤 아이디어를 가지고 있습니까?
+- locale: ko-kr
+  format: string
+  source: What is it?
+  target: 그것은 무엇입니까?
+  target_initial: 그것은 무엇입니까?
+- locale: ko-kr
+  format: string
+  source: What values of %s should be synced to organization.
+  target: "%s에 어떤 값이 조직에 동기화해야합니다."
+  target_initial: "%s에 어떤 값이 조직에 동기화해야합니다."
+- locale: ko-kr
+  format: string
+  source: When notification is being sent.
+  target: 알림이 전송 될 때.
+  target_initial: 알림이 전송 될 때.
+- locale: ko-kr
+  format: string
+  source: When should the job run?
+  target: 때 작업이 실행해야합니까?
+  target_initial: 때 작업이 실행해야합니까?
+- locale: ko-kr
+  format: string
+  source: When your subscription is canceled, you will no longer be able to use your
+    Zammad.
+  target: 가입이 취소되면, 당신은 더 이상 Zammad을 사용할 수 없습니다.
+  target_initial: 가입이 취소되면, 당신은 더 이상 Zammad을 사용할 수 없습니다.
+- locale: ko-kr
+  format: string
+  source: Where
+  target: 어디에
+  target_initial: 어디에
+- locale: ko-kr
+  format: string
+  source: Where notification is sent.
+  target: 통지는 어디 전송됩니다.
+  target_initial: 통지는 어디 전송됩니다.
+- locale: ko-kr
+  format: string
+  source: Where to append the chat to.
+  target: 어디로 채팅을 추가합니다.
+  target_initial: 어디로 채팅을 추가합니다.
+- locale: ko-kr
+  format: string
+  source: Why doesn't the chat show up?
+  target: 왜 채팅이 표시되지 않습니다?
+  target_initial: 왜 채팅이 표시되지 않습니다?
+- locale: ko-kr
+  format: string
+  source: Widget
+  target: 위젯
+  target_initial: 위젯
+- locale: ko-kr
+  format: string
+  source: Widget Designer
+  target: 위젯 디자이너
+  target_initial: 위젯 디자이너
+- locale: ko-kr
+  format: string
+  source: Will also be included in emails as an X-Header.
+  target: 또한 X-헤더로 이메일에 포함됩니다.
+  target_initial: 또한 X-헤더로 이메일에 포함됩니다.
+- locale: ko-kr
+  format: string
+  source: Will be shown in the app and is included in email footers.
+  target: 응용 프로그램에 표시됩니다 및 이메일 바닥 글에 포함되어 있습니다.
+  target_initial: 응용 프로그램에 표시됩니다 및 이메일 바닥 글에 포함되어 있습니다.
+- locale: ko-kr
+  format: string
+  source: Will process
+  target: 처리합니다
+  target_initial: 처리합니다
+- locale: ko-kr
+  format: string
+  source: With |Date| the ticket numbers will be generated by the current date, the
+    SystemID and the counter. The format looks like "Year.Month.Day.SystemID.Counter"
+    (e.g. 201206231010138, 201206231010139).
+  target: '날짜 |와 | Ticket 번호는 현재 날짜의 시스템 ID와 카운터에 의해 생성됩니다. 형식은 "Year.Month.Day.SystemID.Counter"(예
+    : 201206231010138, 201206231010139)처럼 보인다.'
+  target_initial: '날짜 |와 | Ticket 번호는 현재 날짜의 시스템 ID와 카운터에 의해 생성됩니다. 형식은 "Year.Month.Day.SystemID.Counter"(예
+    : 201206231010138, 201206231010139)처럼 보인다.'
+- locale: ko-kr
+  format: string
+  source: With Checksum the counter will be appended with a checksum at the end. The
+    format looks like "%s" (e. g. %s).
+  target: 체크섬은 대향 단부에서 검사가 추가 될 것이다. 형식은 "%s '에 (예를 들어 %s)처럼 보인다.
+  target_initial: 체크섬은 대향 단부에서 검사가 추가 될 것이다. 형식은 "%s '에 (예를 들어 %s)처럼 보인다.
+- locale: ko-kr
+  format: string
+  source: With Checksum the counter will be appended with a checksum at the end. The
+    format looks like %s (e. g. %s).
+  target: 체크섬은 대향 단부에서 검사가 추가 될 것이다. 형식은 %s (예를 들어 %s)처럼 보인다.
+  target_initial: 체크섬은 대향 단부에서 검사가 추가 될 것이다. 형식은 %s (예를 들어 %s)처럼 보인다.
+- locale: ko-kr
+  format: string
+  source: 'yes'
+  target: 예
+  target_initial: 예
+- locale: ko-kr
+  format: string
+  source: With Checksum, a checksum will be appended to the counter. The format looks
+    like "%s" (e. g. %s).
+  target: 체크섬 체크섬 카운터에 추가한다. 형식은 "%s '에 (예를 들어 %s)처럼 보인다.
+  target_initial: 체크섬 체크섬 카운터에 추가한다. 형식은 "%s '에 (예를 들어 %s)처럼 보인다.
+- locale: ko-kr
+  format: string
+  source: With filters you can e. g. dispatch new tickets into certain groups or set
+    a certain priority for tickets of a VIP customer.
+  target: 필터를 사용하면 예를 들어, 특정 그룹에 대한 새로운 Ticket을 전달할 수 또는 VIP 고객의 Ticket 특정 우선 순위를
+    설정합니다.
+  target_initial: 필터를 사용하면 예를 들어, 특정 그룹에 대한 새로운 Ticket을 전달할 수 또는 VIP 고객의 Ticket 특정
+    우선 순위를 설정합니다.
+- locale: ko-kr
+  format: string
+  source: With form you can add a form to your web page which directly generates a
+    ticket for you.
+  target: 양식을 사용하면 직접 당신을 위해 Ticket을 생성 웹 페이지에 양식을 추가 할 수 있습니다.
+  target_initial: 양식을 사용하면 직접 당신을 위해 Ticket을 생성 웹 페이지에 양식을 추가 할 수 있습니다.
+- locale: ko-kr
+  format: string
+  source: With templates you can pre-fill ticket attributes.
+  target: 템플릿을 사용하면 Ticket의 특성을 미리 채울 수 있습니다.
+  target_initial: 템플릿을 사용하면 Ticket의 특성을 미리 채울 수 있습니다.
+- locale: ko-kr
+  format: string
+  source: With your current configuration the following will happen
+  target: 현재 구성으로는 다음이 발생합니다
+  target_initial: 현재 구성으로는 다음이 발생합니다
+- locale: ko-kr
+  format: string
+  source: within last (relative)
+  target: 마지막으로 (상대) 내
+  target_initial: 마지막으로 (상대) 내
+- locale: ko-kr
+  format: string
+  source: within next (relative)
+  target: 다음 (상대적으로) 내
+  target_initial: 다음 (상대적으로) 내
+- locale: ko-kr
+  format: string
+  source: Woo hoo! Your email address has been verified!
+  target: "~이 우! 귀하의 이메일 주소가 확인되었습니다!"
+  target_initial: "~이 우! 귀하의 이메일 주소가 확인되었습니다!"
+- locale: ko-kr
+  format: string
+  source: Woo hoo! Your email is verified!
+  target: "~이 우! 귀하의 이메일을 확인!"
+  target_initial: "~이 우! 귀하의 이메일을 확인!"
+- locale: ko-kr
+  format: string
+  source: Woo hoo! Your password has been changed!
+  target: 당신의 비밀번호가 변경되었습니다!
+  target_initial: 당신의 비밀번호가 변경되었습니다!
+- locale: ko-kr
+  format: string
+  source: Words
+  target: 말
+  target_initial: 말
+- locale: ko-kr
+  format: string
+  source: Work Disposition
+  target: 작업 처분
+  target_initial: 작업 처분
+- locale: ko-kr
+  format: string
+  source: Wrong Username or Password combination.
+  target: 잘못된 사용자 이름 또는 암호 조합입니다.
+  target_initial: 잘못된 사용자 이름 또는 암호 조합입니다.
+- locale: ko-kr
+  format: string
+  source: Year
+  target: 년
+  target_initial: 년
+- locale: ko-kr
+  format: string
+  source: Year(s)
+  target: 연령
+  target_initial: 연령
+- locale: ko-kr
+  format: string
+  source: Yellow
+  target: 노랑
+  target_initial: 노랑
+- locale: ko-kr
+  format: string
+  source: Yes, please cancel my subscription
+  target: 예, 가입을 취소하십시오
+  target_initial: 예, 가입을 취소하십시오
+- locale: ko-kr
+  format: string
+  source: Yes, start real import.
+  target: 예, 실제 가져 오기를 시작합니다.
+  target_initial: 예, 실제 가져 오기를 시작합니다.
+- locale: ko-kr
+  format: string
+  source: Yes, undo my subscription cancel
+  target: 그래, 내 구독 취소 취소
+  target_initial: 그래, 내 구독 취소 취소
+- locale: ko-kr
+  format: string
+  source: You |accumulate positive Karma| when you regularly answer and close tickets
+    on time and when you use advanced features such as text modules, ticket reminders
+    or tagging tickets. Zammad |Karma will decrease| when you have re-opend tickets,
+    escalated tickets or tickets that are two or more days overdue.
+  target: 당신은 | 긍정적 인 카르마를 축적 | 당신은 정기적으로 답변하고 시간과 때 텍스트 모듈, Ticket 알림 또는 태그 Ticket
+    등의 고급 기능을 사용에 가까운 Ticket 할 때. Zammad | 카르마가 감소 | 당신이 Ticket-에 opend을 다시 때, 두 가지
+    일 이상 연체 Ticket 또는 Ticket을 에스컬레이션.
+  target_initial: 당신은 | 긍정적 인 카르마를 축적 | 당신은 정기적으로 답변하고 시간과 때 텍스트 모듈, Ticket 알림 또는
+    태그 Ticket 등의 고급 기능을 사용에 가까운 Ticket 할 때. Zammad | 카르마가 감소 | 당신이 Ticket-에 opend을
+    다시 때, 두 가지 일 이상 연체 Ticket 또는 Ticket을 에스컬레이션.
+- locale: ko-kr
+  format: string
+  source: You are an |%s|.
+  target: "|%s| 당신은이다."
+  target_initial: "|%s| 당신은이다."
+- locale: ko-kr
+  format: string
+  source: You are going to cancel your Zammad account. Are you ABSOLUTELY sure?
+  target: 당신은 당신의 Zammad 계정을 취소 할 것입니다. 당신은 절대적으로 확실합니까?
+  target_initial: 당신은 당신의 Zammad 계정을 취소 할 것입니다. 당신은 절대적으로 확실합니까?
+- locale: ko-kr
+  format: string
+  source: You can connect %s with Zammad. You need to connect your Zammad with %s
+    first.
+  target: 당신은 Zammad와 %s에 연결할 수 있습니다. 당신은 %s 첫째로 Zammad를 연결해야합니다.
+  target_initial: 당신은 Zammad와 %s에 연결할 수 있습니다. 당신은 %s 첫째로 Zammad를 연결해야합니다.
+- locale: ko-kr
+  format: string
+  source: You can create chat widgets for your web pages to allow visitors to chat
+    with you.
+  target: 웹 페이지 방문자가 당신과 함께 채팅을 할 수 있도록하는 당신은 채팅 위젯을 만들 수 있습니다.
+  target_initial: 웹 페이지 방문자가 당신과 함께 채팅을 할 수 있도록하는 당신은 채팅 위젯을 만들 수 있습니다.
+- locale: ko-kr
+  format: string
+  source: You can create multiple chat topics.
+  target: 여러 채팅 주제를 만들 수 있습니다.
+  target_initial: 여러 채팅 주제를 만들 수 있습니다.
+- locale: ko-kr
+  format: string
+  source: You can generate a personal access token for each application you use that
+    needs access to the Zammad API.
+  target: 당신은 Zammad API에 접근 할 필요가 사용하는 각 응용 프로그램에 대한 개인 액세스 토큰을 생성 할 수 있습니다.
+  target_initial: 당신은 Zammad API에 접근 할 필요가 사용하는 각 응용 프로그램에 대한 개인 액세스 토큰을 생성 할 수 있습니다.
+- locale: ko-kr
+  format: string
+  source: You can request your password
+  target: 당신은 당신의 비밀번호를 요청할 수 있습니다
+  target_initial: 당신은 당신의 비밀번호를 요청할 수 있습니다
+- locale: ko-kr
+  format: string
+  source: You can switch between the backend for new attachments even on a system
+    that is already in production without any loss of data.
+  target: 당신은 데이터 손실없이 생산에 이미 시스템에 새 첨부 파일에 대한 백엔드 사이를 전환 할 수 있습니다.
+  target_initial: 당신은 데이터 손실없이 생산에 이미 시스템에 새 첨부 파일에 대한 백엔드 사이를 전환 할 수 있습니다.
+- locale: ko-kr
+  format: string
+  source: You can use the following script to post the data to %s.
+  target: 당신은 %s 데이터를 게시하려면 다음 스크립트를 사용할 수 있습니다.
+  target_initial: 당신은 %s 데이터를 게시하려면 다음 스크립트를 사용할 수 있습니다.
+- locale: ko-kr
+  format: string
+  source: You have %s active agent.
+  target: 당신은 %s 활성제가있다.
+  target_initial: 당신은 %s 활성제가있다.
+- locale: ko-kr
+  format: string
+  source: You have %s active agents.
+  target: 당신은 %s 활성제가있다.
+  target_initial: 당신은 %s 활성제가있다.
+- locale: ko-kr
+  format: string
+  source: You have answered a ticket within 1h
+  target: 당신은 1 시간 내에 Ticket을 대답했다
+  target_initial: 당신은 1 시간 내에 Ticket을 대답했다
+- locale: ko-kr
+  format: string
+  source: You have closed a ticket
+  target: 당신은 Ticket을 닫았
+  target_initial: 당신은 Ticket을 닫았
+- locale: ko-kr
+  format: string
+  source: You have created a ticket
+  target: 당신은 Ticket을 만든
+  target_initial: 당신은 Ticket을 만든
+- locale: ko-kr
+  format: string
+  source: You have escalated tickets
+  target: 당신은 Ticket을 에스컬레이션 한
+  target_initial: 당신은 Ticket을 에스컬레이션 한
+- locale: ko-kr
+  format: string
+  source: You have no configured %s right now.
+  target: 당신은 더 지금 %s 권리를 구성 없었다.
+  target_initial: 당신은 더 지금 %s 권리를 구성 없었다.
+- locale: ko-kr
+  format: string
+  source: You have no configured account right now.
+  target: 당신은 지금 계정을 구성하지 아니했다.
+  target_initial: 당신은 지금 계정을 구성하지 아니했다.
+- locale: ko-kr
+  format: string
+  source: You have not created a ticket yet.
+  target: 아직 Ticket을 만들지 않았습니다.
+  target_initial: 아직 Ticket을 만들지 않았습니다.
+- locale: ko-kr
+  format: string
+  source: You have tickets that are over 2 days overdue
+  target: 당신은 2 일 이상 연체 Ticket을
+  target_initial: 당신은 2 일 이상 연체 Ticket을
+- locale: ko-kr
+  format: string
+  source: You need to add the following Javascript code snippet to your web page
+  target: 당신은 당신의 웹 페이지에 다음과 같은 자바 스크립트 코드를 추가해야
+  target_initial: 당신은 당신의 웹 페이지에 다음과 같은 자바 스크립트 코드를 추가해야
+- locale: ko-kr
+  format: string
+  source: You need to configure the Zammad endpoints in the %s
+  target: 당신은 %s에 Zammad 엔드 포인트를 구성해야
+  target_initial: 당신은 %s에 Zammad 엔드 포인트를 구성해야
+- locale: ko-kr
+  format: string
+  source: You need to configure the Zammad endpoints in the Sipgate web interface
+  target: 당신은 Sipgate 웹 인터페이스에 Zammad 엔드 포인트를 구성해야
+  target_initial: 당신은 Sipgate 웹 인터페이스에 Zammad 엔드 포인트를 구성해야
+- locale: ko-kr
+  format: string
+  source: You use %s in text but no attachment is attached. Do you want to continue?
+  target: 당신은 텍스트 %s를 사용하지만 첨부 파일이 첨부되지 않습니다. 당신은 계속 하시겠습니까?
+  target_initial: 당신은 텍스트 %s를 사용하지만 첨부 파일이 첨부되지 않습니다. 당신은 계속 하시겠습니까?
+- locale: ko-kr
+  format: string
+  source: Your account got canceled at %s! Your system will be removed at %s
+  target: 계정이 %s로 취소되었다! 시스템은 %s로 제거됩니다
+  target_initial: 계정이 %s로 취소되었다! 시스템은 %s로 제거됩니다
+- locale: ko-kr
+  format: string
+  source: Your account has not been verified. Please click the link in the verification
+    email.
+  target: 계정이 확인되지 않았습니다. 확인 이메일에있는 링크를 클릭하십시오.
+  target_initial: 계정이 확인되지 않았습니다. 확인 이메일에있는 링크를 클릭하십시오.
+- locale: ko-kr
+  format: string
+  source: Your account is not verified. Please click the link in the verification
+    email.
+  target: 계정이 확인되지 않습니다. 확인 이메일에있는 링크를 클릭하십시오.
+  target_initial: 계정이 확인되지 않습니다. 확인 이메일에있는 링크를 클릭하십시오.
+- locale: ko-kr
+  format: string
+  source: Your current level
+  target: 현재 수준
+  target_initial: 현재 수준
+- locale: ko-kr
+  format: string
+  source: Your Email Configuration
+  target: 이메일 구성
+  target_initial: 이메일 구성
+- locale: ko-kr
+  format: string
+  source: Your karma is |%s|.
+  target: "|%s| 귀하의 카르마입니다."
+  target_initial: "|%s| 귀하의 카르마입니다."
+- locale: ko-kr
+  format: string
+  source: Your Logo
+  target: 귀하의 로고
+  target_initial: 귀하의 로고
+- locale: ko-kr
+  format: string
+  source: Your New Personal Access Token
+  target: 귀하의 새 개인 액세스 토큰
+  target_initial: 귀하의 새 개인 액세스 토큰
+- locale: ko-kr
+  format: string
+  source: Your new selection
+  target: 새 선택
+  target_initial: 새 선택
+- locale: ko-kr
+  format: string
+  source: Your tickets in process
+  target: 과정에서 귀하의 Ticket
+  target_initial: 과정에서 귀하의 Ticket
+- locale: ko-kr
+  format: string
+  source: Your trial is running till %s
+  target: 평가판은 %s까지 실행
+  target_initial: 평가판은 %s까지 실행
+- locale: ko-kr
+  format: string
+  source: You're already registered with your email address if you've been in touch
+    with our support team.
+  target: 당신은 우리의 지원 팀에 연락 된 적이 있다면 이미 당신의 이메일 주소로 등록하고 있습니다.
+  target_initial: 당신은 우리의 지원 팀에 연락 된 적이 있다면 이미 당신의 이메일 주소로 등록하고 있습니다.
+- locale: ko-kr
+  format: string
+  source: You're already registered with your email adress if you've been in touch
+    with our support team.
+  target: 당신은 우리의 지원 팀에 연락 된 적이 있다면 이미 당신의 이메일 ADRESS에 등록하고 있습니다.
+  target_initial: 당신은 우리의 지원 팀에 연락 된 적이 있다면 이미 당신의 이메일 ADRESS에 등록하고 있습니다.
+- locale: ko-kr
+  format: string
+  source: 'Zammad Chat requires jQuery. If you don''t already use it on your website
+    include it like this:'
+  target: 'Zammad 채팅 jQuery를 필요로한다. 당신은 이미 당신의 웹 사이트에 그것을 사용하지 않을 경우 이런 식으로 포함 :'
+  target_initial: 'Zammad 채팅 jQuery를 필요로한다. 당신은 이미 당신의 웹 사이트에 그것을 사용하지 않을 경우 이런 식으로
+    포함 :'
+- locale: ko-kr
+  format: string
+  source: Zammad is currently in maintenance mode. Only administrators can login.
+    Please wait until the maintenance window is over.
+  target: Zammad 유지 관리 모드에서 현재. 관리자 만 로그인 할 수 있습니다. 유지 관리 기간이 끝날 때까지 기다려주십시오.
+  target_initial: Zammad 유지 관리 모드에서 현재. 관리자 만 로그인 할 수 있습니다. 유지 관리 기간이 끝날 때까지 기다려주십시오.
+- locale: ko-kr
+  format: string
+  source: Zammad Karma
+  target: Zammad 카르마
+  target_initial: Zammad 카르마
+- locale: ko-kr
+  format: string
+  source: Zammad Karma is a powerful tool that tracks and visualizes your productivity.
+  target: Zammad 카르마 추적하고 생산성을 시각화하는 강력한 도구입니다.
+  target_initial: Zammad 카르마 추적하고 생산성을 시각화하는 강력한 도구입니다.
+- locale: ko-kr
+  format: string
+  source: Zammad looks like this for "%s"
+  target: Zammad는 "%s '에 대한 다음과 같습니다
+  target_initial: Zammad는 "%s '에 대한 다음과 같습니다
+- locale: ko-kr
+  format: string
+  source: Zip
+  target: 지퍼
+  target_initial: 지퍼
+- source: "∅ Waiting time today"
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: When you turn on debugging by setting the option §debug§ to §true§ the reason
+    gets printed to the javascript console.
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: If you want to open the chat by the press of a button set the option §show§
+    to §false§ and add the class §open-zammad-chat§ to the button.
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: Please type §%s§ to proceed or close this modal to cancel.
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: Here you can search for tickets, customers and organizations. Use the wildcard
+    §*§ to find everything. E. g. §smi*§ or §rosent*l§. You also can use ||double
+    quotes|| for searching phrases §"some phrase"§.
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: Insert the widget code into the source code of every page the chat shall
+    be visible on. It should be placed at the end of the page's source code before
+    the §</body>§ closing tag.
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: Summer holiday
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: Create and setup %s
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: e.g.
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: Answers
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: Internal
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: Link Related Answer
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: New Category
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: by
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: Archive
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: No translation for this locale available
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: Schedule for
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: Publish
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: Header Color
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: Escalation at
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: Public
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: Theme
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: New Answer
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: Archived
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: Visible to everyone
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: Edit Category
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: Attachments
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: Custom URL
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: Timing
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: Permanently Delete Knowledge Base
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: Categories
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: My Organization Closed Tickets
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: No categories
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: Only visible to editors
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: Website
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: You can provide different versions of your knowledge base for different
+    locales. Add a language below, then select it in the Knowledge Base Editor to
+    add your translations.
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: Empty
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: Not available in selected language
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: Related Answers
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: Public Menu
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: Visible to agents & editors
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: Icon Set
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: Knowledge Base
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: Enter timezone...
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: published
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: How can we help you? Search for an answer or a topic...
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: Create a translation
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: Linked Tickets
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: Category
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: Icon
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: No results were found.
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: Every category in your knowledge base should be given a unique icon for
+    maximum visual clarity. Each set below provides a wide range of icons to choose
+    from, but beware-you can't mix and match different icons from different sets.
+    Choose carefully!
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: Edit Answer
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: Deleting your knowledge base requires an additional verification step. To
+    proceed, enter its name below ("Zammad Helpdesk Knowledge Base"). THIS ACTION
+    CANNOT BE UNDONE.
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: Languages
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: Drag to reorder
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: Draft
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: Footer Note
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: Icon & Link Color
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: Delete Knowledge Base
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: The default URL for your knowledge base is e.g. example.com or example.com/help.
+    To serve it from a custom URL instead, enter the destination below (e.g., "/support",
+    "example.com", or "example.com/support"). Then, follow the directions under "Web
+    Server Configuration" to complete the process.
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: Back to search results
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: How long has each customer had to wait, on average, to get a response from
+    you today?
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: How many of your tickets have been re-opened after being marked “closed”?
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: Out of all open tickets (company-wide), how many are assigned to you?
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: What percentage of your tickets have you responded to, updated, or modified
+    in some way today?
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: How many escalated tickets do you have open? (Mr. Bubbles gets grumpy if
+    you have too many…)
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: How many of your tickets are coming from email, phone, Twitter, or Facebook?
+    (Shows percentages for both inbound and outbound tickets.)
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: invalid api token
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: "%s Api Token"
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: Add Telegram Bot
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: Welcome message
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: You are welcome! Just ask me something!
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: Unable to save changes.
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: Unable to save Bot.
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: Your callback URL
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: The tutorial on how to manage a %s is hosted on our online documentation
+    %l.
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: Getting latest translations from i18n.zammad.com
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: Choose the group in which mentions will get added to.
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: Enter your %s App Keys
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: Choose the group in which messages will get added to.
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: chat
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: Choose the group in which wall postings will get added to.
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: Choose the group in which page postings will get added to.
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: Choose the group in which direct messages will get added to.
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: Ticket %s merged!
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: Christmas holiday
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: Easter holiday
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: facebook feed comment
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: Create and setup Knowledge Base
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: Once completed...
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: facebook feed post
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: Please enter your time which you want to account.
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: telegram personal-message
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: all
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: year
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: owner
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: Create new Overviews
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: Test SMS provider
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: update
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: Done
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: Install
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: My Open Tickets
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: month
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: "%s agent seats remaining (including %s not charged seads)."
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: Only current language
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: agent
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: create
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: system
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: priority
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: customer
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: Ignore Escalation/SLA Information
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: Close Time
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: Clear
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: Reaction time
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: Assign me + Close
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
+- source: Escalation time
+  format: string
+  locale: ko-kr
+  target: ''
+  target_initial: ''
