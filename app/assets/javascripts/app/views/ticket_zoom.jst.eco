@@ -63,7 +63,7 @@
 
             <!-- when -->
             <% if @ticket.when_it_happened: %>
-              <p class="label label-danger" style="margin: 10px; font-color: #d9534f; display: block">Where      : <%- @ticket.when_it_happened %></p>
+              <p class="label label-danger" style="margin: 10px; font-color: #d9534f; display: block">When      : <%- @ticket.when_it_happened %></p>
             <% end %>
 
           </div>
