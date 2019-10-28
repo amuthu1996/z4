@@ -107,7 +107,7 @@
               </div>
 
               <div class="controls ">
-                <input id="Ticket_961707Ticket_961707_when_it_happened" type="text" name="when_it_happened" class="form-control" required autofocus autocomplete="off">
+                <input id="Ticket_961707Ticket_961707_when_it_happened" type="text" name="when_it_happened" class="form-control" autofocus autocomplete="off">
                 <span class="help-inline"></span>
                 <span class="help-block"></span>
               </div>
@@ -160,8 +160,8 @@
             <div data-attribute-name="anonymous" class="input form-group">
               <span class="formGroup-label">
                 <label style="display:inline; margin-right: 10px;" for="Ticket_961707_anonymous">Stay Anonymous <span>*</span></label>
-                <input type="radio" class="custom-control-input" id="customSwitch3" name="anonymous" autofocus autocomplete="off" value="true"><span style="padding: 10px">Yes</span>
-                <input type="radio" class="custom-control-input" id="customSwitch3" name="anonymous" autofocus autocomplete="off" value="false"><span style="padding: 10px">No</span>
+                <input type="radio" class="custom-control-input" id="customSwitch3" name="anonymous" autofocus autocomplete="off" value="true" required><span style="padding: 10px">Yes</span>
+                <input type="radio" class="custom-control-input" id="customSwitch3" name="anonymous" autofocus autocomplete="off" value="false" required><span style="padding: 10px">No</span>
               </span>
 
 
