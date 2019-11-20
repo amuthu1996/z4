@@ -29,12 +29,12 @@
           <div class="row" style= "padding: 10px;display: inline">
 
             <!-- if anonymous -->
-            <% if @ticket.anonymous : %>
+            <% if @ticket.anonymous and @ticket.anonymous ==  "true": %>
               <span style="margin: 10px; padding: 5px; background-color:#292b2c; border-radius: 15px;">anonymous</span>
             <% end %>
 
             <!-- if ongoing -->
-            <% if @ticket.ongoing : %>
+            <% if @ticket.ongoing and @ticket.ongoing == "true" : %>
               <span style="margin: 10px; padding: 5px; background-color:#f0ad4e; border-radius: 15px;">ongoing</span>
             <% end %>
 
@@ -43,13 +43,16 @@
             <% end %>
           </div>
           <div style="display:block">
+              <% if !(@role_ids[0] == 4 or @role_ids[1] == 4 or @role_ids[2] == 4 or @role_ids[3] == 4) and @ticket.anonymous == 'false' :%>
+                <!-- Victim -->
+                <% if @ticket.are_you_victim : %>
+                  <p class="label label-danger" style="margin: 10px; font-color: #d9534f; display: block">Victim     : you</p>
+                <% else if @ticket.victim : %>
+                  <p class="label label-danger" style="margin: 10px; font-color: #d9534f; display: block">Victim     : <%- @ticket.victim %></p>
+                <% end %>
+              <% end %>
 
-            <!-- Victim -->
-            <% if @ticket.are_you_victim : %>
-              <p class="label label-danger" style="margin: 10px; font-color: #d9534f; display: block">Victim     : you</p>
-            <% else if @ticket.victim : %>
-              <p class="label label-danger" style="margin: 10px; font-color: #d9534f; display: block">Victim     : <%- @ticket.victim %></p>
-            <% end %>
+
 
             <!-- others -->
             <% if @ticket.others: %>

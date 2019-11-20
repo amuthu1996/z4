@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_10_27_030906) do
+ActiveRecord::Schema.define(version: 2019_11_17_065923) do
 
   create_table "activity_streams", id: :integer, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.integer "activity_stream_type_id", null: false
@@ -1312,10 +1312,11 @@ ActiveRecord::Schema.define(version: 2019_10_27_030906) do
     t.boolean "are_you_victim"
     t.string "victim"
     t.string "others"
-    t.boolean "ongoing"
+    t.string "ongoing"
     t.string "when_it_happened"
     t.string "where"
-    t.boolean "anonymous"
+    t.string "anonymous"
+    t.datetime "when"
     t.index ["close_at"], name: "index_tickets_on_close_at"
     t.index ["close_diff_in_min"], name: "index_tickets_on_close_diff_in_min"
     t.index ["close_escalation_at"], name: "index_tickets_on_close_escalation_at"

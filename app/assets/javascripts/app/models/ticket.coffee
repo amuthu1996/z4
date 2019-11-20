@@ -24,14 +24,14 @@ class App.Ticket extends App.Model
       { name: 'created_at',               display: 'Created at',   tag: 'datetime', width: '110px', align: 'right', readonly: 1 },
       { name: 'updated_by_id',            display: 'Updated by',   relation: 'User', readonly: 1 },
       { name: 'updated_at',               display: 'Updated at',   tag: 'datetime', width: '110px', align: 'right', readonly: 1 },
-      { name: 'category',                 display: 'category', tag:'input', type:"text", limit:100, null: false },
-      { name: 'are_you_victim',           display: 'are_you_victim', tag:'select', type:'checkbox', limit:100, null: true, default: 'false' },
-      { name: 'victim',                   display: 'victim', tag:'input', type:'text', limit:100, null: true },
-      { name: 'others',                   display: 'others', tag:'input', type:'text', limit:100, null: true },
-      { name: 'ongoing',            display: 'ongoing', tag:'select', type:'checkbox', limit:100, null: true, default: 'false' },
-      { name: 'when_it_happened',          display: 'when_it_happened',  tag:'input', type:'text', null: true, readonly: 1, width: '110px' },
-      { name: 'where',                    display: 'where', tag:"input", type:'text' , limit: 100, null: false  },
-      { name:'anonymous',                display: 'anonymous', tag:"select", type:'checkbox' , limit: 100, null: true, default: 'false'  },
+      { name: 'category',                 display: 'Category', tag:'input', type:"text", limit:100, null: false },
+      { name: 'are_you_victim',           display: 'Are you the victim', tag:'select', type:'checkbox', limit:100, null: true, default: 'false' },
+      { name: 'victim',                   display: 'Victim', tag:'input', type:'text', limit:100, null: true },
+      { name: 'others',                   display: 'Others', tag:'input', type:'text', limit:100, null: true },
+      { name: 'ongoing',            display: 'Ongoing', tag:'input', type:'text', limit:100, null: false, default: 'false' },
+      { name: 'when_it_happened',          display: 'When',  tag:'input', type:'text', null: true, readonly: 1, width: '110px' },
+      { name: 'where',                    display: 'Where', tag:"input", type:'text' , limit: 100, null: false  },
+      { name:'anonymous',                display: 'Anonymous', tag:"input", type:'text' , limit: 100, null: false, default: 'false'  },
     ]
 
   uiUrl: ->

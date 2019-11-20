@@ -408,6 +408,8 @@ class App.TicketZoom extends App.Controller
       @renderDone = true
       @autosaveLast = {}
       elLocal = $(App.view('ticket_zoom')
+        role_ids:       App.Session.get('role_ids')
+        role:           App.Role
         ticket:         @ticket
         nav:            @nav
         isCustomer:     @permissionCheck('ticket.customer')

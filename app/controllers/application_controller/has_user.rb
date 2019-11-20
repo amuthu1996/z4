@@ -1,6 +1,6 @@
 module ApplicationController::HasUser
   extend ActiveSupport::Concern
-
+  attr_accessor :_current_user
   included do
     before_action :set_user, :session_update
   end
