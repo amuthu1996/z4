@@ -101,46 +101,9 @@
             <!-- ongoing ends-->
 
             <!-- when -->
-            <div data-attribute-name="when_it_happened" class="input form-group if_not_ongoing">
-              <div class="formGroup-label">
-                <label for="Ticket_961707_when_it_happened">When did the incident happen? <span>*</span></label>
-              </div>
-
-              <div class="controls ">
-                <input id="Ticket_961707Ticket_961707_when_it_happened" type="text" name="when_it_happened" class="form-control" autofocus autocomplete="off">
-                <span class="help-inline"></span>
-                <span class="help-block"></span>
-              </div>
-            </div>
             <!-- when ends-->
 
-            <script>
-              $('.if_not_involved').hide()
-              $('input[name="are_you_victim"]').on('change', function() {
-              // this, in the anonymous function, refers to the changed-<input>:
-              // select the element(s) you want to show/hide:
-              var status = $(this).val();
-              if (status=="false"){
-                $('.if_not_involved').show()
-              }
-              else{
-                $('.if_not_involved').hide()
-              }
-              });
 
-              $('.if_not_ongoing').hide()
-              $('input[name="ongoing"]').on('change', function() {
-              // this, in the anonymous function, refers to the changed-<input>:
-              // select the element(s) you want to show/hide:
-              var status = $(this).val();
-              if (status=="false"){
-                $('.if_not_ongoing').show()
-              }
-              else{
-                $('.if_not_ongoing').hide()
-              }
-              });
-            </script>
 
             <!-- where -->
             <div data-attribute-name="where" class="input form-group">
@@ -191,3 +154,31 @@
 </div>
 
 <div class="sidebar"></div>
+
+<script>
+  $('.if_not_involved').hide()
+  $('input[name="are_you_victim"]').on('change', function() {
+  // this, in the anonymous function, refers to the changed-<input>:
+  // select the element(s) you want to show/hide:
+  var status = $(this).val();
+  if (status=="false"){
+    $('.if_not_involved').show()
+  }
+  else{
+    $('.if_not_involved').hide()
+  }
+  });
+
+  $('.datetime').hide()
+  $('input[name="ongoing"]').on('change', function() {
+  // this, in the anonymous function, refers to the changed-<input>:
+  // select the element(s) you want to show/hide:
+  var status = $(this).val();
+  if (status=="false"){
+    $('.datetime').show()
+  }
+  else{
+    $('.datetime').hide()
+  }
+  });
+</script>
