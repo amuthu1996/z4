@@ -4931,6 +4931,11 @@
   source: Escalation time
   target: Eskalointi aika
   target_initial: Eskalointi aika
+- locale: fi
+  format: string
+  source: 'Attention: When creating a ticket an e-mail is sent.'
+  target: 'HUOMAA: Tiketin luonti lähettää sähköpostin!'
+  target_initial: 'HUOMAA: Tiketin luonti lähettää sähköpostin!'
 - source: Select the customer of the ticket or create one.
   format: string
   locale: fi
@@ -7077,11 +7082,6 @@
   target: ''
   target_initial: ''
 - source: No proxy for the following hosts.
-  format: string
-  locale: fi
-  target: ''
-  target_initial: ''
-- source: 'Attention: When creating a ticket an e-mail is sent.'
   format: string
   locale: fi
   target: ''

@@ -6935,6 +6935,36 @@
   source: priority
   target: приоритет
   target_initial: приоритет
+- locale: ru
+  format: string
+  source: No such master ticket number!
+  target: Не найден номер тикета!
+  target_initial: Не найден номер тикета!
+- locale: ru
+  format: string
+  source: Job is waiting to get started...
+  target: В ожидании
+  target_initial: В ожидании
+- locale: ru
+  format: string
+  source: Link Related Answer
+  target: Ссылка на связанный ответ
+  target_initial: Ссылка на связанный ответ
+- locale: ru
+  format: string
+  source: Mapping
+  target: " Отображение"
+  target_initial: " Отображение"
+- locale: ru
+  format: string
+  source: Max. concurrent chats
+  target: Максимум одновременных чатов
+  target_initial: Максимум одновременных чатов
+- locale: ru
+  format: string
+  source: migrate from another system
+  target: Переход из других систем
+  target_initial: Переход из других систем
 - source: Select the customer of the ticket or create one.
   format: string
   locale: ru
@@ -7049,11 +7079,6 @@
   target_initial: ''
 - source: To open and work on it, click on the Ticket |#%s| directly %l or in the
     overview |"%s"| %l and click on the Ticket.
-  format: string
-  locale: ru
-  target: ''
-  target_initial: ''
-- source: migrate from another system
   format: string
   locale: ru
   target: ''
@@ -7259,11 +7284,6 @@
   locale: ru
   target: ''
   target_initial: ''
-- source: No such master ticket number!
-  format: string
-  locale: ru
-  target: ''
-  target_initial: ''
 - source: With Checksum the counter will be appended with a checksum at the end. The
     format looks like %s (e. g. %s).
   format: string
@@ -7420,11 +7440,6 @@
   locale: ru
   target: ''
   target_initial: ''
-- source: Job is waiting to get started...
-  format: string
-  locale: ru
-  target: ''
-  target_initial: ''
 - source: untouched
   format: string
   locale: ru
@@ -7446,11 +7461,6 @@
   target: ''
   target_initial: ''
 - source: This service enables Zammad to connect with your LDAP server.
-  format: string
-  locale: ru
-  target: ''
-  target_initial: ''
-- source: Mapping
   format: string
   locale: ru
   target: ''
@@ -7591,17 +7601,7 @@
   locale: ru
   target: ''
   target_initial: ''
-- source: Max. concurrent chats
-  format: string
-  locale: ru
-  target: ''
-  target_initial: ''
 - source: Topic
-  format: string
-  locale: ru
-  target: ''
-  target_initial: ''
-- source: Link Related Answer
   format: string
   locale: ru
   target: ''

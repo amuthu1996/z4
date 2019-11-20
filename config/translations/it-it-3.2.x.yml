@@ -7107,8 +7107,8 @@
 - locale: it-it
   format: string
   source: Answers
-  target: Rispsote
-  target_initial: Rispsote
+  target: Risposte
+  target_initial: Risposte
 - locale: it-it
   format: string
   source: Archived
@@ -7850,6 +7850,53 @@
     che abbia bisogno di accedere alle API di Zammad.
   target_initial: Puoi generare un token di accesso personale per ciascuna applicazione
     utilizzi che abbia bisogno di accedere alle API di Zammad.
+- locale: it-it
+  format: string
+  source: What percentage of your tickets have you responded to, updated, or modified
+    in some way today?
+  target: Quale percentuale dei tuoi tickets hai risposto, aggiornato o modificato
+    oggi?
+  target_initial: Quale percentuale dei tuoi tickets hai risposto, aggiornato o modificato
+    oggi?
+- locale: it-it
+  format: string
+  source: What affects your Zammad Karma?
+  target: Cosa influenza il tuo karma in Zammad?
+  target_initial: Cosa influenza il tuo karma in Zammad?
+- locale: it-it
+  format: string
+  source: You |accumulate positive Karma| when you regularly answer and close tickets
+    on time and when you use advanced features such as text modules, ticket reminders
+    or tagging tickets. Zammad |Karma will decrease| when you have re-opend tickets,
+    escalated tickets or tickets that are two or more days overdue.
+  target: Tu | accumuli Karma positivo | quando rispondi e chiudi regolarmente i ticket
+    in tempo e quando utilizzi funzionalità avanzate come moduli di testo, promemoria
+    dei ticket o tag dei ticket. | Il karma di Zammad diminuirà | in caso di riapertura
+    dei ticket, ticket in escalation o ticket scaduti da due o più giorni.
+  target_initial: Tu | accumuli Karma positivo | quando rispondi e chiudi regolarmente
+    i ticket in tempo e quando utilizzi funzionalità avanzate come moduli di testo,
+    promemoria dei ticket o tag dei ticket. | Il karma di Zammad diminuirà | in caso
+    di riapertura dei ticket, ticket in escalation o ticket scaduti da due o più giorni.
+- locale: it-it
+  format: string
+  source: Close Time
+  target: Tempo di chiusura
+  target_initial: Tempo di chiusura
+- locale: it-it
+  format: string
+  source: Escalation time
+  target: Tempo di escalation
+  target_initial: Tempo di escalation
+- locale: it-it
+  format: string
+  source: Test SMS provider
+  target: Test provider SMS
+  target_initial: Test provider SMS
+- locale: it-it
+  format: string
+  source: Only current language
+  target: Solo la lingua corrente
+  target_initial: Solo la lingua corrente
 - source: Will also be included in emails as an X-Header.
   format: string
   locale: it-it
@@ -7872,21 +7919,8 @@
   locale: it-it
   target: ''
   target_initial: ''
-- source: What affects your Zammad Karma?
-  format: string
-  locale: it-it
-  target: ''
-  target_initial: ''
 - source: When your subscription is canceled, you will no longer be able to use your
     Zammad.
-  format: string
-  locale: it-it
-  target: ''
-  target_initial: ''
-- source: You |accumulate positive Karma| when you regularly answer and close tickets
-    on time and when you use advanced features such as text modules, ticket reminders
-    or tagging tickets. Zammad |Karma will decrease| when you have re-opend tickets,
-    escalated tickets or tickets that are two or more days overdue.
   format: string
   locale: it-it
   target: ''
@@ -7988,12 +8022,6 @@
   locale: it-it
   target: ''
   target_initial: ''
-- source: What percentage of your tickets have you responded to, updated, or modified
-    in some way today?
-  format: string
-  locale: it-it
-  target: ''
-  target_initial: ''
 - source: How many escalated tickets do you have open? (Mr. Bubbles gets grumpy if
     you have too many…)
   format: string
@@ -8031,32 +8059,12 @@
   locale: it-it
   target: ''
   target_initial: ''
-- source: Test SMS provider
-  format: string
-  locale: it-it
-  target: ''
-  target_initial: ''
 - source: "%s agent seats remaining (including %s not charged seads)."
   format: string
   locale: it-it
   target: ''
   target_initial: ''
-- source: Only current language
-  format: string
-  locale: it-it
-  target: ''
-  target_initial: ''
 - source: Ignore Escalation/SLA Information
-  format: string
-  locale: it-it
-  target: ''
-  target_initial: ''
-- source: Close Time
-  format: string
-  locale: it-it
-  target: ''
-  target_initial: ''
-- source: Escalation time
   format: string
   locale: it-it
   target: ''

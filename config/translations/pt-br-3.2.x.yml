@@ -8228,8 +8228,8 @@
   source: Ignore Escalation/SLA Information
   target: Ignorar informações de escalonamento / SLA
   target_initial: Ignorar informações de escalonamento / SLA
-- source: "%s agent seats remaining (including %s not charged seads)."
+- locale: pt-br
   format: string
-  locale: pt-br
-  target: ''
-  target_initial: ''
+  source: "%s agent seats remaining (including %s not charged seads)."
+  target: "%s assentos do agente restantes (incluindo %s seads não cobrados)."
+  target_initial: "%s assentos do agente restantes (incluindo %s seads não cobrados)."

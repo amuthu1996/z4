@@ -3124,6 +3124,101 @@
   source: enabled
   target: povolený
   target_initial: povolený
+- locale: sk
+  format: string
+  source: Skip
+  target: Preskočiť
+  target_initial: Preskočiť
+- locale: sk
+  format: string
+  source: SMS Account
+  target: SMS Účet
+  target_initial: SMS Účet
+- locale: sk
+  format: string
+  source: chat
+  target: čet
+  target_initial: čet
+- locale: sk
+  format: string
+  source: The way to communicate with us is this thing called "ticket".
+  target: Cesta akou komunikovať s nami sa volá  "požiadavka"
+  target_initial: Cesta akou komunikovať s nami sa volá  "požiadavka"
+- locale: sk
+  format: string
+  source: Reset
+  target: Restart
+  target_initial: Restart
+- locale: sk
+  format: string
+  source: What can you do here?
+  target: Čo žu môžete urobiť?
+  target_initial: Čo žu môžete urobiť?
+- locale: sk
+  format: string
+  source: Here you can create one.
+  target: Tu môžete vytvoriť jednu.
+  target_initial: Tu môžete vytvoriť jednu.
+- locale: sk
+  format: string
+  source: What is it?
+  target: Čo je to?
+  target_initial: Čo je to?
+- locale: sk
+  format: string
+  source: Recipients
+  target: Prijímatelia
+  target_initial: Prijímatelia
+- locale: sk
+  format: string
+  source: Requirements
+  target: Požiadavky
+  target_initial: Požiadavky
+- locale: sk
+  format: string
+  source: Reply
+  target: Odpovedať
+  target_initial: Odpovedať
+- locale: sk
+  format: string
+  source: required
+  target: požadované
+  target_initial: požadované
+- locale: sk
+  format: string
+  source: You have not created a ticket yet.
+  target: Nemáte vytvorené žiadne požiadavky
+  target_initial: Nemáte vytvorené žiadne požiadavky
+- locale: sk
+  format: string
+  source: Recipient
+  target: Prijímateľ
+  target_initial: Prijímateľ
+- locale: sk
+  format: string
+  source: Reset Password
+  target: Restart hesla
+  target_initial: Restart hesla
+- locale: sk
+  format: string
+  source: reply all
+  target: odpovedať všetkým
+  target_initial: odpovedať všetkým
+- locale: sk
+  format: string
+  source: Reply-To
+  target: Odpovedať-To
+  target_initial: Odpovedať-To
+- locale: sk
+  format: string
+  source: Please click the button below to create your first one.
+  target: Kliknite prosím na tlačítko nižšie pre vytvorenie prvej požiadavky
+  target_initial: Kliknite prosím na tlačítko nižšie pre vytvorenie prvej požiadavky
+- locale: sk
+  format: string
+  source: Create your first ticket
+  target: Vytvorte Vašu prvú požiadavku
+  target_initial: Vytvorte Vašu prvú požiadavku
 - source: Direction
   format: string
   locale: sk
@@ -3310,11 +3405,6 @@
   locale: sk
   target: ''
   target_initial: ''
-- source: Please click the button below to create your first one.
-  format: string
-  locale: sk
-  target: ''
-  target_initial: ''
 - source: First Solution
   format: string
   locale: sk
@@ -3480,16 +3570,6 @@
   locale: sk
   target: ''
   target_initial: ''
-- source: What can you do here?
-  format: string
-  locale: sk
-  target: ''
-  target_initial: ''
-- source: Here you can create one.
-  format: string
-  locale: sk
-  target: ''
-  target_initial: ''
 - source: Fold in
   format: string
   locale: sk
@@ -3530,11 +3610,6 @@
   locale: sk
   target: ''
   target_initial: ''
-- source: Reset
-  format: string
-  locale: sk
-  target: ''
-  target_initial: ''
 - source: Original
   format: string
   locale: sk
@@ -3551,11 +3626,6 @@
   target: ''
   target_initial: ''
 - source: set internal
-  format: string
-  locale: sk
-  target: ''
-  target_initial: ''
-- source: Recipients
   format: string
   locale: sk
   target: ''
@@ -3786,11 +3856,6 @@
   target: ''
   target_initial: ''
 - source: New Profile
-  format: string
-  locale: sk
-  target: ''
-  target_initial: ''
-- source: Reset Password
   format: string
   locale: sk
   target: ''
@@ -4031,11 +4096,6 @@
   target: ''
   target_initial: ''
 - source: System URL
-  format: string
-  locale: sk
-  target: ''
-  target_initial: ''
-- source: Skip
   format: string
   locale: sk
   target: ''
@@ -4437,11 +4497,6 @@
   locale: sk
   target: ''
   target_initial: ''
-- source: Reply
-  format: string
-  locale: sk
-  target: ''
-  target_initial: ''
 - source: Split
   format: string
   locale: sk
@@ -4628,11 +4683,6 @@
   target_initial: ''
 - source: The chat will show up once the connection to the server got established
     and if there is someone online to chat with.
-  format: string
-  locale: sk
-  target: ''
-  target_initial: ''
-- source: Requirements
   format: string
   locale: sk
   target: ''
@@ -4842,11 +4892,6 @@
   locale: sk
   target: ''
   target_initial: ''
-- source: required
-  format: string
-  locale: sk
-  target: ''
-  target_initial: ''
 - source: shown
   format: string
   locale: sk
@@ -5027,11 +5072,6 @@
   target: ''
   target_initial: ''
 - source: OK, I've copied my token
-  format: string
-  locale: sk
-  target: ''
-  target_initial: ''
-- source: What is it?
   format: string
   locale: sk
   target: ''
@@ -5265,11 +5305,6 @@
   target: ''
   target_initial: ''
 - source: Realtime
-  format: string
-  locale: sk
-  target: ''
-  target_initial: ''
-- source: reply all
   format: string
   locale: sk
   target: ''
@@ -5848,21 +5883,6 @@
   locale: sk
   target: ''
   target_initial: ''
-- source: Create your first ticket
-  format: string
-  locale: sk
-  target: ''
-  target_initial: ''
-- source: You have not created a ticket yet.
-  format: string
-  locale: sk
-  target: ''
-  target_initial: ''
-- source: The way to communicate with us is this thing called "ticket".
-  format: string
-  locale: sk
-  target: ''
-  target_initial: ''
 - source: Reopened
   format: string
   locale: sk
@@ -6415,11 +6435,6 @@
   target: ''
   target_initial: ''
 - source: Invalid ticket selector conditions
-  format: string
-  locale: sk
-  target: ''
-  target_initial: ''
-- source: Reply-To
   format: string
   locale: sk
   target: ''
@@ -7009,22 +7024,12 @@
   locale: sk
   target: ''
   target_initial: ''
-- source: SMS Account
-  format: string
-  locale: sk
-  target: ''
-  target_initial: ''
 - source: SMS
   format: string
   locale: sk
   target: ''
   target_initial: ''
 - source: Display name
-  format: string
-  locale: sk
-  target: ''
-  target_initial: ''
-- source: Recipient
   format: string
   locale: sk
   target: ''
@@ -7415,11 +7420,6 @@
   target: ''
   target_initial: ''
 - source: Choose the group in which messages will get added to.
-  format: string
-  locale: sk
-  target: ''
-  target_initial: ''
-- source: chat
   format: string
   locale: sk
   target: ''
