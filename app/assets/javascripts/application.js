@@ -275,3 +275,8 @@ jQuery.fn.extend( {
 jQuery(function(){
   new App.Run();
 });
+
+
+// PDF Print
+
+//= require ./jspdf.min.js

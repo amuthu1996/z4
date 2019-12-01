@@ -6,7 +6,7 @@
     <div class="js-overviewNavigatorContainer overview-navigator"></div>
   </div>
   <div class="main no-padding flex tabsSidebar-sidebarSpacer tabsSidebar-tabsSpacer">
-    <div class="ticketZoom">
+    <div class="ticketZoom"  id="html-2-pdfwrapper">
       <div class="ticketZoom-controls">
         <div class="js-settingContainer"></div>
         <div class="spacer"></div>
@@ -83,8 +83,122 @@
 
     </div>
   </div>
+  <button onclick="print()">Generate PDF</button>
 
   <div class="tabsSidebar tabsSidebar--attributeBarSpacer vertical"></div>
 
   <div class="attributeBar js-attributeBar"></div>
+  <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.5/dist/html2canvas.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.debug.js" integrity="sha384-NaWTHo/8YCBYJ59830LTz/P4aQZK1sS0SneOgAvhsIl3zBu8r9RevNg5lHCHAuQ/" crossorigin="anonymous"></script>
+
+  <script>
+var base64Img = null;
+imgToBase64('assets/images/octocat.jpg', function(base64) {
+    base64Img = base64; 
+});
+
+margins = {
+  top: 70,
+  bottom: 40,
+  left: 30,
+  width: 550
+};
+
+generate = function()
+{
+	var pdf = new jsPDF('p', 'pt', 'a4');
+	pdf.setFontSize(18);
+  
+	pdf.fromHTML(document.getElementById('html-2-pdfwrapper'), 
+		margins.left, // x coord
+		margins.top,
+		{
+			// y coord
+			width: margins.width// max width of content on PDF
+		},function(dispose) {
+			headerFooterFormatting(pdf, pdf.internal.getNumberOfPages());
+		}, 
+		margins);
+  pdf.save('Report.pdf')
+};
+function headerFooterFormatting(doc, totalPages)
+{
+    for(var i = totalPages; i >= 1; i--)
+    {
+        doc.setPage(i);                            
+        //header
+        header(doc);
+        
+        footer(doc, i, totalPages);
+        doc.page++;
+    }
+};
+
+function header(doc)
+{
+    doc.setFontSize(30);
+    doc.setTextColor(40);
+    doc.setFontStyle('normal');
+	
+    if (base64Img) {
+       doc.addImage(base64Img, 'JPEG', margins.left, 10, 40,40);        
+    }
+	    
+    doc.text("Report Header Template", margins.left + 50, 40 );
+	doc.setLineCap(2);
+	doc.line(3, 70, margins.width + 43,70); // horizontal line
+};
+
+// You could either use a function similar to this or pre convert an image with for example http://dopiaza.org/tools/datauri
+// http://stackoverflow.com/questions/6150289/how-to-convert-image-into-base64-string-using-javascript
+function imgToBase64(url, callback, imgVariable) {
+ 
+    if (!window.FileReader) {
+        callback(null);
+        return;
+    }
+    var xhr = new XMLHttpRequest();
+    xhr.responseType = 'blob';
+    xhr.onload = function() {
+        var reader = new FileReader();
+        reader.onloadend = function() {
+			imgVariable = reader.result.replace('text/xml', 'image/jpeg');
+            callback(imgVariable);
+        };
+        reader.readAsDataURL(xhr.response);
+    };
+    xhr.open('GET', url);
+    xhr.send();
+};
+
+function footer(doc, pageNumber, totalPages){
+
+    var str = "Page " + pageNumber + " of " + totalPages
+   
+    doc.setFontSize(10);
+    doc.text(str, margins.left, doc.internal.pageSize.height - 20);
+    
+};
+
+print = function() {
+    
+		const filename  = 'ThisIsYourPDFFilename.pdf';
+    let quality = 1;
+    
+		html2canvas(document.querySelector('#html-2-pdfwrapper'), 
+								{scale: quality}
+						 ).then(canvas => {
+			let pdf = new jsPDF('p', 'mm', 'a1');
+			pdf.addImage(canvas.toDataURL('image/png'), 'PNG', 0, 0);
+			pdf.save(filename);
+      //document.body.appendChild(canvas);
+		});
+    /*
+    html2canvas(document.querySelector('#html-2-pdfwrapper')).then(function(canvas) {
+        document.body.appendChild(canvas);
+    });
+    */
+	};
+
+ </script>
 </div>

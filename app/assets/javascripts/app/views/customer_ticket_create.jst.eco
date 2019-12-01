@@ -27,6 +27,8 @@
                   <option value="Verbal Spite">Verbal Spite</option>
                   <option value="Harassment">Harassment</option>
                   <option value="Physical fight">Physical fight</option>
+                  <option value="Bullying">Bullying</option>
+                  <option value="Threatening Behavior">Threatening Behavior</option>
                 </select>
 
 
