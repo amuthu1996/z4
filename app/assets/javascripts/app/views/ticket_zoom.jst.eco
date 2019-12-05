@@ -45,7 +45,7 @@
             <% end %>
           </div>
           <div style="display:block">
-              <% if !(@role_ids[0] == 4 or @role_ids[1] == 4 or @role_ids[2] == 4 or @role_ids[3] == 4) and @ticket.anonymous == 'false' :%>
+              <% if !((@role_ids[0] == 5 or @role_ids[1] == 5 or @role_ids[2] == 5 or @role_ids[3] == 5 or @role_ids[4] == 5) and @ticket.anonymous == 'true') :%>
                 <!-- Victim -->
                 <% if @ticket.are_you_victim : %>
                   <p class="label label-danger" style="margin: 10px; font-color: #d9534f; display: block">Victim     : you</p>
