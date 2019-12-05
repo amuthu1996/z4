@@ -193,7 +193,7 @@ print = function() {
 		html2canvas(document.querySelector('#html-2-pdfwrapper'),
 								{scale: quality}
 						 ).then(canvas => {
-			let pdf = new jsPDF('p', 'mm', 'a1');
+			let pdf = new jsPDF('p', 'mm', 'a2');
 			pdf.addImage(canvas.toDataURL('image/png'), 'PNG', 0, 0);
 			pdf.save(filename);
       //document.body.appendChild(canvas);

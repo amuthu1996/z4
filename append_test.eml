@@ -1,0 +1,42 @@
+Date: Mon, 02 Dec 2019 19:25:38 -0800
+From: sender@example.com
+To: recipient@example.com
+Message-ID: <5de5d5b27fb4_623d2af61f1d66006403f@muthu.mail>
+Mime-Version: 1.0
+Content-Type: multipart/mixed;
+ boundary="--==_mimepart_5de5d5b27920_623d2af61f1d66006396d";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Organization: 
+X-Powered-By: Zammad - Helpdesk/Support (https://zammad.org/)
+X-Mailer: Zammad Mail Service
+
+
+----==_mimepart_5de5d5b27920_623d2af61f1d66006396d
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5de5d5b278c7_623d2af61f1d6600638b1";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5de5d5b278c7_623d2af61f1d6600638b1
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+> Welcome!
+>
+> Email Content
+----==_mimepart_5de5d5b278c7_623d2af61f1d6600638b1--
+
+----==_mimepart_5de5d5b27920_623d2af61f1d66006396d
+Content-Type: text/plain;
+ charset=UTF-8;
+ filename=text_file.txt
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment;
+ filename=text_file.txt
+Content-ID: <5de5d5b2845b_623d2af61f1d660064135@muthu.mail>
+
+Text Content
+----==_mimepart_5de5d5b27920_623d2af61f1d66006396d--
