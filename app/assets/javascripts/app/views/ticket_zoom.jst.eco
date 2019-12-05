@@ -17,7 +17,9 @@
       <!-- | are_you_victim | victim | others | happening_now | when_it_happend | where | anonymous -->
       <div class="ticketZoom-header">
         <div class="flex vertical center">
-          <div class="js-avatar"></div>
+          <% if !(@role_ids[0] == 4 or @role_ids[1] == 4 or @role_ids[2] == 4 or @role_ids[3] == 4) and @ticket.anonymous == 'false' :%>
+            <div class="js-avatar"></div>
+          <% end %>
           <div class="js-ticketTitleContainer ticket-title"></div>
           <div class="js-ticketMetaContainer"></div>
         </div>
@@ -94,7 +96,7 @@
   <script>
 var base64Img = null;
 imgToBase64('assets/images/octocat.jpg', function(base64) {
-    base64Img = base64; 
+    base64Img = base64;
 });
 
 margins = {
@@ -108,8 +110,8 @@ generate = function()
 {
 	var pdf = new jsPDF('p', 'pt', 'a4');
 	pdf.setFontSize(18);
-  
-	pdf.fromHTML(document.getElementById('html-2-pdfwrapper'), 
+
+	pdf.fromHTML(document.getElementById('html-2-pdfwrapper'),
 		margins.left, // x coord
 		margins.top,
 		{
@@ -117,7 +119,7 @@ generate = function()
 			width: margins.width// max width of content on PDF
 		},function(dispose) {
 			headerFooterFormatting(pdf, pdf.internal.getNumberOfPages());
-		}, 
+		},
 		margins);
   pdf.save('Report.pdf')
 };
@@ -125,10 +127,10 @@ function headerFooterFormatting(doc, totalPages)
 {
     for(var i = totalPages; i >= 1; i--)
     {
-        doc.setPage(i);                            
+        doc.setPage(i);
         //header
         header(doc);
-        
+
         footer(doc, i, totalPages);
         doc.page++;
     }
@@ -139,11 +141,11 @@ function header(doc)
     doc.setFontSize(30);
     doc.setTextColor(40);
     doc.setFontStyle('normal');
-	
+
     if (base64Img) {
-       doc.addImage(base64Img, 'JPEG', margins.left, 10, 40,40);        
+       doc.addImage(base64Img, 'JPEG', margins.left, 10, 40,40);
     }
-	    
+
     doc.text("Report Header Template", margins.left + 50, 40 );
 	doc.setLineCap(2);
 	doc.line(3, 70, margins.width + 43,70); // horizontal line
@@ -152,7 +154,7 @@ function header(doc)
 // You could either use a function similar to this or pre convert an image with for example http://dopiaza.org/tools/datauri
 // http://stackoverflow.com/questions/6150289/how-to-convert-image-into-base64-string-using-javascript
 function imgToBase64(url, callback, imgVariable) {
- 
+
     if (!window.FileReader) {
         callback(null);
         return;
@@ -174,21 +176,21 @@ function imgToBase64(url, callback, imgVariable) {
 function footer(doc, pageNumber, totalPages){
 
     var str = "Page " + pageNumber + " of " + totalPages
-   
+
     doc.setFontSize(10);
     doc.text(str, margins.left, doc.internal.pageSize.height - 20);
-    
+
 };
 
 print = function() {
-    
+
 		const filename  = 'ThisIsYourPDFFilename.pdf';
     let quality = 1;
-    
-		html2canvas(document.querySelector('#html-2-pdfwrapper'), 
+
+		html2canvas(document.querySelector('#html-2-pdfwrapper'),
 								{scale: quality}
 						 ).then(canvas => {
-			let pdf = new jsPDF('p', 'mm', 'a1');
+			let pdf = new jsPDF('p', 'mm', 'a2');
 			pdf.addImage(canvas.toDataURL('image/png'), 'PNG', 0, 0);
 			pdf.save(filename);
       //document.body.appendChild(canvas);

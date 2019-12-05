@@ -40,6 +40,7 @@
   <% else: %>
   <%    position = 'right' %>
   <% end %>
+  
   <div class="js-avatar"></div>
   <div class="bubble-gap">
     <div class="internal-border">
